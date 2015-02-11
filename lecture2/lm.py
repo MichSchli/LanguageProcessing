@@ -4,6 +4,7 @@ import codecs
 from collections import defaultdict, Counter
 import sys
 import argparse
+import random
 
 
 __author__ = 'Dirk Hovy, Barbara Plank'
@@ -19,6 +20,7 @@ class LanguageModel(object):
         start and end symbol
         """
         self.trigram_counts = defaultdict(lambda: defaultdict(int))
+        self.word_counts = defaultdict(int)
         self.START_SYMBOL="*"
         self.STOP_SYMBOL="STOP"
         self.total_trigram_count = 0
@@ -36,14 +38,18 @@ class LanguageModel(object):
             line = line.strip()
 
             if line:
-                words = line.split() # default is split by whitespace characters 
+                words = line.split() # default is split by whitespace characters
+
                 words.append(self.STOP_SYMBOL)
                 words = [self.START_SYMBOL, self.START_SYMBOL] + words
+
+                for word in words:
+                    if self.word_counts[word] == 0:
+                        self.word_counts[word] = 1
 
                 #Collect trigram counts:
                 for i in xrange(len(words)-2):
                     self.trigram_counts[(words[i], words[i+1])][words[i+2]] += 1
-                    self.total_trigram_count+=1
 
 
     def predict(self, sentence, smoothing=None):
@@ -67,8 +73,12 @@ class LanguageModel(object):
         return probability
 
 
-    def greedy_markov_walk(self):
-        s = self.predict_next(self.START_SYMBOL, self.START_SYMBOL)
+    def markov_walk(self, mode='greedy',smoothing='none'):
+        if mode=='greedy':
+            s = self.predict_next(self.START_SYMBOL,self.START_SYMBOL)
+        else:
+            s = self.weighted_markov_chain_next(self.START_SYMBOL,self.START_SYMBOL)
+
         prev = self.START_SYMBOL
 
         sentence = []
@@ -76,7 +86,10 @@ class LanguageModel(object):
             sentence.append(s)
             temp = prev
             prev = s
-            s = self.predict_next(temp,s)
+            if mode=='greedy':
+                s = self.predict_next(temp,s)
+            else:
+                s = self.weighted_markov_chain_next(temp,s,smoothing=smoothing)
 
 
         return sentence
@@ -91,6 +104,24 @@ class LanguageModel(object):
                 max_count = c
         return word
 
+    def weighted_markov_chain_next(self,u,v,smoothing='none'):
+        choices = self.trigram_counts[(u,v)]
+
+        if smoothing == 'none':
+            total = sum(choices.values())
+        else:
+            total = sum(choices.values())+sum(self.word_counts.values())
+        r = random.uniform(0,total)
+
+        upto = 0
+        for word in self.word_counts.keys():
+            if upto + choices[word]+ 0 if smoothing=='none' else 1 > r:
+                print r,upto + choices[word]+ 0 if smoothing=='none' else 1,word
+                return word
+            upto += choices[word]+ 0 if smoothing=='none' else 1
+
+        return 'ERROR'
+
     def trigram_prob(self,u,v,w):
         """
         Return the probability of a trigram
@@ -98,9 +129,11 @@ class LanguageModel(object):
         :return: the probability q(w|u,v)
         """
         ###################
-        # Use the trigram_counts to get q(w|u,v) 
+        # Use the trigram_counts to get q(w|u,v)
+        choices = self.trigram_counts[(u,v)]
+        total = sum(choices.values())+sum(self.word_counts.values())
 
-        trigram_probability = self.trigram_counts[(u,v)][w]/float(self.total_trigram_count)
+        trigram_probability = (self.trigram_counts[(u,v)][w]+1)/float(total)
 
         return trigram_probability
 
@@ -139,7 +172,7 @@ if __name__=="__main__":
             line=line.strip()
             print line, lm.predict(line)
 
-    print " ".join(lm.greedy_markov_walk())
+    print " ".join(lm.markov_walk(mode='markov'))
 
     # check whether to show counts
     if args.showtrigrams:
