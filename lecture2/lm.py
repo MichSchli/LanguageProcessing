@@ -21,6 +21,7 @@ class LanguageModel(object):
         self.trigram_counts = defaultdict(lambda: defaultdict(int))
         self.START_SYMBOL="*"
         self.STOP_SYMBOL="STOP"
+        self.total_trigram_count = 0
 
 
     def fit(self, file_name):
@@ -38,15 +39,11 @@ class LanguageModel(object):
                 words = line.split() # default is split by whitespace characters 
                 words.append(self.STOP_SYMBOL)
                 words = [self.START_SYMBOL, self.START_SYMBOL] + words
-         
-                ###################
-                # Collect counts of all trigrams and store them in trigram_counts
-                # hint: to understand the data structure, examine the function print_trigrams_count
-                #
-                ##########################
-                # *** YOUR CODE HERE *** #
-                ##########################
 
+                #Collect trigram counts:
+                for i in xrange(len(words)-2):
+                    self.trigram_counts[(words[i], words[i+1])][words[i+2]] += 1
+                    self.total_trigram_count+=1
 
 
     def predict(self, sentence, smoothing=None):
@@ -64,12 +61,35 @@ class LanguageModel(object):
         ###################
         # Compute the probability of a sentence under the trigram model
         # p(x1,..,xn)= \prod {q(x_i| x_{i-2}x_{i-1}}
-        ##########################
-        # *** YOUR CODE HERE *** #
-        ##########################
+        for i in xrange(len(words)-2):
+            probability *= self.trigram_prob(words[i], words[i+1], words[i+2])
 
         return probability
 
+
+    def greedy_markov_walk(self):
+        s = self.predict_next(self.START_SYMBOL, self.START_SYMBOL)
+        prev = self.START_SYMBOL
+
+        sentence = []
+        while s != self.STOP_SYMBOL:
+            sentence.append(s)
+            temp = prev
+            prev = s
+            s = self.predict_next(temp,s)
+
+
+        return sentence
+
+    #Predict the next word given a bigram:
+    def predict_next(self, u,v):
+        max_count = 0
+        word = "ERROR"
+        for w,c in self.trigram_counts[(u,v)].iteritems():
+            if c > max_count:
+                word = w
+                max_count = c
+        return word
 
     def trigram_prob(self,u,v,w):
         """
@@ -79,10 +99,8 @@ class LanguageModel(object):
         """
         ###################
         # Use the trigram_counts to get q(w|u,v) 
-        ##########################
-        # *** YOUR CODE HERE *** #
-        ##########################
-        trigram_probability = 0.0
+
+        trigram_probability = self.trigram_counts[(u,v)][w]/float(self.total_trigram_count)
 
         return trigram_probability
 
@@ -120,6 +138,8 @@ if __name__=="__main__":
         for line in codecs.open(args.predict, encoding='utf-8'):
             line=line.strip()
             print line, lm.predict(line)
+
+    print " ".join(lm.greedy_markov_walk())
 
     # check whether to show counts
     if args.showtrigrams:
