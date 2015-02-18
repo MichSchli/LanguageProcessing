@@ -2,9 +2,11 @@ import argparse
 import codecs
 from collections import defaultdict
 from scipy import log
+import math
 
 __author__ = 'dirkhovy, bplank'
 
+import codecs
 
 class NaiveBayes(object):
 
@@ -24,11 +26,18 @@ class NaiveBayes(object):
         :param file_name:
         :return:
         """
+        #Read in a featurized text:
+
+
         for (label, features) in self.read_conll_file(file_name):
+            pass
             ##########################
             # *** YOUR CODE HERE *** #
             # populate self.label_counts and self.feature_counts
             ##########################
+            self.label_counts[label] += 1
+            for i in xrange(len(features)):
+                self.feature_counts[label][i] += int(features[i])
 
 
 
@@ -52,6 +61,19 @@ class NaiveBayes(object):
         ##########################
 
 
+        for label in self.label_counts.keys():
+
+            logp = math.log(self.P_y(label))
+
+            for i in xrange(len(features)):
+                prob = self.P_x_given_y(label, i)
+                logp += math.log(prob) if features[i] else math.log(1-prob)
+
+            if logp > best_prob:
+                best_class = label
+                best_prob = logp
+
+
         return best_class
 
 
@@ -61,7 +83,6 @@ class NaiveBayes(object):
         :param label:
         :return: P(y)
         """
-        P_y = 0.0
 
         ##########################
         # *** YOUR CODE HERE *** #
@@ -70,7 +91,7 @@ class NaiveBayes(object):
 
 
 
-        return P_y
+        return self.label_counts[label]/float(sum(self.label_counts.values()))
 
 
     def P_x_given_y(self, label, feature_id):
@@ -86,8 +107,7 @@ class NaiveBayes(object):
         # initialize P_x_given_y to the probability of feature with feature_id given class label
         ##########################
 
-
-        return P_x_given_y
+        return self.feature_counts[label][feature_id]/float(sum(self.feature_counts[label].values()))
 
 
     def evaluate(self, test_file):
