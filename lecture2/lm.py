@@ -77,7 +77,7 @@ class LanguageModel(object):
         if mode=='greedy':
             s = self.predict_next(self.START_SYMBOL,self.START_SYMBOL)
         else:
-            s = self.weighted_markov_chain_next(self.START_SYMBOL,self.START_SYMBOL)
+            s = self.weighted_markov_chain_next(self.START_SYMBOL,self.START_SYMBOL, smoothing=smoothing)
 
         prev = self.START_SYMBOL
 
@@ -115,10 +115,9 @@ class LanguageModel(object):
 
         upto = 0
         for word in self.word_counts.keys():
-            if upto + choices[word]+ 0 if smoothing=='none' else 1 > r:
-                print r,upto + choices[word]+ 0 if smoothing=='none' else 1,word
+            if upto + choices[word]+ (0 if smoothing=='none' else 1) > r:
                 return word
-            upto += choices[word]+ 0 if smoothing=='none' else 1
+            upto += choices[word]+ (0 if smoothing=='none' else 1)
 
         return 'ERROR'
 
@@ -172,7 +171,7 @@ if __name__=="__main__":
             line=line.strip()
             print line, lm.predict(line)
 
-    print " ".join(lm.markov_walk(mode='markov'))
+    print " ".join(lm.markov_walk(mode='markov', smoothing='laplace'))
 
     # check whether to show counts
     if args.showtrigrams:
