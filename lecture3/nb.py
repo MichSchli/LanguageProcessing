@@ -30,7 +30,7 @@ class NaiveBayes(object):
 
 
         for (label, features) in self.read_conll_file(file_name):
-            pass
+
             ##########################
             # *** YOUR CODE HERE *** #
             # populate self.label_counts and self.feature_counts
@@ -107,7 +107,7 @@ class NaiveBayes(object):
         # initialize P_x_given_y to the probability of feature with feature_id given class label
         ##########################
 
-        return self.feature_counts[label][feature_id]/float(sum(self.feature_counts[label].values()))
+        return self.feature_counts[label][feature_id]/float(self.label_counts[label])
 
 
     def evaluate(self, test_file):
@@ -130,6 +130,9 @@ class NaiveBayes(object):
             prediction = self.predict(features)
             if prediction == label:
                 correct += 1.0
+
+        accuracy = correct/total
+        #cprecision =
 
         return correct/total
 
