@@ -107,7 +107,7 @@ class NaiveBayes(object):
         # initialize P_x_given_y to the probability of feature with feature_id given class label
         ##########################
 
-        return self.feature_counts[label][feature_id]/float(self.label_counts[label])
+        return self.feature_counts[label][feature_id]/float(self.label_counts[label]+1)
 
 
     def evaluate(self, test_file):
