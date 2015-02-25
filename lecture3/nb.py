@@ -107,7 +107,7 @@ class NaiveBayes(object):
         # initialize P_x_given_y to the probability of feature with feature_id given class label
         ##########################
 
-        return self.feature_counts[label][feature_id]/float(self.label_counts[label]+1)
+        return self.feature_counts[label][feature_id]/float(self.label_counts[label])
 
 
     def evaluate(self, test_file):
@@ -171,6 +171,5 @@ if __name__=="__main__":
     # fit model to supplied file
     nb.fit(args.train)
 
-    # check whether to show predictions
     if args.test:
         print nb.evaluate(args.test)
