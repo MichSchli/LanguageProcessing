@@ -70,6 +70,22 @@ class HMM(object):
             print "TODO"
 
 
+    #Generates a sentence by random walking:
+    def generate_random_walk(self):
+        #Initialize the first tag:
+        tags = [self.START, self.sample(self.START, self.transitions)]
+        words = []
+
+        #Proceed until we see stop:
+        while tags[-1] != self.STOP:
+            #Get the current word:
+            words.append(self.sample(tags[-1], self.emissions))
+
+            #Get the next tag:
+            tags.append(self.sample(tags[-1], self.transitions))
+
+        return tags, words
+
     def predict(self, sentence, method='most_likely'):
         """
         predict the most likely tag sequence for a sentence using Viterbi
@@ -304,3 +320,5 @@ if __name__=="__main__":
     # check whether to show predictions
     if args.test:
         print hmm.evaluate(args.test, output=args.output)
+
+    print hmm.generate_random_walk()
