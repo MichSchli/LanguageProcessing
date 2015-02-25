@@ -91,15 +91,27 @@ class HMM(object):
         :sentence: list of tokens
         :return: list of tags
         """
-        best_tag = None
-        best_prob = float('-Inf')        
-        predicted_tags = []
 
-        ##################
-        # YOUR CODE HERE #
-        ##################
+        predicted_tags = [None]*len(sentence)
 
-        return (sentence, predicted_tags)
+        #Iterate through the sentence word-by-word:
+        for i in xrange(len(sentence)):
+            #Get the possible tags for this word:
+            possibles = self.tags_emitting_word(sentence[i])
+
+            #Clear memory:
+            best_tag = None
+            best_prob = float('-Inf')
+
+            #Find the most likely tag and add it to the list:
+            for tag, prob in possibles.iteritems():
+                if prob > best_prob:
+                    best_prob = prob
+                    best_tag = tag
+
+            predicted_tags[i] = best_tag
+
+        return sentence, predicted_tags
 
 
     def predict_viterbi(self,sentence):
@@ -119,7 +131,9 @@ class HMM(object):
 
         return None
 
-
+    '''
+    WE DID IT AND WE DID IT AND WE DID IT... (ACTUALLY WE DID MORE BUT WHO CARES)
+    '''
     def show_probabilities(self, searchstring, type="bigram"):
         """
         prints out the probabilities for a given search string
@@ -129,25 +143,30 @@ class HMM(object):
         """
         if type=="bigram":
             prevtag = searchstring
-            ##################
-            # YOUR CODE HERE #
-            ##################
+            print self.transitions[prevtag]
 
         elif type=="emission":
             tag = searchstring
-            ##################
-            # YOUR CODE HERE #
-            ##################
+            print self.emissions[tag]
 
         elif type=="dictionary":
             word = searchstring
-            ##################
-            # YOUR CODE HERE #
-            ##################
-
+            print self.tags_emitting_word(word)
         else:
             print>>sys.stderr, "not a valid type specified!"
 
+
+    #Returns the set of tags T that can emit the given word along with p(w|t) for each tag t in T.
+    def tags_emitting_word(self, word):
+        d = {}
+        for tag,emission in self.emissions.iteritems():
+            if word in emission.keys():
+                d[tag] = emission[word]
+
+        #If we have no data, return an unknown tag:
+        if len(d) == 0:
+            d[self.UNK] = 1.0
+        return d
 
     def sample(self, value, parameter):
         """
@@ -263,9 +282,9 @@ if __name__=="__main__":
         hmm.save(args.save)
 
 
-    #########################################
-    # YOUR CODE HERE TO PRINT PROBABILITIES #
-    #########################################
+    hmm.show_probabilities('NOUN', type='bigram')
+    hmm.show_probabilities('.', type='emission')
+    hmm.show_probabilities('over', type='dictionary')
 
     # print bigram probabilities for tags that can follow a NOUN
 
@@ -273,10 +292,8 @@ if __name__=="__main__":
 
     # possible tags and their probs
 
-    #################################
-    # YOUR CODE TO CALL PREDICTIONS #
-    #################################
-
+    print hmm.predict(["this", "can", "can", "fly"])
+    print hmm.predict(["we", "are", "filing", "a", "report"])
 
     ################################
     # OPTIONAL: GENERATE SENTENCES #
