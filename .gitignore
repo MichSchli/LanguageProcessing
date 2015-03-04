@@ -10,6 +10,7 @@ __pycache__/
 #Data
 *.txt
 *.data
+*.model
 
 # C extensions
 *.so
