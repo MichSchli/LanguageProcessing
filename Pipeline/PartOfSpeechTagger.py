@@ -289,7 +289,7 @@ if __name__=="__main__":
     args = parser.parse_args()
     '''
 
-    inp = [line for line in sys.stdin]
+    inp = [line.strip() for line in sys.stdin]
 
     sentences = inp[::2]
     languages = inp[1::2]
