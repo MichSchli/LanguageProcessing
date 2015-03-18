@@ -175,17 +175,14 @@ if __name__=="__main__":
     parser.add_argument("--test", help="test model on a file (one sentence per line)", required=False)
     args = parser.parse_args()
 
-    inp = [line for line in sys.stdin]
-    print inp
-
-
     # create new model
     nb= NaiveBayes()
 
     # fit model to supplied file
     nb.fit(args.train)
 
-    print nb.predict_sentences(['I perform completely safe test on fully cooperating human subjects.', 'Noooooo, \' doesn\'t work :(', '-GLaDOS'])
+    inp = [line for line in sys.stdin]
+    print nb.predict_sentences(inp)
 
     if args.test:
         print nb.evaluate(args.test)
