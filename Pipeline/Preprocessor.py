@@ -24,4 +24,5 @@ if __name__ == '__main__':
     parser.add_argument("file_path", help="The path to the file to be preprocessed.")
     args = parser.parse_args()
 
-    print get_sentence_list(args.file_path)
+    for sentence in get_sentence_list(args.file_path):
+        print sentence
