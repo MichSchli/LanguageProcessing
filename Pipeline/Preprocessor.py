@@ -4,7 +4,7 @@ __author__ = 'Michael'
 Imports:
 '''
 import codecs
-
+import argparse
 
 '''
 I/O:
@@ -20,4 +20,8 @@ Testing playground:
 '''
 
 if __name__ == '__main__':
-    print get_sentence_list('alice.txt')
+    parser = argparse.ArgumentParser(description="Preprocesses a file")
+    parser.add_argument("filepath", help="The path to the file to be preprocessed.")
+    args = parser.parse_args()
+
+    print get_sentence_list(args.file_path)
