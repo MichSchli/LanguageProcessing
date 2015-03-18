@@ -181,7 +181,7 @@ if __name__=="__main__":
     # fit model to supplied file
     nb.fit(args.train)
 
-    inp = [line for line in sys.stdin]
+    inp = [line.strip() for line in sys.stdin]
     for index,language in enumerate(nb.predict_sentences(inp)):
         print inp[index]
         print language
