@@ -175,7 +175,7 @@ if __name__=="__main__":
     parser.add_argument("--test", help="test model on a file (one sentence per line)", required=False)
     args = parser.parse_args()
 
-    inp = sys.stdin
+    inp = [line for line in sys.stdin]
     print inp
 
 
