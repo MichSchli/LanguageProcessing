@@ -1,8 +1,7 @@
 import argparse
 import codecs
 from collections import defaultdict, Counter
-import json
-import re
+import cPickle
 import numpy as np
 import sys
 import networkx as nx
@@ -256,8 +255,8 @@ class StructuredPerceptron(object):
         :return:
         """
         print >> sys.stderr, "saving model...",
-        with codecs.open(file_name, "w", encoding='utf-8') as model:
-            model.write("%s\n" % json.dumps({'tags': list(self.tags), 'weights': dict(self.feature_weights)}))
+        model = {'tags': list(self.tags), 'weights': dict(self.feature_weights)}
+        cPickle.dump(model, open(file_name, "wb"))
         print >> sys.stderr, "done"
 
 
@@ -268,10 +267,9 @@ class StructuredPerceptron(object):
         :return:
         """
         print >> sys.stderr, "loading model...",
-        model_data = codecs.open(file_name, 'r', encoding='utf-8').readline().strip()
-        model = json.loads(model_data)
+        model = cPickle.load(open(file_name, 'rb'))
         self.tags = set(model['tags'])
-        self.feature_weights = model['weights']
+        self.feature_weights = defaultdict(float, model['weights'])
         print >> sys.stderr, "done"
 
 
