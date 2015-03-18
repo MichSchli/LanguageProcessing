@@ -171,5 +171,7 @@ if __name__=="__main__":
     # fit model to supplied file
     nb.fit(args.train)
 
+    print nb.predict('')
+
     if args.test:
         print nb.evaluate(args.test)
