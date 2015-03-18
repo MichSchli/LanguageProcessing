@@ -182,7 +182,8 @@ if __name__=="__main__":
     nb.fit(args.train)
 
     inp = [line for line in sys.stdin]
-    print nb.predict_sentences(inp)
+    for language in nb.predict_sentences(inp):
+        print language
 
     if args.test:
         print nb.evaluate(args.test)
