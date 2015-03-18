@@ -182,7 +182,8 @@ if __name__=="__main__":
     nb.fit(args.train)
 
     inp = [line for line in sys.stdin]
-    for language in nb.predict_sentences(inp):
+    for index,language in enumerate(nb.predict_sentences(inp)):
+        print inp[index]
         print language
 
     if args.test:

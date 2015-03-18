@@ -276,6 +276,7 @@ class StructuredPerceptron(object):
 # if script is run from command line, automatically execute the following
 if __name__=="__main__":
 
+    '''
     # parse command line options
     parser = argparse.ArgumentParser(description="""Run a structured perceptron""")
     parser.add_argument("--train", help="train model on a file (CoNLL format)", required=False)
@@ -286,7 +287,17 @@ if __name__=="__main__":
     parser.add_argument("--iterations", help="number of training iterations", required=False, default=5, type=int)
     parser.add_argument("--learning_rate", help="learning rate during training", required=False, default=0.2, type=float)
     args = parser.parse_args()
+    '''
 
+    inp = [line for line in sys.stdin]
+
+    sentences = inp[::2]
+    languages = inp[1::2]
+
+    print sentences
+    print languages
+
+    '''
     # create new model
     sp = StructuredPerceptron()
 
@@ -302,3 +313,4 @@ if __name__=="__main__":
     # check whether to show predictions
     if args.test:
         sp.evaluate(args.test, output=args.output)
+    '''
