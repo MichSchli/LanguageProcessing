@@ -11,8 +11,7 @@ __pycache__/
 *.txt
 *.data
 *.train
-viterbi.model
-viterbi-advUNK.model
+*.model
 
 # C extensions
 *.so
