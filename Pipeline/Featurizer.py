@@ -29,7 +29,7 @@ def feature_extract_sentence(sentence, extraction_method):
 #Extract features from a text based on an extraction method:
 def feature_extract_text(text, extraction_method=None):
     #If we have no extraction method, get the default:
-    if extraction_method is None:
+    if extraction_method is 'NB':
         extraction_method = get_default_nb_extraction_method()
 
     #Construct a feature matrix:
@@ -41,4 +41,4 @@ Testing playground:
 '''
 
 if __name__ == '__main__':
-    print feature_extract_text(['Right, he said.', 'I am going to test this. So much. Wow. Testing. t i. aefeaefaith.'])
+    print feature_extract_text(['Right, he said.', 'I am going to test this. So much. Wow. Testing. t i. aefeaefaith.'], extraction_method='NB')

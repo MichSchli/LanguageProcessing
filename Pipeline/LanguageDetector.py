@@ -9,29 +9,26 @@ __author__ = 'dirkhovy, bplank'
 import codecs
 import Featurizer
 import sys
+import cPickle
 
 
 class NaiveBayes(object):
 
     def __init__(self):
-        self.label_counts = defaultdict(lambda : 1)
+        #TODO: I disabled smoothing. We should put it back.
+        self.label_counts = defaultdict(lambda: 1)
         self.feature_counts = defaultdict(lambda: defaultdict(lambda: 1))
 
 
-    def fit(self, file_name):
-        """
-        read in a tagged file in CoNLL format:
-        label    feature1 feature2 ... featureN
-        and collect counts for the relevant model parameters
-        i.e.
-           label_counts: count how often each label (class) appears in the data
-           feature_counts: for every label, count how often each feature is on in the data
-        :param file_name:
-        :return:
-        """
-        #Read in a featurized text:
+    def fit(self, sentences, labels):
 
+        features = Featurizer.feature_extract_text(sentences, extraction_method='NB')
 
+        for l, feature in enumerate(features):
+            self.label_counts[labels[l]] += 1
+            for i in xrange(len(feature)):
+                self.feature_counts[labels[l]][i] += int(feature[i])
+        '''
         for (label, features) in self.read_conll_file(file_name):
 
             ##########################
@@ -45,6 +42,7 @@ class NaiveBayes(object):
 
 
             # End your code
+        '''
 
     def predict_sentences(self, sentences):
         features = Featurizer.feature_extract_text(sentences)
@@ -118,6 +116,14 @@ class NaiveBayes(object):
         ##########################
 
         return self.feature_counts[label][feature_id]/float(self.label_counts[label])
+
+
+    def save(self, file_name):
+        print >> sys.stderr, "saving model...",
+        model = {'labels': dict(self.label_counts), 'features': dict(self.feature_counts)}
+        #TODO: Can't save defaultdicts, rewrite with an actual implementation
+        #cPickle.dump(model, open(file_name, "wb"))
+        print >> sys.stderr, "done"
 
 
     def evaluate(self, test_file):

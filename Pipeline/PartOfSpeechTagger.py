@@ -44,7 +44,7 @@ class StructuredPerceptron(object):
         self.END = "__END__"
 
 
-    def fit(self, file_name, iterations=5, learning_rate=0.2):
+    def fit(self, train_data, train_labels, iterations=5, learning_rate=0.2):
         """
         read in a CoNLL file, extract emission features iterate over instances to train weight vector
         :param file_name:
@@ -57,20 +57,20 @@ class StructuredPerceptron(object):
             total = 0.0
             sys.stderr.write('iteration %s\n************\n' % (iteration+1))
 
-            for i, (words, tags) in enumerate(self.read_conll_file(file_name)):
+            for i, words in enumerate(train_data):
                 if i%100==0:
                     sys.stderr.write('%s'%i)
                 elif i%10==0:
                     sys.stderr.write('.')
 
-                for tag in tags:
+                for tag in train_labels[i]:
                     self.tags.add(tag)
 
                 # get prediction
                 prediction = self.predict(words)
 
                 # derive global features
-                global_gold_features = self.get_global_features(words, tags)
+                global_gold_features = self.get_global_features(words, train_labels[i])
                 global_prediction_features = self.get_global_features(words, prediction)
 
                 # update weight vector
@@ -80,8 +80,8 @@ class StructuredPerceptron(object):
                     self.feature_weights[fid] -= learning_rate * count
 
                 # compute training accuracy for this iteration
-                correct += sum([1 for (predicted, gold) in zip(prediction, tags) if predicted == gold])
-                total += len(tags)
+                correct += sum([1 for (predicted, gold) in zip(prediction, train_labels[i]) if predicted == gold])
+                total += len(train_labels[i])
 
             sys.stderr.write('\n\t%s features\n' % (len(self.feature_weights)))
             averaged_weights.update(self.feature_weights)
@@ -294,8 +294,26 @@ if __name__=="__main__":
     sentences = inp[::2]
     languages = inp[1::2]
 
-    print sentences
-    print languages
+    #Create a model for each language
+    en_sp = StructuredPerceptron()
+    nl_sp = StructuredPerceptron()
+    pt_sp = StructuredPerceptron()
+
+    en_sp.load('models/sp-en.model')
+    nl_sp.load('models/sp-nl.model')
+    pt_sp.load('models/sp-pt.model')
+
+    tagged = [None]*len(languages)
+    #Run through sentences, tagging with the right model
+    for i,sentence in enumerate(sentences):
+        if languages[i] == 'EN':
+            tagged[i] = en_sp.predict(sentence)
+        elif languages[i] == 'NL':
+            tagged[i] = nl_sp.predict(sentence)
+        else:
+            tagged[i] = pt_sp.predict(sentence)
+
+    print tagged
 
     '''
     # create new model
