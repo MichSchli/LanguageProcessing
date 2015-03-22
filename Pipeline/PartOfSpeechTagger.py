@@ -309,7 +309,8 @@ if __name__=="__main__":
 
     tagged = [None]*len(languages)
     #Run through sentences, tagging with the right model
-    for i,sentence in enumerate(sentences):
+    for i,s in enumerate(sentences):
+        sentence = s.split(' ')
         if languages[i] == 'EN':
             tagged[i] = en_sp.predict(sentence)
         elif languages[i] == 'NL':
