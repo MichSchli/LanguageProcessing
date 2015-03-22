@@ -317,7 +317,11 @@ if __name__=="__main__":
         else:
             tagged[i] = pt_sp.predict(sentence)
 
-    print tagged
+        for j, tag in enumerate(tagged[i]):
+            print sentence[j], tag
+        print ''
+
+    #print tagged
 
     '''
     # create new model
