@@ -46,7 +46,7 @@ class NaiveBayes(object):
         '''
 
     def predict_sentences(self, sentences):
-        features = Featurizer.feature_extract_text(sentences)
+        features = Featurizer.feature_extract_text(sentences, extraction_method='NB')
 
         #TODO: Consider Bayesian probabilities
         predictions = [self.predict(feat) for feat in features]
