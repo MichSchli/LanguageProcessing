@@ -10,6 +10,7 @@ import codecs
 import Featurizer
 import sys
 import cPickle
+import Preprocessor
 
 
 class NaiveBayes(object):
@@ -185,7 +186,9 @@ if __name__=="__main__":
     nb= NaiveBayes()
 
     # fit model to supplied file
-    nb.fit(args.train)
+    train_data, train_labels = Preprocessor.load_nb_data('train.sentences.txt')
+
+    nb.fit(train_data, train_labels)
 
     inp = [line.strip() for line in sys.stdin]
     for index,language in enumerate(nb.predict_sentences(inp)):

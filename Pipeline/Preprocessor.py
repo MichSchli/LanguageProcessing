@@ -9,6 +9,11 @@ import argparse
 '''
 I/O:
 '''
+#This is complete shit:
+def load_nb_data(file_path):
+    sentences = get_sentence_list(file_path)
+    labels = ['EN']*667+['NL']*(1334-667)+['PT']*(2000-1334)
+    return sentences, labels
 
 
 #Note: this is copypasta
