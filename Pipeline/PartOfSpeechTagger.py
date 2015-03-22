@@ -183,7 +183,7 @@ class StructuredPerceptron(object):
         return [node.split('_')[0] for node in best_path[::-1][1:]]
 
 
-    def evaluate(self, file_name, output=False):
+    def evaluate(self, test_data, test_labels, output=False):
         """
         compute accuracy on a test file
         :param file_name:
@@ -192,28 +192,32 @@ class StructuredPerceptron(object):
         """
         correct = 0
         total = 0.0
-        sys.stderr.write('\nTesting\n')
-        sys.stderr.write('*******\n')
+        if output:
+            sys.stderr.write('\nTesting\n')
+            sys.stderr.write('*******\n')
 
-        for i, (words, tags) in enumerate(self.read_conll_file(file_name)):
-            if i%100==0:
-                sys.stderr.write('%s'%i)
-            elif i%10==0:
-                sys.stderr.write('.')
+        for i, (words) in enumerate(test_data):
+            if output:
+                if i%100==0:
+                    sys.stderr.write('%s'%i)
+                elif i%10==0:
+                    sys.stderr.write('.')
 
             # get prediction
             prediction = self.predict(words)
 
             if output:
                 print >> sys.stderr, "\t%s" % " ".join(words)
-                print >> sys.stderr, "GOLD:\t%s" % " ".join(tags)
+                print >> sys.stderr, "GOLD:\t%s" % " ".join(test_labels[i])
                 print >> sys.stderr, "PRED.:\t%s" % " ".join(prediction)
                 print >> sys.stderr, ""
 
-            correct += sum([1 for (predicted, gold) in zip(prediction, tags) if predicted == gold])
-            total += len(tags)
-        print >> sys.stderr, "\nTest accuracy on %s items: %.4f" % (i+1, correct/total)
+            correct += sum([1 for (predicted, gold) in zip(prediction, test_labels[i]) if predicted == gold])
+            total += len(test_labels[i])
+        if output:
+            print >> sys.stderr, "\nTest accuracy on %s items: %.4f" % (i+1, correct/total)
 
+        return correct/total
 
     def read_conll_file(self, file_name):
         """

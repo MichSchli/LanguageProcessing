@@ -38,31 +38,9 @@ def train_naive_bayes():
 Structured Perceptron training:
 '''
 
-#Note: this is copypasta
-def load_sp_data(file_path):
-    current_words = []
-    current_tags = []
-
-    for line in codecs.open(file_path, encoding='utf-8'):
-        line = line.strip()
-
-        if line:
-            word, tag = line.split('\t')
-            current_words.append(word)
-            current_tags.append(tag)
-
-        else:
-            yield (current_words, current_tags)
-            current_words = []
-            current_tags = []
-
-        # if file does not end in newline (it should...), check whether there is an instance in the buffer
-    if current_tags != []:
-        yield (current_words, current_tags)
-
 def train_structured_perceptron():
     model = pos.StructuredPerceptron()
-    fail = load_sp_data('data/train_dev_data/PT.5000.train')
+    fail = Preprocessor.load_sp_data('data/train_dev_data/PT.5000.train')
 
     train_data = []
     train_labels = []

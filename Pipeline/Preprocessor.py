@@ -11,6 +11,30 @@ I/O:
 '''
 
 
+#Note: this is copypasta
+def load_sp_data(file_path):
+    current_words = []
+    current_tags = []
+
+    for line in codecs.open(file_path, encoding='utf-8'):
+        line = line.strip()
+
+        if line:
+            word, tag = line.split('\t')
+            current_words.append(word)
+            current_tags.append(tag)
+
+        else:
+            yield (current_words, current_tags)
+            current_words = []
+            current_tags = []
+
+        # if file does not end in newline (it should...), check whether there is an instance in the buffer
+    if current_tags != []:
+        yield (current_words, current_tags)
+
+
+
 def get_sentence_list(file_path):
     whitespace = ['\n']
     return [s.strip() for s in codecs.open(file_path) if s not in whitespace]
