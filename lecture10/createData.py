@@ -28,7 +28,9 @@ def extract_data(file_ner,file_pos,separator=" "):
         for word,pos,tag in zip(words,pos,tags):
             # first letter is capitalized
             cap="+" if word[0].isupper() else "-"
-            
+            hyphen = '+' if '-' in word else '-'
+            l = len(word)
+            #vowels = "".join(sorted([w for w in word.lower() if w in ['a','e','i','o','u','y']]))
             #################################
             ###### YOUR FEATURES HERE #######  
             #################################
@@ -36,7 +38,7 @@ def extract_data(file_ner,file_pos,separator=" "):
             
             ## todo: output the cap feature and more 
             ## make sure the format you output here is what the nerfeats.py script expects as fields!
-            print separator.join([word,pos,cap,tag])
+            print separator.join([word.lower(),pos,cap, l, hyphen, tag])
         # sentence separator
         print ""
         
