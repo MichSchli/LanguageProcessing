@@ -29,7 +29,7 @@ def extract_data(file_ner,file_pos,separator=" "):
             # first letter is capitalized
             cap="+" if word[0].isupper() else "-"
             hyphen = '+' if '-' in word else '-'
-            l = len(word)
+            l = str(len(word))
             #vowels = "".join(sorted([w for w in word.lower() if w in ['a','e','i','o','u','y']]))
             #################################
             ###### YOUR FEATURES HERE #######  
