@@ -13,7 +13,7 @@ class RelationClassifier():
     existence_classifier = None
 
     # Constants for featurization:
-    tested_ner = ['PER', 'LOC']
+    tested_ner = ['PER', 'LOC', 'UNK']
 
     #Labels:
     label_names = ['negative', 'kill', 'birthplace']
