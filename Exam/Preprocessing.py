@@ -63,8 +63,21 @@ def parse_full_re_file(filename):
                 relations[-1].append(read_relation(line))
 
     nes = [process_named_entities(ne) for ne in nes]
+    relations = [[process_relations(r) for r in rels] for rels in relations]
 
     return sentences, relations, nes, poss
+
+def process_relations(rel):
+
+    s1 = rel[0].strip().split(':')
+    if len(s1) == 1:
+        s1.append(s1[0])
+
+    s2 = rel[1].strip().split(':')
+    if len(s2) == 1:
+        s2.append(s2[0])
+
+    return {'type': rel[2], 'e1_start': int(s1[0])-1, 'e1_end': int(s1[1])-1, 'e2_start': int(s2[0])-1, 'e2_end': int(s2[1])-1}
 
 def process_named_entities(nes):
     named_entities = []

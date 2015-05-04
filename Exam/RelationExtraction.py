@@ -5,18 +5,18 @@ import argparse
 import Preprocessing
 import itertools
 
-class RelationClassifier():
 
-    #Fields:
+class RelationClassifier():
+    # Fields:
     mode = None
     prediction_classifier = None
     existence_classifier = None
 
-    #Constants for featurization:
+    # Constants for featurization:
     tested_ner = ['PER', 'LOC']
 
     #Labels:
-    ['negative', 'kill', 'birthplace']
+    label_names = ['negative', 'kill', 'birthplace']
 
     def __init__(self, mode, params):
         self.mode = mode
@@ -30,18 +30,23 @@ class RelationClassifier():
 
     #Fit the svm to a dataset of sentences
     def fit_sentences(self, sentences, ne, pos, relations):
-        for i,sentence in enumerate(sentences):
+        global_features = []
+        global_labels = []
+        for i, sentence in enumerate(sentences):
             #Get all combinations of named entities:
             ne_combinations = map(list, itertools.product(ne[i], repeat=2))
 
             #Featurize the combinations:
-            features = [self.featurize(sentence, n[0], n[1], pos[i]) for n in ne_combinations]
+            local_features = [self.featurize(sentence, n[0], n[1], pos[i]) for n in ne_combinations]
 
             if self.mode == 'extra_label':
-                labels = [self.get_match(n[0], n[1], relations[i]) for n in ne_combinations]
+                local_labels = [self.get_match(n[0], n[1], relations[i]) for n in ne_combinations]
 
-            print [(features[j], labels[j]) for j in xrange(len(labels))]
+            global_features.extend(local_features)
+            global_labels.extend(local_labels)
 
+        #Train the classifier:
+        self.fit(global_features, global_labels)
 
 
     #Fit an SVM model to a dataset:
@@ -70,6 +75,30 @@ class RelationClassifier():
             self.prediction_classifier.fit(class_instances, class_labels)
 
 
+    def predict_sentences(self, sentences, ne, pos):
+        extracted_relations = []
+        for i, sentence in enumerate(sentences):
+            #Get all combinations of named entities:
+            ne_combinations = map(list, itertools.product(ne[i], repeat=2))
+
+            #Featurize the combinations:
+            features = [self.featurize(sentence, n[0], n[1], pos[i]) for n in ne_combinations]
+
+            #Make a set of sentence predictions:
+            predicts = self.predict(features)
+
+            extracted_relations.append([])
+
+            for k in xrange(len(predicts)):
+                if predicts[k] != 0:
+                    e1 = ne_combinations[k][0]
+                    e2 = ne_combinations[k][1]
+                    extracted_relations[-1].append(
+                        {'type': self.label_names[predicts[k]], 'e1_start': e1['start'], 'e1_end': e1['end'],
+                         'e2_start': e2['start'], 'e2_end': e2['end']})
+
+        return extracted_relations
+
     #Predict a set of labels given that the classifier has already been trained:
     def predict(self, data):
         #If the n+1 classifier is chosen:
@@ -93,14 +122,24 @@ class RelationClassifier():
         feature = [float(t in e1['type']) for t in self.tested_ner]
         feature.extend([float(t in e2['type']) for t in self.tested_ner])
 
+        #Distance between the two entities:
+        feature.append(e2['start'] - e1['end'])
+
         return feature
 
 
     def get_match(self, e1, e2, relations_in_sentence):
         if self.mode == 'extra_label':
-            
+            matches = [r for r in relations_in_sentence if
+                       r['e1_start'] == e1['start'] and r['e1_end'] == e1['end'] and
+                       r['e2_start'] == e2['start'] and r['e2_end'] == e2['end']]
+            if not matches:
+                return 0
+            else:
+                #return 1
+                return self.label_names.index(matches[0]['type'])
 
-            return 0
+
 '''
 Execution:
 '''
@@ -110,13 +149,22 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.noshell:
-        print "Processing..."
+        print "Preprocessing..."
 
-        #Get the data:
+        # Get the data:
         sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/kill+birthplace.baseline')
 
-        #Create a test model:
-        rc = RelationClassifier('extra_label', [10,1])
+        print "Training..."
+
+        # Create a test model:
+        rc = RelationClassifier('extra_label', [1000, 0.01])
 
         #Train the model:
         rc.fit_sentences(sentences, ne, pos, relations)
+
+        print "Testing..."
+
+        #Evaluate on train data:
+        predictions = rc.predict_sentences(sentences, ne, pos)
+
+        print predictions
