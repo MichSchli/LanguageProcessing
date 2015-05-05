@@ -4,7 +4,7 @@ from sklearn import svm
 import argparse
 import Preprocessing
 import itertools
-
+import Postprocessing
 
 class RelationClassifier():
     # Fields:
@@ -13,7 +13,7 @@ class RelationClassifier():
     existence_classifier = None
 
     # Constants for featurization:
-    tested_ner = ['PER', 'LOC', 'UNK']
+    tested_ner = ['PER', 'LOC']
 
     #Labels:
     label_names = ['negative', 'kill', 'birthplace']
@@ -86,7 +86,6 @@ class RelationClassifier():
 
             #Make a set of sentence predictions:
             predicts = self.predict(features)
-
             extracted_relations.append([])
 
             for k in xrange(len(predicts)):
@@ -129,6 +128,7 @@ class RelationClassifier():
 
 
     def get_match(self, e1, e2, relations_in_sentence):
+        #print relations_in_sentence, e1, e2
         if self.mode == 'extra_label':
             matches = [r for r in relations_in_sentence if
                        r['e1_start'] == e1['start'] and r['e1_end'] == e1['end'] and
@@ -136,7 +136,6 @@ class RelationClassifier():
             if not matches:
                 return 0
             else:
-                #return 1
                 return self.label_names.index(matches[0]['type'])
 
 
@@ -167,4 +166,4 @@ if __name__ == '__main__':
         #Evaluate on train data:
         predictions = rc.predict_sentences(sentences, ne, pos)
 
-        print predictions
+        #Postprocessing.print_sentence_relation_list(sentences, predictions)
