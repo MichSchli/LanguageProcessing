@@ -3,11 +3,11 @@ __author__ = 'Michael'
 import numpy as np
 
 
-def true_pos_and_neg(predictions, gold):
-    true_positive = [0] * len(set(predictions))
-    true_negative = [0] * len(set(predictions))
-    false_positive = [0] * len(set(predictions))
-    false_negative = [0] * len(set(predictions))
+def true_pos_and_neg(predictions, gold, n_classes):
+    true_positive = [0] * n_classes
+    true_negative = [0] * n_classes
+    false_positive = [0] * n_classes
+    false_negative = [0] * n_classes
 
     for i in xrange(len(true_positive)):
         true_positive[i] = sum([int(predictions[j] == i and gold[j] == i) for j in xrange(len(predictions))])
@@ -18,8 +18,8 @@ def true_pos_and_neg(predictions, gold):
     return true_positive, true_negative, false_positive, false_negative
 
 
-def precision(predictions, gold, average='micro'):
-    true_pos, true_neg, false_pos, false_neg = true_pos_and_neg(predictions, gold)
+def precision(predictions, gold, n_classes, average='micro'):
+    true_pos, true_neg, false_pos, false_neg = true_pos_and_neg(predictions, gold, n_classes)
 
     p = None
 
@@ -31,8 +31,8 @@ def precision(predictions, gold, average='micro'):
     return p
 
 
-def recall(predictions, gold, average='micro'):
-    true_pos, true_neg, false_pos, false_neg = true_pos_and_neg(predictions, gold)
+def recall(predictions, gold, n_classes, average='micro'):
+    true_pos, true_neg, false_pos, false_neg = true_pos_and_neg(predictions, gold, n_classes)
 
     r = None
 
@@ -44,9 +44,9 @@ def recall(predictions, gold, average='micro'):
     return r
 
 
-def f1(predictions, gold, average='micro'):
-    p = precision(predictions, gold, average=average)
-    r = recall(predictions, gold, average=average)
+def f1(predictions, gold, n_classes, average='micro'):
+    p = precision(predictions, gold, n_classes, average=average)
+    r = recall(predictions, gold, n_classes, average=average)
     return 2*p*r/(p+r)
 
 

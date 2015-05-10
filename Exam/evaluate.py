@@ -23,6 +23,7 @@ def read_RE_file(file_name):
     """
     instance=[]
     rel_output = False
+    sentence_output = False
 
     for line in codecs.open(file_name, encoding='utf-8'):
         line = line.strip()
@@ -36,6 +37,8 @@ def read_RE_file(file_name):
                 end = fields[1]
                 rel = fields[2]
                 instance.append((start, end, rel))
+            else:
+                sentence_output = True
 
         else:
             # after relation output, commit
@@ -43,6 +46,10 @@ def read_RE_file(file_name):
                 yield instance
                 rel_output = False
                 instance = []
+
+            if sentence_output:
+                rel_output = True
+                sentence_output = False
 
     if rel_output and instance:
         yield instance
@@ -64,6 +71,7 @@ for gold_instance, prediction_instance in zip(gold, predictions):
         if prediction in gold_instance:
             true_positives[prediction[2]] += 1.0
         else:
+
             false_positives[prediction[2]] += 1.0
 
     for gold in gold_instance:
@@ -75,6 +83,7 @@ for label in true_positives.iterkeys():
    print label+':'
    print '-----------------------------'
    # compute precision, recall and F1 from the raw counts
+   print true_positives[label], false_positives[label], false_negatives[label]
    precision = true_positives[label] / (true_positives[label] + false_positives[label])
    recall = true_positives[label] / (true_positives[label] + false_negatives[label])
    f1 = 2.0 * ((precision * recall) / (precision + recall))
@@ -83,6 +92,7 @@ for label in true_positives.iterkeys():
    print "recall: %.4f" % (recall)
    print "f1: %.4f" % (f1)
 
+#Calculate total (micro averages)
 print '=============================\n'
 print 'total:'
 print '-----------------------------'
