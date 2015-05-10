@@ -5,6 +5,8 @@ import argparse
 import Preprocessing
 import itertools
 import Postprocessing
+import Metrics
+
 
 class RelationClassifier():
     # Fields:
@@ -15,7 +17,7 @@ class RelationClassifier():
     # Constants for featurization:
     tested_ner = ['PER', 'LOC']
 
-    #Labels:
+    # Labels:
     label_names = ['negative', 'kill', 'birthplace']
 
     def __init__(self, mode, params):
@@ -138,6 +140,25 @@ class RelationClassifier():
             else:
                 return self.label_names.index(matches[0]['type'])
 
+    #Internal evaluation used for parameter selection
+    def evaluate(self, train_sentences, train_ne, train_pos, train_relations, test_sentences, test_ne, test_pos,
+                 test_relations):
+        self.fit_sentences(train_sentences, train_ne, train_pos, train_relations)
+        results = self.predict_sentences(test_sentences, test_ne, test_pos)
+
+        gold = []
+        pred = []
+        for i in xrange(len(test_sentences)):
+            #Get all combinations of named entities:
+            ne_combinations = map(list, itertools.product(ne[i], repeat=2))
+
+            gold.extend([self.get_match(n[0], n[1], test_relations[i]) for n in ne_combinations])
+
+            pred.extend([self.get_match(n[0], n[1], results[i]) for n in ne_combinations])
+
+
+        return Metrics.precision(pred, gold, 3),Metrics.recall(pred, gold, 3),Metrics.f1(pred, gold, 3)
+
 
 '''
 Execution:
@@ -148,22 +169,22 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.noshell:
-        print "Preprocessing..."
 
         # Get the data:
-        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/kill+birthplace.baseline')
-
-        print "Training..."
+        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/kill+birthplace.data')
 
         # Create a test model:
         rc = RelationClassifier('extra_label', [1000, 0.01])
 
-        #Train the model:
+        # Train the model:
         rc.fit_sentences(sentences, ne, pos, relations)
 
-        print "Testing..."
 
         #Evaluate on train data:
         predictions = rc.predict_sentences(sentences, ne, pos)
 
-        #Postprocessing.print_sentence_relation_list(sentences, predictions)
+        Postprocessing.print_sentence_relation_list(sentences, predictions)
+
+
+        #rc = RelationClassifier('extra_label', [1000, 0.01])
+        #print rc.evaluate(sentences, ne, pos, relations,sentences, ne, pos, relations)
