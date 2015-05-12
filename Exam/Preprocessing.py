@@ -29,7 +29,7 @@ def parse_re_file(filename):
 
     return sentences
 
-def parse_full_re_file(filename):
+def parse_full_re_file(filename, zip_ne_to_dictionary=True):
     sentences = [[]]
     relations = [[]]
     nes = [[]]
@@ -62,7 +62,8 @@ def parse_full_re_file(filename):
             else:
                 relations[-1].append(read_relation(line))
 
-    nes = [process_named_entities(ne) for ne in nes]
+    if zip_ne_to_dictionary:
+        nes = [process_named_entities(ne) for ne in nes]
     relations = [[process_relations(r) for r in rels] for rels in relations]
 
     return sentences, relations, nes, poss
