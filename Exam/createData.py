@@ -19,11 +19,12 @@ def extract_data(separator=' '):
     """
 
     # read NER and POS from the two files
-    sentences, _, neses, poses = P.parse_full_re_file('data/kill+birthplace.data')
-    
+    sentences, _, neses, poses = P.parse_full_re_file('data/kill+birthplace.data', zip_ne_to_dictionary=False)
+
+        
+
     for i in xrange(len(sentences)):
         for word,pos,tag in zip(sentences[i],poses[i],neses[i]):
-            print "HEJ " + pos + tag
             # first letter is capitalized
             # HERE'S SOME FEATURES #
             cap="+" if word[0].isupper() else "-"
@@ -40,6 +41,7 @@ def extract_data(separator=' '):
             print separator.join([word.lower(),pos,cap, l, hyphen, tag])
         # sentence separator
         print ""
+
         
         
 def read_conll_file(file_name):

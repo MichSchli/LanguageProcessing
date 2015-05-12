@@ -1,0 +1,2517 @@
+1	In	ADP	O
+2	1880	NUM	O
+3	,	PUNCT	O
+4	author-lecturer	ADJ	O
+5	Helen	PROPN	B-PER
+6	Keller	PROPN	I-PER
+7	,	PUNCT	O
+8	who	PRON	O
+9	lived	AUX	O
+10	most	ADV	O
+11	of	ADP	O
+12	her	PART	O
+13	life	NOUN	O
+14	without	ADP	O
+15	sight	NOUN	O
+16	or	CONJ	O
+17	hearing	NOUN	O
+18	,	PUNCT	O
+19	was	AUX	O
+20	born	VERB	O
+21	in	ADP	O
+22	Tuscumbia	PROPN	B-LOC
+23	,	PUNCT	I-LOC
+24	Ala	PROPN	I-LOC
+25	.	PUNCT	O
+
+5:6	22:24	birthplace
+
+1	In	ADP	O
+2	1872	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	30th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	Calvin	PROPN	B-PER
+13	Coolidge	PROPN	I-PER
+14	,	PUNCT	O
+15	was	AUX	O
+16	born	VERB	O
+17	in	ADP	O
+18	Plymouth	PROPN	B-LOC
+19	,	PUNCT	I-LOC
+20	Vt	PROPN	I-LOC
+21	.	PUNCT	O
+
+12:13	18:20	birthplace
+
+1	In	ADP	O
+2	1817	NUM	O
+3	,	PUNCT	O
+4	naturalist-author	ADJ	O
+5	Henry	PROPN	B-PER
+6	David	PROPN	I-PER
+7	Thoreau	PROPN	I-PER
+8	was	AUX	O
+9	born	VERB	O
+10	in	ADP	O
+11	Concord	PROPN	B-LOC
+12	,	PUNCT	I-LOC
+13	Mass	PROPN	I-LOC
+14	.	PUNCT	O
+
+5:7	11:13	birthplace
+
+1	In	ADP	O
+2	1854	DET	O
+3	,	PUNCT	O
+4	George	PROPN	B-PER
+5	Eastman	PROPN	I-PER
+6	,	PUNCT	O
+7	inventor	NOUN	O
+8	of	ADP	O
+9	the	DET	O
+10	Kodak	PROPN	B-UNK
+11	camera	NOUN	O
+12	,	PUNCT	O
+13	was	AUX	O
+14	born	VERB	O
+15	in	ADP	O
+16	Waterville	PROPN	B-LOC
+17	,	PUNCT	I-LOC
+18	N.	PROPN	I-LOC
+19	Y.	PROPN	I-LOC
+
+4:5	16:19	birthplace
+
+1	Mrs.	PROPN	B-PER
+2	Vogt	PROPN	I-PER
+3	was	AUX	O
+4	born	VERB	O
+5	in	ADP	O
+6	Akron	PROPN	B-LOC
+7	,	PUNCT	I-LOC
+8	Ohio	PROPN	I-LOC
+9	,	PUNCT	O
+10	when	ADV	O
+11	Ulysses	PROPN	B-PER
+12	S.	PROPN	I-PER
+13	Grant	PROPN	I-PER
+14	was	AUX	O
+15	president	NOUN	O
+16	,	PUNCT	O
+17	and	CONJ	O
+18	spent	AUX	O
+19	much	ADV	O
+20	of	ADP	O
+21	her	PART	O
+22	life	NOUN	O
+23	there	ADV	O
+24	.	PUNCT	O
+
+1:2	6:8	birthplace
+
+1	In	ADP	O
+2	1863	NUM	O
+3	,	PUNCT	O
+4	American	ADJ	O
+5	automaker	NOUN	O
+6	Henry	PROPN	B-PER
+7	Ford	PROPN	I-PER
+8	was	AUX	O
+9	born	VERB	O
+10	in	ADP	O
+11	Dearborn	PROPN	B-LOC
+12	Township	PROPN	I-LOC
+13	,	PUNCT	I-LOC
+14	Mich	PROPN	I-LOC
+15	.	PUNCT	O
+
+6:7	11:14	birthplace
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	PUNCT	O
+5	In	ADP	O
+6	1833	NUM	O
+7	,	PUNCT	O
+8	Benjamin	PROPN	B-PER
+9	Harrison	PROPN	I-PER
+10	,	PUNCT	O
+11	the	DET	O
+12	23rd	ADJ	O
+13	president	NOUN	O
+14	of	ADP	O
+15	the	DET	O
+16	United	PROPN	B-LOC
+17	States	PROPN	I-LOC
+18	,	PUNCT	O
+19	was	AUX	O
+20	born	VERB	O
+21	in	ADP	O
+22	North	PROPN	B-LOC
+23	Bend	PROPN	I-LOC
+24	,	PUNCT	I-LOC
+25	Ohio	PROPN	I-LOC
+26	.	PUNCT	O
+
+8:9	22:25	birthplace
+
+1	In	ADP	O
+2	1873	NUM	O
+3	,	PUNCT	O
+4	radio	NOUN	O
+5	electronics	NOUN	O
+6	pioneer	NOUN	O
+7	Dr.	PROPN	B-PER
+8	Lee	PROPN	I-PER
+9	DeForest	PROPN	I-PER
+10	was	AUX	O
+11	born	VERB	O
+12	in	ADP	O
+13	Council	PROPN	B-LOC
+14	Bluffs	PROPN	I-LOC
+15	,	PUNCT	I-LOC
+16	Iowa	PROPN	I-LOC
+17	.	PUNCT	O
+
+7:9	13:16	birthplace
+
+1	In	ADP	O
+2	1936	NUM	O
+3	,	PUNCT	O
+4	rock	NOUN	O
+5	legend	NOUN	O
+6	Buddy	PROPN	B-PER
+7	Holly	PROPN	I-PER
+8	was	AUX	O
+9	born	VERB	O
+10	Charles	PROPN	B-PER
+11	Hardin	PROPN	I-PER
+12	Holley	PROPN	I-PER
+13	in	ADP	O
+14	Lubbock	PROPN	B-LOC
+15	,	PUNCT	I-LOC
+16	Texas	PROPN	I-LOC
+17	.	PUNCT	O
+
+6:7	14:16	birthplace
+10:12	14:16	birthplace
+
+1	In	ADP	O
+2	1913	DET	O
+3	,	PUNCT	O
+4	Olympic	ADJ	O
+5	legend	NOUN	O
+6	Jesse	PROPN	B-PER
+7	Owens	PROPN	I-PER
+8	was	AUX	O
+9	born	VERB	O
+10	in	ADP	O
+11	Danville	PROPN	B-LOC
+12	,	PUNCT	I-LOC
+13	Ala.	PROPN	I-LOC
+
+6:7	11:13	birthplace
+
+1	In	ADP	O
+2	1822	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	19th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	Rutherford	PROPN	B-PER
+13	B.	PROPN	I-PER
+14	Hayes	PROPN	I-PER
+15	,	PUNCT	O
+16	was	AUX	O
+17	born	VERB	O
+18	in	ADP	O
+19	Delaware	PROPN	B-LOC
+20	,	PUNCT	I-LOC
+21	Ohio	PROPN	I-LOC
+22	.	PUNCT	O
+
+12:14	19:21	birthplace
+
+1	However	ADV	O
+2	,	PUNCT	O
+3	the	DET	O
+4	Rev.	PROPN	B-PER
+5	Jesse	PROPN	I-PER
+6	Jackson	PROPN	I-PER
+7	,	PUNCT	O
+8	a	DET	O
+9	native	NOUN	O
+10	of	ADP	O
+11	South	PROPN	B-LOC
+12	Carolina	PROPN	I-LOC
+13	,	PUNCT	O
+14	joined	AUX	O
+15	critics	NOUN	O
+16	of	ADP	O
+17	FEMA	PROPN	B-UNK
+18	's	PART	O
+19	effort	NOUN	O
+20	.	PUNCT	O
+
+4:6	11:12	birthplace
+
+1	In	ADP	O
+2	1890	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	34th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	Dwight	PROPN	B-PER
+13	D.	PROPN	I-PER
+14	Eisenhower	PROPN	I-PER
+15	,	PUNCT	O
+16	was	AUX	O
+17	born	VERB	O
+18	in	ADP	O
+19	Denison	PROPN	B-LOC
+20	,	PUNCT	I-LOC
+21	Texas	PROPN	I-LOC
+22	.	PUNCT	O
+
+12:14	19:21	birthplace
+
+1	In	ADP	O
+2	1879	NUM	O
+3	,	PUNCT	O
+4	humorist	NOUN	O
+5	Will	PROPN	B-PER
+6	Rogers	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Oologah	PROPN	B-LOC
+11	,	PUNCT	I-LOC
+12	Okla	PROPN	I-LOC
+13	.	PUNCT	O
+
+5:6	10:12	birthplace
+
+1	In	ADP	O
+2	1831	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	20th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	James	PROPN	B-PER
+13	Garfield	PROPN	I-PER
+14	,	PUNCT	O
+15	was	AUX	O
+16	born	VERB	O
+17	in	ADP	O
+18	Orange	PROPN	B-LOC
+19	,	PUNCT	I-LOC
+20	Ohio	PROPN	I-LOC
+21	.	PUNCT	O
+
+12:13	18:20	birthplace
+
+1	In	ADP	O
+2	1782	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	first	ADJ	O
+6	president	NOUN	O
+7	who	PRON	O
+8	was	AUX	O
+9	a	DET	O
+10	native	ADJ	O
+11	citizen	NOUN	O
+12	of	ADP	O
+13	the	DET	O
+14	United	PROPN	B-LOC
+15	States	PROPN	I-LOC
+16	,	PUNCT	O
+17	Martin	PROPN	B-PER
+18	Van	PROPN	I-PER
+19	Buren	PROPN	I-PER
+20	,	PUNCT	O
+21	was	AUX	O
+22	born	VERB	O
+23	in	ADP	O
+24	Kinderhook	PROPN	B-LOC
+25	,	PUNCT	I-LOC
+26	N.Y.	PROPN	I-LOC
+27	In	ADP	O
+28	1791	NUM	O
+29	,	PUNCT	O
+30	composer	NOUN	O
+31	Wolfgang	PROPN	B-PER
+32	Amadeus	PROPN	I-PER
+33	Mozart	PROPN	I-PER
+34	died	AUX	O
+35	in	ADP	O
+36	Vienna	PROPN	B-LOC
+37	,	PUNCT	I-LOC
+38	Austria	PROPN	I-LOC
+39	,	PUNCT	O
+40	at	ADP	O
+41	the	DET	O
+42	age	NOUN	O
+43	of	ADP	O
+44	35	NUM	O
+45	.	PUNCT	O
+
+17:19	24:26	birthplace
+
+1	In	ADP	O
+2	1830	NUM	O
+3	,	PUNCT	O
+4	poet	NOUN	O
+5	Emily	PROPN	B-PER
+6	Dickinson	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Amherst	PROPN	B-LOC
+11	,	PUNCT	I-LOC
+12	Mass	PROPN	I-LOC
+13	.	PUNCT	O
+
+5:6	10:12	birthplace
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	PUNCT	O
+5	In	ADP	O
+6	1735	NUM	O
+7	,	PUNCT	O
+8	Paul	PROPN	B-PER
+9	Revere	PROPN	I-PER
+10	was	AUX	O
+11	born	VERB	O
+12	in	ADP	O
+13	Boston	PROPN	B-LOC
+14	.	PUNCT	O
+
+8:9	13	birthplace
+
+1	In	ADP	O
+2	1752	NUM	O
+3	,	PUNCT	O
+4	flagmaker	NOUN	O
+5	Betsy	PROPN	B-PER
+6	Ross	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Philadelphia	PROPN	B-LOC
+11	.	PUNCT	O
+
+5:6	10	birthplace
+
+1	Today	NOUN	O
+2	's	PART	O
+3	highlight	NOUN	O
+4	in	ADP	O
+5	history	NOUN	O
+6	:	PUNCT	O
+7	On	ADP	O
+8	Jan.	PROPN	B-UNK
+9	8	NUM	O
+10	,	PUNCT	O
+11	1935	NUM	O
+12	,	PUNCT	O
+13	rock	AUX	O
+14	'n	NOUN	O
+15	'	PART	O
+16	roll	NOUN	O
+17	legend	NOUN	O
+18	Elvis	PROPN	B-PER
+19	Presley	PROPN	I-PER
+20	was	AUX	O
+21	born	VERB	O
+22	in	ADP	O
+23	Tupelo	PROPN	B-LOC
+24	,	PUNCT	I-LOC
+25	Miss	PROPN	I-LOC
+26	.	PUNCT	O
+
+18:19	23:25	birthplace
+
+1	In	ADP	O
+2	1809	NUM	O
+3	,	PUNCT	O
+4	author	NOUN	O
+5	Edgar	PROPN	B-PER
+6	Allan	PROPN	I-PER
+7	Poe	PROPN	I-PER
+8	was	AUX	O
+9	born	VERB	O
+10	in	ADP	O
+11	Boston	PROPN	B-LOC
+12	.	PUNCT	O
+
+5:7	11	birthplace
+
+1	For	ADP	O
+2	extra	ADJ	O
+3	credit	NOUN	O
+4	,	PUNCT	O
+5	Shutes	PROPN	B-PER
+6	noted	AUX	O
+7	singer-songwriter	NOUN	O
+8	Bob	PROPN	B-PER
+9	Dylan	PROPN	I-PER
+10	,	PUNCT	O
+11	who	PRON	O
+12	gets	AUX	O
+13	a	DET	O
+14	mention	NOUN	O
+15	in	ADP	O
+16	the	DET	O
+17	song	NOUN	O
+18	,	PUNCT	O
+19	was	AUX	O
+20	born	VERB	O
+21	Duluth	PROPN	B-LOC
+22	and	CONJ	O
+23	reared	VERB	O
+24	in	ADP	O
+25	Hibbing	PROPN	B-LOC
+26	.	PUNCT	O
+
+8:9	21	birthplace
+
+1	In	ADP	O
+2	1767	DET	O
+3	,	PUNCT	O
+4	Andrew	PROPN	B-PER
+5	Jackson	PROPN	I-PER
+6	,	PUNCT	O
+7	seventh	ADJ	O
+8	president	NOUN	O
+9	of	ADP	O
+10	the	DET	O
+11	United	PROPN	B-LOC
+12	States	PROPN	I-LOC
+13	,	PUNCT	O
+14	was	AUX	O
+15	born	VERB	O
+16	in	ADP	O
+17	Waxhaw	PROPN	B-LOC
+18	,	PUNCT	I-LOC
+19	S.C.	PROPN	I-LOC
+
+4:5	17:19	birthplace
+
+1	In	ADP	O
+2	1751	DET	O
+3	,	PUNCT	O
+4	James	PROPN	B-PER
+5	Madison	PROPN	I-PER
+6	,	PUNCT	O
+7	fourth	ADJ	O
+8	president	NOUN	O
+9	of	ADP	O
+10	the	DET	O
+11	United	PROPN	B-LOC
+12	States	PROPN	I-LOC
+13	,	PUNCT	O
+14	was	AUX	O
+15	born	VERB	O
+16	in	ADP	O
+17	Port	PROPN	B-LOC
+18	Conway	PROPN	I-LOC
+19	,	PUNCT	I-LOC
+20	Va.	PROPN	I-LOC
+
+4:5	17:20	birthplace
+
+1	1911	NUM	O
+2	,	PUNCT	O
+3	playwright	NOUN	O
+4	Tennessee	PROPN	B-PER
+5	Williams	PROPN	I-PER
+6	was	AUX	O
+7	born	VERB	O
+8	in	ADP	O
+9	Columbus	PROPN	B-LOC
+10	,	PUNCT	I-LOC
+11	Miss.	PROPN	I-LOC
+
+4:5	9:11	birthplace
+
+1	Teen-agers	NOUN	O
+2	,	PUNCT	O
+3	most	ADJ	O
+4	of	ADP	O
+5	whom	PRON	O
+6	were	AUX	O
+7	born	VERB	O
+8	after	ADP	O
+9	the	DET	O
+10	release	NOUN	O
+11	of	ADP	O
+12	the	DET	O
+13	1973	NUM	O
+14	film	NOUN	O
+15	directed	VERB	O
+16	by	ADP	O
+17	George	PROPN	B-PER
+18	Lucas	PROPN	I-PER
+19	,	PUNCT	O
+20	a	DET	O
+21	Modesto	PROPN	B-LOC
+22	native	NOUN	O
+23	,	PUNCT	O
+24	said	AUX	O
+25	they	PRON	O
+26	cruise	AUX	O
+27	popular	ADJ	O
+28	McHenry	PROPN	B-LOC
+29	Avenue	PROPN	I-LOC
+30	in	ADP	O
+31	this	DET	O
+32	central	ADJ	O
+33	California	PROPN	B-LOC
+34	city	NOUN	O
+35	for	ADP	O
+36	the	DET	O
+37	same	ADJ	O
+38	reasons	NOUN	O
+39	as	ADP	O
+40	their	PART	O
+41	parents	NOUN	O
+42	:	PUNCT	O
+43	to	PRT	O
+44	show	AUX	O
+45	off	ADP	O
+46	their	PART	O
+47	cars	NOUN	O
+48	and	CONJ	O
+49	meet	AUX	O
+50	dates	NOUN	O
+51	.	PUNCT	O
+
+17:18	21	birthplace
+
+1	The	DET	O
+2	June	PROPN	B-UNK
+3	celebration	NOUN	O
+4	of	ADP	O
+5	cruising	AUX	O
+6	,	PUNCT	O
+7	started	AUX	O
+8	two	NUM	O
+9	years	NOUN	O
+10	after	ADP	O
+11	Modesto	PROPN	B-LOC
+12	native	ADJ	O
+13	George	PROPN	B-PER
+14	Lucas	PROPN	I-PER
+15	'	PART	O
+16	film	NOUN	O
+17	was	AUX	O
+18	released	VERB	O
+19	in	ADP	O
+20	1973	NUM	O
+21	,	PUNCT	O
+22	draws	AUX	O
+23	up	ADP	O
+24	to	PRT	O
+25	100	NUM	O
+26	,	PUNCT	O
+27	000	NUM	O
+28	people	NOUN	O
+29	in	ADP	O
+30	30	NUM	O
+31	,	PUNCT	O
+32	000	NUM	O
+33	cars	NOUN	O
+34	.	PUNCT	O
+
+13:14	11	birthplace
+
+1	In	ADP	O
+2	1822	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	18th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	Ulysses	PROPN	B-PER
+13	S.	PROPN	I-PER
+14	Grant	PROPN	I-PER
+15	,	PUNCT	O
+16	was	AUX	O
+17	born	VERB	O
+18	in	ADP	O
+19	Point	PROPN	B-LOC
+20	Pleasant	PROPN	I-LOC
+21	,	PUNCT	I-LOC
+22	Ohio	PROPN	I-LOC
+23	.	PUNCT	O
+
+12:14	19:22	birthplace
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	PUNCT	O
+5	In	ADP	O
+6	1758	NUM	O
+7	,	PUNCT	O
+8	the	DET	O
+9	fifth	ADJ	O
+10	president	NOUN	O
+11	of	ADP	O
+12	the	DET	O
+13	United	PROPN	B-LOC
+14	States	PROPN	I-LOC
+15	,	PUNCT	O
+16	James	PROPN	B-PER
+17	Monroe	PROPN	I-PER
+18	,	PUNCT	O
+19	was	AUX	O
+20	born	VERB	O
+21	in	ADP	O
+22	Westmoreland	PROPN	B-LOC
+23	County	PROPN	I-LOC
+24	,	PUNCT	I-LOC
+25	Va	PROPN	I-LOC
+26	.	PUNCT	O
+
+16:17	22:25	birthplace
+
+1	Ralph	PROPN	B-PER
+2	David	PROPN	I-PER
+3	Abernathy	PROPN	I-PER
+4	:	PUNCT	O
+5	March	PROPN	B-UNK
+6	11	NUM	O
+7	,	PUNCT	O
+8	1926	NUM	O
+9	:	PUNCT	O
+10	David	PROPN	B-PER
+11	Abernathy	PROPN	I-PER
+12	is	AUX	O
+13	born	VERB	O
+14	in	ADP	O
+15	Linden	PROPN	B-LOC
+16	,	PUNCT	I-LOC
+17	Ala.	PROPN	I-LOC
+18	,	PUNCT	O
+19	grandson	NOUN	O
+20	of	ADP	O
+21	slaves	NOUN	O
+22	and	CONJ	O
+23	10th	ADJ	O
+24	of	ADP	O
+25	12	NUM	O
+26	children	NOUN	O
+27	of	ADP	O
+28	William	PROPN	B-PER
+29	and	CONJ	O
+30	Louiverny	PROPN	B-PER
+31	Abernathy	PROPN	I-PER
+32	.	PUNCT	O
+
+10:11	15:17	birthplace
+
+1	In	ADP	O
+2	1801	DET	O
+3	,	PUNCT	O
+4	Mormon	PROPN	B-UNK
+5	leader	NOUN	O
+6	Brigham	PROPN	B-PER
+7	Young	PROPN	I-PER
+8	was	AUX	O
+9	born	VERB	O
+10	in	ADP	O
+11	Whitingham	PROPN	B-LOC
+12	,	PUNCT	I-LOC
+13	Vt	PROPN	I-LOC
+14	.	PUNCT	O
+
+6:7	11:13	birthplace
+
+1	Illinois	PROPN	B-LOC
+2	born	VERB	O
+3	Charlton	PROPN	B-PER
+4	Heston	PROPN	I-PER
+5	was	AUX	O
+6	a	DET	O
+7	27-year-old	ADJ	O
+8	actor	NOUN	O
+9	from	ADP	O
+10	Broadway	PROPN	B-UNK
+11	and	CONJ	O
+12	television	NOUN	O
+13	when	ADV	O
+14	he	PRON	O
+15	arrived	AUX	O
+16	in	ADP	O
+17	Hollywood	PROPN	B-LOC
+18	for	ADP	O
+19	a	DET	O
+20	five-picture	ADJ	O
+21	contract	NOUN	O
+22	with	ADP	O
+23	Hal	PROPN	B-LOC
+24	Wallis	PROPN	I-LOC
+25	.	PUNCT	O
+
+3:4	1	birthplace
+
+1	Following	AUX	O
+2	the	DET	O
+3	plot	NOUN	O
+4	of	ADP	O
+5	the	DET	O
+6	1973	NUM	O
+7	film	NOUN	O
+8	`	PUNCT	O
+9	`	PUNCT	O
+10	American	ADJ	O
+11	Graffiti	PROPN	B-UNK
+12	,	PUNCT	O
+13	'	PUNCT	O
+14	'	PUNCT	O
+15	directed	VERB	O
+16	by	ADP	O
+17	Modesto	PROPN	B-LOC
+18	native	ADJ	O
+19	George	PROPN	B-PER
+20	Lucas	PROPN	I-PER
+21	,	PUNCT	O
+22	high	ADJ	O
+23	school	NOUN	O
+24	seniors	NOUN	O
+25	15	NUM	O
+26	years	NOUN	O
+27	ago	ADP	O
+28	established	AUX	O
+29	Graffiti	PROPN	B-UNK
+30	Night	PROPN	I-UNK
+31	on	ADP	O
+32	the	DET	O
+33	first	ADJ	O
+34	Saturday	PROPN	B-UNK
+35	after	ADP	O
+36	graduation	NOUN	O
+37	.	PUNCT	O
+
+19:20	17	birthplace
+
+1	In	ADP	O
+2	1872	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	30th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	Calvin	PROPN	B-PER
+13	Coolidge	PROPN	I-PER
+14	,	PUNCT	O
+15	was	AUX	O
+16	born	VERB	O
+17	in	ADP	O
+18	Plymouth	PROPN	B-LOC
+19	,	PUNCT	I-LOC
+20	Vt	PROPN	I-LOC
+21	.	PUNCT	O
+
+12:13	18:20	birthplace
+
+1	In	ADP	O
+2	1818	NUM	O
+3	,	PUNCT	O
+4	suffragist	NOUN	O
+5	Lucy	PROPN	B-PER
+6	Stone	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	West	ADJ	O
+11	Brookfield	PROPN	B-LOC
+12	,	PUNCT	I-LOC
+13	Mass	PROPN	I-LOC
+14	.	PUNCT	O
+
+5:6	11:13	birthplace
+
+1	In	ADP	O
+2	1874	NUM	O
+3	,	PUNCT	O
+4	Herbert	PROPN	B-PER
+5	Clark	PROPN	I-PER
+6	Hoover	PROPN	I-PER
+7	,	PUNCT	O
+8	the	DET	O
+9	31st	NOUN	O
+10	president	NOUN	O
+11	of	ADP	O
+12	the	DET	O
+13	United	PROPN	B-LOC
+14	States	PROPN	I-LOC
+15	,	PUNCT	O
+16	was	AUX	O
+17	born	VERB	O
+18	in	ADP	O
+19	West	PROPN	B-LOC
+20	Branch	PROPN	I-LOC
+21	,	PUNCT	I-LOC
+22	Iowa	PROPN	I-LOC
+23	.	PUNCT	O
+
+4:6	19:22	birthplace
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	PUNCT	O
+5	In	ADP	O
+6	1833	NUM	O
+7	,	PUNCT	O
+8	Benjamin	PROPN	B-PER
+9	Harrison	PROPN	I-PER
+10	,	PUNCT	O
+11	the	DET	O
+12	23rd	ADJ	O
+13	president	NOUN	O
+14	of	ADP	O
+15	the	DET	O
+16	United	PROPN	B-LOC
+17	States	PROPN	I-LOC
+18	,	PUNCT	O
+19	was	AUX	O
+20	born	VERB	O
+21	in	ADP	O
+22	North	PROPN	B-LOC
+23	Bend	PROPN	I-LOC
+24	,	PUNCT	I-LOC
+25	Ohio	PROPN	I-LOC
+26	.	PUNCT	O
+
+8:9	22:25	birthplace
+
+1	In	ADP	O
+2	1785	DET	O
+3	,	PUNCT	O
+4	U.S.	PROPN	B-LOC
+5	naval	ADJ	O
+6	hero	NOUN	O
+7	Oliver	PROPN	B-PER
+8	Hazard	PROPN	I-PER
+9	Perry	PROPN	I-PER
+10	was	AUX	O
+11	born	VERB	O
+12	in	ADP	O
+13	South	PROPN	B-LOC
+14	Kingstown	PROPN	I-LOC
+15	,	PUNCT	I-LOC
+16	R.I.	PROPN	I-LOC
+
+7:9	13:16	birthplace
+
+1	In	ADP	O
+2	1898	NUM	O
+3	,	PUNCT	O
+4	composer	NOUN	O
+5	George	PROPN	B-PER
+6	Gershwin	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Brooklyn	PROPN	B-LOC
+11	,	PUNCT	I-LOC
+12	N.Y.	PROPN	I-LOC
+
+5:6	10:12	birthplace
+
+1	In	ADP	O
+2	1822	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	19th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	Rutherford	PROPN	B-PER
+13	B.	PROPN	I-PER
+14	Hayes	PROPN	I-PER
+15	,	PUNCT	O
+16	was	AUX	O
+17	born	VERB	O
+18	in	ADP	O
+19	Delaware	PROPN	B-LOC
+20	,	PUNCT	I-LOC
+21	Ohio	PROPN	I-LOC
+22	.	PUNCT	O
+
+12:14	19:21	birthplace
+
+1	In	ADP	O
+2	1890	NUM	O
+3	,	PUNCT	O
+4	100	NUM	O
+5	years	NOUN	O
+6	ago	ADP	O
+7	,	PUNCT	O
+8	American	ADJ	O
+9	aviation	NOUN	O
+10	hero	NOUN	O
+11	Eddie	PROPN	B-PER
+12	Rickenbacker	PROPN	I-PER
+13	was	AUX	O
+14	born	VERB	O
+15	in	ADP	O
+16	Columbus	PROPN	B-LOC
+17	,	PUNCT	I-LOC
+18	Ohio	PROPN	I-LOC
+19	.	PUNCT	O
+
+11:12	16:18	birthplace
+
+1	Today	NOUN	O
+2	's	PART	O
+3	Highlight	PROPN	B-UNK
+4	in	ADP	O
+5	History	NOUN	O
+6	:	PUNCT	O
+7	One	NUM	O
+8	hundred	NUM	O
+9	years	NOUN	O
+10	ago	ADP	O
+11	,	PUNCT	O
+12	on	ADP	O
+13	Oct.	PROPN	B-UNK
+14	14	NUM	O
+15	,	PUNCT	O
+16	1890	NUM	O
+17	,	PUNCT	O
+18	Dwight	PROPN	B-PER
+19	D.	PROPN	I-PER
+20	Eisenhower	PROPN	I-PER
+21	,	PUNCT	O
+22	the	DET	O
+23	34th	ADJ	O
+24	president	NOUN	O
+25	of	ADP	O
+26	the	DET	O
+27	United	PROPN	B-LOC
+28	States	PROPN	I-LOC
+29	,	PUNCT	O
+30	was	AUX	O
+31	born	VERB	O
+32	in	ADP	O
+33	Denison	PROPN	B-LOC
+34	,	PUNCT	I-LOC
+35	Texas	PROPN	I-LOC
+36	.	PUNCT	O
+
+18:20	33:35	birthplace
+
+1	In	ADP	O
+2	1879	NUM	O
+3	,	PUNCT	O
+4	humorist	NOUN	O
+5	Will	PROPN	B-PER
+6	Rogers	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Oologah	PROPN	B-LOC
+11	,	PUNCT	I-LOC
+12	Okla.	PROPN	I-LOC
+
+5:6	10:12	birthplace
+
+1	James	PROPN	B-PER
+2	Dickey	PROPN	I-PER
+3	,	PUNCT	O
+4	Georgia	PROPN	B-LOC
+5	born	VERB	O
+6	,	PUNCT	O
+7	has	AUX	O
+8	been	VERB	O
+9	writer	NOUN	O
+10	in	ADP	O
+11	residence	NOUN	O
+12	at	ADP	O
+13	the	DET	O
+14	University	PROPN	B-UNK
+15	of	ADP	O
+16	South	PROPN	B-LOC
+17	Carolina	PROPN	I-LOC
+18	for	ADP	O
+19	23	NUM	O
+20	years	NOUN	O
+21	now	ADV	O
+22	.	PUNCT	O
+
+1:2	4	birthplace
+
+1	In	ADP	O
+2	1831	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	20th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	PUNCT	O
+12	James	PROPN	B-PER
+13	Garfield	PROPN	I-PER
+14	,	PUNCT	O
+15	was	AUX	O
+16	born	VERB	O
+17	in	ADP	O
+18	Orange	PROPN	B-LOC
+19	,	PUNCT	I-LOC
+20	Ohio	PROPN	I-LOC
+21	.	PUNCT	O
+
+12:13	18:20	birthplace
+
+1	Copland	PROPN	B-PER
+2	,	PUNCT	O
+3	who	PRON	O
+4	was	AUX	O
+5	born	VERB	O
+6	in	ADP	O
+7	Brooklyn	PROPN	B-LOC
+8	,	PUNCT	O
+9	lives	AUX	O
+10	in	ADP	O
+11	upstate	ADJ	O
+12	New	PROPN	B-LOC
+13	York	PROPN	I-LOC
+14	and	CONJ	O
+15	is	AUX	O
+16	in	ADP	O
+17	failing	AUX	O
+18	health.	NOUN	O
+
+1	7	birthplace
+
+1	In	ADP	O
+2	Waco	PROPN	B-LOC
+3	,	PUNCT	O
+4	near	ADP	O
+5	Nelson	PROPN	B-PER
+6	's	PART	O
+7	hometown	NOUN	O
+8	of	ADP	O
+9	Abbott	PROPN	B-LOC
+10	,	PUNCT	O
+11	auto	NOUN	O
+12	parts	NOUN	O
+13	salesman	NOUN	O
+14	Dave	PROPN	B-PER
+15	Crowe	PROPN	I-PER
+16	proposed	AUX	O
+17	that	ADP	O
+18	fans	NOUN	O
+19	join	AUX	O
+20	`	PUNCT	O
+21	`	PUNCT	O
+22	Willie	PROPN	B-UNK
+23	Aid	PROPN	I-UNK
+24	'	PART	O
+25	'	PUNCT	O
+26	by	ADP	O
+27	mailing	NOUN	O
+28	donations	NOUN	O
+29	straight	ADV	O
+30	to	PRT	O
+31	the	DET	O
+32	IRS.	PROPN	B-UNK
+
+5	9	birthplace
+
+1	In	ADP	O
+2	1782	NUM	O
+3	,	PUNCT	O
+4	the	DET	O
+5	first	ADJ	O
+6	president	NOUN	O
+7	who	PRON	O
+8	was	AUX	O
+9	a	DET	O
+10	native	ADJ	O
+11	citizen	NOUN	O
+12	of	ADP	O
+13	the	DET	O
+14	United	PROPN	B-UNK
+15	States	PROPN	I-UNK
+16	,	PUNCT	O
+17	Martin	PROPN	B-PER
+18	Van	PROPN	I-PER
+19	Buren	PROPN	I-PER
+20	,	PUNCT	O
+21	was	AUX	O
+22	born	VERB	O
+23	in	ADP	O
+24	Kinderhook	PROPN	B-LOC
+25	,	PUNCT	I-LOC
+26	N.Y.	PROPN	I-LOC
+
+17:19	24:26	birthplace
+
+1	In	ADP	O
+2	1830	NUM	O
+3	,	PUNCT	O
+4	poet	NOUN	O
+5	Emily	PROPN	B-PER
+6	Dickinson	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Amherst	PROPN	B-LOC
+11	,	PUNCT	I-LOC
+12	Mass.	PROPN	I-LOC
+
+5:6	10:12	birthplace
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	PUNCT	O
+5	In	ADP	O
+6	1735	NUM	O
+7	,	PUNCT	O
+8	Paul	PROPN	B-PER
+9	Revere	PROPN	I-PER
+10	was	AUX	O
+11	born	VERB	O
+12	in	ADP	O
+13	Boston	PROPN	B-LOC
+14	.	PUNCT	O
+
+8:9	13	birthplace
+
+1	In	ADP	O
+2	1752	NUM	O
+3	,	PUNCT	O
+4	flagmaker	NOUN	O
+5	Betsy	PROPN	B-PER
+6	Ross	PROPN	I-PER
+7	was	AUX	O
+8	born	VERB	O
+9	in	ADP	O
+10	Philadelphia	PROPN	B-LOC
+11	.	PUNCT	O
+
+5:6	10	birthplace
+
+1	Today	NOUN	O
+2	's	PART	O
+3	Highlight	PROPN	B-UNK
+4	in	ADP	O
+5	History	NOUN	O
+6	:	PUNCT	O
+7	On	ADP	O
+8	Jan.	PROPN	B-UNK
+9	8	NUM	O
+10	,	PUNCT	O
+11	1935	NUM	O
+12	,	PUNCT	O
+13	rock-and-roll	NOUN	O
+14	legend	NOUN	O
+15	Elvis	PROPN	B-PER
+16	Presley	PROPN	I-PER
+17	was	AUX	O
+18	born	VERB	O
+19	in	ADP	O
+20	Tupelo	PROPN	B-LOC
+21	,	PUNCT	I-LOC
+22	Miss	PROPN	I-LOC
+23	.	PUNCT	O
+
+15:16	20:22	birthplace
+
+1	If	ADP	O
+2	there	DET	O
+3	has	AUX	O
+4	been	VERB	O
+5	an	DET	O
+6	undisputed	ADJ	O
+7	rookie	NOUN	O
+8	of	ADP	O
+9	the	DET	O
+10	season	NOUN	O
+11	it	PRON	O
+12	has	AUX	O
+13	been	VERB	O
+14	Camden	PROPN	B-LOC
+15	Yards	PROPN	I-LOC
+16	,	PUNCT	O
+17	home	NOUN	O
+18	of	ADP	O
+19	the	DET	O
+20	Baltimore	PROPN	B-UNK
+21	Orioles	PROPN	I-UNK
+22	,	PUNCT	O
+23	a	DET	O
+24	distinguished	VERB	O
+25	new-old	ADJ	O
+26	stadium	NOUN	O
+27	built	VERB	O
+28	on	ADP	O
+29	the	DET	O
+30	spot	NOUN	O
+31	where	ADV	O
+32	Babe	PROPN	B-PER
+33	Ruth	PROPN	I-PER
+34	is	AUX	O
+35	believed	VERB	O
+36	to	PRT	O
+37	have	AUX	O
+38	been	VERB	O
+39	born	VERB	O
+40	and	CONJ	O
+41	nestling	AUX	O
+42	majestically	ADV	O
+43	among	ADP	O
+44	the	DET	O
+45	warehouses	NOUN	O
+46	of	ADP	O
+47	the	DET	O
+48	inner	ADJ	O
+49	city	NOUN	O
+50	.	PUNCT	O
+
+32:33	14:15	birthplace
+
+1	Thurgood	PROPN	B-PER
+2	Marshall	PROPN	I-PER
+3	was	AUX	O
+4	born	VERB	O
+5	in	ADP	O
+6	Baltimore	PROPN	B-LOC
+7	in	ADP	O
+8	1908	NUM	O
+9	.	PUNCT	O
+
+1:2	6	birthplace
+
+1	The	DET	O
+2	jury	NOUN	O
+3	convicted	VERB	O
+4	Robinson	PROPN	B-PER
+5	,	PUNCT	O
+6	half	ADJ	O
+7	brother	NOUN	O
+8	of	ADP	O
+9	the	DET	O
+10	Rev.	PROPN	B-PER
+11	Jesse	PROPN	I-PER
+12	Jackson	PROPN	I-PER
+13	and	CONJ	O
+14	a	DET	O
+15	Greenville	PROPN	B-LOC
+16	native	NOUN	O
+17	,	PUNCT	O
+18	of	ADP	O
+19	accessory	NOUN	O
+20	after	ADP	O
+21	the	DET	O
+22	fact	NOUN	O
+23	of	ADP	O
+24	assault	NOUN	O
+25	and	CONJ	O
+26	battery	NOUN	O
+27	with	ADP	O
+28	intent	NOUN	O
+29	to	PRT	O
+30	kill	AUX	O
+31	,	PUNCT	O
+32	in	ADP	O
+33	connection	NOUN	O
+34	with	ADP	O
+35	the	DET	O
+36	attempted	VERB	O
+37	murder	NOUN	O
+38	of	ADP	O
+39	Janice	PROPN	B-PER
+40	Denise	PROPN	I-PER
+41	Rosemond	PROPN	I-PER
+42	.	PUNCT	O
+
+4	15	birthplace
+
+1	If	ADP	O
+2	family	NOUN	O
+3	tradition	NOUN	O
+4	claims	AUX	O
+5	a	DET	O
+6	connection	NOUN	O
+7	to	PRT	O
+8	Jesse	PROPN	B-PER
+9	James	PROPN	I-PER
+10	,	PUNCT	O
+11	for	ADP	O
+12	example	NOUN	O
+13	,	PUNCT	O
+14	as	ADP	O
+15	many	ADJ	O
+16	Midwestern	ADJ	O
+17	families	NOUN	O
+18	'	PART	O
+19	histories	NOUN	O
+20	do	AUX	O
+21	,	PUNCT	O
+22	start	AUX	O
+23	your	PART	O
+24	research	NOUN	O
+25	about	ADP	O
+26	Jesse	PROPN	B-PER
+27	James	PROPN	I-PER
+28	in	ADP	O
+29	an	DET	O
+30	encyclopedia	NOUN	O
+31	,	PUNCT	O
+32	which	DET	O
+33	will	AUX	O
+34	tell	AUX	O
+35	you	PRON	O
+36	he	PRON	O
+37	was	AUX	O
+38	born	VERB	O
+39	near	ADP	O
+40	Kearney	PROPN	B-LOC
+41	-LRB-	PUNCT	O
+42	then	ADV	O
+43	Centerville	PROPN	B-LOC
+44	-RRB-	PUNCT	O
+45	in	ADP	O
+46	Clay	PROPN	B-LOC
+47	County	PROPN	I-LOC
+48	,	PUNCT	I-LOC
+49	Mo.	PROPN	I-LOC
+50	,	PUNCT	O
+51	on	ADP	O
+52	Sept.	PROPN	B-UNK
+53	5	NUM	O
+54	,	PUNCT	O
+55	1847	NUM	O
+56	,	PUNCT	O
+57	and	CONJ	O
+58	died	AUX	O
+59	in	ADP	O
+60	St.	PROPN	B-LOC
+61	Joseph	PROPN	I-LOC
+62	,	PUNCT	I-LOC
+63	Mo.	PROPN	I-LOC
+64	,	PUNCT	O
+65	on	ADP	O
+66	April	PROPN	B-UNK
+67	3	NUM	O
+68	,	PUNCT	O
+69	1882	NUM	O
+70	,	PUNCT	O
+71	and	CONJ	O
+72	that	ADP	O
+73	his	PART	O
+74	family	NOUN	O
+75	was	AUX	O
+76	originally	ADV	O
+77	from	ADP	O
+78	Kentucky	PROPN	B-LOC
+79	.	PUNCT	O
+
+26:27	40	birthplace
+26:27	43	birthplace
+26:27	46:49	birthplace
+
+1	A	DET	O
+2	reading	NOUN	O
+3	of	ADP	O
+4	the	DET	O
+5	unpublished	ADJ	O
+6	"	NOUN	O
+7	Written	VERB	O
+8	in	ADP	O
+9	My	PART	O
+10	Dream	NOUN	O
+11	by	ADP	O
+12	William	PROPN	B-PER
+13	Carlos	PROPN	I-PER
+14	Williams	PROPN	I-PER
+15	"	NOUN	O
+16	led	VERB	O
+17	to	PRT	O
+18	an	DET	O
+19	impromptu	ADJ	O
+20	lecture	NOUN	O
+21	by	ADP	O
+22	Ginsberg	PROPN	B-PER
+23	on	ADP	O
+24	his	PART	O
+25	fellow	NOUN	O
+26	New	PROPN	B-LOC
+27	Jersey	PROPN	I-LOC
+28	native	NOUN	O
+29	,	PUNCT	O
+30	whose	PRON	O
+31	use	NOUN	O
+32	of	ADP	O
+33	vernacular	NOUN	O
+34	and	CONJ	O
+35	vivid	ADJ	O
+36	description	NOUN	O
+37	were	AUX	O
+38	a	DET	O
+39	great	ADJ	O
+40	influence	NOUN	O
+41	on	ADP	O
+42	Ginsberg	PROPN	B-PER
+43	and	CONJ	O
+44	other	ADJ	O
+45	Beat	NOUN	O
+46	poets	NOUN	O
+47	.	PUNCT	O
+
+22	26:27	birthplace
+
+1	Born	VERB	O
+2	in	ADP	O
+3	Philadelphia	PROPN	B-LOC
+4	the	DET	O
+5	son	NOUN	O
+6	of	ADP	O
+7	a	DET	O
+8	Jewish	ADJ	O
+9	tailor	AUX	O
+10	,	PUNCT	O
+11	Man	PROPN	B-PER
+12	Ray	PROPN	I-PER
+13	was	AUX	O
+14	forced	VERB	O
+15	to	PRT	O
+16	flee	AUX	O
+17	his	PART	O
+18	adopted	VERB	O
+19	home	NOUN	O
+20	of	ADP	O
+21	Paris	PROPN	B-LOC
+22	--	PUNCT	O
+23	a	DET	O
+24	city	NOUN	O
+25	which	DET	O
+26	revered	ADJ	O
+27	him	PRON	O
+28	--	PUNCT	O
+29	during	ADP	O
+30	World	PROPN	B-UNK
+31	War	PROPN	I-UNK
+32	II	PROPN	I-UNK
+33	.	PUNCT	O
+
+11:12	3	birthplace
+
+1	Lucille	PROPN	B-PER
+2	Ball	PROPN	I-PER
+3	was	AUX	O
+4	born	VERB	O
+5	in	ADP	O
+6	Jamestown	PROPN	B-LOC
+7	,	PUNCT	I-LOC
+8	N.Y.	PROPN	I-LOC
+9	,	PUNCT	O
+10	the	DET	O
+11	daughter	NOUN	O
+12	of	ADP	O
+13	an	DET	O
+14	electrician	NOUN	O
+15	and	CONJ	O
+16	a	DET	O
+17	concert	NOUN	O
+18	pianist.	NOUN	O
+
+1:2	6:8	birthplace
+
+1	Norton	PROPN	B-PER
+2	Winfred	PROPN	I-PER
+3	Simon	PROPN	I-PER
+4	was	AUX	O
+5	born	VERB	O
+6	on	ADP	O
+7	Feb.	PROPN	B-UNK
+8	5	NUM	O
+9	,	PUNCT	O
+10	1907	NUM	O
+11	,	PUNCT	O
+12	in	ADP	O
+13	Portland	PROPN	B-LOC
+14	,	PUNCT	I-LOC
+15	Ore.	PROPN	I-LOC
+16	,	PUNCT	O
+17	and	CONJ	O
+18	spent	AUX	O
+19	his	PART	O
+20	teen-age	ADJ	O
+21	years	NOUN	O
+22	in	ADP	O
+23	San	PROPN	B-LOC
+24	Francisco	PROPN	I-LOC
+25	.	PUNCT	O
+
+1:3	13:15	birthplace
+
+1	Woodrow	PROPN	B-PER
+2	Wilson	PROPN	I-PER
+3	-LRB-	PUNCT	O
+4	28th	ADJ	O
+5	President	NOUN	O
+6	-RRB-	PUNCT	O
+7	:	PUNCT	O
+8	Born	VERB	O
+9	at	ADP	O
+10	about	ADP	O
+11	midnight	NOUN	O
+12	,	PUNCT	O
+13	leaving	AUX	O
+14	the	DET	O
+15	date	NOUN	O
+16	in	ADP	O
+17	doubt	NOUN	O
+18	,	PUNCT	O
+19	Dec.	PROPN	B-UNK
+20	28	NUM	O
+21	or	CONJ	O
+22	29	NUM	O
+23	,	PUNCT	O
+24	1856	NUM	O
+25	,	PUNCT	O
+26	in	ADP	O
+27	a	DET	O
+28	Presbyterian	ADJ	O
+29	manse	NOUN	O
+30	in	ADP	O
+31	Staunton	PROPN	B-LOC
+32	,	PUNCT	I-LOC
+33	Va	PROPN	I-LOC
+34	.	PUNCT	O
+
+1:2	31:33	birthplace
+
+1	Dwight	PROPN	B-PER
+2	D.	PROPN	I-PER
+3	Eisenhower	PROPN	I-PER
+4	-LRB-	PUNCT	O
+5	34th	NOUN	O
+6	President	NOUN	O
+7	-RRB-	PUNCT	O
+8	:	PUNCT	O
+9	Born	VERB	O
+10	Oct.	PROPN	B-UNK
+11	14	NUM	O
+12	,	PUNCT	O
+13	1890	NUM	O
+14	,	PUNCT	O
+15	Denison	PROPN	B-LOC
+16	,	PUNCT	I-LOC
+17	Tex.	PROPN	I-LOC
+18	,	PUNCT	O
+19	in	ADP	O
+20	a	DET	O
+21	two-story	ADJ	O
+22	white	ADJ	O
+23	frame	NOUN	O
+24	house	NOUN	O
+25	on	ADP	O
+26	what	PRON	O
+27	is	AUX	O
+28	now	ADV	O
+29	the	DET	O
+30	Eisenhower	PROPN	B-UNK
+31	State	PROPN	I-UNK
+32	Historic	PROPN	I-UNK
+33	Site	PROPN	I-UNK
+34	,	PUNCT	O
+35	208	NUM	O
+36	E.	PROPN	B-LOC
+37	Day	PROPN	I-LOC
+38	St.	PROPN	I-LOC
+39	,	PUNCT	O
+40	Denison	PROPN	B-LOC
+41	,	PUNCT	I-LOC
+42	Tex.	PROPN	I-LOC
+43	,	PUNCT	O
+44	-LRB-	PUNCT	O
+45	214	NUM	O
+46	-RRB-	PUNCT	O
+47	465-8908	NUM	O
+48	.	PUNCT	O
+
+1:3	15:17	birthplace
+
+1	Gerald	PROPN	B-PER
+2	R.	PROPN	I-PER
+3	Ford	PROPN	I-PER
+4	-LRB-	PUNCT	O
+5	38th	NOUN	O
+6	President	NOUN	O
+7	-RRB-	PUNCT	O
+8	:	PUNCT	O
+9	Born	VERB	O
+10	July	PROPN	B-UNK
+11	14	NUM	O
+12	,	PUNCT	O
+13	1913	NUM	O
+14	,	PUNCT	O
+15	in	ADP	O
+16	Omaha	PROPN	B-LOC
+17	,	PUNCT	I-LOC
+18	Neb	PROPN	I-LOC
+19	.	PUNCT	O
+
+1:3	16:18	birthplace
+
+1	Photo	PROPN	B-UNK
+2	,	PUNCT	O
+3	COLOR	PROPN	B-UNK
+4	,	PUNCT	O
+5	The	DET	O
+6	father	NOUN	O
+7	of	ADP	O
+8	our	PART	O
+9	34th	ADJ	O
+10	President	NOUN	O
+11	was	AUX	O
+12	working	AUX	O
+13	as	ADP	O
+14	a	DET	O
+15	railroad	NOUN	O
+16	laborer	NOUN	O
+17	when	ADV	O
+18	his	PART	O
+19	son	NOUN	O
+20	Dwight	PROPN	B-PER
+21	D.	PROPN	I-PER
+22	Eisenhower	PROPN	I-PER
+23	was	AUX	O
+24	born	VERB	O
+25	on	ADP	O
+26	Oct.	PROPN	B-UNK
+27	14	NUM	O
+28	,	PUNCT	O
+29	1890	NUM	O
+30	,	PUNCT	O
+31	in	ADP	O
+32	a	DET	O
+33	modest	ADJ	O
+34	two-story	ADJ	O
+35	frame	NOUN	O
+36	house	NOUN	O
+37	in	ADP	O
+38	Denison	PROPN	B-LOC
+39	,	PUNCT	I-LOC
+40	Tex	PROPN	I-LOC
+41	.	PUNCT	O
+
+20:22	38:40	birthplace
+
+1	Andrew	PROPN	B-PER
+2	Jackson	PROPN	I-PER
+3	,	PUNCT	O
+4	born	VERB	O
+5	March	PROPN	B-UNK
+6	15	NUM	O
+7	,	PUNCT	O
+8	1767	NUM	O
+9	,	PUNCT	O
+10	in	ADP	O
+11	Waxhaw	PROPN	B-LOC
+12	settlement	NOUN	O
+13	on	ADP	O
+14	the	DET	O
+15	farm	NOUN	O
+16	of	ADP	O
+17	his	PART	O
+18	aunt	NOUN	O
+19	near	ADP	O
+20	the	DET	O
+21	North	PROPN	B-LOC
+22	Carolina	PROPN	I-LOC
+23	South	PROPN	I-LOC
+24	Carolina	PROPN	I-LOC
+25	,	PUNCT	O
+26	but	CONJ	O
+27	before	ADP	O
+28	the	DET	O
+29	border	NOUN	O
+30	was	AUX	O
+31	drawn	VERB	O
+32	.	PUNCT	O
+
+1:2	11	birthplace
+1:2	21:24	birthplace
+
+1	George	PROPN	B-PER
+2	Washington	PROPN	I-PER
+3	-LRB-	PUNCT	O
+4	first	ADJ	O
+5	President	NOUN	O
+6	-RRB-	PUNCT	O
+7	:	PUNCT	O
+8	Born	VERB	O
+9	Feb.	PROPN	B-UNK
+10	22	NUM	O
+11	,	PUNCT	O
+12	1732	NUM	O
+13	,	PUNCT	O
+14	in	ADP	O
+15	Westmoreland	PROPN	B-LOC
+16	County	PROPN	I-LOC
+17	.	PUNCT	O
+
+1:2	15:16	birthplace
+
+1	Abraham	PROPN	B-PER
+2	Lincoln	PROPN	I-PER
+3	-LRB-	PUNCT	O
+4	16th	ADJ	O
+5	President	NOUN	O
+6	-RRB-	PUNCT	O
+7	:	PUNCT	O
+8	Born	VERB	O
+9	Feb.	PROPN	B-UNK
+10	12	NUM	O
+11	,	PUNCT	O
+12	1809	NUM	O
+13	,	PUNCT	O
+14	in	ADP	O
+15	a	DET	O
+16	one-room	ADJ	O
+17	log	NOUN	O
+18	cabin	NOUN	O
+19	in	ADP	O
+20	Hodgenville	PROPN	B-LOC
+21	,	PUNCT	I-LOC
+22	Ky.	PROPN	I-LOC
+23	,	PUNCT	O
+24	in	ADP	O
+25	rolling	AUX	O
+26	hills	NOUN	O
+27	in	ADP	O
+28	the	DET	O
+29	central	ADJ	O
+30	part	NOUN	O
+31	of	ADP	O
+32	the	DET	O
+33	state	NOUN	O
+34	.	PUNCT	O
+
+1:2	20:22	birthplace
+
+1	Ulysses	PROPN	B-PER
+2	S.	PROPN	I-PER
+3	Grant	PROPN	I-PER
+4	-LRB-	PUNCT	O
+5	18th	ADJ	O
+6	President	NOUN	B-LOC
+7	-RRB-	PUNCT	O
+8	:	PUNCT	O
+9	Born	VERB	O
+10	April	PROPN	B-UNK
+11	27	NUM	O
+12	,	PUNCT	O
+13	1822	NUM	O
+14	,	PUNCT	O
+15	in	ADP	O
+16	a	DET	O
+17	one-room	NOUN	O
+18	,	PUNCT	O
+19	16x19-foot	ADJ	O
+20	home	NOUN	O
+21	in	ADP	O
+22	Point	PROPN	B-LOC
+23	Pleasant	PROPN	I-LOC
+24	,	PUNCT	I-LOC
+25	Ohio	PROPN	I-LOC
+26	,	PUNCT	O
+27	overlooking	AUX	O
+28	the	DET	O
+29	Ohio	PROPN	B-LOC
+30	River	PROPN	I-LOC
+31	.	PUNCT	O
+
+1:3	22:25	birthplace
+
+1	Aldrin	PROPN	B-PER
+2	was	AUX	O
+3	born	VERB	O
+4	in	ADP	O
+5	Montclair	PROPN	B-LOC
+6	,	PUNCT	I-LOC
+7	N.J.	PROPN	I-LOC
+8	,	PUNCT	O
+9	and	CONJ	O
+10	christened	ADJ	O
+11	Edwin	PROPN	B-PER
+12	E.	PROPN	I-PER
+13	Aldrin	PROPN	I-PER
+14	Jr	PROPN	I-PER
+15	.	PUNCT	O
+
+1	5:7	birthplace
+11:14	5:7	birthplace
+
+1	Bette	PROPN	B-PER
+2	Davis	PROPN	I-PER
+3	was	AUX	O
+4	born	VERB	O
+5	Ruth	PROPN	B-PER
+6	Elizabeth	PROPN	I-PER
+7	Davis	PROPN	I-PER
+8	on	ADP	O
+9	April	PROPN	B-UNK
+10	5	NUM	O
+11	,	PUNCT	O
+12	1908	NUM	O
+13	,	PUNCT	O
+14	in	ADP	O
+15	Lowell	PROPN	B-LOC
+16	,	PUNCT	I-LOC
+17	Mass	PROPN	I-LOC
+18	.	PUNCT	O
+
+1:2	15:17	birthplace
+5:7	15:17	birthplace
+
+1	Miller	PROPN	B-PER
+2	is	AUX	O
+3	a	DET	O
+4	Wilmington	PROPN	B-LOC
+5	native	NOUN	O
+6	who	PRON	O
+7	was	AUX	O
+8	recruited	VERB	O
+9	by	ADP	O
+10	the	DET	O
+11	FBI	PROPN	B-UNK
+12	shortly	ADV	O
+13	after	ADP	O
+14	graduating	AUX	O
+15	from	ADP	O
+16	Brigham	PROPN	B-UNK
+17	Young	PROPN	I-UNK
+18	University	PROPN	I-UNK
+19	in	ADP	O
+20	Utah	PROPN	B-LOC
+21	.	PUNCT	O
+
+1	4	birthplace
+
+1	On	ADP	O
+2	Oct.	PROPN	B-UNK
+3	18	NUM	O
+4	,	PUNCT	O
+5	1921	NUM	O
+6	,	PUNCT	O
+7	Jesse	PROPN	B-PER
+8	Alexander	PROPN	I-PER
+9	Helms	PROPN	I-PER
+10	Jr.	PROPN	I-PER
+11	was	AUX	O
+12	born	VERB	O
+13	to	PRT	O
+14	a	DET	O
+15	policeman	NOUN	O
+16	and	CONJ	O
+17	his	PART	O
+18	wife	NOUN	O
+19	in	ADP	O
+20	Monroe	PROPN	B-LOC
+21	,	PUNCT	O
+22	population	NOUN	O
+23	3	NUM	O
+24	,	PUNCT	O
+25	000	NUM	O
+26	.	PUNCT	O
+
+7:10	20	birthplace
+
+1	There	DET	O
+2	are	AUX	O
+3	,	PUNCT	O
+4	to	PRT	O
+5	be	AUX	O
+6	sure	ADJ	O
+7	,	PUNCT	O
+8	WPA	PROPN	B-UNK
+9	accounts	NOUN	O
+10	of	ADP	O
+11	the	DET	O
+12	impact	NOUN	O
+13	of	ADP	O
+14	the	DET	O
+15	Depression	NOUN	O
+16	on	ADP	O
+17	rural	ADJ	O
+18	America	PROPN	B-UNK
+19	,	PUNCT	O
+20	great	ADJ	O
+21	photographs	NOUN	O
+22	by	ADP	O
+23	Walker	PROPN	B-PER
+24	Evans	PROPN	I-PER
+25	,	PUNCT	O
+26	but	CONJ	O
+27	North	PROPN	B-LOC
+28	Carolina	PROPN	I-LOC
+29	's	PART	O
+30	native	ADJ	O
+31	son	NOUN	O
+32	Thomas	PROPN	B-PER
+33	Wolfe	PROPN	I-PER
+34	,	PUNCT	O
+35	in	ADP	O
+36	"	NOUN	O
+37	You	PRON	O
+38	Can	AUX	O
+39	't	NOUN	O
+40	Go	AUX	O
+41	Home	NOUN	O
+42	Again	ADV	O
+43	,	PUNCT	O
+44	"	NOUN	O
+45	described	AUX	O
+46	more	ADJ	O
+47	lyrically	ADV	O
+48	the	DET	O
+49	repercussions	NOUN	O
+50	that	ADP	O
+51	events	NOUN	O
+52	on	ADP	O
+53	Wall	PROPN	B-UNK
+54	Street	PROPN	I-UNK
+55	had	AUX	O
+56	on	ADP	O
+57	his	PART	O
+58	state	NOUN	O
+59	,	PUNCT	O
+60	even	ADV	O
+61	in	ADP	O
+62	little	ADJ	O
+63	hollows	NOUN	O
+64	like	ADP	O
+65	Monroe	PROPN	B-UNK
+66	:	PUNCT	O
+
+32:33	27:28	birthplace
+
+1	You	PRON	O
+2	'll	AUX	O
+3	pass	AUX	O
+4	through	ADP	O
+5	Rolling	PROPN	B-LOC
+6	Fork	PROPN	I-LOC
+7	,	PUNCT	O
+8	where	ADV	O
+9	Muddy	PROPN	B-PER
+10	Waters	PROPN	I-PER
+11	was	AUX	O
+12	born	VERB	O
+13	,	PUNCT	O
+14	close	ADJ	O
+15	to	PRT	O
+16	Greenville	PROPN	B-LOC
+17	,	PUNCT	O
+18	home	NOUN	O
+19	of	ADP	O
+20	Nelson	PROPN	B-LOC
+21	Street	PROPN	I-LOC
+22	's	PART	O
+23	funky	ADJ	O
+24	strip	NOUN	O
+25	of	ADP	O
+26	blues	NOUN	O
+27	clubs	NOUN	O
+28	,	PUNCT	O
+29	and	CONJ	O
+30	into	ADP	O
+31	Clarksdale	PROPN	B-LOC
+32	,	PUNCT	O
+33	at	ADP	O
+34	the	DET	O
+35	intersection	NOUN	O
+36	of	ADP	O
+37	Highway	PROPN	B-UNK
+38	61	NUM	O
+39	and	CONJ	O
+40	another	DET	O
+41	major	ADJ	O
+42	road	NOUN	O
+43	in	ADP	O
+44	blues	NOUN	O
+45	lore	NOUN	O
+46	,	PUNCT	O
+47	U.S.	PROPN	B-UNK
+48	Highway	PROPN	I-UNK
+49	49.	AUX	O
+50	;	PUNCT	O
+
+9:10	5:6	birthplace
+
+1	The	DET	O
+2	House	PROPN	B-UNK
+3	voted	AUX	O
+4	Thursday	PROPN	B-UNK
+5	to	PRT	O
+6	withdraw	AUX	O
+7	a	DET	O
+8	grant	NOUN	O
+9	to	PRT	O
+10	develop	AUX	O
+11	bandleader	NOUN	O
+12	Lawrence	PROPN	B-PER
+13	Welk	PROPN	I-PER
+14	's	PART	O
+15	North	PROPN	B-LOC
+16	Dakota	PROPN	I-LOC
+17	hometown	NOUN	O
+18	,	PUNCT	O
+19	a	DET	O
+20	rural	ADJ	O
+21	development	NOUN	O
+22	project	NOUN	O
+23	that	DET	O
+24	became	AUX	O
+25	a	DET	O
+26	symbol	NOUN	O
+27	for	ADP	O
+28	wasteful	ADJ	O
+29	government	NOUN	O
+30	spending	NOUN	O
+31	last	ADJ	O
+32	fall	NOUN	O
+33	.	PUNCT	O
+
+12:13	15:16	birthplace
+
+1	He	PRON	O
+2	was	AUX	O
+3	one	NUM	O
+4	of	ADP	O
+5	the	DET	O
+6	first	ADJ	O
+7	to	PRT	O
+8	use	AUX	O
+9	color	NOUN	O
+10	in	ADP	O
+11	appliances	NOUN	O
+12	,	PUNCT	O
+13	first	ADV	O
+14	out	ADP	O
+15	of	ADP	O
+16	boredom	NOUN	O
+17	with	ADP	O
+18	black	ADJ	O
+19	and	CONJ	O
+20	white	ADJ	O
+21	and	CONJ	O
+22	later	ADV	O
+23	out	ADP	O
+24	of	ADP	O
+25	disgust	NOUN	O
+26	with	ADP	O
+27	what	PRON	O
+28	he	PRON	O
+29	calls	AUX	O
+30	"	NOUN	O
+31	that	ADP	O
+32	rash	NOUN	O
+33	of	ADP	O
+34	avocado	NOUN	O
+35	green	ADJ	O
+36	business	NOUN	O
+37	in	ADP	O
+38	the	DET	O
+39	'50s	NUM	O
+40	.	PUNCT	O
+41	"	NOUN	O
+42	;	PUNCT	O
+43	Many	ADJ	O
+44	consider	AUX	O
+45	him	PRON	O
+46	the	DET	O
+47	Frank	PROPN	B-PER
+48	Lloyd	PROPN	I-PER
+49	Wright	PROPN	I-PER
+50	of	ADP	O
+51	industrial	ADJ	O
+52	design	NOUN	O
+53	,	PUNCT	O
+54	not	ADV	O
+55	surprising	ADJ	O
+56	since	ADP	O
+57	both	DET	O
+58	men	NOUN	O
+59	were	AUX	O
+60	born	VERB	O
+61	and	CONJ	O
+62	raised	VERB	O
+63	in	ADP	O
+64	Wisconsin	PROPN	B-LOC
+65	and	CONJ	O
+66	did	AUX	O
+67	perhaps	ADV	O
+68	their	PART	O
+69	most	ADV	O
+70	important	ADJ	O
+71	work	NOUN	O
+72	in	ADP	O
+73	the	DET	O
+74	Midwest.	PROPN	B-LOC
+75	;	PUNCT	O
+
+47:49	64	birthplace
+
+1	The	DET	O
+2	compliment	NOUN	O
+3	is	AUX	O
+4	doubly	ADV	O
+5	interesting	ADJ	O
+6	because	ADP	O
+7	Tom	PROPN	B-PER
+8	Wolfe	PROPN	I-PER
+9	,	PUNCT	O
+10	born	VERB	O
+11	in	ADP	O
+12	Richmond	PROPN	B-LOC
+13	,	PUNCT	O
+14	was	AUX	O
+15	one	PRON	O
+16	of	ADP	O
+17	the	DET	O
+18	best	ADV	O
+19	known	VERB	O
+20	early	ADV	O
+21	practitioners	NOUN	O
+22	of	ADP	O
+23	the	DET	O
+24	so-called	ADJ	O
+25	"	NOUN	O
+26	new	ADJ	O
+27	journalism	NOUN	O
+28	,	PUNCT	O
+29	"	NOUN	O
+30	a	DET	O
+31	high-rolling	ADJ	O
+32	,	PUNCT	O
+33	lively	ADJ	O
+34	,	PUNCT	O
+35	often	ADV	O
+36	reckless	ADJ	O
+37	style	NOUN	O
+38	of	ADP	O
+39	reporting	AUX	O
+40	.	PUNCT	O
+
+7:8	12	birthplace
+
+1	I	PRON	O
+2	also	ADV	O
+3	feel	AUX	O
+4	obliged	VERB	O
+5	to	PRT	O
+6	point	AUX	O
+7	out	ADP	O
+8	that	ADP	O
+9	Jack	PROPN	B-PER
+10	Nicklaus	PROPN	I-PER
+11	thinks	AUX	O
+12	so	ADV	O
+13	highly	ADV	O
+14	of	ADP	O
+15	Muirfield	PROPN	B-PER
+16	that	ADP	O
+17	he	PRON	O
+18	named	AUX	O
+19	a	DET	O
+20	course	NOUN	O
+21	he	PRON	O
+22	built	AUX	O
+23	in	ADP	O
+24	his	PART	O
+25	native	NOUN	O
+26	Ohio	PROPN	B-LOC
+27	after	ADP	O
+28	it	PRON	O
+29	.	PUNCT	O
+
+9:10	26	birthplace
+
+1	Actress	PROPN	B-PER
+2	Angie	PROPN	I-PER
+3	Dickinson	PROPN	I-PER
+4	,	PUNCT	O
+5	who	PRON	O
+6	was	AUX	O
+7	born	VERB	O
+8	in	ADP	O
+9	Kulm	PROPN	B-LOC
+10	,	PUNCT	I-LOC
+11	N.D.	PROPN	I-LOC
+12	,	PUNCT	O
+13	donated	AUX	O
+14	a	DET	O
+15	coat	NOUN	O
+16	she	PRON	O
+17	wore	AUX	O
+18	to	PRT	O
+19	the	DET	O
+20	1966	NUM	O
+21	Academy	PROPN	B-UNK
+22	Awards	PROPN	I-UNK
+
+1:3	9:11	birthplace
+
+1	Mr.	PROPN	B-PER
+2	Vee	PROPN	I-PER
+3	,	PUNCT	O
+4	a	DET	O
+5	Fargo	PROPN	B-LOC
+6	native	NOUN	O
+7	,	PUNCT	O
+8	sent	AUX	O
+9	one	NUM	O
+10	of	ADP	O
+11	his	PART	O
+12	recording	NOUN	O
+13	contracts	NOUN	O
+14	and	CONJ	O
+15	an	DET	O
+16	old	ADJ	O
+17	sweater.	NOUN	O
+
+1:2	5	birthplace
+
+1	True	ADJ	O
+2	,	PUNCT	O
+3	Woodrow	PROPN	B-PER
+4	Wilson	PROPN	I-PER
+5	was	AUX	O
+6	born	VERB	O
+7	in	ADP	O
+8	Virginia	PROPN	B-LOC
+9	,	PUNCT	O
+10	but	CONJ	O
+11	he	PRON	O
+12	won	AUX	O
+13	his	PART	O
+14	political	ADJ	O
+15	fame	NOUN	O
+16	as	ADP	O
+17	governor	NOUN	O
+18	of	ADP	O
+19	New	PROPN	B-LOC
+20	Jersey	PROPN	I-LOC
+21	,	PUNCT	O
+22	so	ADP	O
+23	he	PRON	O
+24	hardly	ADV	O
+25	counted	AUX	O
+26	as	ADP	O
+27	a	DET	O
+28	Southerner	PROPN	B-UNK
+29	in	ADP	O
+30	political	ADJ	O
+31	terms	NOUN	O
+32	.	PUNCT	O
+
+3:4	8	birthplace
+
+1	Philadelphia	PROPN	B-UNK
+2	Museum	PROPN	I-UNK
+3	of	ADP	O
+4	Art	NOUN	O
+5	:	PUNCT	O
+6	"	NOUN	O
+7	Perpetual	ADJ	O
+8	Motif	NOUN	O
+9	:	PUNCT	O
+10	The	DET	O
+11	Art	NOUN	O
+12	of	ADP	O
+13	Man	PROPN	B-PER
+14	Ray	PROPN	I-PER
+15	"	NOUN	O
+16	--	PUNCT	O
+17	More	ADJ	O
+18	than	ADP	O
+19	250	NUM	O
+20	paintings	NOUN	O
+21	,	PUNCT	O
+22	collages	NOUN	O
+23	,	PUNCT	O
+24	drawings	NOUN	O
+25	,	PUNCT	O
+26	photographs	NOUN	O
+27	,	PUNCT	O
+28	objects	NOUN	O
+29	and	CONJ	O
+30	films	NOUN	O
+31	commemorate	AUX	O
+32	the	DET	O
+33	centennial	NOUN	O
+34	of	ADP	O
+35	the	DET	O
+36	artist	NOUN	O
+37	's	PART	O
+38	birth	NOUN	O
+39	in	ADP	O
+40	Philadelphia	PROPN	B-LOC
+41	.	PUNCT	O
+
+13:14	40	birthplace
+
+1	Pennsylvania	PROPN	B-UNK
+2	Academy	PROPN	I-UNK
+3	of	ADP	O
+4	the	DET	O
+5	Fine	PROPN	B-UNK
+6	Arts	PROPN	I-UNK
+7	,	PUNCT	O
+8	Philadelphia	PROPN	B-LOC
+9	:	PUNCT	O
+10	"	NOUN	O
+11	Sculptures	PROPN	B-UNK
+12	by	ADP	O
+13	Duane	PROPN	B-PER
+14	Hanson	PROPN	I-PER
+15	"	NOUN	O
+16	--	PUNCT	O
+17	Seventeen	NUM	O
+18	life-size	NOUN	O
+19	and	CONJ	O
+20	extraordinarily	ADV	O
+21	lifelike	NOUN	O
+22	polyvinyl	NOUN	O
+23	people	NOUN	O
+24	sculptures	NOUN	O
+25	created	VERB	O
+26	by	ADP	O
+27	this	DET	O
+28	Minnesota	PROPN	B-LOC
+29	born	VERB	O
+30	artist	NOUN	O
+31	.	PUNCT	O
+
+13:14	28	birthplace
+
+1	As	ADP	O
+2	a	DET	O
+3	real	ADJ	O
+4	native	NOUN	O
+5	Detroiter	PROPN	B-UNK
+6	,	PUNCT	O
+7	I	PRON	O
+8	want	AUX	O
+9	to	PRT	O
+10	remind	AUX	O
+11	everyone	NOUN	O
+12	that	ADP	O
+13	Madonna	PROPN	B-PER
+14	is	AUX	O
+15	from	ADP	O
+16	Bay	PROPN	B-LOC
+17	City	PROPN	I-LOC
+18	,	PUNCT	I-LOC
+19	Mich.	PROPN	I-LOC
+20	,	PUNCT	O
+21	a	DET	O
+22	nice	ADJ	O
+23	place	NOUN	O
+24	in	ADP	O
+25	the	DET	O
+26	thumb	NOUN	O
+27	of	ADP	O
+28	the	DET	O
+29	state	NOUN	O
+30	's	PART	O
+31	lower	ADJ	O
+32	peninsula	NOUN	O
+33	.	PUNCT	O
+
+13	16:19	birthplace
+
+1	An-a-one	PROPN	B-UNK
+2	,	PUNCT	O
+3	an-a-two	ADJ	O
+4	,	PUNCT	O
+5	an-a-three	ADJ	O
+6	billion	NUM	O
+7	-RRB-	PUNCT	O
+8	Taxpayers	NOUN	O
+9	will	AUX	O
+10	be	AUX	O
+11	pleased	ADJ	O
+12	to	PRT	O
+13	learn	AUX	O
+14	that	ADP	O
+15	a	DET	O
+16	federal	ADJ	O
+17	grant	NOUN	O
+18	for	ADP	O
+19	Lawrence	PROPN	B-PER
+20	Welk	PROPN	I-PER
+21	's	PART	O
+22	North	PROPN	B-LOC
+23	Dakota	PROPN	I-LOC
+24	birthplace	NOUN	O
+25	has	AUX	O
+26	finally	ADV	O
+27	been	VERB	O
+28	buried	VERB	O
+29	,	PUNCT	O
+30	nine	NUM	O
+31	months	NOUN	O
+32	after	ADP	O
+33	an	DET	O
+34	embarrassed	AUX	O
+35	Congress	PROPN	B-UNK
+36	voted	AUX	O
+37	to	PRT	O
+38	kill	AUX	O
+39	it	PRON	O
+40	.	PUNCT	O
+
+19:20	22:23	birthplace
+
