@@ -36,9 +36,7 @@ def featurize(sentence, e1, e2, pos):
     feature.append('order='+str(e2['start'] - e1['end'] > 0))
 
     #Distance:
-    feature.append(str(e2['start'] - e1['end'] if feature[-1] else e1['start'] - e2['end']))
-
-    #Position in sentence:
+    feature.append(str(e2['start'] - e1['end'] if e2['start'] - e1['end'] > 0 else e1['start'] - e2['end']))
 
     #Words, index and POS of entities:
     for i in xrange(e1['start'], e1['end']):
@@ -51,8 +49,12 @@ def featurize(sentence, e1, e2, pos):
         feature.append('e2_word_'+str(i-e2['start'])+'='+sentence[i])
         feature.append('e2_pos_'+str(i-e2['start'])+'='+pos[i])
 
-    #Cheat feature. Remove this
-    #feature.append(1.0 if 'Oswald' in sentence[e1['start']:e1['end']+1] and 'Kennedy' in sentence[e2['start']:e2['end']+1] else -1.0)
+    r = xrange(e1['end']+1, e2['start']) if e2['start'] - e1['end'] > 0 else xrange(e2['end']+1, e1['start'])
+    first_entity_end = e1['end']+1 if e2['start'] - e1['end'] > 0 else e2['end']+1
+    for j in r:
+        feature.append('between_word='+sentence[j])
+        feature.append('between_pos='+pos[j])
+
 
     return feature
 
@@ -375,7 +377,8 @@ if __name__ == '__main__':
 
         print "preprocessing"
         # Get the data:
-        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/kill+birthplace.data')
+        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
+        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data')
 
         print "setting up"
         # Create a test model:
@@ -385,13 +388,9 @@ if __name__ == '__main__':
         # Train the model:
         rc.fit_sentences(zip(sentences, ne, pos), relations)
 
-
-        print "predicting"
-        rc.predict_sentences(zip(sentences, ne, pos))
-
         #Evaluate on train data:
         print "evaluating"
-        print rc.evaluate_sentences(zip(sentences, ne, pos), relations)
+        print rc.evaluate_sentences(zip(test_sentences, test_ne, test_pos), test_relations)
 
         '''
         Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
