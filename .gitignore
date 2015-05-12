@@ -13,6 +13,7 @@ __pycache__/
 *.train
 *.model
 *.dev
+*.baseline
 
 # C extensions
 *.so
