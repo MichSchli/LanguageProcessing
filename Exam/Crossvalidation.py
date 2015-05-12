@@ -1,8 +1,11 @@
 __author__ = 'Michael'
 
 from itertools import chain
+import RelationExtraction
+from matplotlib import pyplot as plt
+import numpy as np
 
-def cross_validate(data, labels, k, create_and_fit, evaluate, params):
+def cross_validate(data, labels, k, create, params):
     #Split into evenly sized chunks
     samples_per_fold = len(data)/k
     data_folds = [list(t) for t in zip(*[iter(data)]*samples_per_fold)]
@@ -29,10 +32,57 @@ def cross_validate(data, labels, k, create_and_fit, evaluate, params):
         train_data = list(chain.from_iterable(train_data))
         train_labels = list(chain.from_iterable(train_labels))
 
-        #Create a classifier and fit it to the data:
-        cvf = create_and_fit(train_data, train_labels, *params)
+        #Create a classifier
+        model = create(*params)
+
+        #Fit the classifier to the data:
+        model.fit_sentences(train_data, train_labels)
 
         #Evaluate accuracy
-        acc += evaluate(cvf, validate_data, validate_labels)
+        acc += model.evaluate_sentences(validate_data, validate_labels)[-1]
 
     return acc/float(k)
+
+
+def do_grid_search(data, labels, range1, range2, cval_func):
+    results = np.ndarray((len(range1),len(range2)))
+
+    best = None
+    best_result = 1.0
+    for i,C in enumerate(range1):
+        for j,gamma in enumerate(range2):
+            print C, gamma
+            results[i][j] = cval_func(data, labels, C, gamma)
+
+            if results[i][j] < best_result:
+                best_result = results[i][j]
+                best = (C, gamma)
+
+    # draw heatmap of accuracy as a function of gamma and C
+    plt.figure(figsize=(8, 6))
+    plt.subplots_adjust(left=0.05, right=0.95, bottom=0.2, top=0.95)
+    plt.imshow(results, interpolation='nearest', cmap=plt.cm.spectral)
+    plt.clim(0,1)
+    plt.title('Heatmap of f1 score')
+    plt.xlabel('Value 2')
+    plt.ylabel('Value 1')
+    plt.colorbar()
+    plt.xticks(np.arange(len(range2)), range2, rotation=45)
+    plt.yticks(np.arange(len(range1)), range1)
+
+    plt.show()
+
+    return best[0], best[1], best_result
+
+
+
+def find_best_svm_params_detector(data, labels):
+    def create(mode, p):
+        return RelationExtraction.RelationDetector(mode, p)
+
+    scale = [10**v for v in xrange(-8,8)]
+
+    def cval_func(data, labels, param1, param2):
+        return cross_validate(data, labels, 5, create, ['SVM', [param1, param2]])
+
+    do_grid_search(data, labels, scale, scale, cval_func)
