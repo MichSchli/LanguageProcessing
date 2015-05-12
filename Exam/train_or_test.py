@@ -2,8 +2,8 @@ import sys
 import codecs
 
 def train_or_test(inputfile):
-    train_file = open('train_data', 'w')
-    test_file = open('test_data', 'w')
+    train_file = open('data/train_data', 'w')
+    test_file = open('data/test_data', 'w')
     
     sentences, relations, nes, poss = parse_full_re_file(inputfile)
     # Making a boundary for how much training and testing data we want
