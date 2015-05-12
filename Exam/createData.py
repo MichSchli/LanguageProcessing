@@ -1,8 +1,9 @@
 import sys
 import codecs
 import argparse
+import Preprocessing as P
 
-def extract_data(file_ner,file_pos,separator=" "):
+def extract_data(separator=' '):
     """
     extract token-level data (features) from file that is NER tagged and the corresponding POS file 
     this method should output the format expected by the crfsuite script, i.e., nerfeats.py
@@ -18,15 +19,13 @@ def extract_data(file_ner,file_pos,separator=" "):
     """
 
     # read NER and POS from the two files
-    words_tags=read_conll_file(file_ner)
-    words_pos=read_conll_file(file_pos)
+    sentences, _, neses, poses = P.parse_full_re_file('data/kill+birthplace.data')
     
-    ## some checks, e.g., that both files have same length, same tokens
-    assert(len(words_tags)==len(words_pos))
-    
-    for (words,tags),(_,pos) in zip(words_tags,words_pos):
-        for word,pos,tag in zip(words,pos,tags):
+    for i in xrange(len(sentences)):
+        for word,pos,tag in zip(sentences[i],poses[i],neses[i]):
+            print "HEJ " + pos + tag
             # first letter is capitalized
+            # HERE'S SOME FEATURES #
             cap="+" if word[0].isupper() else "-"
             hyphen = '+' if '-' in word else '-'
             l = str(len(word))
@@ -79,9 +78,9 @@ def read_conll_file(file_name):
 if __name__=="__main__":
 
     # parse command line options
-    parser = argparse.ArgumentParser(description="""Run a structured perceptron""")
-    parser.add_argument("--ner", help="NER file (CoNLL format)", required=True)
-    parser.add_argument("--pos", help="POS file (CoNLL format)", required=True)
-    args = parser.parse_args()
+    #parser = argparse.ArgumentParser(description="""Run a structured perceptron""")
+    #parser.add_argument("--ner", help="NER file (CoNLL format)", required=True)
+    #parser.add_argument("--pos", help="POS file (CoNLL format)", required=True)
+    #args = parser.parse_args()
 
-    extract_data(args.ner,args.pos)
+    extract_data()
