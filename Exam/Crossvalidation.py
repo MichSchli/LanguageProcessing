@@ -4,6 +4,7 @@ from itertools import chain
 import RelationExtraction
 from matplotlib import pyplot as plt
 import numpy as np
+import PartOfSpeechTagger as POS
 
 def cross_validate(data, labels, k, create, params):
     #Split into evenly sized chunks
@@ -86,3 +87,10 @@ def find_best_svm_params_detector(data, labels):
         return cross_validate(data, labels, 5, create, ['SVM', [param1, param2]])
 
     do_grid_search(data, labels, scale, scale, cval_func)
+
+
+def evaluate_pos_tagger(data, labels):
+    def create():
+        return POS.StructuredPerceptron()
+
+    return cross_validate(data, labels, 5, create, [])
