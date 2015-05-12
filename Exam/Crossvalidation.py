@@ -47,13 +47,14 @@ def cross_validate(data, labels, k, create, params):
 
 def do_grid_search(data, labels, range1, range2, cval_func):
     results = np.ndarray((len(range1),len(range2)))
+    print "Doing grid search..."
 
     best = None
     best_result = 1.0
     for i,C in enumerate(range1):
         for j,gamma in enumerate(range2):
-            print C, gamma
             results[i][j] = cval_func(data, labels, C, gamma)
+            print C, gamma, results[i][j]
 
             if results[i][j] < best_result:
                 best_result = results[i][j]
@@ -81,7 +82,7 @@ def find_best_svm_params_detector(data, labels):
     def create(mode, p):
         return RelationExtraction.RelationDetector(mode, p)
 
-    scale = [10**v for v in xrange(-8,8)]
+    scale = [10**v for v in xrange(-6,6)]
 
     def cval_func(data, labels, param1, param2):
         return cross_validate(data, labels, 5, create, ['SVM', [param1, param2]])

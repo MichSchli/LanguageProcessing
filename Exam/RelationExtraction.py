@@ -2,6 +2,7 @@ __author__ = 'Michael'
 
 from sklearn import svm
 from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction import FeatureHasher
 import argparse
 import Preprocessing
 import itertools
@@ -19,6 +20,7 @@ TESTED_NER = ['PER', 'LOC']
 # Labels:
 LABEL_NAMES = ['negative', 'kill', 'birthplace']
 
+
 #Featurize a 4-tuple consisting of sentence and indices for entities:
 def featurize(sentence, e1, e2, pos):
     #Sanity check. We can speed stuff up slightly by getting rid of this:
@@ -27,15 +29,27 @@ def featurize(sentence, e1, e2, pos):
     assert 0 <= e2['start'] <= e2['end']
     assert e2['end'] < len(sentence)
 
-    #Binary variables representing the NE type of the first element of the entity:
-    feature = [1.0 if (t in e1['type']) else -1.0 for t in TESTED_NER]
-    feature.extend([1.0 if (t in e1['type']) else -1.0 for t in TESTED_NER])
+    #NE type of the first element of the entities:
+    feature = ['e1_type='+e1['type'][2:],'e2_type='+e2['type'][2:]]
 
     #Order of the two:
-    feature.append(e2['start'] - e1['end'] > 0)
+    feature.append('order='+str(e2['start'] - e1['end'] > 0))
 
     #Distance:
-    feature.append(e2['start'] - e1['end'] if feature[-1] else e1['start'] - e2['end'])
+    feature.append(str(e2['start'] - e1['end'] if feature[-1] else e1['start'] - e2['end']))
+
+    #Position in sentence:
+
+    #Words, index and POS of entities:
+    for i in xrange(e1['start'], e1['end']):
+        feature.append('e1_index_'+str(i-e1['start'])+'='+str(i))
+        feature.append('e1_word_'+str(i-e1['start'])+'='+sentence[i])
+        feature.append('e1_pos_'+str(i-e1['start'])+'='+pos[i])
+
+    for i in xrange(e2['start'], e2['end']):
+        feature.append('e2_index_'+str(i-e2['start'])+'='+str(i))
+        feature.append('e2_word_'+str(i-e2['start'])+'='+sentence[i])
+        feature.append('e2_pos_'+str(i-e2['start'])+'='+pos[i])
 
     #Cheat feature. Remove this
     #feature.append(1.0 if 'Oswald' in sentence[e1['start']:e1['end']+1] and 'Kennedy' in sentence[e2['start']:e2['end']+1] else -1.0)
@@ -62,9 +76,11 @@ class RelationDetector():
 
     classifier = None
     mode = None
+    feature_hasher = None
 
     def __init__(self, mode, params=[1,1]):
         self.mode = mode
+        self.feature_hasher = FeatureHasher(input_type='string')
 
         if mode == 'SVM':
             self.classifier = svm.SVC(kernel='rbf', C=params[0], gamma=params[1])
@@ -87,6 +103,9 @@ class RelationDetector():
             global_features.extend(local_features)
             global_labels.extend(local_labels)
 
+        #Do the featurization:
+        global_features = self.feature_hasher.transform(global_features)
+
         #Train the classifier:
         self.fit(global_features, global_labels)
 
@@ -100,6 +119,7 @@ class RelationDetector():
 
             #Featurize the combinations:
             features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+            features = self.feature_hasher.transform(features)
 
             #Make a set of sentence predictions:
             predictions = self.predict(features)
@@ -356,7 +376,7 @@ if __name__ == '__main__':
         print "preprocessing"
         # Get the data:
         sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/kill+birthplace.data')
-        '''
+
         print "setting up"
         # Create a test model:
         rc = RelationDetector('SVM', [1000, 0.01])
@@ -372,6 +392,7 @@ if __name__ == '__main__':
         #Evaluate on train data:
         print "evaluating"
         print rc.evaluate_sentences(zip(sentences, ne, pos), relations)
+
         '''
         Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
 
@@ -380,3 +401,4 @@ if __name__ == '__main__':
 
         #rc = RelationClassifier('extra_label', [1000, 0.01])
         #print rc.evaluate(sentences, ne, pos, relations,sentences, ne, pos, relations)
+        '''
