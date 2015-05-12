@@ -183,6 +183,7 @@ class RelationClassifier():
 
     def predict_sentences(self, train_data, discovered_relations):
         pass
+
 '''
 Legacy:
 '''
