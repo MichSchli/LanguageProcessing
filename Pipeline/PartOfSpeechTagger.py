@@ -303,7 +303,7 @@ if __name__=="__main__":
     nl_sp = StructuredPerceptron()
     pt_sp = StructuredPerceptron()
 
-    en_sp.load('models/sp-en.model')
+    en_sp.load('models/postagger.model')
     nl_sp.load('models/sp-nl.model')
     pt_sp.load('models/sp-pt.model')
 

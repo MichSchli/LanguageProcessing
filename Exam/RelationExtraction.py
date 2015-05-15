@@ -10,6 +10,7 @@ import Postprocessing
 import Metrics
 import numpy as np
 import Crossvalidation
+import sys
 
 '''
 Utility methods:
@@ -18,7 +19,7 @@ Utility methods:
 TESTED_NER = ['PER', 'LOC']
 
 # Labels:
-LABEL_NAMES = ['negative', 'kill', 'birthplace']
+LABEL_NAMES = ['', 'kill', 'birthplace']
 
 
 #Featurize a 4-tuple consisting of sentence and indices for entities:
@@ -155,7 +156,6 @@ class RelationDetector():
         return Metrics.precision(pred, gold, 2),Metrics.recall(pred, gold, 2),Metrics.f1(pred, gold, 2)
 
 
-
 '''
 Relation classification:
 '''
@@ -165,9 +165,11 @@ class RelationClassifier():
 
     mode = None
     classifier = None
+    feature_hasher = None
 
     def __init__(self, mode, params):
         self.mode = mode
+        self.feature_hasher = FeatureHasher(input_type='string')
 
         if mode == 'SVM':
             self.classifier = svm.SVC(kernel='rbf', C=params[0], gamma=params[1])
@@ -182,8 +184,8 @@ class RelationClassifier():
     def predict(self, data):
         return self.classifier.predict(data)
 
-    #Fit the relation detector to a dataset of sentences with a corresponding set of accepted relations
-    def fit_sentences(self, train_data, relations):
+    #Fit the relation detector to a dataset of sentences with a corresponding set of relations
+    def fit_sentences(self, train_data, train_relations):
         global_features = []
         global_labels = []
         for i, data in enumerate(train_data):
@@ -191,20 +193,80 @@ class RelationClassifier():
 
             #Get all combinations of named entities that actually have a match:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
-            ne_combinations = [c for c in ne_combinations if has_match(n[0], n[1], relations[i])]
+            ne_combinations = [n for n in ne_combinations if has_match(n[0], n[1], train_relations[i])]
 
             #Featurize the combinations:
             local_features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
-            local_labels = [self.get_match(n[0], n[1], relations[i]) for n in ne_combinations]
+            local_labels = [get_match(n[0], n[1], train_relations[i]) for n in ne_combinations]
 
             global_features.extend(local_features)
             global_labels.extend(local_labels)
 
+        #Do the featurization:
+        global_features = self.feature_hasher.transform(global_features)
+
+        #Put the labels on number format:
+        global_labels = [LABEL_NAMES.index(l) for l in global_labels]
+
         #Train the classifier:
         self.fit(global_features, global_labels)
 
-    def predict_sentences(self, train_data, discovered_relations):
-        pass
+    #Construct predictions corresponding to a set of data and a set of discovered relations:
+    def predict_sentences(self, test_data, discovered_relations, output_dictionary=False):
+        extracted_relations = []
+        for i, data in enumerate(test_data):
+            sentence, ne, pos = data
+
+            #Get all combinations of named entities:
+            ne_combinations = map(list, itertools.product(ne, repeat=2))
+
+            #Featurize the combinations:
+            features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+
+            #Do the featurization:
+            features = self.feature_hasher.transform(features)
+
+            #Make a set of sentence predictions:
+            predictions = self.predict(features)
+
+            #Keep only the ones with discovered relations (this is a somewhat slow way to do it, but the code is short):
+            predictions = [predictions[j]*discovered_relations[i][j] for j in xrange(len(ne_combinations))]
+
+            #Output the predictions on dictionary format:
+            if output_dictionary:
+                extracted_relations.append([])
+                for k in xrange(len(predictions)):
+                    if predictions[k] != 0:
+                        e1 = ne_combinations[k][0]
+                        e2 = ne_combinations[k][1]
+                        extracted_relations[-1].append(
+                        {'type': LABEL_NAMES[predictions[k]], 'e1_start': e1['start'], 'e1_end': e1['end'],
+                         'e2_start': e2['start'], 'e2_end': e2['end']})
+            else:
+                extracted_relations.append(predictions)
+
+        return extracted_relations
+
+    #Evaluate on a dataset:
+    def evaluate_sentences(self, test_data, test_relations):
+        #TODO: cheat eval here
+
+
+        sentence_pred = self.predict_sentences(test_data)
+        pred = list(itertools.chain(*sentence_pred))
+
+        gold = []
+        for i,data in enumerate(test_data):
+            sentence, ne, pos = data
+
+            #Get all combinations of named entities:
+            ne_combinations = map(list, itertools.product(ne, repeat=2))
+
+            gold.extend([get_match(n[0], n[1], test_relations[i]) for n in ne_combinations])
+
+        return Metrics.precision(pred, gold, 2),Metrics.recall(pred, gold, 2),Metrics.f1(pred, gold, 2)
+
+
 
 '''
 Legacy:
@@ -375,23 +437,38 @@ if __name__ == '__main__':
 
     if args.noshell:
 
-        print "preprocessing"
+        print >> sys.stderr, "preprocessing"
         # Get the data:
         sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
         test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data')
 
-        print "setting up"
+        print >> sys.stderr, "setting up"
         # Create a test model:
         rc = RelationDetector('SVM', [1000, 0.01])
 
-        print "fitting"
+        print >> sys.stderr, "fitting"
         # Train the model:
         rc.fit_sentences(zip(sentences, ne, pos), relations)
 
+        print >> sys.stderr, "predict relations..."
+        pred = rc.predict_sentences(zip(sentences, ne, pos))
+
+        print >> sys.stderr, "set up classifier"
+        rcl = RelationClassifier('SVM', [1000, 0.01])
+
+        print >> sys.stderr, "training classifier..."
+        rcl.fit_sentences(zip(sentences, ne, pos), relations)
+
+        print >> sys.stderr, "classifying"
+        predictions = rcl.predict_sentences(zip(sentences, ne, pos), pred, output_dictionary=True)
+
+        Postprocessing.print_sentence_relation_list(sentences, predictions)
+
         #Evaluate on train data:
+        '''
         print "evaluating"
         print rc.evaluate_sentences(zip(test_sentences, test_ne, test_pos), test_relations)
-
+        '''
         '''
         Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
 

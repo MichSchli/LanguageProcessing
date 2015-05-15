@@ -29,7 +29,7 @@ def test_structured_perceptron():
         test_data.append(d)
         test_labels.append(l)
 
-    acc_en = test_model(test_data, test_labels, model, 'models/sp-en.model')
+    acc_en = test_model(test_data, test_labels, model, 'models/postagger.model')
     print "Accuracy on english:", acc_en
 
     model = pos.StructuredPerceptron()
