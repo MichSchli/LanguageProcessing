@@ -36,7 +36,6 @@ def read_RE_file(file_name):
 
             if len(fields) == 3:
                 # print fields
-                rel_output = True
 
                 arg0 = fields[0]
                 if ':' in arg0:
@@ -64,6 +63,8 @@ def read_RE_file(file_name):
                 rel_output = False
                 yield instance
                 instance = []
+            else:
+                rel_output = True
 
     if rel_output and instance:
         yield instance
@@ -97,7 +98,7 @@ false_negatives = defaultdict(float)
 
 for gold_instance, prediction_instance in zip(gold, predictions):
     matched_predictions = [False] * len(prediction_instance)
-
+    print gold_instance, prediction_instance
     for (gold_arg0, gold_arg1, gold_rel) in gold_instance:
         match = False
         for i, (prediction_arg0, prediction_arg1, prediction_rel) in enumerate(prediction_instance):
