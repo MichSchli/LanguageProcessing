@@ -20,7 +20,7 @@ def extract_data(sentences, pos, separator=' '):
 
     n_sentences = len(sentences)
 
-    for i in n_sentences:
+    for i in xrange(n_sentences):
         for word,pos in zip(sentences[i],pos[i]):
             # first letter is capitalized
             # HERE'S SOME FEATURES #
