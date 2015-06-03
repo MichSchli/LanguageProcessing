@@ -11,6 +11,7 @@ import Metrics
 import numpy as np
 import Crossvalidation
 import sys
+from sklearn.externals import joblib
 
 '''
 Utility methods:
@@ -80,6 +81,11 @@ class RelationDetector():
     classifier = None
     mode = None
     feature_hasher = None
+    def save(self, filename):
+        joblib.dump(self.classifier, filename)
+
+    def load(self, filename):
+        self.classifier = joblib.load(filename)
 
     def __init__(self, mode, params=[1,1]):
         self.mode = mode
@@ -166,6 +172,12 @@ class RelationClassifier():
     mode = None
     classifier = None
     feature_hasher = None
+    
+    def save(self, filename):
+        joblib.dump(self.classifier, filename)
+
+    def load(self, filename):
+        self.classifier = joblib.load(filename)
 
     def __init__(self, mode, params):
         self.mode = mode
@@ -281,8 +293,8 @@ if __name__ == '__main__':
 
         print >> sys.stderr, "preprocessing"
         # Get the data:
-        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
-        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data')
+        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data.data')
+        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data.data')
 
         print >> sys.stderr, "setting up"
         # Create a test model:
@@ -311,30 +323,38 @@ if __name__ == '__main__':
 
     else:
         if args.sentences and args.pos and args.ne:
-            sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
+            sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data.data')
             # Create a test model:
             rc = RelationDetector('SVM', [1000, 0.01])
 
             print >> sys.stderr, "fitting"
             # Train the model:
             rc.fit_sentences(zip(sentences, ne, pos), relations)
+            rc.save('models/r_class.model')
+            rc = RelationDetector('SVM', [1000, 0.01])
+            rc.load('models/r_class.model')
 
             print >> sys.stderr, "set up classifier"
             rcl = RelationClassifier('SVM', [1000, 0.01])
 
             print >> sys.stderr, "training classifier..."
             rcl.fit_sentences(zip(sentences, ne, pos), relations)
+            rc.save('models/r_labeler.model')
+            rc = RelationDetector('SVM', [1000, 0.01])
+            rc.load('models/r_labeler.model')
+
 
             sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
             pos = Preprocessing.parse_processed_sentence_file(args.pos)
-            ne = Preprocessing.parse_processed_sentence_file(args.ne)
+            ne_plain = Preprocessing.parse_processed_sentence_file(args.ne)
+            ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
 
             print >> sys.stderr, "predict relations..."
             pred = rc.predict_sentences(zip(sentences, ne, pos))
 
             print >> sys.stderr, "classifying"
             predictions = rcl.predict_sentences(zip(sentences, ne, pos), pred, output_dictionary=True)
-            Postprocessing.print_sentence_relation_list(sentences, predictions)
+            Postprocessing.print_sentence_pos_ne_relation_list(sentences, pos, ne_plain, predictions)
 
         else:
             print >> sys.stderr, 'Missing input'

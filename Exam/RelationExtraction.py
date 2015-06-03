@@ -11,6 +11,7 @@ import Metrics
 import numpy as np
 import Crossvalidation
 import sys
+from sklearn.externals import joblib
 
 '''
 Utility methods:
@@ -80,6 +81,11 @@ class RelationDetector():
     classifier = None
     mode = None
     feature_hasher = None
+    def save(self, filename):
+        joblib.dump(self.classifier, filename)
+
+    def load(self, filename):
+        self.classifier = joblib.load(filename)
 
     def __init__(self, mode, params=[1,1]):
         self.mode = mode
@@ -166,6 +172,12 @@ class RelationClassifier():
     mode = None
     classifier = None
     feature_hasher = None
+    
+    def save(self, filename):
+        joblib.dump(self.classifier, filename)
+
+    def load(self, filename):
+        self.classifier = joblib.load(filename)
 
     def __init__(self, mode, params):
         self.mode = mode
@@ -318,12 +330,19 @@ if __name__ == '__main__':
             print >> sys.stderr, "fitting"
             # Train the model:
             rc.fit_sentences(zip(sentences, ne, pos), relations)
+            rc.save('models/r_detect.model')
+            rc = RelationDetector('SVM', [1000, 0.01])
+            rc.load('models/r_detect.model')
 
             print >> sys.stderr, "set up classifier"
             rcl = RelationClassifier('SVM', [1000, 0.01])
 
             print >> sys.stderr, "training classifier..."
             rcl.fit_sentences(zip(sentences, ne, pos), relations)
+            rcl.save('models/r_class.model')
+            rcl = RelationClassifier('SVM', [1000, 0.01])
+            rcl.load('models/r_class.model')
+
 
             sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
             pos = Preprocessing.parse_processed_sentence_file(args.pos)
