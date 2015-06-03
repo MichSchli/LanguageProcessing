@@ -19,3 +19,9 @@ def print_sentence_pos_list(sentences, poss):
         for j, p in enumerate(pos):
             print sentences[i][j] + '\t' + p
         print ""
+
+def print_sentence_list(sentences):
+    for sentence in sentences:
+        for word in sentence:
+            print word
+        print ""
