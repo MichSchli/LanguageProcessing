@@ -335,7 +335,7 @@ if __name__ == '__main__':
 
             print >> sys.stderr, "classifying"
             predictions = rcl.predict_sentences(zip(sentences, ne, pos), pred, output_dictionary=True)
-            Postprocessing.print_sentence_relation_list(sentences, predictions)
+            Postprocessing.print_sentence_pos_ne_relation_list(sentences, pos, ne, predictions)
 
         else:
             print >> sys.stderr, 'Missing input'
