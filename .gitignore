@@ -8,7 +8,6 @@ __pycache__/
 .idea
 
 #Data
-*.txt
 *.data
 *.train
 *.model
