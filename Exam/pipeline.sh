@@ -18,4 +18,4 @@ python $PROJECTHOME/createData.py --sentences tmp_files/pre_output.tmp --pos tmp
 
 $CRFSUITE tag -m $NERMODEL tmp_files/crf_features.tmp > tmp_files/ner_output.tmp
 
-
+python RelationExtraction.py --sentences tmp_files/pre_output.tmp --pos tmp_files/pos_output.tmp --ne tmp_files/ner_output.tmp > result.txt

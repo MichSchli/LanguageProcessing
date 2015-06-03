@@ -311,7 +311,7 @@ if __name__ == '__main__':
 
     else:
         if args.sentences and args.pos and args.ne:
-            sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data.data')
+            sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
             # Create a test model:
             rc = RelationDetector('SVM', [1000, 0.01])
 
