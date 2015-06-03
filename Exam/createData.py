@@ -20,7 +20,7 @@ def extract_data(sentences, pos, separator=' ', labels=None):
 
     n_sentences = len(sentences)
     if labels is None:
-        labels = ['']*n_sentences
+        labels = ['PLACEHOLDER']*n_sentences
 
     for i in xrange(n_sentences):
         for word,pos, label in zip(sentences[i],pos[i], labels[i]):
