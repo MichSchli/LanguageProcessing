@@ -11,10 +11,10 @@ POSMODEL=$PROJECTHOME/models/postagger.model
 python Preprocessing.py --input $TEST > tmp_files/pre_output.tmp
 
 #Part of Speech tagging the preprocessed datafile
-python PartOfSpeechTagger.py --input pre_output.tmp --load $POSMODEL > tmp_files/pos_output.tmp
+#python PartOfSpeechTagger.py --input tmp_files/pre_output.tmp --load $POSMODEL > tmp_files/pos_output.tmp
 
 #Generating features using CRFSUITE
-python $PROJECTHOME/createData.py | python nerfeats.py > tmp_files/crf_features.tmp
+python $PROJECTHOME/createData.py --sentences tmp_files/pre_output.tmp --pos tmp_files/pos_output.tmp | python nerfeats.py > tmp_files/crf_features.tmp
 
 
-$CRFSUITE tag -m $NERMODEL tmp_files/crf_features.tmp
+$CRFSUITE tag -m $NERMODEL tmp_files/crf_features.tmp > tmp_files/ner_output.tmp

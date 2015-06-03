@@ -1,5804 +1,5804 @@
-Moscow	PROPN
-INTERFAX	PROPN
-
-Barrett	PROPN
-is	AUX
-a	DET
-member	NOUN
-of	ADP
-the	DET
-Illinois	PROPN
-Commerce	PROPN
-Commission	PROPN
-,	PUNCT
-and	CONJ
-Marshall	PROPN
-is	AUX
-a	DET
-lawyer	NOUN
-and	CONJ
-former	ADJ
-legislative	NOUN
-aide	ADP
-to	PRT
-Patrick.	PROPN
-
-Martin	PROPN
-liked	AUX
-Jimbob	PROPN
-for	ADP
-its	PART
-`	PUNCT
-`	PUNCT
-basic	ADJ
-down-home	ADJ
-appeal	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-and	CONJ
-thought	AUX
-`	PUNCT
-`	PUNCT
-anyone	NOUN
-named	AUX
-Rogers	PROPN
-has	AUX
-always	NOUN
-been	VERB
-able	ADJ
-to	PRT
-get	AUX
-elected	VERB
-to	PRT
-anything	AUX
-in	ADP
-Oklahoma	PROPN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-where	ADV
-the	DET
-humorist	NOUN
-Will	PROPN
-Rogers	PROPN
-was	AUX
-born	VERB
-.	PUNCT
-
-Today	PROPN
-'s	PART
-highlight	NOUN
-in	ADP
-history	NOUN
-:	PUNCT
-On	ADP
-Jan.	PROPN
-8	NUM
-,	PUNCT
-1935	NUM
-,	PUNCT
-rock	AUX
-'n	NOUN
-'	PART
-roll	NOUN
-legend	NOUN
-Elvis	PROPN
-Presley	PROPN
-was	AUX
-born	VERB
-in	ADP
-Tupelo	PROPN
-,	PUNCT
-Miss	PROPN
-.	PUNCT
-
-WS2204094594	PROPN
-Kiev	PROPN
-UT-1	PROPN
-Television	PROPN
-Network	PROPN
-in	ADP
-Ukrainian	PROPN
-0500	AUX
-GMT	PROPN
-22	NUM
-Apr	PROPN
-94	AUX
-
-(	ADP
-Text	PROPN
-)	AUX
-Diego	PROPN
-Fernandez	PROPN
-de	PROPN
-Cevallos	PROPN
-is	AUX
-reportedly	ADJ
-ahead	NOUN
-of	ADP
-Ernesto	PROPN
-Zedillo	PROPN
-,	PUNCT
-candidate	NOUN
-of	ADP
-the	DET
-Institutional	PROPN
-Revolutionary	PROPN
-Party	PROPN
-(	AUX
-PRI	PROPN
-)	AUX
-by	ADP
-only	ADV
-5	NUM
-percent	NOUN
-of	ADP
-the	DET
-vote	NOUN
-in	ADP
-the	DET
-race	NOUN
-for	ADP
-the	DET
-Presidency	PROPN
-of	ADP
-the	DET
-republic	NOUN
-,	PUNCT
-according	AUX
-to	PRT
-two	NUM
-recent	NOUN
-polls	NOUN
-,	PUNCT
-one	NUM
-conducted	VERB
-by	ADP
-the	DET
-Opinion	PROPN
-Research	PROPN
-Center	PROPN
-(	AUX
-CEO	PROPN
-)	NOUN
-and	CONJ
-the	DET
-University	PROPN
-of	ADP
-Guadalajara	PROPN
-and	CONJ
-the	DET
-other	ADJ
-by	ADP
-the	DET
-Indemerc-Louis	PROPN
-Harris	PROPN
-Firm	PROPN
-.	PUNCT
-
-Pittsburgh	PROPN
-'s	PART
-superintendent	NOUN
-,	PUNCT
-Richard	PROPN
-C.	PROPN
-Wallace	PROPN
-,	PUNCT
-who	PRON
-arrived	AUX
-in	ADP
-1980	NUM
-as	ADP
-an	DET
-outsider	NOUN
-to	PRT
-a	DET
-city	NOUN
-enmeshed	AUX
-in	ADP
-a	DET
-bitter	NOUN
-dispute	AUX
-over	ADP
-school	NUM
-desegregation	NOUN
-,	PUNCT
-helped	VERB
-move	ADP
-the	DET
-school	NOUN
-system	ADJ
-beyond	NOUN
-that	ADP
-dispute	NOUN
-and	CONJ
-establish	AUX
-it	PRON
-as	ADP
-a	DET
-national	ADJ
-model	NOUN
-of	ADP
-reform	NUM
-.	PUNCT
-
-Bradley	PROPN
-First	PROPN
-Air	PROPN
-of	ADP
-Carp	PROPN
-,	PUNCT
-Ontario	PROPN
-,	PUNCT
-which	DET
-owned	AUX
-the	DET
-plane	NOUN
-,	PUNCT
-said	AUX
-the	DET
-crew	ADJ
-members	NOUN
-were	AUX
-pilots	NOUN
-from	ADP
-Montreal	PROPN
-and	CONJ
-Ottawa	PROPN
-.	PUNCT
-
-Vaughan	PROPN
-,	PUNCT
-a	DET
-dog	ADJ
-musher	NOUN
-and	CONJ
-Army	PROPN
-Air	PROPN
-Force	PROPN
-officer	NOUN
-,	PUNCT
-was	AUX
-sent	NOUN
-by	ADP
-dogsled	VERB
-in	ADP
-1942	NUM
-to	PRT
-make	AUX
-sure	ADJ
-top-secret	ADJ
-bombsights	NOUN
-on	ADP
-the	DET
-bombers	NOUN
-were	AUX
-destroyed	NOUN
-or	CONJ
-brought	AUX
-back.	NOUN
-
-Kim	PROPN
-Dae-jung	PROPN
-,	PUNCT
-head	NOUN
-of	ADP
-South	PROPN
-Korea	PROPN
-'s	PART
-leading	ADJ
-opposition	NOUN
-party	NOUN
-,	PUNCT
-was	AUX
-detained	VERB
-on	ADP
-a	DET
-court	NOUN
-warrant	ADP
-Wednesday	PROPN
-for	ADP
-questioning	AUX
-in	ADP
-connection	NOUN
-with	ADP
-a	DET
-party	NOUN
-lawmaker	AUX
-'s	PART
-illegal	ADJ
-trip	NOUN
-to	PRT
-communist	AUX
-North	PROPN
-Korea.	PROPN
-
-Lucille	PROPN
-Ball	PROPN
-was	AUX
-mourned	VERB
-Wednesday	PROPN
-by	ADP
-the	DET
-western	ADJ
-New	PROPN
-York	PROPN
-hometown	NOUN
-she	PRON
-left	AUX
-for	ADP
-Hollywood	PROPN
-more	AUX
-than	ADP
-half	DET
-a	DET
-century	NOUN
-ago	ADP
-.	PUNCT
-
-Riga	PROPN
-Radio	PROPN
-Riga	PROPN
-Network	PROPN
-
-Further	PROPN
-buying	AUX
-was	AUX
-linked	VERB
-to	PRT
-rumors	AUX
-that	ADP
-the	DET
-Chilean	PROPN
-copper	NOUN
-company	ADJ
-Codelco	PROPN
-was	AUX
-considering	AUX
-shutting	AUX
-down	ADP
-its	PART
-smelter	NOUN
-at	ADP
-Chuquicamata	PROPN
-,	PUNCT
-the	DET
-world	NOUN
-'s	PART
-largest	ADJ
-copper	NOUN
-mine	NUM
-,	PUNCT
-due	NUM
-to	PRT
-persistent	AUX
-mechanical	ADJ
-problems	NOUN
-,	PUNCT
-said	AUX
-Fred	PROPN
-Demler	PROPN
-,	PUNCT
-metals	NUM
-economist	NOUN
-with	ADP
-Drexel	PROPN
-Burnham	PROPN
-Lambert	PROPN
-Inc.	PROPN
-in	ADP
-New	PROPN
-York	PROPN
-.	PUNCT
-
-Beijing	PROPN
-CHINA	PROPN
-DAILY	PROPN
-(	AUX
-SCIENCE/MEDICINE	PROPN
-)	AUX
-
-Gilmore	PROPN
-,	PUNCT
-of	ADP
-the	DET
-Downtown	PROPN
-Seattle	PROPN
-Association	PROPN
-,	PUNCT
-said	AUX
-that	ADP
-the	DET
-city	NOUN
-'s	PART
-1985	NUM
-downtown	NOUN
-zoning	AUX
-was	AUX
-the	DET
-product	NOUN
-of	ADP
-four	NUM
-years	NOUN
-of	ADP
-debate	NOUN
-and	CONJ
-that	ADP
-any	DET
-changes	NOUN
-should	AUX
-be	AUX
-made	VERB
-through	ADP
-more	ADJ
-hearings	NOUN
-and	CONJ
-City	PROPN
-Council	PROPN
-votes	AUX
-.	PUNCT
-
-In	ADP
-1752	NUM
-,	PUNCT
-flagmaker	NOUN
-Betsy	PROPN
-Ross	PROPN
-was	AUX
-born	VERB
-in	ADP
-Philadelphia	PROPN
-.	PUNCT
-
-It	PRON
-'s	AUX
-doing	AUX
-a	DET
-lot	NOUN
-of	ADP
-wind	ADJ
-damage	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Robert	PROPN
-Isaacks	PROPN
-,	PUNCT
-an	DET
-emergency	NOUN
-medical	ADJ
-technician	NOUN
-on	ADP
-High	PROPN
-Island.	PROPN
-
-Berlin	PROPN
-N-TV	PROPN
-
-Kakizawa	PROPN
-suggested	AUX
-that	ADP
-Hata	PROPN
-'s	PART
-remarks	NOUN
-expressed	AUX
-anticipation	NOUN
-of	ADP
-the	DET
-truth	NOUN
-of	ADP
-claims	AUX
-by	ADP
-North	PROPN
-Korean	PROPN
-President	PROPN
-Kim	PROPN
-Il-song	PROPN
-that	ADP
-North	PROPN
-Korea	PROPN
-has	AUX
-neither	ADP
-the	DET
-will	AUX
-nor	CONJ
-the	DET
-ability	NOUN
-to	PRT
-develop	AUX
-nuclear	ADJ
-weapons	NOUN
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-One	NUM
-thing	AUX
-I	PRON
-have	AUX
-learned	VERB
-over	ADP
-the	DET
-past	ADJ
-17	NOUN
-months	PRON
-is	AUX
-that	ADP
-the	DET
-truth	NOUN
-is	AUX
-hard	NOUN
-to	PRT
-find	AUX
-,	PUNCT
-and	CONJ
-it	PRON
-remains	AUX
-so	NUM
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Mrs.	PROPN
-Higgins	PROPN
-,	PUNCT
-37	NUM
-,	PUNCT
-who	PRON
-is	AUX
-a	DET
-major	ADJ
-inthe	NOUN
-Marine	PROPN
-Corps	PROPN
-and	CONJ
-works	AUX
-at	ADP
-the	DET
-Pentagon	PROPN
-as	ADP
-a	DET
-public	ADJ
-information	NOUN
-officer.	NOUN
-
-Aharon	PROPN
-Levran	PROPN
-,	PUNCT
-who	PRON
-has	AUX
-researched	AUX
-the	DET
-Arrow	PROPN
-for	ADP
-Bar-Ilan	PROPN
-University	PROPN
-'s	PART
-Center	PROPN
-for	ADP
-Strategic	PROPN
-Studies	PROPN
-,	PUNCT
-calls	AUX
-Pedatzur	PROPN
-'s	PART
-estimate	ADJ
-baseless	NOUN
-and	CONJ
-misleading	AUX
-.	PUNCT
-
-Croatia	PROPN
-'s	PART
-Granic	PROPN
-Admits	PROPN
-Downed	PROPN
-Planes	PROPN
-Took	PROPN
-Off	PROPN
-From	PROPN
-Croatia	PROPN
-LD0303083794	PROPN
-Moscow	PROPN
-ITAR-TASS	PROPN
-in	ADP
-English	PROPN
-0729	AUX
-GMT	PROPN
-3	NUM
-Mar	PROPN
-94	AUX
-
-Still	PROPN
-,	PUNCT
-many	ADJ
-are	AUX
-encouraged	VERB
-by	ADP
-the	DET
-election	NOUN
-last	ADJ
-year	NOUN
-of	ADP
-Louisiana	PROPN
-'s	PART
-reform-minded	ADJ
-governor	NOUN
-,	PUNCT
-Buddy	PROPN
-Roemer	PROPN
-,	PUNCT
-a	DET
-property	ADJ
-tax	NOUN
-increase	AUX
-last	ADJ
-April	PROPN
-,	PUNCT
-and	CONJ
-a	DET
-new	ADJ
-,	PUNCT
-expanded	AUX
-school	ADJ
-board	NOUN
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-We	PRON
-get	AUX
-worse	ADJ
-thunderstorms	NOUN
-than	ADP
-this	DET
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Betty	PROPN
-Barrow	PROPN
-,	PUNCT
-a	DET
-28-year	ADJ
-resident	NOUN
-who	PRON
-remained	AUX
-on	ADP
-High	PROPN
-Island.	PROPN
-
-`	PUNCT
-`	PUNCT
-I	PRON
-don	AUX
-'t	NOUN
-think	AUX
-there	DET
-are	AUX
-any	DET
-good	ADJ
-answers	NOUN
-why	ADV
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Virginia	PROPN
-Towle	PROPN
-of	ADP
-Wallingford	PROPN
-,	PUNCT
-a	DET
-family	ADJ
-friend.	NOUN
-
-LD0706183794	PROPN
-Riga	PROPN
-Radio	PROPN
-Riga	PROPN
-Network	PROPN
-in	ADP
-Latvian	PROPN
-1700	AUX
-GMT	PROPN
-7	AUX
-Jun	PROPN
-94	AUX
-
-The	DET
-number	NOUN
-of	ADP
-lift	NOUN
-boats	AUX
-involved	VERB
-in	ADP
-accidents	PRON
-is	AUX
-higher	NOUN
-than	ADP
-normal	NUM
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Lt.	PROPN
-Allen	PROPN
-Harker	PROPN
-,	PUNCT
-a	DET
-marine	ADJ
-inspector	NOUN
-at	ADP
-the	DET
-Coast	PROPN
-Guard	PROPN
-'s	PART
-8th	NOUN
-District	PROPN
-headquarters	NOUN
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-Crop	PROPN
-rotation	NOUN
-may	AUX
-be	AUX
-the	DET
-answer	ADJ
-to	PRT
-sustaining	AUX
-long-term	ADJ
-productivity	NOUN
-of	ADP
-our	PART
-land	ADJ
-to	PRT
-provide	AUX
-billions	NOUN
-of	ADP
-people	NOUN
-with	ADP
-food	NUM
-,	PUNCT
-fuel	NOUN
-and	CONJ
-other	ADJ
-renewable	ADJ
-resources	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-says	AUX
-Gary	PROPN
-H.	PROPN
-Heichel	PROPN
-,	PUNCT
-a	DET
-plant	ADJ
-physiologist	NOUN
-with	ADP
-the	DET
-USDA	PROPN
-'s	PART
-agricultural	ADJ
-research	NOUN
-service.	AUX
-
-`	PUNCT
-`	PUNCT
-I	PRON
-don	AUX
-'t	NOUN
-think	AUX
-anyone	NOUN
-thought	AUX
-things	PRON
-would	AUX
-collapse	NOUN
-so	ADP
-quickly	NUM
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Angel	PROPN
-Pena	PROPN
-,	PUNCT
-an	DET
-economist	NOUN
-with	ADP
-the	DET
-Mediterranean	PROPN
-Foundation	PROPN
-research	AUX
-group.	NOUN
-
-"	NOUN
-The	DET
-entire	ADJ
-effort	NOUN
-is	AUX
-how	VERB
-to	PRT
-reduce	AUX
-the	DET
-early	ADJ
-damage	NOUN
-(	AUX
-from	ADP
-a	DET
-missile	ADJ
-attack	NOUN
-)	AUX
-so	ADP
-the	DET
-missile	ADJ
-launchers	NOUN
-can	AUX
-be	AUX
-found	AUX
-,	PUNCT
-"	NOUN
-says	AUX
-Me	PRON
-'ir	AUX
-Kohen	PROPN
-,	PUNCT
-a	DET
-missile	ADJ
-expert	NOUN
-close	ADJ
-to	PRT
-the	DET
-IDF	PROPN
-(	AUX
-Israel	PROPN
-Defense	PROPN
-Forces	PROPN
-)	AUX
-leadership	NOUN
-.	PUNCT
-
-JN1404193394	PROPN
-Damascus	PROPN
-Syrian	PROPN
-Arab	PROPN
-Republic	PROPN
-Radio	PROPN
-Network	PROPN
-in	ADP
-Arabic	PROPN
-1530	AUX
-GMT	PROPN
-14	NUM
-Apr	PROPN
-94	AUX
-
-Newspaper	PROPN
-`	PUNCT
-Explains	PROPN
-'	PART
-U.S.	PROPN
-Interests	PROPN
-Section	PROPN
-Events	PROPN
-FL1402001894	PROPN
-Havana	PROPN
-Radio	PROPN
-Reloj	PROPN
-Network	PROPN
-in	ADP
-Spanish	ADJ
-2100	NOUN
-GMT	PROPN
-13	AUX
-Feb	PROPN
-94	AUX
-
-Following	AUX
-the	DET
-plot	NOUN
-of	ADP
-the	DET
-1973	NUM
-film	NOUN
-`	PUNCT
-`	PUNCT
-American	ADJ
-Graffiti	PROPN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-directed	VERB
-by	ADP
-Modesto	PROPN
-native	NOUN
-George	PROPN
-Lucas	PROPN
-,	PUNCT
-high	ADJ
-school	NOUN
-seniors	NOUN
-15	NUM
-years	NOUN
-ago	ADP
-established	AUX
-Graffiti	PROPN
-Night	PROPN
-on	ADP
-the	DET
-first	ADJ
-Saturday	PROPN
-after	ADP
-graduation	NOUN
-.	PUNCT
-
-Following	AUX
-him	PRON
-very	ADV
-closely	ADV
-is	AUX
-the	DET
-PRI	PROPN
-'s	PART
-Ernesto	PROPN
-Zedillo	PROPN
-Ponce	PROPN
-de	PROPN
-Leon	PROPN
-who	PRON
-,	PUNCT
-according	AUX
-to	PRT
-the	DET
-poll	NOUN
-,	PUNCT
-has	AUX
-the	DET
-support	NOUN
-of	ADP
-37	NUM
-percent	NOUN
-of	ADP
-residents	NOUN
-in	ADP
-the	DET
-Valley	PROPN
-of	ADP
-Mexico	PROPN
-,	PUNCT
-one	NUM
-of	ADP
-the	DET
-areas	NOUN
-with	ADP
-the	DET
-largest	ADJ
-number	NOUN
-of	ADP
-voters	NOUN
-in	ADP
-the	DET
-country	NOUN
-.	PUNCT
-
-NEW	PROPN
-YORK	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-He	PRON
-disclosed	AUX
-that	ADP
-engineers	NOUN
-at	ADP
-the	DET
-St.	PROPN
-Petersburg	PROPN
-branch	AUX
-of	ADP
-the	DET
-Atomenergoproekt	PROPN
-institute	NOUN
-were	AUX
-completing	NOUN
-work	AUX
-on	ADP
-the	DET
-design	NOUN
-of	ADP
-a	DET
-new	ADJ
-NP-500	PROPN
-reactor	NOUN
-.	PUNCT
-
-BELGRADE	PROPN
-,	PUNCT
-Yugoslavia	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-In	ADP
-1801	DET
-,	PUNCT
-Mormon	PROPN
-leader	NOUN
-Brigham	PROPN
-Young	PROPN
-was	AUX
-born	VERB
-in	ADP
-Whitingham	PROPN
-,	PUNCT
-Vt	PROPN
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-What	PROPN
-we	PRON
-have	AUX
-witnessed	VERB
-,	PUNCT
-in	ADP
-the	DET
-Israeli	PROPN
-retaliation	NOUN
-in	ADP
-kind	NOUN
-for	ADP
-the	DET
-kidnapping	AUX
-of	ADP
-their	PART
-people	NOUN
-,	PUNCT
-(	PRON
-is	AUX
-)	NOUN
-that	ADP
-violence	ADJ
-truly	NOUN
-does	PRON
-beget	AUX
-violence	NOUN
-and	CONJ
-that	ADP
-I	PRON
-hope	AUX
-the	DET
-United	PROPN
-States	PROPN
-will	AUX
-use	ADP
-this	DET
-opportunity	NOUN
-for	ADP
-reconciliation	NOUN
-rather	NOUN
-than	ADP
-retaliation	NUM
-,	PUNCT
-'	PUNCT
-'	PART
-Mrs.	PROPN
-Say	PROPN
-said	AUX
-in	ADP
-an	DET
-interview	NOUN
-from	ADP
-her	PART
-home	NOUN
-near	ADP
-Cadiz	PROPN
-in	ADP
-western	ADJ
-Kentucky.	PROPN
-
-Church	PROPN
-'s	PART
-is	AUX
-headquartered	VERB
-in	ADP
-San	PROPN
-Antonio	PROPN
-.	PUNCT
-
-Herbert	PROPN
-Clark	PROPN
-Hoover	PROPN
-,	PUNCT
-the	DET
-31st	NOUN
-president	NOUN
-of	ADP
-the	DET
-United	PROPN
-States	PROPN
-,	PUNCT
-was	AUX
-born	VERB
-in	ADP
-West	PROPN
-Branch	PROPN
-,	PUNCT
-Iowa	PROPN
-,	PUNCT
-in	ADP
-1874	NUM
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-Every	PROPN
-politician	NOUN
-in	ADP
-the	DET
-Congress	PROPN
-should	AUX
-recognize	VERB
-that	ADP
-to	PRT
-be	AUX
-ignored	PRON
-is	AUX
-the	DET
-ultimate	NOUN
-punishment	ADJ
-society	NOUN
-can	AUX
-inflict	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-former	ADJ
-Sen.	PROPN
-Charles	PROPN
-McC.	PROPN
-
-AU0505102194	PROPN
-Munich	PROPN
-SUEDDEUTSCHE	PROPN
-ZEITUNG	PROPN
-in	ADP
-German	PROPN
-5	NUM
-May	PROPN
-94	AUX
-p	NOUN
-4	NUM
-
-In	ADP
-1830	NUM
-,	PUNCT
-poet	NOUN
-Emily	PROPN
-Dickinson	PROPN
-was	AUX
-born	VERB
-in	ADP
-Amherst	PROPN
-,	PUNCT
-Mass.	PROPN
-
-Visibility	PROPN
-is	AUX
-only	ADJ
-fair	NOUN
-and	CONJ
-when	ADV
-those	AUX
-scattered	VERB
-thunderstorms	ADJ
-move	NOUN
-through	ADP
-it	PRON
-'s	PART
-very	ADV
-limited	VERB
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Coast	PROPN
-Guard	PROPN
-spokesman	NOUN
-Lt.	PROPN
-Pat	PROPN
-Philbin.	PROPN
-
-This	DET
-is	AUX
-how	ADP
-the	DET
-politicians	NOUN
-assessed	AUX
-the	DET
-DEP	PROPN
-'s	PART
-withdrawal	NOUN
-from	ADP
-the	DET
-political	ADJ
-arena	NOUN
-so	ADV
-close	ADJ
-to	PRT
-the	DET
-elections	NOUN
-and	CONJ
-when	ADV
-it	PRON
-had	AUX
-fielded	VERB
-its	PRT
-candidates	AUX
-all	DET
-over	ADP
-Turkey	PROPN
-:	PUNCT
-Prime	PROPN
-Tansu	PROPN
-Ciller	PROPN
-said	AUX
-:	PUNCT
-I	PRON
-was	AUX
-expecting	AUX
-such	ADJ
-a	DET
-decision	NOUN
-.	PUNCT
-
-Atwater	PROPN
-,	PUNCT
-37	NUM
-,	PUNCT
-is	AUX
-a	DET
-South	PROPN
-Carolina	PROPN
-native	NOUN
-who	PRON
-earlier	ADV
-served	AUX
-as	ADP
-an	DET
-aide	NOUN
-to	PRT
-President	PROPN
-Reagan	PROPN
-and	CONJ
-also	ADV
-worked	AUX
-for	ADP
-Sen.	PROPN
-Strom	PROPN
-Thurmond	PROPN
-of	ADP
-South	PROPN
-Carolina	PROPN
-.	PUNCT
-
-(	ADP
-Text	PROPN
-)	AUX
-The	DET
-situation	NOUN
-remains	AUX
-explosive	NOUN
-in	ADP
-Namialo	PROPN
-assembly	AUX
-area	NUM
-,	PUNCT
-in	ADP
-Nampula	PROPN
-Province	PROPN
-,	PUNCT
-where	ADV
-the	DET
-government	ADJ
-soldiers	NOUN
-with	ADP
-the	DET
-former	ADJ
-Northern	PROPN
-Improvement	PROPN
-Brigade	PROPN
-(	AUX
-Brigada	PROPN
-de	PROPN
-Melhoramentos	PROPN
-do	AUX
-Norte	PROPN
-)	NUM
-,	PUNCT
-BMN	PROPN
-,	PUNCT
-and	CONJ
-others	NOUN
-in	ADP
-the	DET
-Nampula	PROPN
-Provincial	PROPN
-Command	PROPN
-continue	AUX
-to	PRT
-wait	AUX
-for	ADP
-the	DET
-outcome	NOUN
-of	ADP
-their	PART
-demands	NOUN
-.	PUNCT
-
-Moscow	PROPN
-NEZAVISIMAYA	PROPN
-GAZETA	PROPN
-
-While	ADP
-Minox	PROPN
-is	AUX
-struggling	AUX
-,	PUNCT
-the	DET
-Leica	PROPN
-company	NOUN
-in	ADP
-nearby	ADP
-Wetzlar	PROPN
-,	PUNCT
-and	CONJ
-Rollei	PROPN
-in	ADP
-Braunschweig	PROPN
-,	PUNCT
-report	NOUN
-business	PRON
-has	AUX
-been	VERB
-good	NOUN
-over	ADP
-the	DET
-past	ADJ
-year	NOUN
-.	PUNCT
-
-(	ADP
-By	PROPN
-ITAR-TASS	PROPN
-diplomatic	ADJ
-correspondent	NOUN
-Yuriy	PROPN
-Tyssovsky	PROPN
-)	AUX
-
-On	ADP
-this	DET
-date	NOUN
-:	PUNCT
-In	ADP
-1758	NUM
-,	PUNCT
-the	DET
-fifth	ADJ
-president	NOUN
-of	ADP
-the	DET
-United	PROPN
-States	PROPN
-,	PUNCT
-James	PROPN
-Monroe	PROPN
-,	PUNCT
-was	AUX
-born	VERB
-in	ADP
-Westmoreland	PROPN
-County	PROPN
-,	PUNCT
-Virginia	PROPN
-.	PUNCT
-
-Larry	PROPN
-Jinks	PROPN
-has	AUX
-been	VERB
-named	AUX
-publisher	NOUN
-of	ADP
-the	DET
-San	PROPN
-Jose	PROPN
-Mercury	PROPN
-News	PROPN
-,	PUNCT
-succeeding	AUX
-William	PROPN
-A.	PROPN
-Ott	PROPN
-,	PUNCT
-who	PRON
-will	AUX
-become	ADP
-the	DET
-newspaper	NOUN
-'s	PART
-chairman	NOUN
-,	PUNCT
-the	DET
-Knight-Ridder	PROPN
-COMMA	PROPN
-Inc.	PROPN
-announced	AUX
-Thursday	PROPN
-.	PUNCT
-
-Morihiro	PROPN
-Hosokawa	PROPN
-,	PUNCT
-Japan	PROPN
-'s	PART
-prime	NOUN
-,	PUNCT
-recently	AUX
-confirmed	VERB
-that	ADP
-he	PRON
-was	AUX
-"	NOUN
-very	ADV
-strongly	ADV
-concerned	AUX
-"	NOUN
-by	ADP
-North	PROPN
-Korea	PROPN
-'s	PART
-growing	ADJ
-military	NOUN
-strength	NUM
-.	PUNCT
-
-Christophersen	PROPN
-Says	PROPN
-"	NOUN
-)	AUX
-(	PRON
-Text	PROPN
-)	AUX
-(	PRON
-ANSA	PROPN
-)	AUX
-Brussels	PROPN
-,	PUNCT
-May	PROPN
-25	NUM
---	PUNCT
-Price	PROPN
-and	CONJ
-exchange	AUX
-rate	ADJ
-stability	NOUN
-,	PUNCT
-achieved	AUX
-by	ADP
-reducing	AUX
-the	DET
-inflation	NOUN
-rate	AUX
-by	ADP
-no	DET
-more	ADJ
-than	ADP
-2-3	ADJ
-percent	NOUN
-by	ADP
-1996	NUM
-,	PUNCT
-were	AUX
-among	ADP
-the	DET
-primary	NOUN
-objectives	AUX
-indicated	VERB
-by	ADP
-the	DET
-European	PROPN
-Commission	PROPN
-to	PRT
-member	AUX
-states	NOUN
-,	PUNCT
-including	AUX
-Italy	PROPN
-,	PUNCT
-in	ADP
-a	DET
-program	ADJ
-document	NOUN
-outlined	AUX
-here	ADV
-today	NOUN
-by	ADP
-Commissioner	PROPN
-Henning	PROPN
-Christophersen	PROPN
-.	PUNCT
-
-Ralph	PROPN
-David	PROPN
-Abernathy	PROPN
-:	PUNCT
-March	PROPN
-11	NUM
-,	PUNCT
-1926	NUM
-:	PUNCT
-David	PROPN
-Abernathy	PROPN
-is	AUX
-born	VERB
-in	ADP
-Linden	PROPN
-,	PUNCT
-Ala.	PROPN
-,	PUNCT
-grandson	NOUN
-of	ADP
-slaves	NOUN
-and	CONJ
-10th	ADJ
-of	ADP
-12	NUM
-children	NOUN
-of	ADP
-William	PROPN
-and	CONJ
-Louiverny	PROPN
-Abernathy	PROPN
-.	PUNCT
-
-The	DET
-names	AUX
-of	ADP
-hippopotamus	NUM
-twins	NOUN
-born	VERB
-at	ADP
-the	DET
-city	NOUN
-zoo	PRON
-will	AUX
-be	AUX
-chosen	VERB
-by	ADP
-another	DET
-Memphis	PROPN
-native	NOUN
-and	CONJ
-mother	NOUN
-of	ADP
-twins	NOUN
-,	PUNCT
-actress	NOUN
-Cybill	PROPN
-Shepherd	PROPN
-,	PUNCT
-zoo	NUM
-officials	NOUN
-said	AUX
-Sunday	PROPN
-.	PUNCT
-
-PM2303111794	PROPN
-Moscow	PROPN
-IZVESTIYA	PROPN
-in	ADP
-Russian	PROPN
-23	NUM
-Mar	PROPN
-94	AUX
-p	NOUN
-3	NUM
-
-Photo	PROPN
-,	PUNCT
-COLOR	PROPN
-,	PUNCT
-The	DET
-father	NOUN
-of	ADP
-our	PART
-34th	ADJ
-President	NOUN
-was	AUX
-working	AUX
-as	ADP
-a	DET
-railroad	ADJ
-laborer	NOUN
-when	ADV
-his	PART
-son	NOUN
-Dwight	PROPN
-D.	PROPN
-Eisenhower	PROPN
-was	AUX
-born	VERB
-on	ADP
-Oct.	PROPN
-14	NUM
-,	PUNCT
-1890	NUM
-,	PUNCT
-in	ADP
-a	DET
-modest	ADJ
-two-story	ADJ
-frame	NOUN
-house	NOUN
-in	ADP
-Denison	PROPN
-,	PUNCT
-Tex	PROPN
-.	PUNCT
-
-In	ADP
-1846	NUM
-,	PUNCT
-`	PUNCT
-`	PUNCT
-Buffalo	PROPN
-Bill	PROPN
-'	PART
-'	PUNCT
-Cody	PROPN
-was	AUX
-born	VERB
-near	ADP
-Davenport	PROPN
-,	PUNCT
-Iowa	PROPN
-.	PUNCT
-
-But	CONJ
-analysts	NOUN
-noted	AUX
-that	ADP
-Sierra	PROPN
-still	AUX
-has	AUX
-much	ADV
-painful	ADJ
-work	AUX
-ahead	NOUN
-of	ADP
-it	PRON
-,	PUNCT
-including	AUX
-cutting	AUX
-as	ADP
-many	ADJ
-as	ADP
-150	ADJ
-jobs	NOUN
-from	ADP
-its	PART
-workforce	NOUN
-,	PUNCT
-which	DET
-currently	ADV
-has	AUX
-500	ADJ
-people	NOUN
-,	PUNCT
-and	CONJ
-building	NOUN
-up	ADP
-the	DET
-business	NOUN
-of	ADP
-its	PART
-PMC-Sierra	PROPN
-unit	NOUN
-,	PUNCT
-which	DET
-makes	NOUN
-routing	AUX
-devices	NOUN
-and	CONJ
-chipsets	NOUN
-for	ADP
-high-speed	ADJ
-computer	NOUN
-networks	NUM
-.	PUNCT
-
-Dwight	PROPN
-D.	PROPN
-Eisenhower	PROPN
-(	AUX
-34th	ADJ
-President	NOUN
-)	NUM
-:	PUNCT
-Born	VERB
-Oct.	PROPN
-14	NUM
-,	PUNCT
-1890	NUM
-,	PUNCT
-Denison	PROPN
-,	PUNCT
-Tex.	PROPN
-,	PUNCT
-in	ADP
-a	DET
-two-story	ADJ
-white	ADJ
-frame	NOUN
-house	NOUN
-on	ADP
-what	PRON
-is	AUX
-now	ADV
-the	DET
-Eisenhower	PROPN
-State	PROPN
-Historic	PROPN
-Site	PROPN
-,	PUNCT
-208	NUM
-E.	PROPN
-Day	PROPN
-St.	PROPN
-,	PUNCT
-Denison	PROPN
-,	PUNCT
-Tex.	PROPN
-,	PUNCT
-(	NUM
-214	NOUN
-)	AUX
-465-8908	ADJ
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-Michael	PROPN
-Harrington	PROPN
-'s	PART
-intellectual	ADJ
-energy	NOUN
-,	PUNCT
-dynamism	NUM
-,	PUNCT
-and	CONJ
-social	ADJ
-commitment	NOUN
-enriched	AUX
-an	DET
-entire	ADJ
-generation	NOUN
-,	PUNCT
-'	PUNCT
-'	PART
-City	PROPN
-University	PROPN
-Chancellor	PROPN
-Joseph	PROPN
-S.	PROPN
-Murphy	PROPN
-said	AUX
-in	ADP
-the	DET
-statement.	NOUN
-
-`	PUNCT
-`	PUNCT
-Either	PROPN
-luck	NOUN
-or	CONJ
-good	AUX
-fortune	PRON
-was	AUX
-on	ADP
-my	PART
-side	NUM
-,	PUNCT
-'	PUNCT
-'	PUNCT
-the	DET
-shaken	ADJ
-teacher	NOUN
-,	PUNCT
-Donald	PROPN
-Miller	PROPN
-,	PUNCT
-said	AUX
-through	ADP
-United	PROPN
-Federation	PROPN
-of	ADP
-Teachers	PROPN
-spokesman	NOUN
-Bert	PROPN
-Shanas	PROPN
-.	PUNCT
-
-Ms.	PROPN
-Carpenter	PROPN
-'s	PART
-brother	NOUN
-,	PUNCT
-retired	VERB
-National	PROPN
-Football	PROPN
-League	PROPN
-placekicker	NOUN
-Mark	PROPN
-Moseley	PROPN
-,	PUNCT
-was	AUX
-in	ADP
-the	DET
-courtroom	NOUN
-Wednesday	PROPN
-and	CONJ
-told	AUX
-reporters	NOUN
-afterward	ADP
-,	PUNCT
-`	PUNCT
-`	PUNCT
-It	PROPN
-'s	PART
-been	VERB
-nine	NUM
-years	NOUN
-of	ADP
-hell	INTJ
-for	ADP
-myself	NUM
-and	CONJ
-my	PART
-family.	NOUN
-'	PART
-'	PUNCT
-
-LD1606082994	PROPN
-Tunis	PROPN
-Tunisian	PROPN
-Republic	PROPN
-Radio	PROPN
-Network	PROPN
-in	ADP
-Arabic	PROPN
-1700	AUX
-GMT	PROPN
-15	NUM
-Jun	PROPN
-94	AUX
-
-W.	PROPN
-Dale	PROPN
-Nelson	PROPN
-covers	NOUN
-the	DET
-White	PROPN
-House	PROPN
-for	ADP
-The	DET
-Associated	PROPN
-Press	PROPN
-.	PUNCT
-
-By	ADP
-contrast	NUM
-,	PUNCT
-nearly	ADV
-6	NUM
-million	NOUN
-square	AUX
-feet	NOUN
-of	ADP
-downtown	PART
-office	ADJ
-space	NOUN
-is	AUX
-newly	NOUN
-completed	VERB
-,	PUNCT
-under	NUM
-construction	NOUN
-or	CONJ
-has	AUX
-received	VERB
-city	NOUN
-permits	NUM
-,	PUNCT
-said	AUX
-Virginia	PROPN
-Galle	PROPN
-,	PUNCT
-a	DET
-City	PROPN
-Council	PROPN
-member	NOUN
-and	CONJ
-CAP	PROPN
-supporter	NOUN
-.	PUNCT
-
-The	DET
-`	PUNCT
-`	PUNCT
-poison	NOUN
-pill	AUX
-,	PUNCT
-'	PUNCT
-'	PUNCT
-ruled	AUX
-illegal	NOUN
-in	ADP
-November	PROPN
-by	ADP
-U.S.	PROPN
-District	PROPN
-G.	PROPN
-Ernest	PROPN
-Tidwell	PROPN
-,	PUNCT
-would	AUX
-become	ADJ
-effective	NOUN
-after	ADP
-a	DET
-shareholder	NOUN
-had	AUX
-acquired	VERB
-10	NUM
-percent	NOUN
-of	ADP
-the	DET
-outstanding	AUX
-stock	NOUN
-.	PUNCT
-
-Frank	PROPN
-B.	PROPN
-Colton	PROPN
-,	PUNCT
-born	VERB
-in	ADP
-Poland	PROPN
-,	PUNCT
-who	PRON
-received	AUX
-patents	NOUN
-for	ADP
-oral	ADJ
-contraceptives	NOUN
-in	ADP
-1954	NUM
-and	CONJ
-1955.	NUM
-
-Meanwhile	PROPN
-,	PUNCT
-the	DET
-historical	ADJ
-society	NOUN
-in	ADP
-Beaumont	PROPN
-,	PUNCT
-Texas	PROPN
-,	PUNCT
-Richardson	PROPN
-'s	PART
-hometown	NOUN
-,	PUNCT
-plans	AUX
-to	PRT
-raise	AUX
-two	NUM
-statues	NOUN
-on	ADP
-Feb.	PROPN
-3	NUM
-_	NOUN
-one	NUM
-of	ADP
-Buddy	PROPN
-Holly	PROPN
-,	PUNCT
-Richardson	PROPN
-and	CONJ
-Valens	PROPN
-,	PUNCT
-and	CONJ
-a	DET
-second	NOUN
-of	ADP
-the	DET
-Big	PROPN
-Bopper	PROPN
-alone	NUM
-.	PUNCT
-
-An	DET
-urgent	NOUN
-call	AUX
-for	ADP
-international	ADJ
-help	NOUN
-to	PRT
-avert	AUX
-food	ADJ
-shortages	NOUN
-in	ADP
-Poland	PROPN
-went	AUX
-out	ADP
-both	DET
-from	ADP
-last	ADJ
-month	NOUN
-'s	PART
-Western	PROPN
-economic	AUX
-summit	NOUN
-in	ADP
-Paris	PROPN
-and	CONJ
-from	ADP
-Monday	PROPN
-'s	PART
-meeting	NOUN
-in	ADP
-Brussels	PROPN
-of	ADP
-24	NUM
-concerned	AUX
-nations	NOUN
-chaired	VERB
-by	ADP
-the	DET
-European	PROPN
-Community	PROPN
-Commission.	PROPN
-
-Dole	PROPN
-is	AUX
-at	ADP
-an	DET
-organizational	ADJ
-disadvantage	NOUN
-in	ADP
-the	DET
-South	PROPN
-but	CONJ
-has	AUX
-had	AUX
-his	PART
-wife	NOUN
-,	PUNCT
-Elizabeth	PROPN
-,	PUNCT
-a	DET
-native	NOUN
-of	ADP
-North	PROPN
-Carolina	PROPN
-,	PUNCT
-working	AUX
-the	DET
-region	NOUN
-for	ADP
-him	PRON
-.	PUNCT
-
-Many	PROPN
-had	AUX
-hoped	AUX
-their	PART
-loyality	NOUN
-would	AUX
-convince	ADP
-the	DET
-banks	NOUN
-,	PUNCT
-primarily	NOUN
-the	DET
-Frankfurt-based	PROPN
-Commerzbank	PROPN
-and	CONJ
-Giessen	PROPN
-'s	PART
-Bezirksparkasse	PROPN
-bank	NUM
-,	PUNCT
-to	PRT
-continue	AUX
-to	PRT
-help	AUX
-Minox	PROPN
-,	PUNCT
-but	CONJ
-the	DET
-hope	AUX
-backfired	VERB
-on	ADP
-those	AUX
-who	PRON
-were	AUX
-layed	VERB
-off	ADP
-,	PUNCT
-he	PRON
-said	AUX
-.	PUNCT
-
-Eastport	PROPN
-International	PROPN
-of	ADP
-Upper	PROPN
-Marlboro	PROPN
-COMMA	PROPN
-Md.	PROPN
-,	PUNCT
-which	DET
-has	AUX
-been	VERB
-involved	VERB
-in	ADP
-deep-water	ADJ
-recovery	NOUN
-of	ADP
-wreckage	NOUN
-of	ADP
-the	DET
-space	ADJ
-shuttle	NOUN
-Challenger	PROPN
-as	ADP
-well	ADV
-as	ADP
-other	ADJ
-air	NOUN
-crashes	NUM
-,	PUNCT
-retrieved	AUX
-the	DET
-recorder	NOUN
-last	ADJ
-Friday	PROPN
-from	ADP
-a	DET
-depth	NOUN
-of	ADP
-14	NUM
-COMMA	PROPN
-800	NUM
-feet	NOUN
-with	ADP
-its	PART
-$5	NOUN
-million	NUM
-`	PUNCT
-`	PUNCT
-remote	ADJ
-recovery	NOUN
-vehicle	AUX
-'	PART
-'	PUNCT
-known	VERB
-as	ADP
-Gemini	PROPN
-6000	NUM
-.	PUNCT
-
-GE	PROPN
-spokesman	NOUN
-Richard	PROPN
-Kennedy	PROPN
-said	AUX
-Wednesday	PROPN
-that	ADP
-the	DET
-factory	NOUN
-made	AUX
-a	DET
-timer	ADJ
-valve	NOUN
-for	ADP
-the	DET
-CFM56	PROPN
-engine	AUX
-used	VERB
-by	ADP
-the	DET
-Boeing	PROPN
-737-400	ADJ
-as	ADP
-well	ADV
-as	ADP
-a	DET
-check	NOUN
-and	CONJ
-drain	ADJ
-valve	NOUN
-for	ADP
-the	DET
-F404	PROPN
-engine	AUX
-aboard	ADP
-the	DET
-Navy	PROPN
-'s	PART
-FA-18	PROPN
-fighter	NOUN
-.	PUNCT
-
-(	ADP
-By	PROPN
-ITAR-TASS	PROPN
-correspondent	NOUN
-Mikhail	PROPN
-Shevtsov	PROPN
-)	AUX
-
-`	PUNCT
-`	PUNCT
-With	ADP
-South	PROPN
-Carolina	PROPN
-being	AUX
-Jesse	PROPN
-Jackson	PROPN
-'s	PART
-home	NOUN
-state	NOUN
-,	PUNCT
-there	DET
-was	AUX
-a	DET
-very	ADV
-strong	ADJ
-incentive	NOUN
-in	ADP
-the	DET
-black	ADJ
-community.	NOUN
-'	PART
-'	PUNCT
-
-Diplomatic	PROPN
-Correspondents	PROPN
-Igor	PROPN
-Porshnev	PROPN
-,	PUNCT
-Vitaly	PROPN
-Trubetskoi	PROPN
-and	CONJ
-others	ADJ
-)	NOUN
-(	ADP
-Text	PROPN
-)	AUX
-Russia	PROPN
-"	NOUN
-resolutely	ADV
-condemns	AUX
-the	DET
-senseless	NOUN
-subversive	ADJ
-activity	NOUN
-of	ADP
-those	NUM
-,	PUNCT
-who	PRON
-seek	AUX
-to	PRT
-cast	AUX
-shadow	NOUN
-on	ADP
-the	DET
-elections	NOUN
-to	PRT
-the	DET
-first	ADV
-non-racial	ADJ
-parliament	NOUN
-in	ADP
-South	PROPN
-Africa	PROPN
-,	PUNCT
-"	NOUN
-said	AUX
-the	DET
-Foreign	PROPN
-Ministry	PROPN
-spokesman	NOUN
-,	PUNCT
-Grigory	PROPN
-Karasin	PROPN
-,	PUNCT
-at	ADP
-Thursday	PROPN
-'s	PART
-(	NOUN
-28	NUM
-April	PROPN
-)	NOUN
-briefing	AUX
-in	ADP
-Moscow	PROPN
-.	PUNCT
-
-But	CONJ
-,	PUNCT
-as	ADP
-in	ADP
-many	ADJ
-past	ADJ
-cases	NOUN
-dealing	AUX
-with	ADP
-the	DET
-U.S.	PROPN
-hostages	NOUN
-,	PUNCT
-such	ADJ
-considerations	NOUN
-are	AUX
-not	ADV
-viewed	VERB
-from	ADP
-a	DET
-strictly	ADV
-limited	AUX
-military	NOUN
-point	AUX
-of	ADP
-view	NUM
-,	PUNCT
-the	DET
-Pentagon	PROPN
-officials	AUX
-noted.	NOUN
-
-`	PUNCT
-`	PUNCT
-Weather	PROPN
-like	AUX
-this	DET
-is	AUX
-awful	VERB
-for	ADP
-restaurants	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Lou	PROPN
-Ray	PROPN
-,	PUNCT
-owner	NOUN
-of	ADP
-the	DET
-Smokehouse	PROPN
-cafe	AUX
-in	ADP
-Fontana	PROPN
-.	PUNCT
-
-Also	ADV
-under	ADJ
-consideration	NOUN
-are	AUX
-two	NUM
-conservative	NOUN
-federal	ADJ
-appellate	NOUN
-judges	AUX
-appointed	VERB
-by	ADP
-President	PROPN
-Reagan	PROPN
-:	PUNCT
-Ralph	PROPN
-K.	PROPN
-Winter	PROPN
-of	ADP
-the	DET
-2nd	NOUN
-U.S.	PROPN
-Circuit	PROPN
-Court	PROPN
-of	ADP
-Appeals	PROPN
-in	ADP
-New	PROPN
-York	PROPN
-and	CONJ
-Kenneth	PROPN
-Starr	PROPN
-of	ADP
-the	DET
-U.S.	PROPN
-Circuit	PROPN
-Court	PROPN
-of	ADP
-Appeals	PROPN
-for	ADP
-the	DET
-District	PROPN
-of	ADP
-Columbia	PROPN
-.	PUNCT
-
-Loei	PROPN
-Opium	PROPN
-Eradication	PROPN
-Incomplete	PROPN
-94WD0125D	AUX
-Bangkok	PROPN
-DAO	PROPN
-SIAM	PROPN
-in	ADP
-Thai	PROPN
-20	NUM
-Nov	PROPN
-93	AUX
-pp	NOUN
-15	NUM
-,	PUNCT
-18	NUM
-
-Announces	PROPN
-Offer	PROPN
-to	PRT
-End	PROPN
-Strike	PROPN
-PA0302025694	PROPN
-Panama	PROPN
-City	PROPN
-ACAN	PROPN
-in	ADP
-Spanish	ADJ
-2153	NOUN
-GMT	PROPN
-2	AUX
-Feb	PROPN
-94	AUX
-
-NEW	PROPN
-ORLEANS	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-Owen	PROPN
-Le	PROPN
-Vallee	PROPN
-,	PUNCT
-president	NOUN
-of	ADP
-the	DET
-Liberation	PROPN
-Day	PROPN
-Committee	PROPN
-,	PUNCT
-said	AUX
-his	PART
-mother	NOUN
-found	AUX
-a	DET
-starving	AUX
-German	PROPN
-in	ADP
-the	DET
-outhouse	NOUN
-during	ADP
-the	DET
-year	NOUN
-after	ADP
-D-Day	PROPN
-,	PUNCT
-the	DET
-1944	ADJ
-Allied	PROPN
-invasion	NOUN
-of	ADP
-Europe.	PROPN
-
-In	ADP
-1752	NUM
-,	PUNCT
-flagmaker	NOUN
-Betsy	PROPN
-Ross	PROPN
-was	AUX
-born	VERB
-in	ADP
-Philadelphia	PROPN
-.	PUNCT
-
-Robert	PROPN
-Bernero	PROPN
-,	PUNCT
-chief	NOUN
-of	ADP
-waste	ADJ
-disposal	NOUN
-for	ADP
-the	DET
-NRC	PROPN
-,	PUNCT
-said	AUX
-the	DET
-shafts	NOUN
-would	AUX
-be	AUX
-`	PUNCT
-`	PUNCT
-the	DET
-first	ADV
-major	ADJ
-holes	NOUN
-to	PRT
-be	AUX
-dug	NOUN
-into	ADP
-the	DET
-Yucca	PROPN
-Mountain	PROPN
-formation.	AUX
-'	PART
-'	PUNCT
-
-`	PUNCT
-`	PUNCT
-The	DET
-U.S.	PROPN
-has	AUX
-the	DET
-biggest	ADJ
-stock	NOUN
-of	ADP
-chemical	ADJ
-arms	NOUN
-in	ADP
-the	DET
-world	NOUN
-,	PUNCT
-and	CONJ
-it	PRON
-is	AUX
-trying	AUX
-to	PRT
-obstruct	AUX
-other	ADJ
-countries	NOUN
-from	ADP
-having	AUX
-their	PART
-own	ADJ
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Arab	PROPN
-League	PROPN
-Secretary-General	PROPN
-Chedli	PROPN
-Klibi	PROPN
-.	PUNCT
-
-He	PRON
-was	AUX
-speaking	AUX
-at	ADP
-State	PROPN
-House	PROPN
-,	PUNCT
-Nairobi	PROPN
-,	PUNCT
-when	ADV
-receiving	AUX
-credentials	NOUN
-from	ADP
-the	DET
-new	ADJ
-high	ADJ
-commissioner	NOUN
-of	ADP
-Zimbabwe	PROPN
-,	PUNCT
-Mr.	PROPN
-Lucas	PROPN
-Pande	PROPN
-Tavaya	PROPN
-.	PUNCT
-
-(	ADP
-Text	PROPN
-)	AUX
-Santiago	PROPN
-,	PUNCT
-26	NUM
-Dec	PROPN
-(	AUX
-EFE	PROPN
-)	NUM
---	PUNCT
-A	DET
-police	NOUN
-report	AUX
-released	VERB
-today	NOUN
-states	AUX
-that	ADP
-a	DET
-very	ADV
-powerful	ADJ
-bomb	NOUN
-was	AUX
-thrown	VERB
-on	ADP
-25	NUM
-December	PROPN
-at	ADP
-a	DET
-Finandes	PROPN
-financial	AUX
-company	ADJ
-office	NOUN
-in	ADP
-the	DET
-stock	AUX
-exchange	ADJ
-district	NOUN
-of	ADP
-the	DET
-Chilean	PROPN
-city	NOUN
-of	ADP
-Valparaiso	PROPN
-,	PUNCT
-125	NUM
-km	NOUN
-northwest	ADV
-of	ADP
-Santiago.	PROPN
-
-Paris	PROPN
-Radio	PROPN
-France	PROPN
-International	PROPN
-
-One	NUM
-year	NOUN
-ago	ADP
-:	PUNCT
-The	DET
-Rev.	PROPN
-Jesse	PROPN
-Jackson	PROPN
-won	AUX
-the	DET
-Democratic	ADJ
-precinct	NOUN
-caucuses	AUX
-in	ADP
-his	PART
-native	NOUN
-South	PROPN
-Carolina	PROPN
-.	PUNCT
-
-The	DET
-workers	NOUN
-'	PART
-organization	NOUN
-also	ADV
-voiced	AUX
-its	PART
-support	NOUN
-for	ADP
-Andres	PROPN
-Vega	PROPN
-Cedeno	PROPN
-,	PUNCT
-also	ADV
-known	VERB
-as	ADP
-"	NOUN
-Domplin	PROPN
-,	PUNCT
-"	NOUN
-a	DET
-radio	NOUN
-commentator	NOUN
-who	PRON
-is	AUX
-running	AUX
-for	ADP
-mayor	AUX
-of	ADP
-Panama	PROPN
-City	PROPN
-;	PUNCT
-and	CONJ
-recommended	AUX
-that	ADP
-"	NOUN
-the	DET
-workers	NOUN
-also	ADV
-vote	AUX
-for	ADP
-Felipe	PROPN
-Cano	PROPN
-,	PUNCT
-who	PRON
-is	AUX
-running	AUX
-for	ADP
-mayor	NUM
-of	ADP
-San	PROPN
-Miguelito	PROPN
-.	PUNCT
-"	NOUN
-
-Diphtheria	PROPN
-in	ADP
-Zhitomir	PROPN
-94WE0015A	AUX
-Kiev	PROPN
-SILSKI	PROPN
-VISTI	PROPN
-in	ADP
-Ukrainian	PROPN
-1	NUM
-Jul	PROPN
-93	AUX
-p	PRON
-1	AUX
-
-There	DET
-was	AUX
-no	DET
-mention	NOUN
-at	ADP
-all	DET
-of	ADP
-the	DET
-Contras	PROPN
-,	PUNCT
-the	DET
-arms	ADJ
-sales	NOUN
-to	PRT
-Iran	PROPN
-or	CONJ
-the	DET
-enormous	ADJ
-trade	NOUN
-deficits	AUX
-that	ADP
-during	ADP
-Reagan	PROPN
-'s	PART
-tenure	NOUN
-have	AUX
-turned	AUX
-America	PROPN
-into	ADP
-the	DET
-world	NOUN
-'s	PART
-biggest	ADJ
-debtor	NOUN
-nation	NOUN
-.	PUNCT
-
-Miguel	PROPN
-Rodriguez	PROPN
-Mendoza	PROPN
-,	PUNCT
-ICE	PROPN
-minister	NOUN
-of	ADP
-state-president	ADJ
-(	NOUN
-title	AUX
-as	ADP
-published	ADJ
-)	NOUN
-,	PUNCT
-pointed	AUX
-out	ADP
-that	ADP
-"	NOUN
-the	DET
-regulation	NOUN
-promulgated	VERB
-on	ADP
-15	NUM
-December	PROPN
-by	ADP
-the	DET
-U.S.	PROPN
-Environmental	PROPN
-Protection	PROPN
-Agency	PROPN
-violates	AUX
-,	PUNCT
-according	AUX
-to	PRT
-Venezuela	PROPN
-,	PUNCT
-GATT	PROPN
-Article	PROPN
-III	PROPN
-(	AUX
-National	PROPN
-Treaty	PROPN
-)	AUX
-for	ADP
-establishing	AUX
-different	ADJ
-quality	NOUN
-standards	AUX
-for	ADP
-imported	VERB
-and	CONJ
-domestic	ADJ
-gasoline	NOUN
-.	PUNCT
-"	NOUN
-
-Gadhafi	PROPN
-requested	AUX
-the	DET
-meeting	AUX
-of	ADP
-foreign	ADJ
-ministers	NOUN
-after	ADP
-two	NUM
-U.S.	PROPN
-Navy	PROPN
-planes	NOUN
-downed	AUX
-the	DET
-Libyan	PROPN
-jets	NUM
-,	PUNCT
-which	DET
-American	ADJ
-officials	NOUN
-say	AUX
-were	AUX
-about	ADP
-to	PRT
-attack	AUX
-the	DET
-U.S.	PROPN
-craft	NUM
-.	PUNCT
-
-Higgins	PROPN
-,	PUNCT
-44	NUM
-,	PUNCT
-was	AUX
-seized	VERB
-while	ADP
-assigned	AUX
-to	PRT
-a	DET
-United	PROPN
-Nations	PROPN
-peacekeeping	AUX
-force.	ADP
-
-To	PRT
-handle	AUX
-these	DET
-tasks	NOUN
-,	PUNCT
-new	ADJ
-advanced	NOUN
-satellites	PRON
-are	AUX
-to	PRT
-be	AUX
-developed	VERB
-as	ADP
-outlined	AUX
-by	ADP
-Academician	PROPN
-M.	PROPN
-F.	PROPN
-Reshetnov	PROPN
-,	PUNCT
-general	ADJ
-designer	NOUN
-and	CONJ
-director	NOUN
-of	ADP
-the	DET
-Scientific	PROPN
-Production	PROPN
-Association	PROPN
-of	ADP
-Applied	PROPN
-Mechanics	PROPN
-.	PUNCT
-
-In	ADP
-1863	NUM
-,	PUNCT
-American	ADJ
-automaker	NOUN
-Henry	PROPN
-Ford	PROPN
-was	AUX
-born	VERB
-in	ADP
-Dearborn	PROPN
-Township	PROPN
-,	PUNCT
-Mich	PROPN
-.	PUNCT
-
-From	ADP
-a	DET
-broader	NOUN
-perspective	NUM
-,	PUNCT
-Mason	PROPN
-pointed	AUX
-out	ADP
-that	ADP
-he	PRON
-also	ADV
-bears	ADJ
-responsiblity	NOUN
-for	ADP
-preparing	AUX
-the	DET
-entire	NOUN
-Public	PROPN
-Health	PROPN
-Service	PROPN
-budget	NUM
-,	PUNCT
-which	DET
-includes	AUX
-the	DET
-National	PROPN
-Insitutes	PROPN
-of	ADP
-Health	PROPN
-,	PUNCT
-the	DET
-O	PROPN
-and	CONJ
-Drug	PROPN
-Administration	PROPN
-and	CONJ
-several	ADJ
-lesser	NOUN
-known	VERB
-agencies.	NOUN
-
-The	DET
-June	PROPN
-celebration	NOUN
-of	ADP
-cruising	AUX
-,	PUNCT
-started	AUX
-two	NUM
-years	NOUN
-after	ADP
-Modesto	PROPN
-native	NOUN
-George	PROPN
-Lucas	PROPN
-'	PART
-film	NOUN
-was	AUX
-released	VERB
-in	ADP
-1973	NUM
-,	PUNCT
-draws	AUX
-up	ADP
-to	PRT
-100	NUM
-,	PUNCT
-000	NUM
-people	NOUN
-in	ADP
-30	NUM
-,	PUNCT
-000	NUM
-cars	NOUN
-.	PUNCT
-
-MILAN	PROPN
-,	PUNCT
-Italy	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-The	DET
-advisory	ADJ
-committee	NOUN
-voted	AUX
-7-1	ADJ
-to	PRT
-recommend	AUX
-that	ADP
-the	DET
-drug	NOUN
-remain	AUX
-a	DET
-prescription	NOUN
-ingredient	NOUN
-,	PUNCT
-said	AUX
-Susan	PROPN
-Cruzan	PROPN
-,	PUNCT
-an	DET
-FDA	PROPN
-spokeswoman.	NOUN
-
-Crews	PROPN
-finished	PRT
-cutting	AUX
-a	DET
-line	NOUN
-of	ADP
-bare	NUM
-earth	NOUN
-around	ADP
-the	DET
-blaze	ADJ
-early	NOUN
-today	NOUN
-and	CONJ
-expected	AUX
-full	PRON
-control	AUX
-Wednesday	PROPN
-,	PUNCT
-said	AUX
-Forest	PROPN
-Service	PROPN
-spokeswoman	NOUN
-Margie	PROPN
-Clack.	PROPN
-
-Lucille	PROPN
-Ball	PROPN
-was	AUX
-born	VERB
-in	ADP
-Jamestown	PROPN
-,	PUNCT
-N.Y.	PROPN
-,	PUNCT
-the	DET
-daughter	NOUN
-of	ADP
-an	DET
-electrician	NOUN
-and	CONJ
-a	DET
-concert	NOUN
-pianist.	NOUN
-
-Pittsburgh-Corning	PROPN
-Corp.	PROPN
-of	ADP
-Pittsburgh	PROPN
-;	PUNCT
-
-FAA	PROPN
-spokesman	NOUN
-Fred	PROPN
-Farrar	PROPN
-said	AUX
-Tuesday	PROPN
-the	DET
-timer	ADJ
-assembly	NOUN
-could	AUX
-not	ADV
-have	AUX
-caused	AUX
-the	DET
-British	PROPN
-Midland	PROPN
-crash	NUM
-.	PUNCT
-
-Port	PROPN
-Arthur	PROPN
-Mayor	PROPN
-Malcolm	PROPN
-Grant	PROPN
-asked	AUX
-the	DET
-800	ADJ
-residents	NOUN
-of	ADP
-Sabine	PROPN
-Pass	PROPN
-to	PRT
-evacuate	AUX
-the	DET
-coastal	ADJ
-community	NOUN
-just	ADV
-west	ADJ
-of	ADP
-the	DET
-Louisiana	PROPN
-line	NUM
-,	PUNCT
-citing	AUX
-the	DET
-likelihood	NOUN
-of	ADP
-high	ADJ
-water	NOUN
-closing	AUX
-the	DET
-only	ADJ
-highway	NOUN
-between	ADP
-the	DET
-town	NOUN
-and	CONJ
-Port	PROPN
-Arthur.	PROPN
-
-The	DET
-newly	NOUN
-elected	AUX
-deputies	NOUN
-were	AUX
-also	ADV
-greeted	VERB
-by	ADP
-a	DET
-guest	NOUN
-from	ADP
-Moscow	PROPN
-,	PUNCT
-Russian	PROPN
-State	PROPN
-Duma	PROPN
-Deputy	PROPN
-Konstantin	PROPN
-Zatulin	PROPN
-,	PUNCT
-who	PRON
-expressed	AUX
-his	PART
-confidence	NOUN
-that	ADP
-the	DET
-new	ADJ
-parliament	NOUN
-has	AUX
-the	DET
-possibility	NOUN
-to	PRT
-open	AUX
-a	DET
-new	ADJ
-chapter	NOUN
-in	ADP
-Crimean	PROPN
-history	NOUN
-,	PUNCT
-and	CONJ
-that	ADP
-the	DET
-Crimea	PROPN
-will	AUX
-become	ADP
-a	DET
-promised	ADJ
-land	NOUN
-for	ADP
-everybody	NUM
-.	PUNCT
-
-In	ADP
-1890	NUM
-,	PUNCT
-the	DET
-34th	ADJ
-President	NOUN
-of	ADP
-the	DET
-United	PROPN
-States	PROPN
-,	PUNCT
-Dwight	PROPN
-D.	PROPN
-Eisenhower	PROPN
-,	PUNCT
-was	AUX
-born	VERB
-in	ADP
-Denison	PROPN
-,	PUNCT
-Texas	PROPN
-.	PUNCT
-
-CNEN	PROPN
-Radioprotection	PROPN
-Director	PROPN
-Laercio	PROPN
-Vinhas	PROPN
-yesterday	NOUN
-reported	AUX
-by	ADP
-fax	NOUN
-that	ADP
-the	DET
-thyroid	ADJ
-dysfunctions	NOUN
-detected	AUX
-in	ADP
-the	DET
-employees	NOUN
-have	AUX
-no	DET
-relation	NOUN
-whatsoever	ADV
-with	ADP
-their	PART
-work	NOUN
-at	ADP
-the	DET
-laboratory	NOUN
-and	CONJ
-that	ADP
-this	DET
-problem	NOUN
-is	AUX
-detected	VERB
-in	ADP
-3	NUM
-percent	NOUN
-of	ADP
-the	DET
-overall	ADJ
-population	NOUN
-.	PUNCT
-
-In	ADP
-1879	NUM
-,	PUNCT
-humorist	NOUN
-Will/Rogers	PROPN
-was	AUX
-born	VERB
-in	ADP
-Oologah	PROPN
-,	PUNCT
-Okla	PROPN
-.	PUNCT
-
-Beirut	PROPN
-Radio	PROPN
-Lebanon	PROPN
-
-944E0738B	ADP
-Moscow	PROPN
-PRAVDA	PROPN
-in	ADP
-Russia	PROPN
-21	AUX
-Apr	PROPN
-94	AUX
-p	PRON
-2	AUX
-
-In	ADP
-1911	NUM
-,	PUNCT
-the	DET
-38th	NOUN
-U.S.	PROPN
-vice	ADJ
-president	NOUN
-,	PUNCT
-Hubert	PROPN
-H.	PROPN
-Humphrey	PROPN
-,	PUNCT
-was	AUX
-born	VERB
-in	ADP
-Wallace	PROPN
-,	PUNCT
-S.D.	PROPN
-In	ADP
-1929	NUM
-,	PUNCT
-aviator	NOUN
-Charles	PROPN
-Lindbergh	PROPN
-married	AUX
-Anne	PROPN
-Spencer	PROPN
-Morrow	PROPN
-in	ADP
-Englewood	PROPN
-,	PUNCT
-N.J.	PROPN
-In	ADP
-1935	NUM
-,	PUNCT
-the	DET
-Supreme	PROPN
-Court	PROPN
-struck	AUX
-down	ADP
-the	DET
-National	PROPN
-Industrial	PROPN
-Recovery	PROPN
-Act	PROPN
-.	PUNCT
-
-Dutch	PROPN
-Air	PROPN
-Force	PROPN
-Trains	PROPN
-for	ADP
-Attacks	PROPN
-on	ADP
-Bosnia	PROPN
-BR1002123994	PROPN
-The	PROPN
-Hague	PROPN
-ANP	PROPN
-in	ADP
-Dutch	PROPN
-1540	AUX
-GMT	PROPN
-9	AUX
-Feb	PROPN
-94	NUM
---	PUNCT
-FOR	PROPN
-OFFICIAL	PROPN
-USE	PROPN
-ONLY	PROPN
-
-The	DET
-House	PROPN
-voted	AUX
-Thursday	PROPN
-to	PRT
-withdraw	AUX
-a	DET
-grant	NOUN
-to	PRT
-develop	AUX
-bandleader	NOUN
-Lawrence	PROPN
-Welk	PROPN
-'s	PART
-North	PROPN
-Dakota	PROPN
-hometown	NOUN
-,	PUNCT
-a	DET
-rural	ADJ
-development	NOUN
-project	NOUN
-that	ADP
-became	AUX
-a	DET
-symbol	NOUN
-for	ADP
-wasteful	ADJ
-government	NOUN
-spending	AUX
-last	ADJ
-fall	NOUN
-.	PUNCT
-
-(	ADP
-Article	PROPN
-by	ADP
-S.	PROPN
-Gusak	PROPN
-,	PUNCT
-deputy	NUM
-chairman	NOUN
-of	ADP
-the	DET
-Belarusian	PROPN
-
-As	ADP
-Michael	PROPN
-Holtcamp	PROPN
-,	PUNCT
-the	DET
-manager	NOUN
-of	ADP
-the	DET
-project	NOUN
-,	PUNCT
-based	VERB
-in	ADP
-Huntsville	PROPN
-,	PUNCT
-Alabama	PROPN
-,	PUNCT
-put	AUX
-it	PRON
-,	PUNCT
-one	NUM
-slip	NOUN
-of	ADP
-the	DET
-Arrow	PROPN
-'s	PART
-sensor	NOUN
-or	CONJ
-radar	NOUN
-and	CONJ
-the	DET
-mission	NOUN
-is	AUX
-unsuccessful	NUM
-.	PUNCT
-
-Jesse	PROPN
-Jackson	PROPN
-made	AUX
-an	DET
-impressive	ADJ
-showing	NOUN
-in	ADP
-Democratic	ADJ
-caucuses	NOUN
-in	ADP
-his	PART
-native	NOUN
-South	PROPN
-Carolina	PROPN
-over	ADP
-the	DET
-weekend	NOUN
-and	CONJ
-now	ADV
-takes	AUX
-aim	NOUN
-at	ADP
-Tuesday	PROPN
-'s	PART
-primary	NOUN
-in	ADP
-his	PART
-adopted	VERB
-Illinois	PROPN
-.	PUNCT
-
-(	ADP
-Excerpts	PROPN
-)	AUX
-In	ADP
-Djibouti	PROPN
-,	PUNCT
-a	DET
-demonstration	NOUN
-in	ADP
-the	DET
-Afar	PROPN
-district	NOUN
-of	ADP
-Arhiba	PROPN
-was	AUX
-violently	PRON
-repressed	AUX
-by	ADP
-the	DET
-police	NOUN
-this	DET
-morning.	ADJ
-(	NOUN
-passage	AUX
-omitted	VERB
-)	ADP
-Djama	PROPN
-Elabe	PROPN
-,	PUNCT
-the	DET
-chairman	NOUN
-of	ADP
-the	DET
-Party	PROPN
-for	ADP
-Democratic	ADJ
-Renewal	PROPN
-,	PUNCT
-is	AUX
-outraged	VERB
-at	ADP
-what	PRON
-happened	AUX
-.	PUNCT
-
-Lt.	PROPN
-Jim	PROPN
-Bowell	PROPN
-of	ADP
-the	DET
-Butler	PROPN
-Township	PROPN
-Fire	PROPN
-Department	PROPN
-said	AUX
-the	DET
-4	NUM
-:	PUNCT
-45	NUM
-a.m.	ADV
-accident	AUX
-set	VERB
-fire	ADJ
-to	PRT
-about	ADP
-100	NUM
-yards	NOUN
-of	ADP
-woods	NUM
-.	PUNCT
-
-Michael	PROPN
-Mason	PROPN
-,	PUNCT
-a	DET
-lobbyist	NOUN
-with	ADP
-the	DET
-American	ADJ
-Petroleum	PROPN
-Institute	PROPN
-,	PUNCT
-told	AUX
-the	DET
-news	NOUN
-conference	AUX
-that	ADP
-his	PART
-oil	ADJ
-industry	NOUN
-trade	AUX
-group	PRON
-believes	AUX
-the	DET
-proposal	NOUN
-to	PRT
-be	AUX
-`	PUNCT
-`	PUNCT
-a	DET
-big	ADJ
-mistake	NOUN
-'	PART
-'	PUNCT
-because	ADP
-`	PUNCT
-`	PUNCT
-there	DET
-should	AUX
-be	AUX
-a	DET
-level	NOUN
-playing	AUX
-field	VERB
-in	ADP
-which	DET
-all	DET
-fuels	NOUN
-should	AUX
-be	AUX
-able	ADJ
-to	PRT
-compete.	AUX
-'	PART
-'	PUNCT
-
-`	PUNCT
-`	PUNCT
-Up	PROPN
-to	PRT
-5	NUM
-million	NOUN
-trees	AUX
-planted	VERB
-in	ADP
-the	DET
-right	ADJ
-places	NOUN
-in	ADP
-Southern	PROPN
-California	PROPN
-will	AUX
-conserve	AUX
-the	DET
-energy	ADJ
-equivalent	NOUN
-of	ADP
-one	NUM
-to	PRT
-two	NUM
-new	ADJ
-power	ADJ
-plants	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Andy	PROPN
-Lipkis	PROPN
-,	PUNCT
-executive	NUM
-of	ADP
-TreePeople	PROPN
-,	PUNCT
-a	DET
-conservation	NOUN
-and	CONJ
-community-action	ADJ
-group	NOUN
-that	ADP
-is	AUX
-organizing	AUX
-the	DET
-planting	AUX
-campaign	NOUN
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-This	DET
-is	AUX
-not	ADV
-a	DET
-good	ADJ
-idea	NOUN
-for	ADP
-a	DET
-lot	NOUN
-of	ADP
-environmental	ADJ
-reasons	NOUN
-,	PUNCT
-'	PUNCT
-'	PART
-Stephanie	PROPN
-Powell	PROPN
-,	PUNCT
-of	ADP
-the	DET
-DEM	PROPN
-'s	PART
-division	NOUN
-of	ADP
-groundwater	NOUN
-and	CONJ
-freshwater	AUX
-wetlands	NOUN
-,	PUNCT
-said	AUX
-Tuesday.	PROPN
-
-The	DET
-government	NOUN
-news	ADJ
-agency	NOUN
-Notimex	PROPN
-reported	AUX
-later	ADV
-that	ADP
-leaders	NOUN
-of	ADP
-the	DET
-union	NOUN
-'s	PART
-locals	NOUN
-had	AUX
-designated	VERB
-Ricardo	PROPN
-Camero	PROPN
-Cardiel	PROPN
-,	PUNCT
-a	DET
-local	ADJ
-leader	NOUN
-and	CONJ
-senator	NOUN
-from	ADP
-the	DET
-northeastern	ADJ
-city	NOUN
-of	ADP
-Ciudad	PROPN
-Madero	PROPN
-,	PUNCT
-the	DET
-union	NOUN
-'s	PART
-new	ADJ
-secretary-general	ADJ
-.	PUNCT
-
-LOS	PROPN
-ANGELES	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-Anastas	PROPN
-Mikoyan	PROPN
-,	PUNCT
-then	ADV
-Soviet	PROPN
-first	ADV
-deputy	ADJ
-premier	NOUN
-,	PUNCT
-was	AUX
-the	DET
-catalyst	NOUN
-for	ADP
-the	DET
-reversal	NOUN
-of	ADP
-Khrushchev	PROPN
-'s	PART
-order	NOUN
-,	PUNCT
-according	AUX
-to	PRT
-the	DET
-authors	NOUN
-.	PUNCT
-
-Pacific	PROPN
-Marine	PROPN
-Inc.	PROPN
-of	ADP
-Houston	PROPN
-,	PUNCT
-was	AUX
-located	VERB
-about	ADP
-15	NUM
-miles	NOUN
-east	ADV
-of	ADP
-Grand	PROPN
-Isle.	PROPN
-
-`	PUNCT
-`	PUNCT
-That	PROPN
-original	AUX
-one	NUM
-was	AUX
-knocked	VERB
-down	ADP
-for	ADP
-a	DET
-reason	NOUN
-by	ADP
-the	DET
-tanks	NOUN
-,	PUNCT
-and	CONJ
-I	PRON
-presume	AUX
-this	DET
-one	NUM
-was	AUX
-knocked	VERB
-down	ADP
-for	ADP
-the	DET
-same	ADJ
-reason	NOUN
-,	PUNCT
-'	PUNCT
-'	PART
-Santa	PROPN
-Monica	PROPN
-artist	NOUN
-Tom	PROPN
-Van	PROPN
-Sant	PROPN
-said	AUX
-Monday	PROPN
-after	ADP
-the	DET
-23-foot-tall	ADJ
-statue	NOUN
-was	AUX
-found	AUX
-crushed	VERB
-and	CONJ
-broken	VERB
-in	ADP
-pieces.	NOUN
-
-Banisadr	PROPN
-lives	AUX
-under	NOUN
-round-the-clock	ADJ
-security	NOUN
-in	ADP
-France	PROPN
-,	PUNCT
-fearing	AUX
-Tehran	PROPN
-could	AUX
-make	ADP
-an	DET
-attempt	NOUN
-on	ADP
-his	PART
-life	NOUN
-.	PUNCT
-
-In	ADP
-1872	NUM
-,	PUNCT
-the	DET
-30th	ADJ
-president	NOUN
-of	ADP
-the	DET
-United	PROPN
-States	PROPN
-,	PUNCT
-Calvin	PROPN
-Coolidge	PROPN
-,	PUNCT
-was	AUX
-born	VERB
-in	ADP
-Plymouth	PROPN
-,	PUNCT
-Vt	PROPN
-.	PUNCT
-
-Former	PROPN
-Pepco	PROPN
-executive	NUM
-Sharon	PROPN
-Pratt	PROPN
-Dixon	PROPN
-has	AUX
-raised	VERB
-$100	ADP
-COMMA	PROPN
-261	AUX
-COMMA	PROPN
-while	ADP
-council	NOUN
-Chairman	PROPN
-David	PROPN
-Clarke	PROPN
-registered	AUX
-$48	PRON
-COMMA	PROPN
-875.	AUX
-
-Mexico	PROPN
-City	PROPN
-LA	PROPN
-JORNADA	PROPN
-
-`	PUNCT
-`	PUNCT
-We	PRON
-'d	AUX
-play	ADJ
-hearts	NOUN
-for	ADP
-hours	NOUN
-at	ADP
-a	DET
-time	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Atlanta	PROPN
-businessman	PROPN
-Neil	PROPN
-Estes.	PROPN
-
-(	ADP
-Text	PROPN
-)	AUX
-Ulaanbaatar	PROPN
-,	PUNCT
-29	NUM
-Apr	PROPN
-(	AUX
-XINHUA	PROPN
-)	NUM
---	PUNCT
-China	PROPN
-'s	PART
-Premier	PROPN
-Li	PROPN
-Peng	PROPN
-and	CONJ
-Mongolian	PROPN
-Prime	PROPN
-P.	PROPN
-Jasray	PROPN
-signed	AUX
-the	DET
-"	NOUN
-Treaty	PROPN
-of	ADP
-Friendly	PROPN
-Cooperation	PROPN
-Relations	PROPN
-Between	PROPN
-the	DET
-People	PROPN
-'s	PART
-Republic	PROPN
-of	ADP
-China	PROPN
-and	CONJ
-Mongolia	PROPN
-"	NOUN
-at	ADP
-the	DET
-State	PROPN
-Palace	PROPN
-in	ADP
-the	DET
-afternoon	NOUN
-of	ADP
-29	NUM
-April	PROPN
-.	PUNCT
-
-BK2106131694	PROPN
-Jakarta	PROPN
-Radio	PROPN
-Republik	PROPN
-Indonesia	PROPN
-Network	PROPN
-in	ADP
-Indonesian	PROPN
-1200	AUX
-GMT	PROPN
-21	AUX
-Jun	PROPN
-94	AUX
-
-`	PUNCT
-`	PUNCT
-We	PRON
-'re	AUX
-in	ADP
-for	ADP
-a	DET
-long	ADJ
-haul	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Dave	PROPN
-Olson	PROPN
-of	ADP
-the	DET
-Payette	PROPN
-National	PROPN
-Forest	PROPN
-in	ADP
-Idaho	PROPN
-,	PUNCT
-where	ADV
-more	ADJ
-than	ADP
-200	ADJ
-fires	NOUN
-continued	AUX
-to	PRT
-burn.	AUX
-
-In	ADP
-1751	NUM
-,	PUNCT
-James	PROPN
-Madison	PROPN
-,	PUNCT
-fourth	ADJ
-president	NOUN
-of	ADP
-the	DET
-United	PROPN
-States	PROPN
-,	PUNCT
-was	AUX
-born	VERB
-in	ADP
-Port	PROPN
-Conway	PROPN
-,	PUNCT
-Va.	PROPN
-
-Lawrence	PROPN
-Kane	PROPN
-Jr.	PROPN
-of	ADP
-Cincinnati	PROPN
-,	PUNCT
-Ohio	PROPN
-'s	PART
-special	ADJ
-prosecutor	NOUN
-in	ADP
-the	DET
-Home	PROPN
-State	PROPN
-case	NOUN
-,	PUNCT
-declined	AUX
-comment	NOUN
-on	ADP
-any	DET
-settlement	ADJ
-possibilities.	NOUN
-
-In	ADP
-Waco	PROPN
-,	PUNCT
-near	ADP
-Nelson	PROPN
-'s	PART
-hometown	NOUN
-of	ADP
-Abbott	PROPN
-,	PUNCT
-auto	NOUN
-parts	ADJ
-salesman	NOUN
-Dave	PROPN
-Crowe	PROPN
-proposed	AUX
-that	ADP
-fans	NOUN
-join	AUX
-`	PUNCT
-`	PUNCT
-Willie	PROPN
-Aid	PROPN
-'	PART
-'	PUNCT
-by	ADP
-mailing	ADJ
-donations	NOUN
-straight	ADV
-to	PRT
-the	DET
-IRS.	PROPN
-
-In	ADP
-the	DET
-case	NOUN
-of	ADP
-the	DET
-United	PROPN
-States	PROPN
-,	PUNCT
-it	PRON
-is	AUX
-unclear	NOUN
-whether	ADP
-the	DET
-U.S.	PROPN
-Congress	PROPN
-will	AUX
-ratify	ADP
-the	DET
-agreement	NOUN
-within	ADP
-the	DET
-deadline	NOUN
-.	PUNCT
-
-Spokesman	PROPN
-Dietmar	PROPN
-Kanzer	PROPN
-of	ADP
-the	DET
-smaller	NOUN
-Rollei	PROPN
-company	NUM
-,	PUNCT
-which	DET
-employs	NOUN
-about	ADP
-270	ADJ
-people	NOUN
-,	PUNCT
-told	AUX
-the	DET
-AP	PROPN
-the	DET
-firm	NOUN
-had	AUX
-great	ADJ
-success	NOUN
-with	ADP
-its	PART
-new	ADJ
-Roliflex	PROPN
-6008	AUX
-camera	NOUN
-in	ADP
-1988	NUM
-.	PUNCT
-
-The	DET
-temblor	AUX
-measured	ADJ
-3.9	NOUN
-on	ADP
-the	DET
-Richter	PROPN
-scale	NOUN
-and	CONJ
-was	AUX
-centered	VERB
-10	NUM
-miles	NOUN
-below	AUX
-the	DET
-Lacamas	PROPN
-Lake	PROPN
-area	NUM
-,	PUNCT
-just	ADV
-northeast	ADJ
-of	ADP
-Camas	PROPN
-,	PUNCT
-Wash.	PROPN
-,	PUNCT
-said	AUX
-Chris	PROPN
-Jonientz-Trisler	PROPN
-,	PUNCT
-seismic	NUM
-analyst	NOUN
-at	ADP
-the	DET
-University	PROPN
-of	ADP
-Washington	PROPN
-Seismology	PROPN
-Lab.	PROPN
-
-Until	ADP
-there	DET
-is	AUX
-discussion	NOUN
-of	ADP
-the	DET
-candidature	NOUN
-of	ADP
-a	DET
-new	ADJ
-minister	NOUN
-of	ADP
-foreign	ADJ
-affairs	NOUN
-,	PUNCT
-his	PART
-duties	NOUN
-will	AUX
-be	AUX
-discharged	VERB
-by	ADP
-Birkavs	PROPN
-himself	PRON
-;	PUNCT
-but	CONJ
-Gunars	PROPN
-Meierovics	PROPN
-(	AUX
-minister	NOUN
-of	ADP
-state	NOUN
-for	ADP
-Baltic	PROPN
-and	CONJ
-Nordic	PROPN
-affairs	AUX
-)	NUM
-,	PUNCT
-Olgerts	PROPN
-Pavlovskis	PROPN
-(	AUX
-minister	NOUN
-of	ADP
-state	NOUN
-for	ADP
-foreign	ADJ
-trade	NOUN
-and	CONJ
-European	PROPN
-Community	PROPN
-affairs	AUX
-)	NUM
-,	PUNCT
-and	CONJ
-Martins	PROPN
-Virsis	PROPN
-(	AUX
-first	ADV
-deputy	ADJ
-minister	NOUN
-of	ADP
-foreign	ADJ
-affairs	NOUN
-)	PRON
-have	AUX
-been	VERB
-instructed	VERB
-to	PRT
-fulfill	AUX
-the	DET
-positions	NOUN
-they	PRON
-have	AUX
-held	VERB
-until	ADP
-now	ADV
-.	PUNCT
-
-Johannesburg	PROPN
-SAPA	PROPN
-
-`	PUNCT
-`	PUNCT
-Please	PROPN
-don	AUX
-'t	NOUN
-execute	AUX
-him	PRON
-,	PUNCT
-please	NUM
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Mrs.	PROPN
-Cicippio	PROPN
-,	PUNCT
-who	PRON
-works	AUX
-at	ADP
-the	DET
-American	ADJ
-Embassy	PROPN
-in	ADP
-east	ADJ
-Beirut.	PROPN
-
-Their	PART
-theory	NOUN
-that	ADP
-the	DET
-warheads	NOUN
-were	AUX
-blocked	VERB
-by	ADP
-the	DET
-quarantine	NOUN
-is	AUX
-at	ADP
-odds	NOUN
-with	ADP
-a	DET
-recent	ADJ
-disclosure	NOUN
-by	ADP
-Aleksander	PROPN
-Alekseev	PROPN
-,	PUNCT
-the	DET
-former	ADJ
-ambassador	NOUN
-to	PRT
-Cuba	PROPN
-,	PUNCT
-who	PRON
-said	AUX
-in	ADP
-a	DET
-recent	NOUN
-Soviet	PROPN
-magazine	NOUN
-that	ADP
-42	DET
-medium-range	ADJ
-missiles	NOUN
-were	AUX
-fully	ADV
-operational	ADJ
-.	PUNCT
-
-Libya	PROPN
-'s	PART
-deputy	ADJ
-ambassador	NOUN
-,	PUNCT
-Ali	PROPN
-Sunni	PROPN
-Muntasser	PROPN
-,	PUNCT
-said	AUX
-the	DET
-pictures	NOUN
-were	AUX
-retouched	VERB
-and	CONJ
-the	DET
-planes	NOUN
-were	AUX
-unarmed	NOUN
-and	CONJ
-on	ADP
-reconnaissance	NOUN
-flights	NUM
-.	PUNCT
-
-FL2706231194	PROPN
-Havana	PROPN
-Radio	PROPN
-Reloj	PROPN
-Network	PROPN
-in	ADP
-Spanish	ADJ
-1402	NOUN
-GMT	PROPN
-27	NUM
-Jun	PROPN
-94	AUX
-
-A	DET
-golden	ADJ
-future	NOUN
-seemed	AUX
-assured	VERB
-when	ADV
-,	PUNCT
-at	ADP
-25	NUM
-,	PUNCT
-Ogdon	PROPN
-shared	AUX
-top	ADJ
-place	NOUN
-with	ADP
-Soviet	PROPN
-pianist	NOUN
-Vladimir	PROPN
-Ashkenazy	PROPN
-in	ADP
-the	DET
-piano	ADJ
-section	NOUN
-of	ADP
-the	DET
-1962	NUM
-Moscow	PROPN
-Tchaikovsky	PROPN
-International	PROPN
-Competition	PROPN
-for	ADP
-young	ADJ
-musicians.	NOUN
-
-U.S.	PROPN
-Bankruptcy	PROPN
-Judge	PROPN
-Harold	PROPN
-Abramson	PROPN
-said	AUX
-creditors	NOUN
-in	ADP
-the	DET
-bankruptcy	ADJ
-case	NOUN
-of	ADP
-William	PROPN
-Herbert	PROPN
-and	CONJ
-Nancy	PROPN
-Hunt	PROPN
-can	AUX
-submit	ADJ
-suggestions	NOUN
-on	ADP
-how	AUX
-the	DET
-Hunts	PROPN
-should	AUX
-repay	NOUN
-their	PART
-debts.	NOUN
-
-Overview	PROPN
-of	ADP
-Arrow	PROPN
-Missile	PROPN
-Program	PROPN
-,	PUNCT
-Tasks	PROPN
-94AA0008Z	AUX
-Jerusalem	PROPN
-THE	PROPN
-JERUSALEM	PROPN
-POST	PROPN
-in	ADP
-English	PROPN
-15	NUM
-Oct	PROPN
-93	AUX
-pp	NOUN
-6-8	ADJ
-,	PUNCT
-10--FOR	ADJ
-OFFICIAL	PROPN
-USE	PROPN
-ONLY	PROPN
-
-In	ADP
-turn	NUM
-,	PUNCT
-Vietnam	PROPN
-and	CONJ
-the	DET
-Cambodian	PROPN
-government	NOUN
-of	ADP
-Prime	PROPN
-Hun	PROPN
-Sen	PROPN
-agreed	AUX
-to	PRT
-the	DET
-fact-finding	ADJ
-mission	NOUN
-under	ADP
-the	DET
-auspices	NOUN
-of	ADP
-U.N.	PROPN
-Secretary-General	PROPN
-Javier	PROPN
-Perez	PROPN
-de	PROPN
-Cuellar.	PROPN
-
-OSHA	PROPN
-now	ADV
-wants	AUX
-the	DET
-civil	ADJ
-cases	NOUN
-postponed	AUX
-so	ADP
-the	DET
-case	NOUN
-can	AUX
-be	AUX
-reviewed	VERB
-for	ADP
-possible	ADJ
-criminal	ADJ
-violations	NOUN
-,	PUNCT
-U.S.	PROPN
-Elizabeth	PROPN
-Dole	PROPN
-said	AUX
-in	ADP
-a	DET
-statement	NOUN
-Tuesday.	PROPN
-
-Miller	PROPN
-is	AUX
-a	DET
-Wilmington	PROPN
-native	NOUN
-who	PRON
-was	AUX
-recruited	VERB
-by	ADP
-the	DET
-FBI	PROPN
-shortly	ADV
-after	ADP
-graduating	AUX
-from	ADP
-Brigham	PROPN
-Young	PROPN
-University	PROPN
-in	ADP
-Utah	PROPN
-.	PUNCT
-
-Farley	PROPN
-attorney	NOUN
-Stephen	PROPN
-Greiner	PROPN
-contended	AUX
-during	ADP
-Wednesday	PROPN
-'s	PART
-90-minute	ADJ
-hearing	NOUN
-that	ADP
-the	DET
-pill	NOUN
-`	PUNCT
-`	PUNCT
-is	AUX
-a	DET
-device	NOUN
-by	ADP
-which	DET
-the	DET
-board	NOUN
-of	ADP
-directors	NOUN
-of	ADP
-West	PROPN
-Point	PROPN
-says	AUX
-nobody	PRON
-can	AUX
-buy	PRON
-more	AUX
-than	ADP
-10	NUM
-percent.	NOUN
-'	PART
-'	PUNCT
-
-Louis	PROPN
-Viannet	PROPN
-,	PUNCT
-leader	NOUN
-of	ADP
-France	PROPN
-'s	PART
-Communist-led	PROPN
-CGT	PROPN
-union	NOUN
-,	PUNCT
-criticised	AUX
-government	NOUN
-plans	AUX
-for	ADP
-spending	AUX
-cuts	VERB
-in	ADP
-the	DET
-1997	ADJ
-budget	NOUN
-on	ADP
-Wednesday	PROPN
-and	CONJ
-warned	AUX
-of	ADP
-labour	PART
-unrest	NOUN
-as	ADP
-France	PROPN
-gets	AUX
-back	ADJ
-to	PRT
-work	AUX
-after	ADP
-the	DET
-holidays	NOUN
-.	PUNCT
-
-The	DET
-plane	NOUN
-,	PUNCT
-owned	AUX
-by	ADP
-Bradley	PROPN
-First	PROPN
-Air	PROPN
-,	PUNCT
-of	ADP
-Ottawa	PROPN
-,	PUNCT
-Canada	PROPN
-,	PUNCT
-was	AUX
-carrying	AUX
-cargo	VERB
-to	PRT
-Montreal	PROPN
-for	ADP
-Emery	PROPN
-Air	PROPN
-Freight	PROPN
-Corp.	PROPN
-,	PUNCT
-an	DET
-air	ADJ
-freight	NOUN
-courier	AUX
-service	NOUN
-with	ADP
-a	DET
-hub	NOUN
-at	ADP
-the	DET
-Dayton	PROPN
-airport	NUM
-.	PUNCT
-
-The	DET
-session	NOUN
-was	AUX
-opened	VERB
-by	ADP
-Aleksandr	PROPN
-Kruhlow	PROPN
-,	PUNCT
-a	DET
-72-year-old	ADJ
-deputy	NOUN
-from	ADP
-Sevastopol	PROPN
-,	PUNCT
-organizer	NOUN
-of	ADP
-many	ADJ
-meetings	NOUN
-in	ADP
-Nakhimov	PROPN
-Square	PROPN
-,	PUNCT
-and	CONJ
-an	DET
-untiring	AUX
-fighter	NOUN
-for	ADP
-the	DET
-return	NOUN
-of	ADP
-Sevastopol	PROPN
-and	CONJ
-the	DET
-Crimea	PROPN
-to	PRT
-Russia	PROPN
-.	PUNCT
-
-(	ADP
-Text	PROPN
-)	AUX
-Saint-Gall	PROPN
-,	PUNCT
-Switzerland	PROPN
-,	PUNCT
-Feb	PROPN
-2	NUM
-(	NOUN
-AFP	PROPN
-)	NUM
---	PUNCT
-The	DET
-wreck	NOUN
-of	ADP
-a	DET
-twin-engine	ADJ
-aircraft	NOUN
-has	AUX
-been	VERB
-found	AUX
-160	ADJ
-metres	NOUN
-below	AUX
-the	DET
-surface	NOUN
-of	ADP
-Lake	PROPN
-Constance	PROPN
-,	PUNCT
-Swiss	PROPN
-police	NOUN
-said	AUX
-Tuesday	PROPN
--LRB-	PUNCT
-1	NUM
-February	PROPN
-)	NUM
-.	PUNCT
-
-For	ADP
-extra	ADJ
-credit	NOUN
-,	PUNCT
-Shutes	PROPN
-noted	AUX
-singer-songwriter	NOUN
-Bob	PROPN
-Dylan	PROPN
-,	PUNCT
-who	PRON
-gets	AUX
-a	DET
-mention	NOUN
-in	ADP
-the	DET
-song	NOUN
-,	PUNCT
-was	AUX
-born	VERB
-Duluth	PROPN
-and	CONJ
-reared	VERB
-in	ADP
-Hibbing	PROPN
-.	PUNCT
-
-Also	PROPN
-being	AUX
-considered	VERB
-are	AUX
-Judge	PROPN
-Ralph	PROPN
-K.	PROPN
-Winter	PROPN
-of	ADP
-the	DET
-2nd	NOUN
-U.S.	PROPN
-Circuit	PROPN
-Court	PROPN
-of	ADP
-Appeals	PROPN
-in	ADP
-New	PROPN
-York	PROPN
-City	PROPN
-and	CONJ
-Judge	PROPN
-Kenneth	PROPN
-Starr	PROPN
-of	ADP
-the	DET
-U.S.	PROPN
-Circuit	PROPN
-Court	PROPN
-of	ADP
-Appeals	PROPN
-for	ADP
-the	DET
-District	PROPN
-of	ADP
-Columbia	PROPN
-,	PUNCT
-said	AUX
-the	DET
-source	NOUN
-,	PUNCT
-who	PRON
-spoke	AUX
-on	ADP
-condition	NOUN
-of	ADP
-anonymity	NOUN
-.	PUNCT
-
-`	PUNCT
-`	PUNCT
-We	PRON
-'ve	AUX
-evacuated	VERB
-everybody	ADV
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Conoco	PROPN
-Inc.	PROPN
-spokesman	NOUN
-Michael	PROPN
-O	PROPN
-'Connor.	AUX
-
-I	PRON
-was	AUX
-keen	VERB
-to	PRT
-ask	AUX
-the	DET
-following	AUX
-questions	NOUN
-in	ADP
-an	DET
-interview	NOUN
-with	ADP
-Russian	PROPN
-Atomic	PROPN
-Energy	PROPN
-Minister	PROPN
-V.	PROPN
-Mikhaylov	PROPN
-:	PUNCT
-(	ADP
-Gubarev	PROPN
-)	AUX
-How	PROPN
-did	AUX
-Ukraine	PROPN
-lose	AUX
-out	ADP
-by	ADP
-this	DET
-deal	ADJ
-?	NOUN
-(	ADP
-Mikhaylov	PROPN
-)	AUX
-The	DET
-level	NOUN
-of	ADP
-Ukraine	PROPN
-'s	PART
-security	NOUN
-has	AUX
-increased	VERB
---	PUNCT
-so	ADV
-in	ADP
-fact	NOUN
-Ukraine	PROPN
-has	AUX
-benefited	VERB
-.	PUNCT
-
-LD0806223294	PROPN
-Sarajevo	PROPN
-Radio	PROPN
-Bosnia-Herzegovina	PROPN
-Network	PROPN
-in	ADP
-Serbo-Croatian	PROPN
-2000	AUX
-GMT	PROPN
-8	NUM
-Jun	PROPN
-94	AUX
-
-Someone	PROPN
-cut	AUX
-ropes	PRON
-holding	AUX
-up	ADP
-the	DET
-plastic	ADJ
-foam	NOUN
-,	PUNCT
-wood	NUM
-and	CONJ
-plaster	AUX
-figure	NOUN
-Sunday	PROPN
-night	NOUN
-and	CONJ
-it	PRON
-crashed	AUX
-to	PRT
-the	DET
-ground	NOUN
-at	ADP
-the	DET
-entrance	NOUN
-of	ADP
-the	DET
-Chinese	PROPN
-Consolidated	PROPN
-Benevolent	PROPN
-Association	PROPN
-,	PUNCT
-said	AUX
-President	PROPN
-Stephen	PROPN
-K.	PROPN
-Yee.	PROPN
-
-(	ADP
-Text	PROPN
-)	AUX
-Cairo	PROPN
-,	PUNCT
-2	NUM
-May	PROPN
-(	AUX
-MENA	PROPN
-)	AUX
---President	ADJ
-Husni	PROPN
-Mubarak	PROPN
-has	AUX
-stressed	VERB
-that	ADP
-Egypt	PROPN
-made	AUX
-tremendous	ADJ
-efforts	NOUN
-to	PRT
-help	AUX
-achieve	ADP
-the	DET
-signing	AUX
-next	ADJ
-Wednesday	PROPN
-of	ADP
-an	DET
-agreement	NOUN
-on	ADP
-the	DET
-implementation	NOUN
-of	ADP
-the	DET
-Palestinian-Israeli	PROPN
-Declaration	PROPN
-of	ADP
-Principles	PROPN
-.	PUNCT
-
-Ambassador	PROPN
-Miller	PROPN
-is	AUX
-also	ADV
-scheduled	VERB
-to	PRT
-meet	AUX
-with	ADP
-Crimean	PROPN
-Deputy	PROPN
-Yevhen	PROPN
-Saburov	PROPN
-and	CONJ
-Black	PROPN
-Sea	PROPN
-Fleet	PROPN
-Commander	PROPN
-Eduard	PROPN
-Baltin.	PROPN
-
-FBI	PROPN
-agents	NOUN
-arrived	AUX
-at	ADP
-Sohn	PROPN
-'s	PART
-New	PROPN
-Jersey	PROPN
-home	NOUN
-and	CONJ
-escorted	AUX
-him	PRON
-to	PRT
-safety	AUX
-only	ADV
-30	NUM
-minutes	NOUN
-before	ADP
-KCIA	PROPN
-agents	NOUN
-showed	AUX
-up	ADP
-,	PUNCT
-an	DET
-unidentified	ADJ
-senior	NOUN
-law	AUX
-enforcement	NOUN
-official	ADJ
-told	AUX
-the	DET
-Times	PROPN
-.	PUNCT
-
-Ulysses	PROPN
-S.	PROPN
-Grant	PROPN
-(	AUX
-18th	ADJ
-President	NOUN
-)	NUM
-:	PUNCT
-Born	VERB
-April	PROPN
-27	NUM
-,	PUNCT
-1822	NUM
-,	PUNCT
-in	ADP
-a	DET
-one-room	NOUN
-,	PUNCT
-16x19-foot	ADJ
-home	NOUN
-in	ADP
-Point	PROPN
-Pleasant	PROPN
-,	PUNCT
-Ohio	PROPN
-,	PUNCT
-overlooking	AUX
-the	DET
-Ohio	PROPN
-River	PROPN
-.	PUNCT
-
-Pittsburgh	PROPN
-Mayor	PROPN
-Sophie	PROPN
-Masloff	PROPN
-touted	AUX
-the	DET
-joys	NOUN
-of	ADP
-her	PART
-favorite	ADJ
-city	NOUN
-on	ADP
-the	DET
-nationally	ADV
-televised	VERB
-Pat	PROPN
-Sajak	PROPN
-Show	PROPN
-and	CONJ
-put	AUX
-an	DET
-end	NOUN
-to	PRT
-rumors	AUX
-that	ADP
-she	PRON
-sometimes	AUX
-arrives	NOUN
-at	ADP
-work	AUX
-with	ADP
-a	DET
-cup	NOUN
-of	ADP
-homemade	NOUN
-chicken	AUX
-soup	NOUN
-.	PUNCT
-
-Dole	PROPN
-'s	PART
-wife	NOUN
-,	PUNCT
-Elizabeth	PROPN
-,	PUNCT
-is	AUX
-a	DET
-native	NOUN
-of	ADP
-Salisbury	PROPN
-,	PUNCT
-N.C	PROPN
-.	PUNCT
-
-Dancer	PROPN
-,	PUNCT
-choreographer	NOUN
-and	CONJ
-dance	NOUN
-director	ADP
-Jerome	PROPN
-Robbins	PROPN
-,	PUNCT
-69	NUM
-,	PUNCT
-born	VERB
-in	ADP
-New	PROPN
-York	PROPN
-,	PUNCT
-who	PRON
-made	AUX
-his	PART
-dance	NOUN
-debut	NOUN
-at	ADP
-19	NUM
-and	CONJ
-later	ADV
-choreographed	ADJ
-such	ADJ
-Broadway	PROPN
-hits	AUX
-as	ADP
-`	PUNCT
-`	PUNCT
-On	ADP
-the	DET
-Town	PROPN
-'	PART
-'	PUNCT
-and	CONJ
-`	PUNCT
-`	PUNCT
-Call	PROPN
-Me	PROPN
-Madam	PROPN
-'	PART
-'	PUNCT
-as	ADP
-well	ADV
-as	ADP
-both	DET
-the	DET
-stage	NOUN
-and	CONJ
-screen	NUM
-versions	NOUN
-of	ADP
-`	PUNCT
-`	PUNCT
-The	DET
-King	PROPN
-and	CONJ
-I.	PROPN
-'	PART
-'	PUNCT
-
-`	PUNCT
-`	PUNCT
-Our	PART
-white	ADJ
-paper	NOUN
-,	PUNCT
-market	ADJ
-pulp	NOUN
-and	CONJ
-packaging	AUX
-businesses	PRON
-turned	AUX
-in	ADP
-particularly	NOUN
-impressive	ADJ
-results	NOUN
-in	ADP
-1988	NUM
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-John	PROPN
-A.	PROPN
-Georges	PROPN
-,	PUNCT
-International	PROPN
-Paper	PROPN
-'s	PART
-chairman	NOUN
-and	CONJ
-chief	AUX
-executive	ADJ
-officer	NOUN
-.	PUNCT
-
-It	PRON
-seems	AUX
-to	PRT
-be	AUX
-more	ADJ
-effective	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-Dr.	PROPN
-Alain	PROPN
-Farley	PROPN
-of	ADP
-McGill	PROPN
-University	PROPN
-in	ADP
-Montreal	PROPN
-.	PUNCT
-
-BANGKOK	PROPN
-,	PUNCT
-Thailand	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-PA1106232494	PROPN
-Mexico	PROPN
-City	PROPN
-LA	PROPN
-JORNADA	PROPN
-in	ADP
-Spanish	PROPN
-10	NUM
-Jun	PROPN
-94	AUX
-p	ADJ
-11	NOUN
-
-In	ADP
-1785	NUM
-,	PUNCT
-U.S.	PROPN
-naval	ADJ
-hero	NOUN
-Oliver	PROPN
-Hazard	PROPN
-Perry	PROPN
-was	AUX
-born	VERB
-in	ADP
-South	PROPN
-Kingstown	PROPN
-,	PUNCT
-R.I.	PROPN
-
-`	PUNCT
-`	PUNCT
-You	PRON
-can	AUX
-count	AUX
-it	PRON
-on	ADP
-your	PART
-fingertips	NOUN
-,	PUNCT
-'	PUNCT
-'	PUNCT
-said	AUX
-veteran	PRON
-Miami	PROPN
-Beach	PROPN
-political	ADJ
-Gerald	PROPN
-Schwartz.	PROPN
-
-Jesse	PROPN
-Jackson	PROPN
-easily	ADV
-won	AUX
-the	DET
-Democratic	ADJ
-precinct	NOUN
-caucuses	AUX
-Saturday	PROPN
-in	ADP
-his	PART
-native	NOUN
-South	PROPN
-Carolina	PROPN
-,	PUNCT
-while	ADP
-Sen.	PROPN
-Bob	PROPN
-Dole	PROPN
-went	AUX
-on	ADP
-Illinois	PROPN
-television	NOUN
-for	ADP
-a	DET
-half-hour	ADJ
-plea	NOUN
-for	ADP
-Republican	PROPN
-votes	AUX
-in	ADP
-a	DET
-state	NOUN
-where	ADV
-he	PRON
-said	AUX
-he	PRON
-is	AUX
-the	DET
-underdog	NOUN
-.	PUNCT
-
-Both	PROPN
-Bush	PROPN
-and	CONJ
-Dukakis	PROPN
-were	AUX
-born	VERB
-in	ADP
-Massachusetts	PROPN
-'	PART
-`	PUNCT
-`	PUNCT
-county	NOUN
-of	ADP
-presidents	NOUN
-'	PART
-'	PUNCT
-_	NOUN
-Norfolk	PROPN
-County	PROPN
-_	NOUN
-the	DET
-one	NUM
-that	ADP
-already	PRON
-has	AUX
-given	VERB
-three	NUM
-of	ADP
-its	PART
-natives	NOUN
-to	PRT
-the	DET
-nation	NOUN
-:	PUNCT
-John	PROPN
-Adams	PROPN
-,	PUNCT
-John	PROPN
-Quincy	PROPN
-Adams	PROPN
-,	PUNCT
-and	CONJ
-John	PROPN
-Fitzgerald	PROPN
-Kennedy	PROPN
-.	PUNCT
-
-In	ADP
-1752	NUM
-,	PUNCT
-flagmaker	NOUN
-Betsy	PROPN
-Ross	PROPN
-was	AUX
-born	VERB
-in	ADP
-Philadelphia	PROPN
-.	PUNCT
-
-Sam	PROPN
-Kadet	PROPN
-of	ADP
-the	DET
-corporate	ADJ
-law	NOUN
-firm	AUX
-of	ADP
-Skadden	PROPN
-COMMA	PROPN
-Arps	PROPN
-said	AUX
-Popeyes	PROPN
-could	AUX
-give	AUX
-Church	PROPN
-'s	PART
-notice	NOUN
-on	ADP
-Thursday	PROPN
-that	ADP
-it	PRON
-planned	AUX
-to	PRT
-proceed	AUX
-with	ADP
-the	DET
-takeover	ADJ
-attempt	NOUN
-and	CONJ
-deliver	ADP
-the	DET
-information	NOUN
-to	PRT
-Church	PROPN
-'s	PART
-after	ADP
-five	NUM
-business	ADJ
-days	NOUN
-.	PUNCT
-
-He	PRON
-said	AUX
-he	PRON
-only	ADV
-learned	AUX
-his	PART
-father	NOUN
-was	AUX
-a	DET
-war-stress	ADJ
-patient	NOUN
-at	ADP
-St.	PROPN
-Nicholas	PROPN
-Hospital	PROPN
-in	ADP
-Gosforth	PROPN
-in	ADP
-northeast	ADJ
-England	PROPN
-after	ADP
-he	PRON
-died	AUX
-two	NUM
-years	NOUN
-ago	ADP
-.	PUNCT
-
-CBS	PROPN
-newsman	NOUN
-Harry	PROPN
-Reasoner	PROPN
-is	AUX
-returning	AUX
-to	PRT
-his	PART
-Iowa	PROPN
-hometown	NOUN
-to	PRT
-get	AUX
-married	VERB
-Saturday	PROPN
-.	PUNCT
-
-On	ADP
-this	DET
-date	NOUN
-:	PUNCT
-In	ADP
-1735	NUM
-,	PUNCT
-Paul	PROPN
-Revere	PROPN
-was	AUX
-born	VERB
-in	ADP
-Boston	PROPN
-.	PUNCT
-
-Included	VERB
-in	ADP
-the	DET
-group	NOUN
-who	PRON
-remained	AUX
-here	ADV
-was	AUX
-Hua	PROPN
-Wen-Yi	PROPN
-,	PUNCT
-a	DET
-famous	ADJ
-opera	NOUN
-singer	AUX
-in	ADP
-Shanghai	PROPN
-,	PUNCT
-said	AUX
-Leonard	PROPN
-Lee	PROPN
-,	PUNCT
-editor	NOUN
-of	ADP
-the	DET
-Chinese	PROPN
-Times	PROPN
-,	PUNCT
-a	DET
-Chinese	PROPN
-language	AUX
-daily	ADJ
-newspaper	NOUN
-in	ADP
-San	PROPN
-Francisco.	PROPN
-
-The	DET
-Australian	PROPN
-Government	PROPN
-has	AUX
-considered	VERB
-inviting	AUX
-a	DET
-senior	NOUN
-North	PROPN
-Korean	PROPN
-Government	PROPN
-official	ADJ
-to	PRT
-visit	AUX
-Australia	PROPN
-later	ADV
-in	ADP
-the	DET
-year	NOUN
-to	PRT
-initiate	AUX
-a	DET
-stronger	ADJ
-dialogue	NOUN
-between	ADP
-the	DET
-two	NUM
-countries	NOUN
-.	PUNCT
-
-BEIRUT	PROPN
-,	PUNCT
-Lebanon	PROPN
-(	AUX
-AP	PROPN
-)	AUX
-
-Mr.	PROPN
-Vee	PROPN
-,	PUNCT
-a	DET
-Fargo	PROPN
-native	NOUN
-,	PUNCT
-sent	NOUN
-one	NUM
-of	ADP
-his	PART
-recording	NOUN
-contracts	NOUN
-and	CONJ
-an	DET
-old	ADJ
-sweater.	NOUN
-
-During	PROPN
-that	ADP
-time	NOUN
-,	PUNCT
-an	DET
-estimated	AUX
-2	ADJ
-million	NOUN
-of	ADP
-Cambodia	PROPN
-'s	PART
-8	NUM
-million	NUM
-people	NOUN
-died	AUX
-from	ADP
-Khmer	PROPN
-Rouge	PROPN
-executions	NOUN
-,	PUNCT
-famine	NOUN
-and	CONJ
-civil	ADJ
-unrest	NOUN
-.	PUNCT
-
-MK2306113594	PROPN
-Moscow	PROPN
-NEZAVISIMAYA	PROPN
-GAZETA	PROPN
-in	ADP
-Russian	PROPN
-23	NUM
-Jun	PROPN
-94	AUX
-p	NOUN
-3	NUM
-
-The	DET
-jury	NOUN
-convicted	VERB
-Robinson	PROPN
-,	PUNCT
-half	ADJ
-brother	NOUN
-of	ADP
-the	DET
-Rev.	PROPN
-Jesse	PROPN
-Jackson	PROPN
-and	CONJ
-a	DET
-Greenville	PROPN
-native	NOUN
-,	PUNCT
-of	ADP
-accessory	NOUN
-after	ADP
-the	DET
-fact	NOUN
-of	ADP
-assault	NOUN
-and	CONJ
-battery	NOUN
-with	ADP
-intent	NOUN
-to	PRT
-kill	AUX
-,	PUNCT
-in	ADP
-connection	NOUN
-with	ADP
-the	DET
-attempted	VERB
-murder	NOUN
-of	ADP
-Janice	PROPN
-Denise	PROPN
-Rosemond	PROPN
-.	PUNCT
-
-It	PRON
-almost	ADV
-makes	AUX
-me	PRON
-want	AUX
-to	PRT
-laugh.	AUX
-(	PRON
-Minoli	PROPN
-)	AUX
-Why	PROPN
-?	AUX
-(	PRON
-Fini	PROPN
-)	AUX
-Bossi	PROPN
-is	AUX
-a	DET
-very	ADV
-strange	ADJ
-character	NOUN
-and	CONJ
-his	PART
-extreme	ADJ
-envy	NOUN
-has	AUX
-been	VERB
-demonstrated.	ADJ
-(	NOUN
-passage	AUX
-omitted	VERB
-)	ADP
-He	PRON
-tried	AUX
-to	PRT
-get	AUX
-votes	AUX
-from	ADP
-the	DET
-south	NOUN
-,	PUNCT
-those	PRON
-votes	AUX
-which	DET
-he	PRON
-now	ADV
-despises	ADJ
-so	NOUN
-much	ADV
-,	PUNCT
-but	CONJ
-the	DET
-south	ADJ
-sent	NOUN
-him	PRON
-back	AUX
-to	PRT
-the	DET
-valleys.	NOUN
-(	ADP
-Minoli	PROPN
-)	AUX
-You	PRON
-said	AUX
-that	ADP
-Bossi	PROPN
-reminded	AUX
-you	PRON
-of	ADP
-Hitler	PROPN
-trapped	AUX
-in	ADP
-his	PART
-Berlin	PROPN
-bunker	NOUN
-,	PUNCT
-a	DET
-man	NOUN
-with	ADP
-delusions	NOUN
-of	ADP
-grandeur	NOUN
-and	CONJ
-a	DET
-tendency	ADJ
-towards	NOUN
-suicide	NUM
-.	PUNCT
-
-David	PROPN
-Foster	PROPN
-is	AUX
-the	DET
-AP	PROPN
-'s	PART
-Northwest	PROPN
-regional	ADJ
-reporter	NOUN
-,	PUNCT
-based	VERB
-in	ADP
-Seattle.	PROPN
+PROPN
+PROPN
+
+PROPN
+AUX
+DET
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PUNCT
+CONJ
+PROPN
+AUX
+DET
+NOUN
+CONJ
+ADJ
+NOUN
+ADP
+PRT
+PROPN
+
+PROPN
+AUX
+PROPN
+ADP
+PART
+PUNCT
+PUNCT
+ADJ
+ADJ
+NOUN
+PUNCT
+PUNCT
+PUNCT
+CONJ
+AUX
+PUNCT
+PUNCT
+NOUN
+AUX
+PROPN
+AUX
+NOUN
+VERB
+ADJ
+PRT
+AUX
+VERB
+PRT
+AUX
+ADP
+PROPN
+PUNCT
+PUNCT
+PUNCT
+ADV
+DET
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+PUNCT
+
+PROPN
+PART
+NOUN
+ADP
+NOUN
+PUNCT
+ADP
+PROPN
+NUM
+PUNCT
+NUM
+PUNCT
+AUX
+NOUN
+PART
+NOUN
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+NUM
+PROPN
+AUX
+
+ADP
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+AUX
+ADP
+ADV
+NUM
+NOUN
+ADP
+DET
+NOUN
+ADP
+DET
+NOUN
+ADP
+DET
+PROPN
+ADP
+DET
+NOUN
+PUNCT
+AUX
+PRT
+NUM
+NOUN
+NOUN
+PUNCT
+NUM
+VERB
+ADP
+DET
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+NOUN
+CONJ
+DET
+PROPN
+ADP
+PROPN
+CONJ
+DET
+ADJ
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PART
+NOUN
+PUNCT
+PROPN
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+ADP
+NUM
+ADP
+DET
+NOUN
+PRT
+DET
+NOUN
+AUX
+ADP
+DET
+NOUN
+AUX
+ADP
+NUM
+NOUN
+PUNCT
+VERB
+ADP
+DET
+NOUN
+ADJ
+NOUN
+ADP
+NOUN
+CONJ
+AUX
+PRON
+ADP
+DET
+ADJ
+NOUN
+ADP
+NUM
+PUNCT
+
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+DET
+AUX
+DET
+NOUN
+PUNCT
+AUX
+DET
+ADJ
+NOUN
+AUX
+NOUN
+ADP
+PROPN
+CONJ
+PROPN
+PUNCT
+
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+CONJ
+PROPN
+PROPN
+PROPN
+NOUN
+PUNCT
+AUX
+NOUN
+ADP
+VERB
+ADP
+NUM
+PRT
+AUX
+ADJ
+ADJ
+NOUN
+ADP
+DET
+NOUN
+AUX
+NOUN
+CONJ
+AUX
+NOUN
+
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+PROPN
+PROPN
+PART
+ADJ
+NOUN
+NOUN
+PUNCT
+AUX
+VERB
+ADP
+DET
+NOUN
+ADP
+PROPN
+ADP
+AUX
+ADP
+NOUN
+ADP
+DET
+NOUN
+AUX
+PART
+ADJ
+NOUN
+PRT
+AUX
+PROPN
+PROPN
+
+PROPN
+PROPN
+AUX
+VERB
+PROPN
+ADP
+DET
+ADJ
+PROPN
+PROPN
+NOUN
+PRON
+AUX
+ADP
+PROPN
+AUX
+ADP
+DET
+DET
+NOUN
+ADP
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+
+PROPN
+AUX
+AUX
+VERB
+PRT
+AUX
+ADP
+DET
+PROPN
+NOUN
+ADJ
+PROPN
+AUX
+AUX
+AUX
+ADP
+PART
+NOUN
+ADP
+PROPN
+PUNCT
+DET
+NOUN
+PART
+ADJ
+NOUN
+NUM
+PUNCT
+NUM
+PRT
+AUX
+ADJ
+NOUN
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+NUM
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+AUX
+
+PROPN
+PUNCT
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+ADP
+DET
+NOUN
+PART
+NUM
+NOUN
+AUX
+AUX
+DET
+NOUN
+ADP
+NUM
+NOUN
+ADP
+NOUN
+CONJ
+ADP
+DET
+NOUN
+AUX
+AUX
+VERB
+ADP
+ADJ
+NOUN
+CONJ
+PROPN
+PROPN
+AUX
+PUNCT
+
+ADP
+NUM
+PUNCT
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+
+PRON
+AUX
+AUX
+DET
+NOUN
+ADP
+ADJ
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+
+PROPN
+PROPN
+
+PROPN
+AUX
+ADP
+PROPN
+PART
+NOUN
+AUX
+NOUN
+ADP
+DET
+NOUN
+ADP
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PROPN
+AUX
+ADP
+DET
+AUX
+CONJ
+DET
+NOUN
+PRT
+AUX
+ADJ
+NOUN
+PUNCT
+
+PUNCT
+PUNCT
+NUM
+AUX
+PRON
+AUX
+VERB
+ADP
+DET
+ADJ
+NOUN
+PRON
+AUX
+ADP
+DET
+NOUN
+AUX
+NOUN
+PRT
+AUX
+PUNCT
+CONJ
+PRON
+AUX
+NUM
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+NUM
+PUNCT
+PRON
+AUX
+DET
+ADJ
+NOUN
+PROPN
+PROPN
+CONJ
+AUX
+ADP
+DET
+PROPN
+ADP
+DET
+ADJ
+NOUN
+NOUN
+
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+AUX
+DET
+PROPN
+ADP
+PROPN
+PROPN
+PART
+PROPN
+ADP
+PROPN
+PROPN
+PUNCT
+AUX
+PROPN
+PART
+ADJ
+NOUN
+CONJ
+AUX
+PUNCT
+
+PROPN
+PART
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+NUM
+PROPN
+AUX
+
+PROPN
+PUNCT
+ADJ
+AUX
+VERB
+ADP
+DET
+NOUN
+ADJ
+NOUN
+ADP
+PROPN
+PART
+ADJ
+NOUN
+PUNCT
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+AUX
+ADJ
+PROPN
+PUNCT
+CONJ
+DET
+ADJ
+PUNCT
+AUX
+ADJ
+NOUN
+PUNCT
+
+PUNCT
+PUNCT
+PRON
+AUX
+ADJ
+NOUN
+ADP
+DET
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+PRON
+AUX
+ADP
+PROPN
+PROPN
+
+PUNCT
+PUNCT
+PRON
+AUX
+NOUN
+AUX
+DET
+AUX
+DET
+ADJ
+NOUN
+ADV
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+AUX
+PROPN
+AUX
+
+DET
+NOUN
+ADP
+NOUN
+AUX
+VERB
+ADP
+PRON
+AUX
+NOUN
+ADP
+NUM
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PART
+NOUN
+PROPN
+NOUN
+PUNCT
+
+PUNCT
+PUNCT
+PROPN
+NOUN
+AUX
+AUX
+DET
+ADJ
+PRT
+AUX
+ADJ
+NOUN
+ADP
+PART
+ADJ
+PRT
+AUX
+NOUN
+ADP
+NOUN
+ADP
+NUM
+PUNCT
+NOUN
+CONJ
+ADJ
+ADJ
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PART
+ADJ
+NOUN
+AUX
+
+PUNCT
+PUNCT
+PRON
+AUX
+NOUN
+AUX
+NOUN
+AUX
+PRON
+AUX
+NOUN
+ADP
+NUM
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+DET
+PROPN
+PROPN
+AUX
+NOUN
+
+NOUN
+DET
+ADJ
+NOUN
+AUX
+VERB
+PRT
+AUX
+DET
+ADJ
+NOUN
+AUX
+ADP
+DET
+ADJ
+NOUN
+AUX
+ADP
+DET
+ADJ
+NOUN
+AUX
+AUX
+AUX
+PUNCT
+NOUN
+AUX
+PRON
+AUX
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+ADJ
+PRT
+DET
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+AUX
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+NUM
+PROPN
+AUX
+
+PROPN
+PUNCT
+PROPN
+PART
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+ADJ
+NOUN
+PROPN
+AUX
+PROPN
+AUX
+
+AUX
+DET
+NOUN
+ADP
+DET
+NUM
+NOUN
+PUNCT
+PUNCT
+ADJ
+PROPN
+PUNCT
+PUNCT
+PUNCT
+VERB
+ADP
+PROPN
+NOUN
+PROPN
+PROPN
+PUNCT
+ADJ
+NOUN
+NOUN
+NUM
+NOUN
+ADP
+AUX
+PROPN
+PROPN
+ADP
+DET
+ADJ
+PROPN
+ADP
+NOUN
+PUNCT
+
+AUX
+PRON
+ADV
+ADV
+AUX
+DET
+PROPN
+PART
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PRON
+PUNCT
+AUX
+PRT
+DET
+NOUN
+PUNCT
+AUX
+DET
+NOUN
+ADP
+NUM
+NOUN
+ADP
+NOUN
+ADP
+DET
+PROPN
+ADP
+PROPN
+PUNCT
+NUM
+ADP
+DET
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADP
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+PROPN
+PROPN
+AUX
+PROPN
+AUX
+
+PRON
+AUX
+ADP
+NOUN
+ADP
+DET
+PROPN
+PROPN
+AUX
+ADP
+DET
+PROPN
+NOUN
+AUX
+NOUN
+AUX
+ADP
+DET
+NOUN
+ADP
+DET
+ADJ
+PROPN
+NOUN
+PUNCT
+
+PROPN
+PUNCT
+PROPN
+AUX
+PROPN
+AUX
+
+ADP
+DET
+PUNCT
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PUNCT
+PUNCT
+PROPN
+PRON
+AUX
+VERB
+PUNCT
+ADP
+DET
+PROPN
+NOUN
+ADP
+NOUN
+ADP
+DET
+AUX
+ADP
+PART
+NOUN
+PUNCT
+PRON
+AUX
+NOUN
+ADP
+ADJ
+NOUN
+PRON
+AUX
+NOUN
+CONJ
+ADP
+PRON
+AUX
+DET
+PROPN
+PROPN
+AUX
+ADP
+DET
+NOUN
+ADP
+NOUN
+NOUN
+ADP
+NUM
+PUNCT
+PUNCT
+PART
+PROPN
+PROPN
+AUX
+ADP
+DET
+NOUN
+ADP
+PART
+NOUN
+ADP
+PROPN
+ADP
+ADJ
+PROPN
+
+PROPN
+PART
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+PUNCT
+ADP
+NUM
+PUNCT
+
+PUNCT
+PUNCT
+PROPN
+NOUN
+ADP
+DET
+PROPN
+AUX
+VERB
+ADP
+PRT
+AUX
+PRON
+AUX
+DET
+NOUN
+ADJ
+NOUN
+AUX
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+ADJ
+PROPN
+PROPN
+PROPN
+
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+NOUN
+NUM
+
+ADP
+NUM
+PUNCT
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+
+PROPN
+AUX
+ADJ
+NOUN
+CONJ
+ADV
+AUX
+VERB
+ADJ
+NOUN
+ADP
+PRON
+PART
+ADV
+VERB
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+NOUN
+PROPN
+PROPN
+PROPN
+
+DET
+AUX
+ADP
+DET
+NOUN
+AUX
+DET
+PROPN
+PART
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADV
+ADJ
+PRT
+DET
+NOUN
+CONJ
+ADV
+PRON
+AUX
+VERB
+PRT
+AUX
+DET
+ADP
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+AUX
+PUNCT
+PRON
+AUX
+AUX
+ADJ
+DET
+NOUN
+PUNCT
+
+PROPN
+PUNCT
+NUM
+PUNCT
+AUX
+DET
+PROPN
+PROPN
+NOUN
+PRON
+ADV
+AUX
+ADP
+DET
+NOUN
+PRT
+PROPN
+PROPN
+CONJ
+ADV
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PROPN
+PUNCT
+
+ADP
+PROPN
+AUX
+DET
+NOUN
+AUX
+NOUN
+ADP
+PROPN
+AUX
+NUM
+PUNCT
+ADP
+PROPN
+PROPN
+PUNCT
+ADV
+DET
+ADJ
+NOUN
+ADP
+DET
+ADJ
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+NUM
+PUNCT
+PROPN
+PUNCT
+CONJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+AUX
+PRT
+AUX
+ADP
+DET
+NOUN
+ADP
+PART
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+
+ADP
+PROPN
+AUX
+AUX
+PUNCT
+DET
+PROPN
+NOUN
+ADP
+ADP
+PROPN
+PUNCT
+CONJ
+PROPN
+ADP
+PROPN
+PUNCT
+NOUN
+PRON
+AUX
+VERB
+NOUN
+ADP
+DET
+ADJ
+NOUN
+PUNCT
+
+ADP
+PROPN
+PROPN
+ADJ
+NOUN
+PROPN
+PROPN
+AUX
+
+ADP
+DET
+NOUN
+PUNCT
+ADP
+NUM
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PROPN
+PROPN
+AUX
+VERB
+AUX
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+ADP
+DET
+NOUN
+PART
+NOUN
+PUNCT
+DET
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PUNCT
+PROPN
+PART
+NOUN
+PUNCT
+AUX
+VERB
+ADP
+PRON
+AUX
+NOUN
+ADV
+ADV
+AUX
+NOUN
+ADP
+PROPN
+PROPN
+PART
+ADJ
+NOUN
+NUM
+PUNCT
+
+PROPN
+PROPN
+NOUN
+AUX
+PRON
+PROPN
+AUX
+PRON
+PROPN
+AUX
+PROPN
+PUNCT
+PROPN
+NUM
+PUNCT
+PROPN
+CONJ
+AUX
+ADJ
+NOUN
+PUNCT
+AUX
+ADP
+AUX
+DET
+NOUN
+AUX
+ADP
+DET
+ADJ
+ADP
+ADJ
+NOUN
+ADP
+NUM
+PUNCT
+AUX
+ADP
+DET
+NOUN
+AUX
+VERB
+ADP
+DET
+PROPN
+PROPN
+PRT
+AUX
+NOUN
+PUNCT
+AUX
+PROPN
+PUNCT
+ADP
+DET
+ADJ
+NOUN
+AUX
+ADV
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PUNCT
+PROPN
+NUM
+PUNCT
+NUM
+PUNCT
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+NOUN
+ADP
+NOUN
+CONJ
+ADJ
+ADP
+NUM
+NOUN
+ADP
+PROPN
+CONJ
+PROPN
+PROPN
+PUNCT
+
+DET
+AUX
+ADP
+NUM
+NOUN
+VERB
+ADP
+DET
+NOUN
+PRON
+AUX
+AUX
+VERB
+ADP
+DET
+PROPN
+NOUN
+CONJ
+NOUN
+ADP
+NOUN
+PUNCT
+NOUN
+PROPN
+PROPN
+PUNCT
+NUM
+NOUN
+AUX
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+NOUN
+NUM
+
+PROPN
+PUNCT
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+PART
+ADJ
+NOUN
+AUX
+AUX
+ADP
+DET
+ADJ
+NOUN
+ADV
+PART
+NOUN
+PROPN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+NUM
+PUNCT
+NUM
+PUNCT
+ADP
+DET
+ADJ
+ADJ
+NOUN
+NOUN
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+ADP
+NUM
+PUNCT
+PUNCT
+PUNCT
+PROPN
+PROPN
+PART
+PUNCT
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+CONJ
+NOUN
+AUX
+ADP
+PROPN
+AUX
+AUX
+ADV
+ADJ
+AUX
+NOUN
+ADP
+PRON
+PUNCT
+AUX
+AUX
+ADP
+ADJ
+ADP
+ADJ
+NOUN
+ADP
+PART
+NOUN
+PUNCT
+DET
+ADV
+AUX
+ADJ
+NOUN
+PUNCT
+CONJ
+NOUN
+ADP
+DET
+NOUN
+ADP
+PART
+PROPN
+NOUN
+PUNCT
+DET
+NOUN
+AUX
+NOUN
+CONJ
+NOUN
+ADP
+ADJ
+NOUN
+NUM
+PUNCT
+
+PROPN
+PROPN
+PROPN
+AUX
+ADJ
+NOUN
+NUM
+PUNCT
+VERB
+PROPN
+NUM
+PUNCT
+NUM
+PUNCT
+PROPN
+PUNCT
+PROPN
+PUNCT
+ADP
+DET
+ADJ
+ADJ
+NOUN
+NOUN
+ADP
+PRON
+AUX
+ADV
+DET
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+NUM
+PROPN
+PROPN
+PROPN
+PUNCT
+PROPN
+PUNCT
+PROPN
+PUNCT
+NUM
+NOUN
+AUX
+ADJ
+PUNCT
+
+PUNCT
+PUNCT
+PROPN
+PROPN
+PART
+ADJ
+NOUN
+PUNCT
+NUM
+PUNCT
+CONJ
+ADJ
+NOUN
+AUX
+DET
+ADJ
+NOUN
+PUNCT
+PUNCT
+PART
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+ADP
+DET
+NOUN
+
+PUNCT
+PUNCT
+PROPN
+NOUN
+CONJ
+AUX
+PRON
+AUX
+ADP
+PART
+NUM
+PUNCT
+PUNCT
+PUNCT
+DET
+ADJ
+NOUN
+PUNCT
+PROPN
+PROPN
+PUNCT
+AUX
+ADP
+PROPN
+PROPN
+ADP
+PROPN
+NOUN
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PART
+NOUN
+PUNCT
+VERB
+PROPN
+PROPN
+PROPN
+NOUN
+PROPN
+PROPN
+PUNCT
+AUX
+ADP
+DET
+NOUN
+PROPN
+CONJ
+AUX
+NOUN
+ADP
+PUNCT
+PUNCT
+PUNCT
+PROPN
+PART
+VERB
+NUM
+NOUN
+ADP
+INTJ
+ADP
+NUM
+CONJ
+PART
+NOUN
+PART
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+NUM
+PROPN
+AUX
+
+PROPN
+PROPN
+PROPN
+NOUN
+DET
+PROPN
+PROPN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+
+ADP
+NUM
+PUNCT
+ADV
+NUM
+NOUN
+AUX
+NOUN
+ADP
+PART
+ADJ
+NOUN
+AUX
+NOUN
+VERB
+PUNCT
+NUM
+NOUN
+CONJ
+AUX
+VERB
+NOUN
+NUM
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+DET
+PROPN
+PROPN
+NOUN
+CONJ
+PROPN
+NOUN
+PUNCT
+
+DET
+PUNCT
+PUNCT
+NOUN
+AUX
+PUNCT
+PUNCT
+PUNCT
+AUX
+NOUN
+ADP
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+ADJ
+NOUN
+ADP
+DET
+NOUN
+AUX
+VERB
+NUM
+NOUN
+ADP
+DET
+AUX
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PUNCT
+VERB
+ADP
+PROPN
+PUNCT
+PRON
+AUX
+NOUN
+ADP
+ADJ
+NOUN
+ADP
+NUM
+CONJ
+NUM
+
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+PROPN
+PART
+NOUN
+PUNCT
+AUX
+PRT
+AUX
+NUM
+NOUN
+ADP
+PROPN
+NUM
+NOUN
+NUM
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+CONJ
+PROPN
+PUNCT
+CONJ
+DET
+NOUN
+ADP
+DET
+PROPN
+PROPN
+NUM
+PUNCT
+
+DET
+NOUN
+AUX
+ADP
+ADJ
+NOUN
+PRT
+AUX
+ADJ
+NOUN
+ADP
+PROPN
+AUX
+ADP
+DET
+ADP
+ADJ
+NOUN
+PART
+PROPN
+AUX
+NOUN
+ADP
+PROPN
+CONJ
+ADP
+PROPN
+PART
+NOUN
+ADP
+PROPN
+ADP
+NUM
+AUX
+NOUN
+VERB
+ADP
+DET
+PROPN
+PROPN
+PROPN
+
+PROPN
+AUX
+ADP
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+CONJ
+AUX
+AUX
+PART
+NOUN
+PUNCT
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+AUX
+DET
+NOUN
+ADP
+PRON
+PUNCT
+
+PROPN
+AUX
+AUX
+PART
+NOUN
+AUX
+ADP
+DET
+NOUN
+PUNCT
+NOUN
+DET
+PROPN
+PROPN
+CONJ
+PROPN
+PART
+PROPN
+NUM
+PUNCT
+PRT
+AUX
+PRT
+AUX
+PROPN
+PUNCT
+CONJ
+DET
+AUX
+VERB
+ADP
+AUX
+PRON
+AUX
+VERB
+ADP
+PUNCT
+PRON
+AUX
+PUNCT
+
+PROPN
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+DET
+AUX
+VERB
+VERB
+ADP
+ADJ
+NOUN
+ADP
+NOUN
+ADP
+DET
+ADJ
+NOUN
+PROPN
+ADP
+ADV
+ADP
+ADJ
+NOUN
+NUM
+PUNCT
+AUX
+DET
+NOUN
+ADJ
+PROPN
+ADP
+DET
+NOUN
+ADP
+NUM
+PROPN
+NUM
+NOUN
+ADP
+PART
+NOUN
+NUM
+PUNCT
+PUNCT
+ADJ
+NOUN
+AUX
+PART
+PUNCT
+VERB
+ADP
+PROPN
+NUM
+PUNCT
+
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+PROPN
+ADP
+DET
+NOUN
+AUX
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+AUX
+VERB
+ADP
+DET
+PROPN
+ADJ
+ADP
+ADV
+ADP
+DET
+NOUN
+CONJ
+ADJ
+NOUN
+ADP
+DET
+PROPN
+AUX
+ADP
+DET
+PROPN
+PART
+PROPN
+NOUN
+PUNCT
+
+ADP
+PROPN
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+
+PUNCT
+PUNCT
+ADP
+PROPN
+PROPN
+AUX
+PROPN
+PROPN
+PART
+NOUN
+NOUN
+PUNCT
+DET
+AUX
+DET
+ADV
+ADJ
+NOUN
+ADP
+DET
+ADJ
+NOUN
+PART
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+CONJ
+ADJ
+NOUN
+ADP
+PROPN
+AUX
+PROPN
+NOUN
+ADV
+AUX
+DET
+NOUN
+ADJ
+NOUN
+ADP
+NUM
+PUNCT
+PRON
+AUX
+PRT
+AUX
+NOUN
+ADP
+DET
+NOUN
+PRT
+DET
+ADV
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+NOUN
+AUX
+DET
+PROPN
+PROPN
+NOUN
+PUNCT
+PROPN
+PROPN
+PUNCT
+ADP
+PROPN
+PART
+NOUN
+NUM
+PROPN
+NOUN
+AUX
+ADP
+PROPN
+PUNCT
+
+CONJ
+PUNCT
+ADP
+ADP
+ADJ
+ADJ
+NOUN
+AUX
+ADP
+DET
+PROPN
+NOUN
+PUNCT
+ADJ
+NOUN
+AUX
+ADV
+VERB
+ADP
+DET
+ADV
+AUX
+NOUN
+AUX
+ADP
+NUM
+PUNCT
+DET
+PROPN
+AUX
+NOUN
+
+PUNCT
+PUNCT
+PROPN
+AUX
+DET
+AUX
+VERB
+ADP
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+DET
+PROPN
+AUX
+ADP
+PROPN
+PUNCT
+
+ADV
+ADJ
+NOUN
+AUX
+NUM
+NOUN
+ADJ
+NOUN
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+ADP
+DET
+NOUN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+ADP
+PROPN
+PROPN
+CONJ
+PROPN
+PROPN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+ADP
+DET
+PROPN
+ADP
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+NOUN
+NUM
+PUNCT
+NUM
+
+PROPN
+PROPN
+PRT
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+ADJ
+NOUN
+PROPN
+AUX
+PROPN
+AUX
+
+PROPN
+PROPN
+AUX
+PROPN
+AUX
+
+PROPN
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+PART
+NOUN
+AUX
+DET
+AUX
+PROPN
+ADP
+DET
+NOUN
+ADP
+DET
+NOUN
+ADP
+PROPN
+PUNCT
+DET
+ADJ
+PROPN
+NOUN
+ADP
+PROPN
+
+ADP
+NUM
+PUNCT
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PUNCT
+AUX
+DET
+NOUN
+AUX
+AUX
+PUNCT
+PUNCT
+DET
+ADV
+ADJ
+NOUN
+PRT
+AUX
+NOUN
+ADP
+DET
+PROPN
+PROPN
+AUX
+PART
+PUNCT
+
+PUNCT
+PUNCT
+DET
+PROPN
+AUX
+DET
+ADJ
+NOUN
+ADP
+ADJ
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+CONJ
+PRON
+AUX
+AUX
+PRT
+AUX
+ADJ
+NOUN
+ADP
+AUX
+PART
+ADJ
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+
+PRON
+AUX
+AUX
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+PUNCT
+ADV
+AUX
+NOUN
+ADP
+DET
+ADJ
+ADJ
+NOUN
+ADP
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+
+ADP
+PROPN
+AUX
+PROPN
+PUNCT
+NUM
+PROPN
+AUX
+PROPN
+NUM
+PUNCT
+DET
+NOUN
+AUX
+VERB
+NOUN
+AUX
+ADP
+DET
+ADV
+ADJ
+NOUN
+AUX
+VERB
+ADP
+NUM
+PROPN
+ADP
+DET
+PROPN
+AUX
+ADJ
+NOUN
+ADP
+DET
+AUX
+ADJ
+NOUN
+ADP
+DET
+PROPN
+NOUN
+ADP
+PROPN
+PUNCT
+NUM
+NOUN
+ADV
+ADP
+PROPN
+
+PROPN
+PROPN
+PROPN
+PROPN
+
+NUM
+NOUN
+ADP
+PUNCT
+DET
+PROPN
+PROPN
+PROPN
+AUX
+DET
+ADJ
+NOUN
+AUX
+ADP
+PART
+NOUN
+PROPN
+PROPN
+PUNCT
+
+DET
+NOUN
+PART
+NOUN
+ADV
+AUX
+PART
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+PUNCT
+ADV
+VERB
+ADP
+NOUN
+PROPN
+PUNCT
+NOUN
+DET
+NOUN
+NOUN
+PRON
+AUX
+AUX
+ADP
+AUX
+ADP
+PROPN
+PROPN
+PUNCT
+CONJ
+AUX
+ADP
+NOUN
+DET
+NOUN
+ADV
+AUX
+ADP
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+AUX
+ADP
+NUM
+ADP
+PROPN
+PROPN
+PUNCT
+NOUN
+
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+PRON
+AUX
+
+DET
+AUX
+DET
+NOUN
+ADP
+DET
+ADP
+DET
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+PRT
+PROPN
+CONJ
+DET
+ADJ
+NOUN
+AUX
+ADP
+ADP
+PROPN
+PART
+NOUN
+AUX
+AUX
+PROPN
+ADP
+DET
+NOUN
+PART
+ADJ
+NOUN
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PUNCT
+PROPN
+NOUN
+ADP
+ADJ
+NOUN
+AUX
+ADP
+ADJ
+NOUN
+PUNCT
+AUX
+ADP
+ADP
+NOUN
+DET
+NOUN
+VERB
+ADP
+NUM
+PROPN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+PUNCT
+AUX
+PRT
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+PROPN
+AUX
+ADP
+AUX
+ADJ
+NOUN
+AUX
+ADP
+VERB
+CONJ
+ADJ
+NOUN
+PUNCT
+NOUN
+
+PROPN
+AUX
+DET
+AUX
+ADP
+ADJ
+NOUN
+ADP
+NUM
+PROPN
+PROPN
+NOUN
+AUX
+DET
+PROPN
+NUM
+PUNCT
+DET
+ADJ
+NOUN
+AUX
+AUX
+ADP
+PRT
+AUX
+DET
+PROPN
+NUM
+PUNCT
+
+PROPN
+PUNCT
+NUM
+PUNCT
+AUX
+VERB
+ADP
+AUX
+PRT
+DET
+PROPN
+PROPN
+AUX
+ADP
+
+PRT
+AUX
+DET
+NOUN
+PUNCT
+ADJ
+NOUN
+PRON
+AUX
+PRT
+AUX
+VERB
+ADP
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+ADJ
+NOUN
+CONJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PROPN
+PUNCT
+
+ADP
+NUM
+PUNCT
+ADJ
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+ADP
+DET
+NOUN
+NUM
+PUNCT
+PROPN
+AUX
+ADP
+ADP
+PRON
+ADV
+ADJ
+NOUN
+ADP
+AUX
+DET
+NOUN
+PROPN
+PROPN
+PROPN
+NUM
+PUNCT
+DET
+AUX
+DET
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+DET
+PROPN
+CONJ
+PROPN
+PROPN
+CONJ
+ADJ
+NOUN
+VERB
+NOUN
+
+DET
+PROPN
+NOUN
+ADP
+AUX
+PUNCT
+AUX
+NUM
+NOUN
+ADP
+PROPN
+NOUN
+PROPN
+PROPN
+PART
+NOUN
+AUX
+VERB
+ADP
+NUM
+PUNCT
+AUX
+ADP
+PRT
+NUM
+PUNCT
+NUM
+NOUN
+ADP
+NUM
+PUNCT
+NUM
+NOUN
+PUNCT
+
+PROPN
+PUNCT
+PROPN
+AUX
+PROPN
+AUX
+
+DET
+ADJ
+NOUN
+AUX
+ADJ
+PRT
+AUX
+ADP
+DET
+NOUN
+AUX
+DET
+NOUN
+NOUN
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+DET
+PROPN
+NOUN
+
+PROPN
+PRT
+AUX
+DET
+NOUN
+ADP
+NUM
+NOUN
+ADP
+DET
+ADJ
+NOUN
+NOUN
+CONJ
+AUX
+PRON
+AUX
+PROPN
+PUNCT
+AUX
+PROPN
+PROPN
+NOUN
+PROPN
+PROPN
+
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+DET
+NOUN
+CONJ
+DET
+NOUN
+NOUN
+
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+PROPN
+DET
+ADJ
+NOUN
+AUX
+ADV
+AUX
+AUX
+DET
+PROPN
+PROPN
+NUM
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PRT
+AUX
+DET
+ADJ
+NOUN
+ADV
+ADJ
+ADP
+DET
+PROPN
+NUM
+PUNCT
+AUX
+DET
+NOUN
+ADP
+ADJ
+NOUN
+AUX
+DET
+ADJ
+NOUN
+ADP
+DET
+NOUN
+CONJ
+PROPN
+PROPN
+
+DET
+NOUN
+AUX
+NOUN
+AUX
+ADV
+VERB
+ADP
+DET
+NOUN
+ADP
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+PART
+NOUN
+ADP
+DET
+ADJ
+NOUN
+AUX
+DET
+NOUN
+PRT
+AUX
+DET
+ADJ
+NOUN
+ADP
+PROPN
+NOUN
+PUNCT
+CONJ
+ADP
+DET
+PROPN
+AUX
+ADP
+DET
+ADJ
+NOUN
+ADP
+NUM
+PUNCT
+
+ADP
+NUM
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+NOUN
+AUX
+ADP
+NOUN
+ADP
+DET
+ADJ
+NOUN
+AUX
+ADP
+DET
+NOUN
+AUX
+DET
+NOUN
+ADV
+ADP
+PART
+NOUN
+ADP
+DET
+NOUN
+CONJ
+ADP
+DET
+NOUN
+AUX
+VERB
+ADP
+NUM
+NOUN
+ADP
+DET
+ADJ
+NOUN
+PUNCT
+
+ADP
+NUM
+PUNCT
+NOUN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+
+ADP
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+AUX
+PRON
+AUX
+
+ADP
+NUM
+PUNCT
+DET
+NOUN
+PROPN
+ADJ
+NOUN
+PUNCT
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+ADP
+NUM
+PUNCT
+NOUN
+PROPN
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+PROPN
+ADP
+NUM
+PUNCT
+DET
+PROPN
+PROPN
+AUX
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+AUX
+PROPN
+NUM
+PUNCT
+PROPN
+PROPN
+PROPN
+PROPN
+
+DET
+PROPN
+AUX
+PROPN
+PRT
+AUX
+DET
+NOUN
+PRT
+AUX
+NOUN
+PROPN
+PROPN
+PART
+PROPN
+PROPN
+NOUN
+PUNCT
+DET
+ADJ
+NOUN
+NOUN
+ADP
+AUX
+DET
+NOUN
+ADP
+ADJ
+NOUN
+AUX
+ADJ
+NOUN
+PUNCT
+
+ADP
+PROPN
+ADP
+PROPN
+PROPN
+PUNCT
+NUM
+NOUN
+ADP
+DET
+PROPN
+
+ADP
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+AUX
+PRON
+PUNCT
+NUM
+NOUN
+ADP
+DET
+PROPN
+PART
+NOUN
+CONJ
+NOUN
+CONJ
+DET
+NOUN
+AUX
+NUM
+PUNCT
+
+PROPN
+PROPN
+AUX
+DET
+ADJ
+NOUN
+ADP
+ADJ
+NOUN
+ADP
+PART
+NOUN
+PROPN
+PROPN
+ADP
+DET
+NOUN
+CONJ
+ADV
+AUX
+NOUN
+ADP
+PROPN
+PART
+NOUN
+ADP
+PART
+VERB
+PROPN
+PUNCT
+
+ADP
+PROPN
+AUX
+ADP
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+DET
+PROPN
+NOUN
+ADP
+PROPN
+AUX
+PRON
+AUX
+ADP
+DET
+NOUN
+DET
+ADJ
+NOUN
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+DET
+PROPN
+ADP
+ADJ
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PRON
+AUX
+PUNCT
+
+PROPN
+PROPN
+PROPN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+DET
+NUM
+PUNCT
+NUM
+ADV
+AUX
+VERB
+ADJ
+PRT
+ADP
+NUM
+NOUN
+ADP
+NUM
+PUNCT
+
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+ADP
+DET
+ADJ
+PROPN
+PROPN
+PUNCT
+AUX
+DET
+NOUN
+AUX
+ADP
+PART
+ADJ
+NOUN
+AUX
+PRON
+AUX
+DET
+NOUN
+PRT
+AUX
+PUNCT
+PUNCT
+DET
+ADJ
+NOUN
+PART
+PUNCT
+ADP
+PUNCT
+PUNCT
+DET
+AUX
+AUX
+DET
+NOUN
+AUX
+VERB
+ADP
+DET
+DET
+NOUN
+AUX
+AUX
+ADJ
+PRT
+AUX
+PART
+PUNCT
+
+PUNCT
+PUNCT
+PROPN
+PRT
+NUM
+NOUN
+AUX
+VERB
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+AUX
+AUX
+DET
+ADJ
+NOUN
+ADP
+NUM
+PRT
+NUM
+ADJ
+ADJ
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+NUM
+ADP
+PROPN
+PUNCT
+DET
+NOUN
+CONJ
+ADJ
+NOUN
+ADP
+AUX
+AUX
+DET
+AUX
+NOUN
+PUNCT
+
+PUNCT
+PUNCT
+DET
+AUX
+ADV
+DET
+ADJ
+NOUN
+ADP
+DET
+NOUN
+ADP
+ADJ
+NOUN
+PUNCT
+PUNCT
+PART
+PROPN
+PROPN
+PUNCT
+ADP
+DET
+PROPN
+PART
+NOUN
+ADP
+NOUN
+CONJ
+AUX
+NOUN
+PUNCT
+AUX
+PROPN
+
+DET
+NOUN
+ADJ
+NOUN
+PROPN
+AUX
+ADV
+ADP
+NOUN
+ADP
+DET
+NOUN
+PART
+NOUN
+AUX
+VERB
+PROPN
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+CONJ
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+DET
+NOUN
+PART
+ADJ
+ADJ
+PUNCT
+
+PROPN
+PROPN
+AUX
+PROPN
+AUX
+
+PROPN
+PROPN
+PUNCT
+ADV
+PROPN
+ADV
+ADJ
+NOUN
+PUNCT
+AUX
+DET
+NOUN
+ADP
+DET
+NOUN
+ADP
+PROPN
+PART
+NOUN
+PUNCT
+AUX
+PRT
+DET
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+NUM
+NOUN
+ADV
+ADP
+PROPN
+PROPN
+
+PUNCT
+PUNCT
+PROPN
+AUX
+NUM
+AUX
+VERB
+ADP
+ADP
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+CONJ
+PRON
+AUX
+DET
+NUM
+AUX
+VERB
+ADP
+ADP
+DET
+ADJ
+NOUN
+PUNCT
+PUNCT
+PART
+PROPN
+PROPN
+NOUN
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+ADP
+DET
+ADJ
+NOUN
+AUX
+AUX
+VERB
+CONJ
+VERB
+ADP
+NOUN
+
+PROPN
+AUX
+NOUN
+ADJ
+NOUN
+ADP
+PROPN
+PUNCT
+AUX
+PROPN
+AUX
+ADP
+DET
+NOUN
+ADP
+PART
+NOUN
+PUNCT
+
+ADP
+NUM
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PROPN
+PROPN
+NUM
+PROPN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+AUX
+PROPN
+ADP
+NOUN
+PROPN
+PROPN
+PROPN
+AUX
+PRON
+PROPN
+AUX
+
+PROPN
+PROPN
+PROPN
+PROPN
+
+PUNCT
+PUNCT
+PRON
+AUX
+ADJ
+NOUN
+ADP
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PROPN
+
+ADP
+PROPN
+AUX
+PROPN
+PUNCT
+NUM
+PROPN
+AUX
+PROPN
+NUM
+PUNCT
+PROPN
+PART
+PROPN
+PROPN
+PROPN
+CONJ
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+DET
+NOUN
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+DET
+PROPN
+PART
+PROPN
+ADP
+PROPN
+CONJ
+PROPN
+NOUN
+ADP
+DET
+PROPN
+PROPN
+ADP
+DET
+NOUN
+ADP
+NUM
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+AUX
+PROPN
+AUX
+
+PUNCT
+PUNCT
+PRON
+AUX
+ADP
+ADP
+DET
+ADJ
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+ADV
+ADJ
+ADP
+ADJ
+NOUN
+AUX
+PRT
+AUX
+
+ADP
+NUM
+PUNCT
+PROPN
+PROPN
+PUNCT
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+PROPN
+PART
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+NOUN
+PUNCT
+AUX
+NOUN
+ADP
+DET
+ADJ
+NOUN
+
+ADP
+PROPN
+PUNCT
+ADP
+PROPN
+PART
+NOUN
+ADP
+PROPN
+PUNCT
+NOUN
+ADJ
+NOUN
+PROPN
+PROPN
+AUX
+ADP
+NOUN
+AUX
+PUNCT
+PUNCT
+PROPN
+PROPN
+PART
+PUNCT
+ADP
+ADJ
+NOUN
+ADV
+PRT
+DET
+PROPN
+
+ADP
+DET
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+NOUN
+ADP
+DET
+PROPN
+PROPN
+AUX
+ADP
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+ADP
+DET
+NOUN
+PROPN
+NUM
+PUNCT
+DET
+NOUN
+ADP
+ADJ
+NOUN
+PUNCT
+AUX
+DET
+PROPN
+DET
+NOUN
+AUX
+ADJ
+NOUN
+ADP
+PART
+ADJ
+PROPN
+AUX
+NOUN
+ADP
+NUM
+PUNCT
+
+DET
+AUX
+ADJ
+NOUN
+ADP
+DET
+PROPN
+NOUN
+CONJ
+AUX
+VERB
+NUM
+NOUN
+AUX
+DET
+PROPN
+PROPN
+NUM
+PUNCT
+ADV
+ADJ
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+NUM
+NOUN
+ADP
+DET
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+
+ADP
+DET
+AUX
+NOUN
+ADP
+DET
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADP
+ADJ
+NOUN
+PUNCT
+PART
+NOUN
+AUX
+AUX
+VERB
+ADP
+PROPN
+PRON
+PUNCT
+CONJ
+PROPN
+PROPN
+AUX
+NOUN
+ADP
+NOUN
+ADP
+PROPN
+CONJ
+PROPN
+AUX
+NUM
+PUNCT
+PROPN
+PROPN
+AUX
+NOUN
+ADP
+NOUN
+ADP
+ADJ
+NOUN
+CONJ
+PROPN
+PROPN
+AUX
+NUM
+PUNCT
+CONJ
+PROPN
+PROPN
+AUX
+ADV
+ADJ
+NOUN
+ADP
+ADJ
+NOUN
+PRON
+AUX
+VERB
+VERB
+PRT
+AUX
+DET
+NOUN
+PRON
+AUX
+VERB
+ADP
+ADV
+PUNCT
+
+PROPN
+PROPN
+
+PUNCT
+PUNCT
+PROPN
+AUX
+NOUN
+AUX
+PRON
+PUNCT
+NUM
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+ADP
+DET
+ADJ
+PROPN
+ADP
+ADJ
+PROPN
+
+PART
+NOUN
+ADP
+DET
+NOUN
+AUX
+VERB
+ADP
+DET
+NOUN
+AUX
+ADP
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+PRT
+PROPN
+PUNCT
+PRON
+AUX
+ADP
+DET
+NOUN
+PROPN
+NOUN
+ADP
+DET
+ADJ
+NOUN
+AUX
+ADV
+ADJ
+PUNCT
+
+PROPN
+PART
+ADJ
+NOUN
+PUNCT
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+DET
+NOUN
+AUX
+VERB
+CONJ
+DET
+NOUN
+AUX
+NOUN
+CONJ
+ADP
+NOUN
+NUM
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+ADJ
+NOUN
+PROPN
+NUM
+PROPN
+AUX
+
+DET
+ADJ
+NOUN
+AUX
+VERB
+ADV
+PUNCT
+ADP
+NUM
+PUNCT
+PROPN
+AUX
+ADJ
+NOUN
+ADP
+PROPN
+NOUN
+PROPN
+PROPN
+ADP
+DET
+ADJ
+NOUN
+ADP
+DET
+NUM
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+ADJ
+NOUN
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+CONJ
+PROPN
+PROPN
+AUX
+ADJ
+NOUN
+ADP
+AUX
+DET
+PROPN
+AUX
+NOUN
+PART
+NOUN
+
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+PUNCT
+PROPN
+AUX
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+NOUN
+ADJ
+PUNCT
+ADJ
+PROPN
+PROPN
+PROPN
+
+ADP
+NUM
+PUNCT
+PROPN
+CONJ
+DET
+PROPN
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+AUX
+PRT
+DET
+ADJ
+NOUN
+ADP
+DET
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+
+PROPN
+ADV
+AUX
+DET
+ADJ
+NOUN
+AUX
+ADP
+DET
+NOUN
+AUX
+AUX
+VERB
+ADP
+ADJ
+ADJ
+NOUN
+PUNCT
+PROPN
+PROPN
+PROPN
+AUX
+ADP
+DET
+NOUN
+PROPN
+
+PROPN
+AUX
+DET
+PROPN
+NOUN
+PRON
+AUX
+VERB
+ADP
+DET
+PROPN
+ADV
+ADP
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+ADP
+PROPN
+PART
+ADJ
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+PUNCT
+AUX
+DET
+NOUN
+ADP
+DET
+DET
+NOUN
+ADP
+NOUN
+ADP
+PROPN
+PROPN
+AUX
+PRON
+AUX
+PRON
+AUX
+ADP
+NUM
+NOUN
+PART
+PUNCT
+
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+PROPN
+PART
+PROPN
+PROPN
+NOUN
+PUNCT
+AUX
+NOUN
+AUX
+ADP
+AUX
+VERB
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+CONJ
+AUX
+ADP
+PART
+NOUN
+ADP
+PROPN
+AUX
+ADJ
+PRT
+AUX
+ADP
+DET
+NOUN
+PUNCT
+
+DET
+NOUN
+PUNCT
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+PUNCT
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+AUX
+AUX
+VERB
+PRT
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+AUX
+NOUN
+ADP
+DET
+NOUN
+ADP
+DET
+PROPN
+NUM
+PUNCT
+
+DET
+NOUN
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PUNCT
+NOUN
+ADP
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+CONJ
+DET
+AUX
+NOUN
+ADP
+DET
+NOUN
+ADP
+PROPN
+CONJ
+DET
+PROPN
+PRT
+PROPN
+PUNCT
+
+ADP
+PROPN
+AUX
+PROPN
+PUNCT
+PROPN
+PUNCT
+PROPN
+NUM
+NOUN
+PROPN
+NUM
+PUNCT
+DET
+NOUN
+ADP
+DET
+ADJ
+NOUN
+AUX
+VERB
+AUX
+ADJ
+NOUN
+AUX
+DET
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+NOUN
+AUX
+PROPN
+PUNCT
+NUM
+PROPN
+NUM
+PUNCT
+
+ADP
+ADJ
+NOUN
+PUNCT
+PROPN
+AUX
+NOUN
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+DET
+NOUN
+ADP
+DET
+NOUN
+PUNCT
+AUX
+VERB
+PROPN
+CONJ
+VERB
+ADP
+PROPN
+PUNCT
+
+PROPN
+AUX
+VERB
+AUX
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+DET
+NOUN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+ADP
+PROPN
+PROPN
+PROPN
+CONJ
+PROPN
+PROPN
+PROPN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+ADP
+DET
+PROPN
+ADP
+PROPN
+PUNCT
+AUX
+DET
+NOUN
+PUNCT
+PRON
+AUX
+ADP
+NOUN
+ADP
+NOUN
+PUNCT
+
+PUNCT
+PUNCT
+PRON
+AUX
+VERB
+ADV
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+
+PRON
+AUX
+VERB
+PRT
+AUX
+DET
+AUX
+NOUN
+ADP
+DET
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+ADP
+PROPN
+AUX
+PROPN
+AUX
+PROPN
+AUX
+ADP
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+AUX
+DET
+NOUN
+ADP
+PROPN
+PART
+NOUN
+AUX
+VERB
+PUNCT
+ADV
+ADP
+NOUN
+PROPN
+AUX
+VERB
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+AUX
+PROPN
+NUM
+PROPN
+AUX
+
+PROPN
+AUX
+PRON
+AUX
+ADP
+DET
+ADJ
+NOUN
+PUNCT
+NUM
+CONJ
+AUX
+NOUN
+PROPN
+NOUN
+CONJ
+PRON
+AUX
+PRT
+DET
+NOUN
+ADP
+DET
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+PROPN
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PROPN
+
+ADP
+PROPN
+AUX
+PROPN
+PUNCT
+NUM
+PROPN
+AUX
+PROPN
+AUX
+ADJ
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+AUX
+ADJ
+NOUN
+PRT
+AUX
+ADP
+DET
+AUX
+ADJ
+PROPN
+ADP
+DET
+NOUN
+ADP
+DET
+NOUN
+ADP
+DET
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+
+PROPN
+PROPN
+AUX
+ADV
+VERB
+PRT
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+PROPN
+CONJ
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+
+PROPN
+NOUN
+AUX
+ADP
+PROPN
+PART
+PROPN
+PROPN
+NOUN
+CONJ
+AUX
+PRON
+PRT
+AUX
+ADV
+NUM
+NOUN
+ADP
+PROPN
+NOUN
+AUX
+ADP
+PUNCT
+DET
+ADJ
+NOUN
+AUX
+NOUN
+ADJ
+AUX
+DET
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+AUX
+ADJ
+NOUN
+NUM
+PUNCT
+VERB
+PROPN
+NUM
+PUNCT
+NUM
+PUNCT
+ADP
+DET
+NOUN
+PUNCT
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+PUNCT
+AUX
+DET
+PROPN
+PROPN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+AUX
+DET
+NOUN
+ADP
+PART
+ADJ
+NOUN
+ADP
+DET
+ADV
+VERB
+PROPN
+PROPN
+PROPN
+CONJ
+AUX
+DET
+NOUN
+PRT
+AUX
+ADP
+PRON
+AUX
+NOUN
+ADP
+AUX
+ADP
+DET
+NOUN
+ADP
+NOUN
+AUX
+NOUN
+PUNCT
+
+PROPN
+PART
+NOUN
+PUNCT
+PROPN
+PUNCT
+AUX
+DET
+NOUN
+ADP
+PROPN
+PUNCT
+PROPN
+PUNCT
+
+PROPN
+PUNCT
+NOUN
+CONJ
+NOUN
+ADP
+PROPN
+PROPN
+PUNCT
+NUM
+PUNCT
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PRON
+AUX
+PART
+NOUN
+NOUN
+ADP
+NUM
+CONJ
+ADV
+ADJ
+ADJ
+PROPN
+AUX
+ADP
+PUNCT
+PUNCT
+ADP
+DET
+PROPN
+PART
+PUNCT
+CONJ
+PUNCT
+PUNCT
+PROPN
+PROPN
+PROPN
+PART
+PUNCT
+ADP
+ADV
+ADP
+DET
+DET
+NOUN
+CONJ
+NUM
+NOUN
+ADP
+PUNCT
+PUNCT
+DET
+PROPN
+CONJ
+PROPN
+PART
+PUNCT
+
+PUNCT
+PUNCT
+PART
+ADJ
+NOUN
+PUNCT
+ADJ
+NOUN
+CONJ
+AUX
+PRON
+AUX
+ADP
+NOUN
+ADJ
+NOUN
+ADP
+NUM
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+PART
+NOUN
+CONJ
+AUX
+ADJ
+NOUN
+PUNCT
+
+PRON
+AUX
+PRT
+AUX
+ADJ
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+PROPN
+ADP
+PROPN
+PUNCT
+
+PROPN
+PUNCT
+PROPN
+AUX
+PROPN
+AUX
+
+PROPN
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+ADJ
+NOUN
+
+ADP
+NUM
+PUNCT
+PROPN
+ADJ
+NOUN
+PROPN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PROPN
+PUNCT
+PROPN
+
+PUNCT
+PUNCT
+PRON
+AUX
+AUX
+PRON
+ADP
+PART
+NOUN
+PUNCT
+PUNCT
+PUNCT
+AUX
+PRON
+PROPN
+PROPN
+ADJ
+PROPN
+PROPN
+
+PROPN
+PROPN
+ADV
+AUX
+DET
+ADJ
+NOUN
+AUX
+PROPN
+ADP
+PART
+NOUN
+PROPN
+PROPN
+PUNCT
+ADP
+PROPN
+PROPN
+PROPN
+AUX
+ADP
+PROPN
+NOUN
+ADP
+DET
+ADJ
+NOUN
+ADP
+PROPN
+AUX
+ADP
+DET
+NOUN
+ADV
+PRON
+AUX
+PRON
+AUX
+DET
+NOUN
+PUNCT
+
+PROPN
+PROPN
+CONJ
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PART
+PUNCT
+PUNCT
+NOUN
+ADP
+NOUN
+PART
+PUNCT
+NOUN
+PROPN
+PROPN
+NOUN
+DET
+NUM
+ADP
+PRON
+AUX
+VERB
+NUM
+ADP
+PART
+NOUN
+PRT
+DET
+NOUN
+PUNCT
+PROPN
+PROPN
+PUNCT
+PROPN
+PROPN
+PROPN
+PUNCT
+CONJ
+PROPN
+PROPN
+PROPN
+PUNCT
+
+ADP
+NUM
+PUNCT
+NOUN
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+
+PROPN
+PROPN
+ADP
+DET
+ADJ
+NOUN
+AUX
+ADP
+PROPN
+PROPN
+PROPN
+AUX
+PROPN
+AUX
+AUX
+PROPN
+PART
+NOUN
+ADP
+PROPN
+ADP
+PRON
+AUX
+PRT
+AUX
+ADP
+DET
+ADJ
+NOUN
+CONJ
+ADP
+DET
+NOUN
+PRT
+PROPN
+PART
+ADP
+NUM
+ADJ
+NOUN
+PUNCT
+
+PRON
+AUX
+PRON
+ADV
+AUX
+PART
+NOUN
+AUX
+DET
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+ADP
+ADJ
+PROPN
+ADP
+PRON
+AUX
+NUM
+NOUN
+ADP
+PUNCT
+
+PROPN
+NOUN
+PROPN
+PROPN
+AUX
+AUX
+PRT
+PART
+PROPN
+NOUN
+PRT
+AUX
+VERB
+PROPN
+PUNCT
+
+ADP
+DET
+NOUN
+PUNCT
+ADP
+NUM
+PUNCT
+PROPN
+PROPN
+AUX
+VERB
+ADP
+PROPN
+PUNCT
+
+VERB
+ADP
+DET
+NOUN
+PRON
+AUX
+ADV
+AUX
+PROPN
+PROPN
+PUNCT
+DET
+ADJ
+NOUN
+AUX
+ADP
+PROPN
+PUNCT
+AUX
+PROPN
+PROPN
+PUNCT
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PUNCT
+DET
+PROPN
+AUX
+ADJ
+NOUN
+ADP
+PROPN
+PROPN
+
+DET
+PROPN
+PROPN
+AUX
+VERB
+AUX
+DET
+NOUN
+PROPN
+PROPN
+PROPN
+ADJ
+PRT
+AUX
+PROPN
+ADV
+ADP
+DET
+NOUN
+PRT
+AUX
+DET
+ADJ
+NOUN
+ADP
+DET
+NUM
+NOUN
+PUNCT
+
+PROPN
+PUNCT
+PROPN
+AUX
+PROPN
+AUX
+
+PROPN
+PROPN
+PUNCT
+DET
+PROPN
+NOUN
+PUNCT
+NOUN
+NUM
+ADP
+PART
+NOUN
+NOUN
+CONJ
+DET
+ADJ
+NOUN
+
+PROPN
+ADP
+NOUN
+PUNCT
+DET
+AUX
+ADJ
+NOUN
+ADP
+PROPN
+PART
+NUM
+NUM
+NOUN
+AUX
+ADP
+PROPN
+PROPN
+NOUN
+PUNCT
+NOUN
+CONJ
+ADJ
+NOUN
+PUNCT
+
+PROPN
+PROPN
+PROPN
+PROPN
+ADP
+PROPN
+NUM
+PROPN
+AUX
+NOUN
+NUM
+
+DET
+NOUN
+VERB
+PROPN
+PUNCT
+ADJ
+NOUN
+ADP
+DET
+PROPN
+PROPN
+PROPN
+CONJ
+DET
+PROPN
+NOUN
+PUNCT
+ADP
+NOUN
+ADP
+DET
+NOUN
+ADP
+NOUN
+CONJ
+NOUN
+ADP
+NOUN
+PRT
+AUX
+PUNCT
+ADP
+NOUN
+ADP
+DET
+VERB
+NOUN
+ADP
+PROPN
+PROPN
+PROPN
+PUNCT
+
+PRON
+ADV
+AUX
+PRON
+AUX
+PRT
+AUX
+PRON
+PROPN
+AUX
+PROPN
+AUX
+PRON
+PROPN
+AUX
+PROPN
+AUX
+DET
+ADV
+ADJ
+NOUN
+CONJ
+PART
+ADJ
+NOUN
+AUX
+VERB
+ADJ
+NOUN
+AUX
+VERB
+ADP
+PRON
+AUX
+PRT
+AUX
+AUX
+ADP
+DET
+NOUN
+PUNCT
+PRON
+AUX
+DET
+PRON
+ADV
+ADJ
+NOUN
+ADV
+PUNCT
+CONJ
+DET
+ADJ
+NOUN
+PRON
+AUX
+PRT
+DET
+NOUN
+ADP
+PROPN
+AUX
+PRON
+AUX
+ADP
+PROPN
+AUX
+PRON
+ADP
+PROPN
+AUX
+ADP
+PART
+PROPN
+NOUN
+PUNCT
+DET
+NOUN
+ADP
+NOUN
+ADP
+NOUN
+CONJ
+DET
+ADJ
+NOUN
+NUM
+PUNCT
+
+PROPN
+PROPN
+AUX
+DET
+PROPN
+PART
+PROPN
+ADJ
+NOUN
+PUNCT
+VERB
+ADP
+PROPN
 
