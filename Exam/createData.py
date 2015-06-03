@@ -3,7 +3,7 @@ import codecs
 import argparse
 import Preprocessing
 
-def extract_data(sentences, pos, separator=' ', labels=None):
+def extract_data(sentences, poss, separator=' ', labels=None):
     """
     extract token-level data (features) from file that is NER tagged and the corresponding POS file 
     this method should output the format expected by the crfsuite script, i.e., nerfeats.py
@@ -22,10 +22,11 @@ def extract_data(sentences, pos, separator=' ', labels=None):
 
     for i in xrange(n_sentences):
         if labels is None:
-            line_labels = ['PLACEHOLDER']*len(pos[i])
+            line_labels = ['PLACEHOLDER']*len(poss[i])
+            
         else:
             line_labels = labels[i]
-        for word,pos, label in zip(sentences[i],pos[i],line_labels):
+        for word,pos, label in zip(sentences[i],poss[i],line_labels):
             # first letter is capitalized
             # HERE'S SOME FEATURES #
             cap="+" if word[0].isupper() else "-"
