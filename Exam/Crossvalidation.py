@@ -5,6 +5,7 @@ import RelationExtraction
 from matplotlib import pyplot as plt
 import numpy as np
 import PartOfSpeechTagger as POS
+import sys
 
 def cross_validate(data, labels, k, create, params):
     #Split into evenly sized chunks
@@ -47,14 +48,14 @@ def cross_validate(data, labels, k, create, params):
 
 def do_grid_search(data, labels, range1, range2, cval_func):
     results = np.ndarray((len(range1),len(range2)))
-    print "Doing grid search..."
+    print >> sys.stderr, "Doing grid search..."
 
     best = None
     best_result = 1.0
     for i,C in enumerate(range1):
         for j,gamma in enumerate(range2):
             results[i][j] = cval_func(data, labels, C, gamma)
-            print C, gamma, results[i][j]
+            print >> sys.stderr, C, gamma, results[i][j]
 
             if results[i][j] < best_result:
                 best_result = results[i][j]

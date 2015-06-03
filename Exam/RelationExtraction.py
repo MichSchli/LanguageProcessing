@@ -20,7 +20,7 @@ Utility methods:
 TESTED_NER = ['PER', 'LOC']
 
 # Labels:
-LABEL_NAMES = ['', 'kill', 'birthplace']
+LABEL_NAMES = ['', 'OrgBased_In', 'Live_In', 'Work_For']
 
 
 #Featurize a 4-tuple consisting of sentence and indices for entities:
@@ -287,14 +287,18 @@ if __name__ == '__main__':
     parser.add_argument("--sentences", help="Read a preprocessed sentence file.", required=False)
     parser.add_argument("--pos", help="Read a POS file.", required=False)
     parser.add_argument("--ne", help="Read an NER file.", required=False)
+    parser.add_argument("--detector_model", help="A model for relation detection", required=False)
+    parser.add_argument("--classifier_model", help="A model for relation detection", required=False)
     args = parser.parse_args()
 
     if args.noshell:
 
         print >> sys.stderr, "preprocessing"
         # Get the data:
-        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data.data')
-        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data.data')
+        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('re/train.gold')
+        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('re/dev.gold')
+
+        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
 
         print >> sys.stderr, "setting up"
         # Create a test model:
@@ -317,32 +321,15 @@ if __name__ == '__main__':
         predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
 
         print >> sys.stderr, "evaluating"
-        #print rcl.evaluate_sentences(zip(test_sentences, test_ne, test_pos), test_relations)
-
-        Postprocessing.print_sentence_relation_list(test_sentences, predictions)
+        print rcl.evaluate_sentences(zip(test_sentences, test_ne, test_pos), test_relations)
 
     else:
-        if args.sentences and args.pos and args.ne:
-            sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data.data')
-            # Create a test model:
+        if args.sentences and args.pos and args.ne and args.detector_model and args.classifier_model:
+            # Load in the two models:
             rc = RelationDetector('SVM', [1000, 0.01])
-
-            print >> sys.stderr, "fitting"
-            # Train the model:
-            rc.fit_sentences(zip(sentences, ne, pos), relations)
-            rc.save('models/r_detect.model')
-            rc = RelationDetector('SVM', [1000, 0.01])
-            rc.load('models/r_detect.model')
-
-            print >> sys.stderr, "set up classifier"
+            rc.load(args.detector_model)
             rcl = RelationClassifier('SVM', [1000, 0.01])
-
-            print >> sys.stderr, "training classifier..."
-            rcl.fit_sentences(zip(sentences, ne, pos), relations)
-            rcl.save('models/r_class.model')
-            rcl = RelationClassifier('SVM', [1000, 0.01])
-            rcl.load('models/r_class.model')
-
+            rcl.load(args.classifier_model)
 
             sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
             pos = Preprocessing.parse_processed_sentence_file(args.pos)
