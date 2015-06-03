@@ -272,9 +272,9 @@ Execution:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Contains implementation for two relation extraction strategies.")
     parser.add_argument("--noshell", help="Testing for non-shell environment.", required=False, action='store_true')
-    parser.add_argument("--sentences", help="Read a preprocessed sentence file.", required=False, action='store_true')
-    parser.add_argument("--pos", help="Read a POS file.", required=False, action='store_true')
-    parser.add_argument("--ne", help="Read an NER file.", required=False, action='store_true')
+    parser.add_argument("--sentences", help="Read a preprocessed sentence file.", required=False)
+    parser.add_argument("--pos", help="Read a POS file.", required=False)
+    parser.add_argument("--ne", help="Read an NER file.", required=False)
     args = parser.parse_args()
 
     if args.noshell:
