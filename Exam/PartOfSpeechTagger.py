@@ -325,7 +325,7 @@ if __name__ == "__main__":
             sentences = Preprocessing.parse_processed_sentence_file(args.input)
             print >> sys.stderr, "POS-tagging..."
             predictions = sp.predict_sentences(sentences)
-            Postprocessing.print_sentence_pos_list(sentences, predictions)
+            Postprocessing.print_sentence_list(predictions)
 
 
 
