@@ -328,7 +328,7 @@ if __name__ == '__main__':
             sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
             pos = Preprocessing.parse_processed_sentence_file(args.pos)
             ne_plain = Preprocessing.parse_processed_sentence_file(args.ne)
-            ne = [Preprocessing.process_named_entities(n) for n in ne]
+            ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
 
             print >> sys.stderr, "predict relations..."
             pred = rc.predict_sentences(zip(sentences, ne, pos))
