@@ -3,7 +3,7 @@ import codecs
 import argparse
 import Preprocessing as P
 
-def extract_data(separator=' '):
+def extract_data(sentences, pos, separator=' '):
     """
     extract token-level data (features) from file that is NER tagged and the corresponding POS file 
     this method should output the format expected by the crfsuite script, i.e., nerfeats.py
@@ -18,13 +18,10 @@ def extract_data(separator=' '):
     fields = 'w pos cap y'
     """
 
-    # read NER and POS from the two files
-    sentences, _, neses, poses = P.parse_full_re_file('data/kill+birthplace.data', zip_ne_to_dictionary=False)
+    n_sentences = len(sentences)
 
-        
-
-    for i in xrange(len(sentences)):
-        for word,pos,tag in zip(sentences[i],poses[i],neses[i]):
+    for i in n_sentences:
+        for word,pos in zip(sentences[i],pos[i]):
             # first letter is capitalized
             # HERE'S SOME FEATURES #
             cap="+" if word[0].isupper() else "-"
@@ -38,7 +35,7 @@ def extract_data(separator=' '):
             
             ## todo: output the cap feature and more 
             ## make sure the format you output here is what the nerfeats.py script expects as fields!
-            print separator.join([word.lower(),pos,cap, l, hyphen, tag])
+            print separator.join([word.lower(),pos,cap, l, hyphen])
         # sentence separator
         print ""
 
@@ -80,9 +77,9 @@ def read_conll_file(file_name):
 if __name__=="__main__":
 
     # parse command line options
-    #parser = argparse.ArgumentParser(description="""Run a structured perceptron""")
-    #parser.add_argument("--ner", help="NER file (CoNLL format)", required=True)
-    #parser.add_argument("--pos", help="POS file (CoNLL format)", required=True)
-    #args = parser.parse_args()
+    parser = argparse.ArgumentParser(description="""Run a structured perceptron""")
+    parser.add_argument("--sentences", help="Preprocessed sentence file (CoNLL format)", required=True)
+    parser.add_argument("--pos", help="POS file (CoNLL format)", required=True)
+    args = parser.parse_args()
 
-    extract_data()
+    extract_data(args.sentences, args.pos)
