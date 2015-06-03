@@ -1,5 +1,7 @@
 __author__ = 'Michael'
 
+
+
 def print_sentence_relation_list(sentences, relation):
     for i, sentence in enumerate(sentences):
         for j,word in enumerate(sentence):
@@ -10,4 +12,10 @@ def print_sentence_relation_list(sentences, relation):
             end = str(r['e2_start']+1) + ((':'+str(r['e2_end']+1)) if r['e2_start'] != r['e2_end'] else "")
 
             print start+'\t'+end+'\t'+r['type']
+        print ""
+
+def print_sentence_pos_list(sentences, poss):
+    for i, pos in enumerate(poss):
+        for j, p in enumerate(pos):
+            print sentences[i][j] + '\t' + p
         print ""

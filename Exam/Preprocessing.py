@@ -4,6 +4,14 @@ import codecs
 def read_relation(line):
     return line.strip().split('\t')
 
+
+def parse_sentence_file(filename):
+    sent = []
+    for line in codecs.open(filename):
+        sent.append(line.strip().split(" "))
+
+    return sent
+
 def parse_re_file(filename):
     sentences = []
     sentence = ([], [])
