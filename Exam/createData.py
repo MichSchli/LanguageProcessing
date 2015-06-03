@@ -19,11 +19,13 @@ def extract_data(sentences, pos, separator=' ', labels=None):
     """
 
     n_sentences = len(sentences)
-    if labels is None:
-        labels = ['PLACEHOLDER']*n_sentences
 
     for i in xrange(n_sentences):
-        for word,pos, label in zip(sentences[i],pos[i], labels[i]):
+        if labels is None:
+            line_labels = ['PLACEHOLDER']*len(pos[i])
+        else:
+            line_labels = labels[i]
+        for word,pos, label in zip(sentences[i],pos[i],line_labels):
             # first letter is capitalized
             # HERE'S SOME FEATURES #
             cap="+" if word[0].isupper() else "-"
