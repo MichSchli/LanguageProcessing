@@ -272,6 +272,9 @@ Execution:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Contains implementation for two relation extraction strategies.")
     parser.add_argument("--noshell", help="Testing for non-shell environment.", required=False, action='store_true')
+    parser.add_argument("--sentences", help="Read a preprocessed sentence file.", required=False, action='store_true')
+    parser.add_argument("--pos", help="Read a POS file.", required=False, action='store_true')
+    parser.add_argument("--ne", help="Read an NER file.", required=False, action='store_true')
     args = parser.parse_args()
 
     if args.noshell:
@@ -306,17 +309,32 @@ if __name__ == '__main__':
 
         Postprocessing.print_sentence_relation_list(test_sentences, predictions)
 
-        #Evaluate on train data:
-        '''
-        print "evaluating"
-        print rc.evaluate_sentences(zip(test_sentences, test_ne, test_pos), test_relations)
-        '''
-        '''
-        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
+    else:
+        if args.sentences and args.pos and args.ner:
+            sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
+            # Create a test model:
+            rc = RelationDetector('SVM', [1000, 0.01])
 
-        #Postprocessing.print_sentence_relation_list(sentences, predictions)
+            print >> sys.stderr, "fitting"
+            # Train the model:
+            rc.fit_sentences(zip(sentences, ne, pos), relations)
 
+            print >> sys.stderr, "set up classifier"
+            rcl = RelationClassifier('SVM', [1000, 0.01])
 
-        #rc = RelationClassifier('extra_label', [1000, 0.01])
-        #print rc.evaluate(sentences, ne, pos, relations,sentences, ne, pos, relations)
-        '''
+            print >> sys.stderr, "training classifier..."
+            rcl.fit_sentences(zip(sentences, ne, pos), relations)
+
+            sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
+            pos = Preprocessing.parse_processed_sentence_file(args.pos)
+            ne = Preprocessing.parse_processed_sentence_file(args.ne)
+
+            print >> sys.stderr, "predict relations..."
+            pred = rc.predict_sentences(zip(sentences, ne, pos))
+
+            print >> sys.stderr, "classifying"
+            predictions = rcl.predict_sentences(zip(sentences, ne, pos), pred, output_dictionary=True)
+            Postprocessing.print_sentence_relation_list(sentences, predictions)
+
+        else:
+            print >> sys.stderr, 'Missing input'
