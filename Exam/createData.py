@@ -1,7 +1,7 @@
 import sys
 import codecs
 import argparse
-import Preprocessing as P
+import Preprocessing
 
 def extract_data(sentences, pos, separator=' ', labels=None):
     """
@@ -87,4 +87,6 @@ if __name__=="__main__":
     parser.add_argument("--pos", help="POS file (CoNLL format)", required=True)
     args = parser.parse_args()
 
-    extract_data(args.sentences, args.pos)
+    sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
+    pos = Preprocessing.parse_processed_sentence_file(args.pos)
+    extract_data(sentences, pos)
