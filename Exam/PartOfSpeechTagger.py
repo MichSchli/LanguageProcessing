@@ -322,7 +322,7 @@ if __name__ == "__main__":
         sp = StructuredPerceptron()
         if args.load and args.input:
             sp.load(args.load)
-            sentences = Preprocessing.parse_sentence_file(args.input)
+            sentences = Preprocessing.parse_processed_sentence_file(args.input)
             print >> sys.stderr, "POS-tagging..."
             predictions = sp.predict_sentences(sentences)
             Postprocessing.print_sentence_pos_list(sentences, predictions)

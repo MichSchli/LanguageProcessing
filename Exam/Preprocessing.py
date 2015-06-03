@@ -39,6 +39,20 @@ def parse_re_file(filename):
 
     return sentences
 
+def parse_processed_sentence_file(filename):
+    sentences = [[]]
+
+    for line in codecs.open(filename):
+        if line.strip():
+            sentences[-1].append(line.strip())
+        else:
+            sentences.append([])
+
+    if not sentences[-1]:
+        sentences = sentences[:-1]
+    return sentences
+
+
 def parse_full_re_file(filename, zip_ne_to_dictionary=True):
     sentences = [[]]
     relations = [[]]
