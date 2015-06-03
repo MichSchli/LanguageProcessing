@@ -281,8 +281,8 @@ if __name__ == '__main__':
 
         print >> sys.stderr, "preprocessing"
         # Get the data:
-        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
-        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data')
+        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data.data')
+        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('data/test_data.data')
 
         print >> sys.stderr, "setting up"
         # Create a test model:
@@ -328,6 +328,7 @@ if __name__ == '__main__':
             sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
             pos = Preprocessing.parse_processed_sentence_file(args.pos)
             ne = Preprocessing.parse_processed_sentence_file(args.ne)
+            ne = [Preprocessing.process_named_entities(n) for n in ne]
 
             print >> sys.stderr, "predict relations..."
             pred = rc.predict_sentences(zip(sentences, ne, pos))
