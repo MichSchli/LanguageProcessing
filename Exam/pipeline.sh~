@@ -4,5 +4,9 @@
 PROJECTHOME=~/Documents/LanguageProcessing/Exam
 CRFSUITE=/usr/local/bin/crfsuite
 TEST=$PROJECTHOME/re/dev.input
+NERMODEL=$PROJECTSHOME/models/ner.model
+POSMODEL=$PROJECTHOME/models/postagger.model
 
-head $TEST
+python Preprocessing.py --input $TEST > pre_output.tmp
+
+python PartOfSpeechTagger.py --input pre_output.tmp --load $NERMODEL
