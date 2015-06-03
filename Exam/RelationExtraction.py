@@ -310,7 +310,7 @@ if __name__ == '__main__':
         Postprocessing.print_sentence_relation_list(test_sentences, predictions)
 
     else:
-        if args.sentences and args.pos and args.ner:
+        if args.sentences and args.pos and args.ne:
             sentences, relations, ne, pos = Preprocessing.parse_full_re_file('data/train_data')
             # Create a test model:
             rc = RelationDetector('SVM', [1000, 0.01])
