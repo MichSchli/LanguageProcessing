@@ -1,8 +1,18 @@
 __author__ = 'Michael'
 import codecs
+import argparse
+import Postprocessing
 
 def read_relation(line):
     return line.strip().split('\t')
+
+
+def parse_sentence_file(filename):
+    sent = []
+    for line in codecs.open(filename):
+        sent.append(line.strip().split(" "))
+
+    return sent
 
 def parse_re_file(filename):
     sentences = []
@@ -101,6 +111,12 @@ def process_named_entities(nes):
 
 
 if __name__ == '__main__':
-    sentences, relations, nes, poss = parse_full_re_file('data/kill+birthplace.baseline')
-    for i in xrange(len(sentences)):
-        print relations[i]
+
+    parser = argparse.ArgumentParser(description="Contains implementation for two relation extraction strategies.")
+    parser.add_argument("--input", required=True, help="Specify the input file")
+    args = parser.parse_args()
+
+    f = args.input
+
+    sentences = parse_sentence_file(f)
+    Postprocessing.print_sentence_list(sentences)

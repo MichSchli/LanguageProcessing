@@ -7,6 +7,7 @@ import sys
 import networkx as nx
 import Preprocessing
 import Crossvalidation
+import Postprocessing
 
 np.set_printoptions(precision=4)
 
@@ -139,6 +140,9 @@ class StructuredPerceptron(object):
         return features
 
 
+    def predict_sentences(self, sentences):
+        for sentence in sentences:
+            yield self.predict(sentence)
 
     def predict(self, words):
         """
@@ -272,12 +276,10 @@ class StructuredPerceptron(object):
         :param file_name:
         :return:
         """
-        print >> sys.stderr, "loading model..."
         f = open(file_name, 'r+')
         model = cPickle.load(f)
         self.tags = set(model['tags'])
         self.feature_weights = defaultdict(float, model['weights'])
-        print >> sys.stderr, "done"
 
 
 # if script is run from command line, automatically execute the following
@@ -289,6 +291,7 @@ if __name__ == "__main__":
     parser.add_argument("--validate", help="validate implementation using crossvalidation", action="store_true")
     parser.add_argument("--load", help="load model from file", required=False)
     parser.add_argument("--noshell", required=False, action="store_true")
+    parser.add_argument("--input", required=False, help="Specify the input file")
     args = parser.parse_args()
 
     if args.noshell:
@@ -314,17 +317,15 @@ if __name__ == "__main__":
         else:
             print Crossvalidation.evaluate_pos_tagger(sentences, pos_gold)
 
-        '''
-        This is the code for actually tagging stuff. Keep it until we need it:
+    else:
 
-        #Run through sentences, tagging with the right model
-        for i,sentence in enumerate(sentences):
-            tags.append(en_sp.predict(sentence))
-
-            for j, tag in enumerate(tags[i]):
-                print sentence[j], tag
-            print ''
-        '''
+        sp = StructuredPerceptron()
+        if args.load and args.input:
+            sp.load(args.load)
+            sentences = Preprocessing.parse_sentence_file(args.input)
+            print >> sys.stderr, "POS-tagging..."
+            predictions = sp.predict_sentences(sentences)
+            Postprocessing.print_sentence_pos_list(sentences, predictions)
 
 
 
