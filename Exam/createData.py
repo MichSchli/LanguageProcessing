@@ -23,6 +23,7 @@ def extract_data(sentences, pos, separator=' ', labels=None):
     for i in xrange(n_sentences):
         if labels is None:
             line_labels = ['PLACEHOLDER']*len(pos[i])
+            
         else:
             line_labels = labels[i]
         for word,pos, label in zip(sentences[i],pos[i],line_labels):
