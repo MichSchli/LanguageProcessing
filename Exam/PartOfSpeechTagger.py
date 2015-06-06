@@ -121,20 +121,23 @@ class StructuredPerceptron(object):
         word_lower = word.lower()
         prefix = word_lower[:3]
         suffix = word_lower[-3:]
+        vowels = [l for l in word_lower if l in ['a','e','i','o','u']]
 
         features = [
-                    'TAG_%s' % (tag),                       # current tag
-                    'TAG_BIGRAM_%s_%s' % (previous_tag, tag),  # tag bigrams
-                    'WORD+TAG_%s_%s' % (word, tag),            # word-tag combination
-                    'WORD_LOWER+TAG_%s_%s' % (word_lower, tag),# word-tag combination (lowercase)
-                    'UPPER_%s_%s' % (word[0].isupper(), tag),  # word starts with uppercase letter
-                    'DASH_%s_%s' % ('-' in word, tag),         # word contains a dash
-                    'PREFIX+TAG_%s_%s' % (prefix, tag),        # prefix and tag
-                    'SUFFIX+TAG_%s_%s' % (suffix, tag)        # suffix and tag
-
-                    #########################
-                    # ADD MOAAAAR FEATURES! #
-                    #########################
+                    'TAG_%s' % (tag),                                           # current tag
+                    'TAG_BIGRAM_%s_%s' % (previous_tag, tag),                   # tag bigrams
+                    'WORD+TAG_%s_%s' % (word, tag),                             # word-tag combination
+                    'WORD+TAG_BIGRAM_%s_%s_%s' % (word_lower,tag,previous_tag), #word-tag bigram combination
+                    'WORD_LOWER+TAG_%s_%s' % (word_lower, tag),                 # word-tag combination (lowercase)
+                    'UPPER_%s_%s' % (word[0].isupper(), tag),                   # word starts with uppercase letter
+                    'DASH_%s_%s' % ('-' in word, tag),                          # word contains a dash
+                    'PREFIX+TAG_%s_%s' % (prefix, tag),                         # prefix and tag
+                    'SUFFIX+TAG_%s_%s' % (suffix, tag),                         # suffix and tag
+                    'LAST_LETTER_%s_%s' % (word_lower[-1], tag),                # last letter of the word
+                    'FIRST_LETTER_%s_%s' % (word_lower[0], tag),                # first letter of the word
+                    'LENGTH_%s_%s' %(str(len(word)), tag),                      # length of the word
+                    'VOWELS_%s_%s' %(vowels, tag),                              # the vowels used in the word
+                    'N_OF_VOWELS_%s_%s' %(str(len(vowels)), tag),               # the number of vowels in the word
         ]
 
         return features
@@ -296,7 +299,7 @@ if __name__ == "__main__":
 
     if args.noshell:
         #Read in the sentences:
-        sentences, _, _, pos_gold = Preprocessing.parse_full_re_file('data/kill+birthplace.baseline')
+        sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
 
         if not args.validate:
 

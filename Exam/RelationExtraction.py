@@ -296,39 +296,39 @@ if __name__ == '__main__':
         print >> sys.stderr, "preprocessing"
         # Get the data:
         sentences, relations, ne, pos = Preprocessing.parse_full_re_file('re/train.gold')
-        test_sentences, test_relations, test_ne, test_pos = Preprocessing.parse_full_re_file('re/dev.gold')
-
-        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
+        test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
+        test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
+        #Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
+        #Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations)
 
         print >> sys.stderr, "setting up"
         # Create a test model:
-        rc = RelationDetector('SVM', [1000, 0.01])
+        rc = RelationDetector('SVM', [10, 0.01])
 
         print >> sys.stderr, "fitting"
         # Train the model:
         rc.fit_sentences(zip(sentences, ne, pos), relations)
-
+        rc.save('data/r_detect.model')
         print >> sys.stderr, "predict relations..."
         pred = rc.predict_sentences(zip(test_sentences, test_ne, test_pos))
 
         print >> sys.stderr, "set up classifier"
-        rcl = RelationClassifier('SVM', [1000, 0.01])
+        rcl = RelationClassifier('SVM', [10, 0.001])
 
         print >> sys.stderr, "training classifier..."
         rcl.fit_sentences(zip(sentences, ne, pos), relations)
+        rcl.save('data/r_class_model')
 
         print >> sys.stderr, "classifying"
         predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
 
-        print >> sys.stderr, "evaluating"
-        print rcl.evaluate_sentences(zip(test_sentences, test_ne, test_pos), test_relations)
-
+        Postprocessing.print_sentence_pos_ne_relation_list(test_sentences, ne_plain, test_pos, predictions)
     else:
         if args.sentences and args.pos and args.ne and args.detector_model and args.classifier_model:
             # Load in the two models:
-            rc = RelationDetector('SVM', [1000, 0.01])
+            rc = RelationDetector('SVM', [10, 0.01])
             rc.load(args.detector_model)
-            rcl = RelationClassifier('SVM', [1000, 0.01])
+            rcl = RelationClassifier('SVM', [10, 0.001])
             rcl.load(args.classifier_model)
 
             sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
@@ -345,3 +345,4 @@ if __name__ == '__main__':
 
         else:
             print >> sys.stderr, 'Missing input'
+

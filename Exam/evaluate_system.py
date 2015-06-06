@@ -98,7 +98,6 @@ false_negatives = defaultdict(float)
 
 for gold_instance, prediction_instance in zip(gold, predictions):
     matched_predictions = [False] * len(prediction_instance)
-    print gold_instance, prediction_instance
     for (gold_arg0, gold_arg1, gold_rel) in gold_instance:
         match = False
         for i, (prediction_arg0, prediction_arg1, prediction_rel) in enumerate(prediction_instance):

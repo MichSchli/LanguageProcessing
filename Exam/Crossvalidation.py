@@ -67,8 +67,8 @@ def do_grid_search(data, labels, range1, range2, cval_func):
     plt.imshow(results, interpolation='nearest', cmap=plt.cm.spectral)
     plt.clim(0,1)
     plt.title('Heatmap of f1 score')
-    plt.xlabel('Value 2')
-    plt.ylabel('Value 1')
+    plt.xlabel('gamma')
+    plt.ylabel('C')
     plt.colorbar()
     plt.xticks(np.arange(len(range2)), range2, rotation=45)
     plt.yticks(np.arange(len(range1)), range1)
@@ -90,6 +90,16 @@ def find_best_svm_params_detector(data, labels):
 
     do_grid_search(data, labels, scale, scale, cval_func)
 
+def find_best_svm_params_classifier(data, labels):
+    def create(mode, p):
+        return RelationExtraction.RelationClassifier(mode, p)
+
+    scale = [10**v for v in xrange(-6,6)]
+
+    def cval_func(data, labels, param1, param2):
+        return cross_validate(data, labels, 5, create, ['SVM', [param1, param2]])
+
+    do_grid_search(data, labels, scale, scale, cval_func)
 
 def evaluate_pos_tagger(data, labels):
     def create():

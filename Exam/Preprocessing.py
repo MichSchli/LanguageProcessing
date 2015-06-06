@@ -52,6 +52,23 @@ def parse_processed_sentence_file(filename):
         sentences = sentences[:-1]
     return sentences
 
+def parse_sentence_pos_file(filename):
+    sentences = [[]]
+    pos = [[]]
+    for line in codecs.open(filename):
+        if line.strip():
+            temp = line.strip().split('\t')
+            sentences[-1].append(temp[0])
+            pos[-1].append(temp[1])
+        else:
+            sentences.append([])
+            pos.append([])
+
+    if not sentences[-1]:
+        sentences = sentences[:-1]
+        pos = pos[:-1]
+    return sentences,pos
+
 
 def parse_full_re_file(filename, zip_ne_to_dictionary=True):
     sentences = [[]]
