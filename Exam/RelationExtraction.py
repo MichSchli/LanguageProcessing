@@ -24,7 +24,7 @@ LABEL_NAMES = ['', 'OrgBased_In', 'Live_In', 'Work_For']
 
 
 #Featurize a 4-tuple consisting of sentence and indices for entities:
-def featurize(sentence, e1, e2, pos):
+def featurize(sentence, e1, e2, pos, dependency=None):
     #Sanity check. We can speed stuff up slightly by getting rid of this:
     assert 0 <= e1['start'] <= e1['end']
     assert e1['end'] < len(sentence)
@@ -299,7 +299,7 @@ if __name__ == '__main__':
         test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
         test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
         #Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
-        #Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations)
+        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations)
 
         print >> sys.stderr, "setting up"
         # Create a test model:
@@ -308,7 +308,7 @@ if __name__ == '__main__':
         print >> sys.stderr, "fitting"
         # Train the model:
         rc.fit_sentences(zip(sentences, ne, pos), relations)
-        rc.save('data/r_detect.model')
+        rc.save('models/r_detect.model')
         print >> sys.stderr, "predict relations..."
         pred = rc.predict_sentences(zip(test_sentences, test_ne, test_pos))
 
@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
         print >> sys.stderr, "training classifier..."
         rcl.fit_sentences(zip(sentences, ne, pos), relations)
-        rcl.save('data/r_class_model')
+        rcl.save('models/r_class_model')
 
         print >> sys.stderr, "classifying"
         predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
