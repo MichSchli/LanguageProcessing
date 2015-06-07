@@ -1,0 +1,6450 @@
+1	BRUSSELS	PROPN	B-LOC
+2	,	.	O
+3	Belgium	PROPN	B-LOC
+4	(	.	O
+5	AP	PROPN	B-ORG
+6	)	.	O
+
+5	1	OrgBased_In
+5	3	OrgBased_In
+
+1	He	PRON	O
+2	said	VERB	O
+3	that	ADP	O
+4	the	DET	O
+5	Phnom	PROPN	B-ORG
+6	Penh	PROPN	I-ORG
+7	government	NOUN	I-ORG
+8	has	VERB	O
+9	worked	VERB	O
+10	out	ADP	O
+11	several	ADJ	O
+12	incentives	NOUN	O
+13	to	PRT	O
+14	attract	VERB	O
+15	foreign	ADJ	O
+16	investment	NOUN	O
+17	in	ADP	O
+18	Cambodia	PROPN	B-LOC
+19	.	.	O
+
+5:7	18	OrgBased_In
+
+1	Edward	PROPN	B-PER
+2	Marks	PROPN	I-PER
+3	,	.	O
+4	an	DET	O
+5	official	NOUN	O
+6	with	ADP	O
+7	the	DET	O
+8	Montgomery	PROPN	B-ORG
+9	County	PROPN	I-ORG
+10	Democratic	ADJ	I-ORG
+11	Party	PROPN	I-ORG
+12	,	.	O
+13	argued	VERB	O
+14	that	ADP	O
+15	if	ADP	O
+16	Ms.	PROPN	B-PER
+17	Toth	PROPN	I-PER
+18	is	VERB	O
+19	not	ADV	O
+20	interested	VERB	O
+21	in	ADP	O
+22	the	DET	O
+23	job	NOUN	O
+24	,	.	O
+25	`	.	O
+26	`	.	O
+27	she	PRON	O
+28	should	VERB	O
+29	get	VERB	O
+30	out.	NOUN	O
+31	..	.	O
+32	.	.	O
+
+1:2	8:11	Work_For
+
+1	Ms.	PROPN	B-PER
+2	Toth	PROPN	I-PER
+3	,	.	O
+4	a	DET	O
+5	14-year	ADJ	O
+6	veteran	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	Legislature	PROPN	O
+10	,	.	O
+11	decided	VERB	O
+12	against	ADP	O
+13	renting	VERB	O
+14	a	DET	O
+15	house	NOUN	O
+16	for	ADP	O
+17	the	DET	O
+18	session	NOUN	O
+19	,	.	O
+20	opting	VERB	O
+21	for	ADP	O
+22	hotel	NOUN	O
+23	rooms	NOUN	O
+24	and	CONJ	O
+25	commuting	VERB	O
+26	about	ADP	O
+27	60	NUM	O
+28	miles	NOUN	O
+29	from	ADP	O
+30	her	PRON	O
+31	Germantown	PROPN	B-LOC
+32	home	NOUN	O
+33	because	ADP	O
+34	`	.	O
+35	`	.	O
+36	if	ADP	O
+37	something	NOUN	O
+38	came	VERB	O
+39	up	ADP	O
+40	this	DET	O
+41	week	NOUN	O
+42	or	CONJ	O
+43	next	ADJ	O
+44	week	NOUN	O
+45	,	.	O
+46	I	PRON	O
+47	would	VERB	O
+48	walk	VERB	O
+49	out.	NOUN	O
+50	'	.	O
+51	'	.	O
+
+1:2	31	Live_In
+
+1	`	.	O
+2	`	.	O
+3	I	PRON	O
+4	think	VERB	O
+5	at	ADP	O
+6	this	DET	O
+7	moment	NOUN	O
+8	they	PRON	O
+9	fear	VERB	O
+10	making	VERB	O
+11	a	DET	O
+12	wrong	ADJ	O
+13	move	NOUN	O
+14	_	NOUN	O
+15	whether	ADP	O
+16	they	PRON	O
+17	should	VERB	O
+18	seek	VERB	O
+19	political	ADJ	O
+20	asylum	NOUN	O
+21	or	CONJ	O
+22	use	VERB	O
+23	other	ADJ	O
+24	reasons	NOUN	O
+25	to	PRT	O
+26	remain	VERB	O
+27	here	ADV	O
+28	,	.	O
+29	'	.	O
+30	'	.	O
+31	said	VERB	O
+32	Jeff	PROPN	B-PER
+33	Shia	PROPN	I-PER
+34	,	.	O
+35	president	NOUN	O
+36	of	ADP	O
+37	the	DET	O
+38	Kiangsu	PROPN	B-ORG
+39	Chekiang	PROPN	I-ORG
+40	Association	PROPN	I-ORG
+41	,	.	O
+42	a	DET	O
+43	non-profit	ADJ	O
+44	group	NOUN	O
+45	that	DET	O
+46	helps	VERB	O
+47	new	ADJ	O
+48	Chinese	ADJ	O
+49	immigrants	NOUN	O
+50	establish	VERB	O
+51	themselves	PRON	O
+52	in	ADP	O
+53	the	DET	O
+54	city.	NOUN	O
+
+32:33	38:40	Work_For
+
+1	Gerald	PROPN	B-PER
+2	Steinberg	PROPN	I-PER
+3	,	.	O
+4	an	DET	O
+5	expert	NOUN	O
+6	on	ADP	O
+7	missiles	NOUN	O
+8	at	ADP	O
+9	Bar-Ilan	PROPN	B-ORG
+10	University	PROPN	I-ORG
+11	,	.	O
+12	agrees	VERB	O
+13	that	ADP	O
+14	the	DET	O
+15	problem	NOUN	O
+16	is	VERB	O
+17	daunting	ADJ	O
+18	.	.	O
+
+1:2	9:10	Work_For
+
+1	KARBALA	PROPN	B-LOC
+2	,	.	O
+3	Iraq	PROPN	B-LOC
+4	(	.	O
+5	AP	PROPN	B-ORG
+6	)	.	O
+
+5	1	OrgBased_In
+5	3	OrgBased_In
+
+1	In	ADP	O
+2	1782	NUM	O
+3	,	.	O
+4	the	DET	O
+5	first	ADJ	O
+6	president	NOUN	O
+7	who	PRON	O
+8	was	VERB	O
+9	a	DET	O
+10	native	ADJ	O
+11	citizen	NOUN	O
+12	of	ADP	O
+13	the	DET	O
+14	United	PROPN	B-LOC
+15	States	PROPN	I-LOC
+16	,	.	O
+17	Martin	PROPN	B-PER
+18	Van	PROPN	I-PER
+19	Buren	PROPN	I-PER
+20	,	.	O
+21	was	VERB	O
+22	born	VERB	O
+23	in	ADP	O
+24	Kinderhook	PROPN	B-LOC
+25	,	.	I-LOC
+26	N.Y.	PROPN	I-LOC
+27	In	ADP	O
+28	1791	NUM	O
+29	,	.	O
+30	composer	NOUN	O
+31	Wolfgang	PROPN	B-PER
+32	Amadeus	PROPN	I-PER
+33	Mozart	PROPN	I-PER
+34	died	VERB	O
+35	in	ADP	O
+36	Vienna	PROPN	B-LOC
+37	,	.	I-LOC
+38	Austria	PROPN	I-LOC
+39	,	.	O
+40	at	ADP	O
+41	the	DET	O
+42	age	NOUN	O
+43	of	ADP	O
+44	35	NUM	O
+45	.	.	O
+
+17:19	24:26	Live_In
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	.	O
+5	In	ADP	O
+6	1758	NUM	O
+7	,	.	O
+8	the	DET	O
+9	fifth	ADJ	O
+10	President	NOUN	O
+11	of	ADP	O
+12	the	DET	O
+13	United	PROPN	B-LOC
+14	States	PROPN	I-LOC
+15	,	.	O
+16	James	PROPN	B-PER
+17	Monroe	PROPN	I-PER
+18	,	.	O
+19	was	VERB	O
+20	born	VERB	O
+21	in	ADP	O
+22	Westmoreland	PROPN	B-LOC
+23	County	PROPN	I-LOC
+24	,	.	I-LOC
+25	Va	PROPN	I-LOC
+26	.	.	O
+
+16:17	22:25	Live_In
+
+1	It	PRON	O
+2	launched	VERB	O
+3	the	DET	O
+4	careers	NOUN	O
+5	of	ADP	O
+6	many	ADJ	O
+7	well-known	ADJ	O
+8	actors	NOUN	O
+9	,	.	O
+10	including	VERB	O
+11	Corbin	PROPN	B-PER
+12	Bernsen	PROPN	I-PER
+13	,	.	O
+14	who	PRON	O
+15	stars	VERB	O
+16	on	ADP	O
+17	NBC	PROPN	B-ORG
+18	's	PRT	O
+19	`	.	O
+20	`	.	O
+21	L.A.	PROPN	O
+22	Law	PROPN	O
+23	,	.	O
+24	'	.	O
+25	'	.	O
+26	and	CONJ	O
+27	Kate	PROPN	B-PER
+28	Mulgrew	PROPN	I-PER
+29	,	.	O
+30	star	NOUN	O
+31	of	ADP	O
+32	ABC	PROPN	B-ORG
+33	's	PRT	O
+34	`	.	O
+35	`	.	O
+36	HeartBeat.	PROPN	O
+37	'	.	O
+38	'	.	O
+
+11:12	17	Work_For
+27:28	32	Work_For
+
+1	He	PRON	O
+2	graduated	VERB	O
+3	from	ADP	O
+4	high	ADJ	O
+5	school	NOUN	O
+6	from	ADP	O
+7	Benton	PROPN	B-LOC
+8	,	.	O
+9	Tenn.	PROPN	B-LOC
+10	and	CONJ	O
+11	from	ADP	O
+12	Tennessee	PROPN	B-ORG
+13	Tech	PROPN	I-ORG
+14	in	ADP	O
+15	Cookville	PROPN	B-LOC
+16	,	.	O
+17	and	CONJ	O
+18	holds	VERB	O
+19	a	DET	O
+20	doctorate	NOUN	O
+21	in	ADP	O
+22	physics	NOUN	O
+23	from	ADP	O
+24	Virginia	PROPN	B-ORG
+25	Tech	PROPN	I-ORG
+26	.	.	O
+
+12:13	9	OrgBased_In
+12:13	15	OrgBased_In
+
+1	The	DET	O
+2	injured	ADJ	O
+3	man	NOUN	O
+4	was	VERB	O
+5	being	VERB	O
+6	treated	VERB	O
+7	for	ADP	O
+8	stab	NOUN	O
+9	wounds	NOUN	O
+10	to	PRT	O
+11	the	DET	O
+12	neck	NOUN	O
+13	and	CONJ	O
+14	was	VERB	O
+15	under	ADP	O
+16	police	NOUN	O
+17	guard	NOUN	O
+18	,	.	O
+19	said	VERB	O
+20	King	PROPN	B-LOC
+21	County	PROPN	I-LOC
+22	police	NOUN	O
+23	spokesman	NOUN	O
+24	Cecil	PROPN	B-PER
+25	Ray.	PROPN	I-PER
+
+24:25	20:21	Live_In
+
+1	As	ADP	O
+2	for	ADP	O
+3	Cuauhtemoc	PROPN	B-PER
+4	Cardenas	PROPN	I-PER
+5	,	.	O
+6	presidential	ADJ	O
+7	candidate	NOUN	O
+8	for	ADP	O
+9	the	DET	O
+10	Party	PROPN	B-ORG
+11	of	ADP	I-ORG
+12	the	DET	I-ORG
+13	Democratic	PROPN	I-ORG
+14	Revolution	PROPN	I-ORG
+15	(	.	O
+16	PRD	PROPN	B-ORG
+17	)	.	O
+18	,	.	O
+19	he	PRON	O
+20	received	VERB	O
+21	the	DET	O
+22	support	NOUN	O
+23	of	ADP	O
+24	9	NUM	O
+25	percent	NOUN	O
+26	of	ADP	O
+27	the	DET	O
+28	voters	NOUN	O
+29	in	ADP	O
+30	central	ADJ	O
+31	Mexico	PROPN	B-LOC
+32	.	.	O
+
+3:4	10:14	Work_For
+3:4	16	Work_For
+3:4	31	Live_In
+10:14	31	OrgBased_In
+16	31	OrgBased_In
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	.	O
+5	In	ADP	O
+6	1758	NUM	O
+7	,	.	O
+8	the	DET	O
+9	fifth	ADJ	O
+10	president	NOUN	O
+11	of	ADP	O
+12	the	DET	O
+13	United	PROPN	B-LOC
+14	States	PROPN	I-LOC
+15	,	.	O
+16	James	PROPN	B-PER
+17	Monroe	PROPN	I-PER
+18	,	.	O
+19	was	VERB	O
+20	born	VERB	O
+21	in	ADP	O
+22	Westmoreland	PROPN	B-LOC
+23	County	PROPN	I-LOC
+24	,	.	I-LOC
+25	Va	PROPN	I-LOC
+26	.	.	O
+
+16:17	22:25	Live_In
+
+1	Far	ADV	O
+2	back	ADV	O
+3	in	ADP	O
+4	the	DET	O
+5	polls	NOUN	O
+6	were	VERB	O
+7	black	ADJ	O
+8	professor	NOUN	O
+9	Marvin	PROPN	B-PER
+10	Dunn	PROPN	I-PER
+11	,	.	O
+12	black	ADJ	O
+13	real	ADJ	O
+14	estate	NOUN	O
+15	agent	NOUN	O
+16	Sonny	PROPN	B-PER
+17	Wright	PROPN	I-PER
+18	,	.	O
+19	businessman	NOUN	O
+20	Bernard	PROPN	B-PER
+21	Anscher	PROPN	I-PER
+22	and	CONJ	O
+23	striking	ADJ	O
+24	Eastern	PROPN	B-ORG
+25	Airlines	PROPN	I-ORG
+26	pilot	NOUN	O
+27	John	PROPN	B-PER
+28	Paul	PROPN	I-PER
+29	Rosser.	PROPN	I-PER
+
+27:29	24:25	Work_For
+
+1	`	.	O
+2	`	.	O
+3	We	PRON	O
+4	certainly	ADV	O
+5	believe	VERB	O
+6	it	PRON	O
+7	's	VERB	O
+8	a	DET	O
+9	prudent	ADJ	O
+10	measure	NOUN	O
+11	to	PRT	O
+12	go	VERB	O
+13	out	ADP	O
+14	and	CONJ	O
+15	check	VERB	O
+16	to	PRT	O
+17	make	VERB	O
+18	sure	ADJ	O
+19	there	ADV	O
+20	's	VERB	O
+21	nothing	NOUN	O
+22	wrong	ADJ	O
+23	with	ADP	O
+24	the	DET	O
+25	fleet	NOUN	O
+26	,	.	O
+27	'	.	O
+28	'	.	O
+29	Boeing	PROPN	B-ORG
+30	Commercial	ADJ	I-ORG
+31	Airplanes	NOUN	I-ORG
+32	spokesman	NOUN	O
+33	Craig	PROPN	B-PER
+34	Martin	PROPN	I-PER
+35	said	VERB	O
+36	Wednesday	PROPN	O
+37	in	ADP	O
+38	Seattle	PROPN	B-LOC
+39	.	.	O
+
+33:34	29:31	Work_For
+
+1	Guy	PROPN	B-PER
+2	M.	PROPN	I-PER
+3	Struve	PROPN	I-PER
+4	,	.	O
+5	the	DET	O
+6	New	PROPN	B-LOC
+7	York	PROPN	I-LOC
+8	attorney	NOUN	O
+9	representing	VERB	O
+10	Church	PROPN	B-ORG
+11	's	PRT	I-ORG
+12	,	.	O
+13	said	VERB	O
+14	he	PRON	O
+15	was	VERB	O
+16	disappointed	VERB	O
+17	and	CONJ	O
+18	did	VERB	O
+19	not	ADV	O
+20	know	VERB	O
+21	when	ADV	O
+22	the	DET	O
+23	chain	NOUN	O
+24	would	VERB	O
+25	decide	VERB	O
+26	whether	ADP	O
+27	to	PRT	O
+28	appeal	VERB	O
+29	Thursday	PROPN	O
+30	's	PRT	O
+31	ruling	NOUN	O
+32	.	.	O
+
+1:3	6:7	Live_In
+1:3	10:11	Work_For
+
+1	Dole	PROPN	B-PER
+2	had	VERB	O
+3	pinned	VERB	O
+4	his	PRON	O
+5	Southern	PROPN	O
+6	hopes	VERB	O
+7	on	ADP	O
+8	North	PROPN	B-LOC
+9	Carolina	PROPN	I-LOC
+10	,	.	O
+11	the	DET	O
+12	home	NOUN	O
+13	state	NOUN	O
+14	of	ADP	O
+15	his	PRON	O
+16	wife	NOUN	O
+17	,	.	O
+18	Elizabeth.	PROPN	B-PER
+19	.	.	O
+
+18	8:9	Live_In
+
+1	Yeltsin	PROPN	B-PER
+2	Orders	NOUN	O
+3	Audit	PROPN	O
+4	of	ADP	O
+5	Ostankino	PROPN	O
+6	Finances	PROPN	O
+7	MK1401103094	PROPN	O
+8	Moscow	PROPN	B-LOC
+9	MOSKOVSKIY	PROPN	B-ORG
+10	KOMSOMOLETS	PROPN	I-ORG
+11	in	ADP	O
+12	Russian	ADJ	O
+13	14	NUM	O
+14	Jan	PROPN	O
+15	94	NUM	O
+16	p	NOUN	O
+17	1	NOUN	O
+
+9:10	8	OrgBased_In
+
+1	LD0904140094	PROPN	O
+2	Helsinki	PROPN	B-LOC
+3	Suomen	PROPN	B-ORG
+4	Yleisradio	PROPN	I-ORG
+5	Network	PROPN	I-ORG
+6	in	ADP	O
+7	Finnish	ADJ	O
+8	1300	NUM	O
+9	GMT	PROPN	O
+10	9	NUM	O
+11	Apr	PROPN	O
+12	94	NUM	O
+
+3:5	2	OrgBased_In
+
+1	Jerusalem	PROPN	B-LOC
+2	THE	DET	B-ORG
+3	JERUSALEM	PROPN	I-ORG
+4	POST	PROPN	I-ORG
+
+2:4	1	OrgBased_In
+
+1	Dole	PROPN	B-PER
+2	strategists	NOUN	O
+3	looked	VERB	O
+4	on	ADP	O
+5	North	PROPN	B-LOC
+6	Carolina	PROPN	I-LOC
+7	as	ADP	O
+8	one	NUM	O
+9	of	ADP	O
+10	their	PRON	O
+11	best	ADJ	O
+12	Southern	ADJ	O
+13	prospects	NOUN	O
+14	_	NOUN	O
+15	largely	ADV	O
+16	because	ADP	O
+17	the	DET	O
+18	candidate	NOUN	O
+19	's	PRT	O
+20	wife	NOUN	O
+21	,	.	O
+22	former	ADJ	O
+23	transportation	NOUN	O
+24	secretary	NOUN	O
+25	Elizabeth	PROPN	B-PER
+26	Dole	PROPN	I-PER
+27	,	.	O
+28	is	VERB	O
+29	a	DET	O
+30	native	NOUN	O
+31	of	ADP	O
+32	Salisbury	PROPN	B-LOC
+33	,	PROPN	I-LOC
+34	N.C.	PROPN	I-LOC
+35	Polls	NOUN	O
+36	published	VERB	O
+37	over	ADP	O
+38	the	DET	O
+39	weekend	NOUN	O
+40	showed	VERB	O
+41	Dole	PROPN	B-PER
+42	,	.	O
+43	who	PRON	O
+44	trailed	VERB	O
+45	by	ADP	O
+46	as	ADV	O
+47	much	ADV	O
+48	as	ADP	O
+49	15	NUM	O
+50	percentage	NOUN	O
+51	points	VERB	O
+52	two	NUM	O
+53	weeks	NOUN	O
+54	ago	ADP	O
+55	,	.	O
+56	had	VERB	O
+57	pulled	VERB	O
+58	even	ADV	O
+59	with	ADP	O
+60	Bush	PROPN	B-PER
+61	.	.	O
+
+25:26	32:34	Live_In
+
+1	Winter	PROPN	B-PER
+2	,	.	O
+3	53	NUM	O
+4	,	.	O
+5	a	DET	O
+6	former	ADJ	O
+7	Yale	PROPN	B-ORG
+8	University	PROPN	I-ORG
+9	law	NOUN	O
+10	professor	NOUN	O
+11	who	PRON	O
+12	took	VERB	O
+13	the	DET	O
+14	bench	NOUN	O
+15	in	ADP	O
+16	1982	NUM	O
+17	,	.	O
+18	and	CONJ	O
+19	Starr	PROPN	B-PER
+20	,	.	O
+21	a	DET	O
+22	fellow	ADJ	O
+23	appointee	NOUN	O
+24	of	ADP	O
+25	President	PROPN	O
+26	Reagan	PROPN	B-PER
+27	,	.	O
+28	are	VERB	O
+29	both	DET	O
+30	known	VERB	O
+31	as	ADP	O
+32	judicial	ADJ	O
+33	conservatives	NOUN	O
+34	.	.	O
+
+1	7:8	Work_For
+
+1	An	DET	O
+2	enraged	VERB	O
+3	Nikita	PROPN	B-PER
+4	Khrushchev	PROPN	I-PER
+5	instructed	VERB	O
+6	Soviet	ADJ	B-LOC
+7	ships	NOUN	O
+8	to	PRT	O
+9	ignore	VERB	O
+10	President	PROPN	O
+11	Kennedy	PROPN	B-PER
+12	's	PRT	O
+13	naval	ADJ	O
+14	blockade	NOUN	O
+15	during	ADP	O
+16	the	DET	O
+17	Cuban	ADJ	O
+18	missile	NOUN	O
+19	crisis	NOUN	O
+20	,	.	O
+21	but	CONJ	O
+22	the	DET	O
+23	order	NOUN	O
+24	was	VERB	O
+25	reversed	VERB	O
+26	just	ADV	O
+27	hours	NOUN	O
+28	before	ADP	O
+29	an	DET	O
+30	inevitable	ADJ	O
+31	confrontation	NOUN	O
+32	,	.	O
+33	according	VERB	O
+34	to	PRT	O
+35	a	DET	O
+36	new	ADJ	O
+37	book	NOUN	O
+38	.	.	O
+
+3:4	6	Live_In
+
+1	Of	ADP	O
+2	40	NUM	O
+3	million	NUM	O
+4	party	NOUN	O
+5	line	NOUN	O
+6	calls	NOUN	O
+7	logged	VERB	O
+8	by	ADP	O
+9	New	PROPN	B-LOC
+10	England	PROPN	I-LOC
+11	Telephone	PROPN	O
+12	over	ADP	O
+13	a	DET	O
+14	2	NUM	O
+15	-LCB-	.	O
+16	-year	ADJ	O
+17	period	NOUN	O
+18	,	.	O
+19	at	ADP	O
+20	least	ADJ	O
+21	10	NUM	O
+22	percent	NOUN	O
+23	were	VERB	O
+24	made	VERB	O
+25	by	ADP	O
+26	those	DET	O
+27	who	PRON	O
+28	dial	NOUN	O
+29	services	NOUN	O
+30	like	ADP	O
+31	XBT	PROPN	B-ORG
+32	Telecom	PROPN	I-ORG
+33	's	PRT	O
+34	`	.	O
+35	`	.	O
+36	Talkabout	PROPN	O
+37	'	.	O
+38	'	.	O
+39	teen	ADJ	O
+40	line	NOUN	O
+41	,	.	O
+42	a	DET	O
+43	group	NOUN	O
+44	conversation	NOUN	O
+45	designed	VERB	O
+46	for	ADP	O
+47	people	NOUN	O
+48	under	ADP	O
+49	age	NOUN	O
+50	16	NUM	O
+51	,	.	O
+52	said	VERB	O
+53	John	PROPN	B-PER
+54	Johnson	PROPN	I-PER
+55	,	.	O
+56	a	DET	O
+57	spokesman	NOUN	O
+58	for	ADP	O
+59	the	DET	O
+60	telephone	NOUN	O
+61	company.	NOUN	O
+
+53:54	31:32	Work_For
+
+1	Prime	PROPN	O
+2	Datuk	PROPN	B-PER
+3	Sri	PROPN	I-PER
+4	Dr.	PROPN	I-PER
+5	Mahathir	PROPN	I-PER
+6	said	VERB	O
+7	he	PRON	O
+8	discussed	VERB	O
+9	these	DET	O
+10	matters	VERB	O
+11	with	ADP	O
+12	African	PROPN	B-ORG
+13	National	PROPN	I-ORG
+14	Congress	PROPN	I-ORG
+15	,	.	O
+16	ANC	PROPN	B-ORG
+17	,	.	O
+18	leader	NOUN	O
+19	Nelson	PROPN	B-PER
+20	Mandela	PROPN	I-PER
+21	and	CONJ	O
+22	President	PROPN	O
+23	de	PROPN	B-PER
+24	Klerk	PROPN	I-PER
+25	during	ADP	O
+26	his	PRON	O
+27	brief	ADJ	O
+28	visit	NOUN	O
+29	to	PRT	O
+30	South	PROPN	B-LOC
+31	Africa	PROPN	I-LOC
+32	.	.	O
+
+12:14	30:31	OrgBased_In
+16	30:31	OrgBased_In
+19:20	12:14	Work_For
+19:20	16	Work_For
+19:20	30:31	Live_In
+23:24	30:31	Live_In
+
+1	Moscow	PROPN	B-LOC
+2	KRASNAYA	PROPN	B-ORG
+3	ZVEZDA	PROPN	I-ORG
+
+2:3	1	OrgBased_In
+
+1	Nihat	PROPN	B-PER
+2	(	.	O
+3	Marka	PROPN	B-PER
+4	)	.	O
+5	,	.	O
+6	deputy	ADJ	O
+7	leader	NOUN	O
+8	of	ADP	O
+9	SHP	PROPN	B-ORG
+10	(	.	O
+11	Social	PROPN	B-ORG
+12	Democrat	PROPN	I-ORG
+13	Populist	PROPN	I-ORG
+14	Party	PROPN	I-ORG
+15	)	.	O
+16	parliamentary	ADJ	O
+17	group	NOUN	O
+18	,	.	O
+19	said	VERB	O
+20	:	.	O
+21	They	PRON	O
+22	should	VERB	O
+23	have	VERB	O
+24	run	VERB	O
+25	in	ADP	O
+26	the	DET	O
+27	elections	NOUN	O
+28	for	ADP	O
+29	the	DET	O
+30	sake	NOUN	O
+31	of	ADP	O
+32	democracy	NOUN	O
+33	.	.	O
+
+1	9	Work_For
+1	11:14	Work_For
+3	9	Work_For
+3	11:14	Work_For
+
+1	Woodrow	PROPN	B-PER
+2	Wilson	PROPN	I-PER
+3	(	.	O
+4	28th	ADJ	O
+5	President	NOUN	O
+6	)	.	O
+7	:	.	O
+8	Born	VERB	O
+9	at	ADP	O
+10	about	ADP	O
+11	midnight	NOUN	O
+12	,	.	O
+13	leaving	VERB	O
+14	the	DET	O
+15	date	NOUN	O
+16	in	ADP	O
+17	doubt	NOUN	O
+18	,	.	O
+19	Dec.	PROPN	O
+20	28	NUM	O
+21	or	CONJ	O
+22	29	NUM	O
+23	,	.	O
+24	1856	NUM	O
+25	,	.	O
+26	in	ADP	O
+27	a	DET	O
+28	Presbyterian	ADJ	O
+29	manse	NOUN	O
+30	in	ADP	O
+31	Staunton	PROPN	B-LOC
+32	,	.	I-LOC
+33	Va	PROPN	I-LOC
+34	.	.	O
+
+1:2	31:33	Live_In
+
+1	EA2605165294	PROPN	O
+2	Nairobi	PROPN	B-LOC
+3	KNA	PROPN	B-ORG
+4	in	ADP	O
+5	English	PROPN	O
+6	0945	NUM	O
+7	GMT	PROPN	O
+8	26	NUM	O
+9	May	PROPN	O
+10	94	NUM	O
+
+3	2	OrgBased_In
+
+1	Moscow	PROPN	B-LOC
+2	ITAR-TASS	PROPN	B-ORG
+
+2	1	OrgBased_In
+
+1	Here	ADV	O
+2	are	VERB	O
+3	highlights	NOUN	O
+4	of	ADP	O
+5	Lucille	PROPN	B-PER
+6	Ball	PROPN	I-PER
+7	's	PRT	O
+8	career	NOUN	O
+9	:	.	O
+10	1911	NUM	O
+11	_	NOUN	O
+12	Born	VERB	O
+13	Aug.	PROPN	O
+14	6	NUM	O
+15	,	.	O
+16	1911	NUM	O
+17	in	ADP	O
+18	Jamestown	PROPN	B-LOC
+19	N.Y.	PROPN	I-LOC
+20	,	.	O
+21	the	DET	O
+22	daughter	NOUN	O
+23	of	ADP	O
+24	an	DET	O
+25	electrician	NOUN	O
+26	and	CONJ	O
+27	concert	NOUN	O
+28	pianist	NOUN	O
+29	Desiree	PROPN	B-PER
+30	Ball.	PROPN	I-PER
+31	1926	NUM	O
+
+5:6	18:19	Live_In
+
+1	Warner	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	former	ADJ	O
+5	U.S.	PROPN	B-LOC
+6	ambassador	NOUN	O
+7	to	PRT	O
+8	Switzerland	PROPN	B-LOC
+9	,	.	O
+10	was	VERB	O
+11	convicted	VERB	O
+12	on	ADP	O
+13	Ohio	PROPN	B-LOC
+14	felony	NOUN	O
+15	charges	VERB	O
+16	in	ADP	O
+17	Home	PROPN	B-ORG
+18	State	PROPN	I-ORG
+19	's	PRT	O
+20	collapse	NOUN	O
+21	,	.	O
+22	but	CONJ	O
+23	was	VERB	O
+24	acquitted	VERB	O
+25	of	ADP	O
+26	federal	ADJ	O
+27	charges	NOUN	O
+28	in	ADP	O
+29	a	DET	O
+30	separate	VERB	O
+31	trial.	NOUN	O
+
+1	5	Live_In
+1	8	Live_In
+
+1	Ten	NUM	O
+2	years	NOUN	O
+3	ago	ADP	O
+4	:	.	O
+5	Sen.	PROPN	B-PER
+6	Bob	PROPN	I-PER
+7	Dole	PROPN	I-PER
+8	visited	VERB	O
+9	his	PRON	O
+10	hometown	NOUN	O
+11	of	ADP	O
+12	Russell	PROPN	B-LOC
+13	,	.	I-LOC
+14	Kan.	PROPN	I-LOC
+15	,	.	O
+16	to	PRT	O
+17	announce	VERB	O
+18	his	PRON	O
+19	bid	NOUN	O
+20	for	ADP	O
+21	the	DET	O
+22	1980	NUM	O
+23	Republican	ADJ	O
+24	presidential	ADJ	O
+25	nomination	NOUN	O
+26	.	.	O
+
+5:7	12:14	Live_In
+
+1	In	ADP	O
+2	1801	DET	O
+3	,	.	O
+4	Mormon	PROPN	B-ORG
+5	leader	NOUN	O
+6	Brigham	PROPN	B-PER
+7	Young	PROPN	I-PER
+8	was	VERB	O
+9	born	VERB	O
+10	in	ADP	O
+11	Whitingham	PROPN	B-LOC
+12	,	.	I-LOC
+13	Vt	PROPN	I-LOC
+14	.	.	O
+
+6:7	11:13	Live_In
+
+1	In	ADP	O
+2	1783	DET	O
+3	,	.	O
+4	Washington	PROPN	B-PER
+5	Irving	PROPN	I-PER
+6	,	.	O
+7	author	NOUN	O
+8	of	ADP	O
+9	`	.	O
+10	`	.	O
+11	Rip	PROPN	B-PER
+12	Van	PROPN	I-PER
+13	Winkle	PROPN	I-PER
+14	'	.	O
+15	'	.	O
+16	and	CONJ	O
+17	`	.	O
+18	`	.	O
+19	The	DET	O
+20	Legend	NOUN	O
+21	of	ADP	O
+22	Sleepy	PROPN	O
+23	Hollow	PROPN	O
+24	,	.	O
+25	'	.	O
+26	'	.	O
+27	was	VERB	O
+28	born	VERB	O
+29	in	ADP	O
+30	New	PROPN	B-LOC
+31	York	PROPN	I-LOC
+32	City	PROPN	I-LOC
+33	.	.	O
+
+4:5	30:32	Live_In
+
+1	Let	VERB	O
+2	Us	PRON	O
+3	Remember	VERB	O
+4	That	DET	O
+5	When	ADV	O
+6	Electing	PROPN	O
+7	Parliament	PROPN	O
+8	on	ADP	O
+9	10	NUM	O
+10	April	PROPN	O
+11	and	CONJ	O
+12	the	DET	O
+13	President	NOUN	O
+14	of	ADP	O
+15	Ukraine	PROPN	B-LOC
+16	on	ADP	O
+17	26	NUM	O
+18	June	PROPN	O
+19	:	.	O
+20	Ivan	PROPN	B-PER
+21	Plyushch	PROPN	I-PER
+22	:	.	O
+23	'We	PRON	O
+24	Must	VERB	O
+25	Bring	VERB	O
+26	New	PROPN	O
+27	Blood	PROPN	O
+28	to	PRT	O
+29	Power	PROPN	O
+30	As	ADP	O
+31	Quickly	PROPN	O
+32	As	ADP	O
+33	Possible	ADJ	O
+34	'	.	O
+35	"	NOUN	O
+36	)	.	O
+37	(	.	O
+38	Text	PROPN	O
+39	)	.	O
+40	As	ADP	O
+41	we	PRON	O
+42	know	VERB	O
+43	,	.	O
+44	Supreme	PROPN	B-ORG
+45	Soviet	PROPN	I-ORG
+46	Council	PROPN	I-ORG
+47	Ivan	PROPN	B-PER
+48	Plyushch	PROPN	I-PER
+49	won	VERB	O
+50	the	DET	O
+51	elections	NOUN	O
+52	.	.	O
+
+20:21	44:46	Work_For
+47:48	44:46	Work_For
+
+1	"	NOUN	O
+2	This	DET	O
+3	agreement	NOUN	O
+4	is	VERB	O
+5	extremely	ADV	O
+6	important	ADJ	O
+7	,	.	O
+8	as	ADP	O
+9	it	PRON	O
+10	inaugurates	VERB	O
+11	a	DET	O
+12	more	ADV	O
+13	normal	ADJ	O
+14	relationship	NOUN	O
+15	with	ADP	O
+16	the	DET	O
+17	EU	PROPN	B-ORG
+18	,	.	O
+19	"	NOUN	O
+20	said	VERB	O
+21	Ortega	PROPN	B-PER
+22	,	.	O
+23	after	ADP	O
+24	signing	VERB	O
+25	the	DET	O
+26	agreement	NOUN	O
+27	with	ADP	O
+28	Rene	PROPN	B-PER
+29	Steichen	PROPN	I-PER
+30	,	.	O
+31	European	ADJ	O
+32	agricultural	ADJ	O
+33	official	ADJ	O
+34	,	.	O
+35	at	ADP	O
+36	the	DET	O
+37	EU	PROPN	B-ORG
+38	headquarters	NOUN	O
+39	in	ADP	O
+40	Brussels	PROPN	B-LOC
+41	.	.	O
+
+37	40	OrgBased_In
+
+1	London	PROPN	B-LOC
+2	THE	DET	B-ORG
+3	SUNDAY	PROPN	I-ORG
+4	TIMES	PROPN	I-ORG
+5	30	NUM	O
+6	Jan	PROPN	O
+7	94	NUM	O
+8	pp	NOUN	O
+9	1	NUM	O
+10	,	.	O
+11	15--FOR	ADJ	O
+12	OFFICIAL	PROPN	O
+13	USE	PROPN	O
+14	ONLY	PROPN	O
+
+2:4	1	OrgBased_In
+
+1	Sturholm	PROPN	B-PER
+2	had	VERB	O
+3	resigned	VERB	O
+4	effective	ADJ	O
+5	Monday	PROPN	O
+6	and	CONJ	O
+7	told	VERB	O
+8	friends	NOUN	O
+9	he	PRON	O
+10	intended	VERB	O
+11	to	PRT	O
+12	pursue	VERB	O
+13	interests	NOUN	O
+14	in	ADP	O
+15	writing	VERB	O
+16	and	CONJ	O
+17	video	ADJ	O
+18	production	NOUN	O
+19	,	.	O
+20	said	VERB	O
+21	Kathryn	PROPN	B-PER
+22	Rich	PROPN	I-PER
+23	,	.	O
+24	assistant	ADJ	O
+25	news	NOUN	O
+26	director	NOUN	O
+27	for	ADP	O
+28	KIRO.	PROPN	B-ORG
+
+1	28	Work_For
+21:22	28	Work_For
+
+1	But	CONJ	O
+2	Jack	PROPN	B-PER
+3	Frazier	PROPN	I-PER
+4	,	.	O
+5	Rotary	PROPN	B-ORG
+6	Club	PROPN	I-ORG
+7	president	NOUN	O
+8	,	.	O
+9	said	VERB	O
+10	volunteers	NOUN	O
+11	picked	VERB	O
+12	up	ADP	O
+13	the	DET	O
+14	ducks	NOUN	O
+15	and	CONJ	O
+16	all	DET	O
+17	but	CONJ	O
+18	four	NUM	O
+19	or	CONJ	O
+20	five	NUM	O
+21	were	VERB	O
+22	accounted	VERB	O
+23	for.	NOUN	O
+
+2:3	5:6	Work_For
+
+1	Actress	PROPN	B-PER
+2	Angie	PROPN	I-PER
+3	Dickinson	PROPN	I-PER
+4	,	.	O
+5	who	PRON	O
+6	was	VERB	O
+7	born	VERB	O
+8	in	ADP	O
+9	Kulm	PROPN	B-LOC
+10	,	.	I-LOC
+11	N.D.	PROPN	I-LOC
+12	,	.	O
+13	donated	VERB	O
+14	a	DET	O
+15	coat	NOUN	O
+16	she	PRON	O
+17	wore	VERB	O
+18	to	PRT	O
+19	the	DET	O
+20	1966	NUM	O
+21	Academy	PROPN	O
+22	Awards	PROPN	O
+
+1:3	9:11	Live_In
+
+1	Leica	PROPN	B-ORG
+2	spokesman	NOUN	O
+3	Hans	PROPN	B-PER
+4	Guenther	PROPN	I-PER
+5	von	PROPN	I-PER
+6	Zydowitz	PROPN	I-PER
+7	told	VERB	O
+8	the	DET	O
+9	AP	PROPN	B-ORG
+10	company	NOUN	O
+11	officals	NOUN	O
+12	estimate	VERB	O
+13	last	ADJ	O
+14	year	NOUN	O
+15	's	PRT	O
+16	sales	NOUN	O
+17	at	ADP	O
+18	about	ADP	O
+19	$60.6	NOUN	O
+20	million	NUM	O
+21	,	.	O
+22	but	CONJ	O
+23	he	PRON	O
+24	declined	VERB	O
+25	to	PRT	O
+26	estimate	VERB	O
+27	profits	NOUN	O
+28	.	.	O
+
+3:6	1	Work_For
+
+1	Campbell	PROPN	B-PER
+2	,	.	O
+3	who	PRON	O
+4	is	VERB	O
+5	going	VERB	O
+6	to	PRT	O
+7	the	DET	O
+8	inauguration	NOUN	O
+9	,	.	O
+10	asked	VERB	O
+11	that	ADP	O
+12	his	PRON	O
+13	sister	NOUN	O
+14	Mary	PROPN	B-PER
+15	,	.	O
+16	who	PRON	O
+17	lives	VERB	O
+18	in	ADP	O
+19	Rock	PROPN	B-LOC
+20	Hill	PROPN	I-LOC
+21	,	.	O
+22	be	VERB	O
+23	mailed	VERB	O
+24	tickets	NOUN	O
+25	as	ADV	O
+26	well	ADV	O
+27	.	.	O
+
+14	19:20	Live_In
+
+1	Cairo	PROPN	B-LOC
+2	AL-AHALI	PROPN	B-ORG
+
+2	1	OrgBased_In
+
+1	This	DET	O
+2	volume	NOUN	O
+3	of	ADP	O
+4	policy	NOUN	O
+5	guidance	NOUN	O
+6	documents	NOUN	O
+7	,	.	O
+8	compiled	VERB	O
+9	like	ADP	O
+10	an	DET	O
+11	encyclopedia	NOUN	O
+12	and	CONJ	O
+13	approved	VERB	O
+14	by	ADP	O
+15	the	DET	O
+16	Chinese	PROPN	B-ORG
+17	Government	PROPN	I-ORG
+18	,	.	O
+19	expounds	NOUN	O
+20	the	DET	O
+21	strategy	NOUN	O
+22	for	ADP	O
+23	sustained	VERB	O
+24	development	NOUN	O
+25	in	ADP	O
+26	China	PROPN	B-LOC
+27	and	CONJ	O
+28	will	VERB	O
+29	certainly	ADV	O
+30	serve	VERB	O
+31	as	ADP	O
+32	guidance	NOUN	O
+33	for	ADP	O
+34	drawing	VERB	O
+35	up	ADP	O
+36	long-	ADJ	O
+37	and	CONJ	O
+38	medium-range	ADJ	O
+39	economic	ADJ	O
+40	and	CONJ	O
+41	social	ADJ	O
+42	development	NOUN	O
+43	plans	VERB	O
+44	for	ADP	O
+45	China	PROPN	B-LOC
+46	.	.	O
+
+16:17	26	OrgBased_In
+16:17	45	OrgBased_In
+
+1	After	ADP	O
+2	buying	VERB	O
+3	the	DET	O
+4	shawl	NOUN	O
+5	for	ADP	O
+6	$1	NOUN	O
+7	COMMA	.	O
+8	600	NUM	O
+9	COMMA	.	O
+10	Darryl	PROPN	B-PER
+11	Breniser	PROPN	I-PER
+12	of	ADP	O
+13	Blue	PROPN	B-LOC
+14	Ball	PROPN	I-LOC
+15	,	.	O
+16	said	VERB	O
+17	the	DET	O
+18	approximately	ADV	O
+19	2-by-5	ADJ	O
+20	foot	NOUN	O
+21	shawl	NOUN	O
+22	was	VERB	O
+23	worth	ADJ	O
+24	the	DET	O
+25	money	NOUN	O
+26	.	.	O
+
+10:11	13:14	Live_In
+
+1	There	DET	O
+2	are	VERB	O
+3	even	ADV	O
+4	hopeful	ADJ	O
+5	signs	NOUN	O
+6	in	ADP	O
+7	Chicago	PROPN	B-LOC
+8	's	PRT	O
+9	schools	NOUN	O
+10	,	.	O
+11	branded	VERB	O
+12	14	NUM	O
+13	months	NOUN	O
+14	ago	ADP	O
+15	as	ADP	O
+16	the	DET	O
+17	nation	NOUN	O
+18	's	PRT	O
+19	worst	ADJ	O
+20	by	ADP	O
+21	U.S.	PROPN	B-LOC
+22	Secretary	PROPN	O
+23	William	PROPN	B-PER
+24	J.	PROPN	I-PER
+25	Bennett	PROPN	I-PER
+26	.	.	O
+
+23:25	21	Live_In
+
+1	Wyatt	PROPN	B-PER
+2	McCauley	PROPN	I-PER
+3	,	.	O
+4	spokesman	NOUN	O
+5	for	ADP	O
+6	CH2M	PROPN	B-ORG
+7	Hill	PROPN	I-ORG
+8	,	.	O
+9	did	VERB	O
+10	not	ADV	O
+11	immediately	ADV	O
+12	return	VERB	O
+13	a	DET	O
+14	phone	NOUN	O
+15	call	VERB	O
+16	to	PRT	O
+17	his	PRON	O
+18	office	NOUN	O
+19	in	ADP	O
+20	Denver.	PROPN	B-LOC
+
+1:2	6:7	Work_For
+
+1	Clinton	PROPN	B-PER
+2	Has	VERB	O
+3	'Donated	VERB	O
+4	'	.	O
+5	$12	NOUN	O
+6	Billion	NUM	O
+7	to	PRT	O
+8	Russia	PROPN	B-LOC
+9	"	NOUN	O
+10	)	.	O
+11	(	.	O
+12	Text	PROPN	O
+13	)	.	O
+14	The	DET	O
+15	Moscow	PROPN	B-LOC
+16	meeting	NOUN	O
+17	between	ADP	O
+18	the	DET	O
+19	presidents	NOUN	O
+20	of	ADP	O
+21	the	DET	O
+22	United	PROPN	B-LOC
+23	States	PROPN	I-LOC
+24	,	.	O
+25	Russia	PROPN	B-LOC
+26	,	.	O
+27	and	CONJ	O
+28	Ukraine	PROPN	B-LOC
+29	has	VERB	O
+30	prompted	VERB	O
+31	a	DET	O
+32	number	NOUN	O
+33	of	ADP	O
+34	rumors	NOUN	O
+35	.	.	O
+
+1	22:23	Live_In
+
+1	British	PROPN	O
+2	Newspaper	PROPN	O
+3	Alleges	PROPN	O
+4	Nuclear	PROPN	O
+5	Ambitions	PROPN	O
+6	Text	PROPN	O
+7	of	ADP	O
+8	Article	PROPN	O
+9	PM3001110194	PROPN	O
+10	London	PROPN	B-LOC
+11	THE	DET	B-ORG
+12	SUNDAY	PROPN	I-ORG
+13	TIMES	PROPN	I-ORG
+14	30	NUM	O
+15	Jan	PROPN	O
+16	94	NUM	O
+17	pp	NOUN	O
+18	1	NUM	O
+19	,	.	O
+20	15--FOR	ADJ	O
+21	OFFICIAL	PROPN	O
+22	USE	PROPN	O
+23	ONLY	PROPN	O
+
+11:13	10	OrgBased_In
+
+1	But	CONJ	O
+2	four	NUM	O
+3	years	NOUN	O
+4	later	ADV	O
+5	,	.	O
+6	Wright	PROPN	B-PER
+7	said	VERB	O
+8	he	PRON	O
+9	would	VERB	O
+10	vote	VERB	O
+11	against	ADP	O
+12	Barry	PROPN	B-PER
+13	Goldwater	PROPN	I-PER
+14	because	ADP	O
+15	he	PRON	O
+16	felt	VERB	O
+17	the	DET	O
+18	Arizona	PROPN	B-LOC
+19	senator	NOUN	O
+20	supported	VERB	O
+21	a	DET	O
+22	`	.	O
+23	`	.	O
+24	slowdown	NOUN	O
+25	on	ADP	O
+26	civil	ADJ	O
+27	rights	NOUN	O
+28	'	PRT	O
+29	'	.	O
+30	and	CONJ	O
+31	would	VERB	O
+32	take	VERB	O
+33	a	DET	O
+34	`	.	O
+35	`	.	O
+36	harder	ADJ	O
+37	,	.	O
+38	more	ADJ	O
+39	dangerous	ADJ	O
+40	line	NOUN	O
+41	on	ADP	O
+42	foreign	ADJ	O
+43	relations.	NOUN	O
+44	'	.	O
+45	'	.	O
+
+12:13	18	Live_In
+
+1	Anhui	PROPN	O
+2	`	.	O
+3	Surplus	PROPN	O
+4	'	PRT	O
+5	Rural	PROPN	O
+6	Laborers	PROPN	O
+7	Move	PROPN	O
+8	to	PRT	O
+9	Cities	NOUN	O
+10	OW1102132994	PROPN	O
+11	Beijing	PROPN	B-LOC
+12	XINHUA	PROPN	B-ORG
+13	in	ADP	O
+14	English	PROPN	O
+15	1313	NUM	O
+16	GMT	PROPN	O
+17	11	NUM	O
+18	Feb	PROPN	O
+19	94	NUM	O
+
+12	11	OrgBased_In
+
+1	Excess	ADJ	O
+2	Lira	PROPN	O
+3	Reportedly	PROPN	O
+4	Causes	PROPN	O
+5	Currency	PROPN	O
+6	Crisis	PROPN	O
+7	NC1901223094	PROPN	O
+8	London	PROPN	B-LOC
+9	Kanal-6	PROPN	B-ORG
+10	Television	NOUN	I-ORG
+11	in	ADP	O
+12	Turkish	ADJ	O
+13	1700	NUM	O
+14	GMT	PROPN	O
+15	19	NUM	O
+16	Jan	PROPN	O
+17	94	NUM	O
+
+9:10	8	OrgBased_In
+
+1	In	ADP	O
+2	1817	NUM	O
+3	,	.	O
+4	naturalist-author	ADJ	O
+5	Henry	PROPN	B-PER
+6	David	PROPN	I-PER
+7	Thoreau	PROPN	I-PER
+8	was	VERB	O
+9	born	VERB	O
+10	in	ADP	O
+11	Concord	PROPN	B-LOC
+12	,	.	I-LOC
+13	Mass	PROPN	I-LOC
+14	.	.	O
+
+5:7	11:13	Live_In
+
+1	Mr	PROPN	B-PER
+2	Kim	PROPN	I-PER
+3	asked	VERB	O
+4	that	ADP	O
+5	regulations	NOUN	O
+6	be	VERB	O
+7	eased	VERB	O
+8	to	PRT	O
+9	allow	VERB	O
+10	more	ADJ	O
+11	South	ADJ	O
+12	Korean	ADJ	O
+13	firms	NOUN	O
+14	to	PRT	O
+15	invest	VERB	O
+16	in	ADP	O
+17	construction	NOUN	O
+18	and	CONJ	O
+19	communications	NOUN	O
+20	projects	NOUN	O
+21	in	ADP	O
+22	Thailand	PROPN	B-LOC
+23	,	.	O
+24	while	ADP	O
+25	Prime	PROPN	O
+26	Minister	PROPN	O
+27	Chuan	PROPN	O
+28	asked	VERB	O
+29	that	ADP	O
+30	South	PROPN	B-LOC
+31	Korea	PROPN	I-LOC
+32	import	VERB	O
+33	more	ADJ	O
+34	Thai	PROPN	O
+35	agricultural	ADJ	O
+36	goods	NOUN	O
+37	.	.	O
+
+1:2	30:31	Live_In
+
+1	Illinois	PROPN	B-LOC
+2	born	VERB	O
+3	Charlton	PROPN	B-PER
+4	Heston	PROPN	I-PER
+5	was	VERB	O
+6	a	DET	O
+7	27-year-old	ADJ	O
+8	actor	NOUN	O
+9	from	ADP	O
+10	Broadway	PROPN	O
+11	and	CONJ	O
+12	television	NOUN	O
+13	when	ADV	O
+14	he	PRON	O
+15	arrived	VERB	O
+16	in	ADP	O
+17	Hollywood	PROPN	B-LOC
+18	for	ADP	O
+19	a	DET	O
+20	five-picture	ADJ	O
+21	contract	NOUN	O
+22	with	ADP	O
+23	Hal	PROPN	B-LOC
+24	Wallis	PROPN	I-LOC
+25	.	.	O
+
+3:4	1	Live_In
+
+1	In	ADP	O
+2	1890	NUM	O
+3	,	.	O
+4	the	DET	O
+5	34th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	.	O
+12	Dwight	PROPN	B-PER
+13	D.	PROPN	I-PER
+14	Eisenhower	PROPN	I-PER
+15	,	.	O
+16	was	VERB	O
+17	born	VERB	O
+18	in	ADP	O
+19	Denison	PROPN	B-LOC
+20	,	.	I-LOC
+21	Texas	PROPN	I-LOC
+22	.	.	O
+
+12:14	19:21	Live_In
+
+1	Joseph	PROPN	B-PER
+2	Cicippio	PROPN	I-PER
+3	,	.	O
+4	58	NUM	O
+5	,	.	O
+6	was	VERB	O
+7	acting	VERB	O
+8	comptroller	NOUN	O
+9	at	ADP	O
+10	the	DET	O
+11	American	PROPN	B-ORG
+12	University	PROPN	I-ORG
+13	of	ADP	I-ORG
+14	Beirut	PROPN	I-ORG
+15	when	ADV	O
+16	he	PRON	O
+17	was	VERB	O
+18	kidnapped	VERB	O
+19	from	ADP	O
+20	the	DET	O
+21	campus	NOUN	O
+22	Sept.	PROPN	O
+23	12	NUM	O
+24	COMMA	.	O
+25	1986.	NOUN	O
+
+1:2	11:14	Work_For
+
+1	Bette	PROPN	B-PER
+2	Davis	PROPN	I-PER
+3	was	VERB	O
+4	born	VERB	O
+5	Ruth	PROPN	B-PER
+6	Elizabeth	PROPN	I-PER
+7	Davis	PROPN	I-PER
+8	on	ADP	O
+9	April	PROPN	O
+10	5	NUM	O
+11	,	.	O
+12	1908	NUM	O
+13	,	.	O
+14	in	ADP	O
+15	Lowell	PROPN	B-LOC
+16	,	.	I-LOC
+17	Mass	PROPN	I-LOC
+18	.	.	O
+
+1:2	15:17	Live_In
+5:7	15:17	Live_In
+
+1	LD2204095694	PROPN	O
+2	Madrid	PROPN	B-LOC
+3	RNE	PROPN	B-ORG
+4	International	PROPN	I-ORG
+5	in	ADP	O
+6	Spanish	PROPN	O
+7	0800	NUM	O
+8	GMT	PROPN	O
+9	22	NUM	O
+10	Apr	PROPN	O
+11	94	NUM	O
+
+3:4	2	OrgBased_In
+
+1	Starr	PROPN	B-PER
+2	,	.	O
+3	who	PRON	O
+4	served	VERB	O
+5	as	ADP	O
+6	counselor	NOUN	O
+7	to	PRT	O
+8	Attorney	PROPN	O
+9	William	PROPN	B-PER
+10	French	PROPN	I-PER
+11	Smith	PROPN	I-PER
+12	from	ADP	O
+13	1981	NUM	O
+14	prior	ADJ	O
+15	to	PRT	O
+16	taking	VERB	O
+17	the	DET	O
+18	bench	NOUN	O
+19	in	ADP	O
+20	1983	NUM	O
+21	,	.	O
+22	had	VERB	O
+23	been	VERB	O
+24	mentioned	VERB	O
+25	as	ADP	O
+26	a	DET	O
+27	possible	ADJ	O
+28	Supreme	PROPN	B-ORG
+29	Court	PROPN	I-ORG
+30	nominee	NOUN	O
+31	after	ADP	O
+32	his	PRON	O
+33	former	ADJ	O
+34	colleague	NOUN	O
+35	on	ADP	O
+36	the	DET	O
+37	District	PROPN	B-LOC
+38	of	ADP	I-LOC
+39	Columbia	PROPN	I-LOC
+40	circuit	NOUN	O
+41	,	.	O
+42	Robert	PROPN	B-PER
+43	Bork	PROPN	I-PER
+44	,	.	O
+45	failed	VERB	O
+46	to	PRT	O
+47	win	VERB	O
+48	Senate	PROPN	B-ORG
+49	confirmation	NOUN	O
+50	in	ADP	O
+51	1987	NUM	O
+52	.	.	O
+
+28:29	37:39	OrgBased_In
+48	37:39	OrgBased_In
+
+1	In	ADP	O
+2	1854	DET	O
+3	,	.	O
+4	George	PROPN	B-PER
+5	Eastman	PROPN	I-PER
+6	,	.	O
+7	inventor	NOUN	O
+8	of	ADP	O
+9	the	DET	O
+10	Kodak	PROPN	B-ORG
+11	camera	NOUN	O
+12	,	.	O
+13	was	VERB	O
+14	born	VERB	O
+15	in	ADP	O
+16	Waterville	PROPN	B-LOC
+17	,	.	I-LOC
+18	N.	PROPN	I-LOC
+19	Y.	PROPN	I-LOC
+
+4:5	16:19	Live_In
+
+1	Perez	PROPN	B-PER
+2	de	PROPN	I-PER
+3	Cuellar	PROPN	I-PER
+4	said	VERB	O
+5	in	ADP	O
+6	December	PROPN	O
+7	,	.	O
+8	when	ADV	O
+9	he	PRON	O
+10	accepted	VERB	O
+11	the	DET	O
+12	1988	NUM	O
+13	Nobel	PROPN	O
+14	Peace	PROPN	O
+15	Prize	PROPN	O
+16	on	ADP	O
+17	behalf	NOUN	O
+18	of	ADP	O
+19	U.N.	PROPN	B-ORG
+20	peacekeepers	NOUN	O
+21	,	.	O
+22	that	ADP	O
+23	the	DET	O
+24	failure	NOUN	O
+25	of	ADP	O
+26	members	NOUN	O
+27	to	PRT	O
+28	pay	VERB	O
+29	dues	NOUN	O
+30	threatens	VERB	O
+31	the	DET	O
+32	work	NOUN	O
+33	of	ADP	O
+34	the	DET	O
+35	United	PROPN	B-ORG
+36	Nations	PROPN	I-ORG
+37	.	.	O
+
+1:3	19	Work_For
+1:3	35:36	Work_For
+
+1	"	NOUN	O
+2	I	PRON	O
+3	accordingly	ADV	O
+4	declare	VERB	O
+5	Mr	PROPN	B-PER
+6	Nelson	PROPN	I-PER
+7	Rohihlahla	PROPN	I-PER
+8	Mandela	PROPN	I-PER
+9	duly	ADV	O
+10	elected	VERB	O
+11	as	ADP	O
+12	the	DET	O
+13	president	NOUN	O
+14	of	ADP	O
+15	the	DET	O
+16	Republic	PROPN	B-LOC
+17	of	ADP	I-LOC
+18	South	PROPN	I-LOC
+19	Africa	PROPN	I-LOC
+20	.	.	O
+21	"	NOUN	O
+
+5:8	16:19	Live_In
+
+1	`	.	O
+2	`	.	O
+3	We	PRON	O
+4	put	VERB	O
+5	in	ADP	O
+6	the	DET	O
+7	peacock	NOUN	O
+8	to	PRT	O
+9	get	VERB	O
+10	a	DET	O
+11	little	ADJ	O
+12	attention	NOUN	O
+13	and	CONJ	O
+14	show	VERB	O
+15	how	ADV	O
+16	spectacular	ADJ	O
+17	it	PRON	O
+18	's	VERB	O
+19	going	VERB	O
+20	to	PRT	O
+21	be	VERB	O
+22	,	.	O
+23	'	.	O
+24	'	.	O
+25	said	VERB	O
+26	Michigan	PROPN	B-ORG
+27	State	PROPN	I-ORG
+28	horticulture	NOUN	O
+29	Professor	PROPN	O
+30	Will	VERB	B-PER
+31	Carlson.	PROPN	I-PER
+
+30:31	26:27	Work_For
+
+1	(	.	O
+2	Editorial	NOUN	O
+3	Report	PROPN	O
+4	)	.	O
+5	The	DET	O
+6	11	NUM	O
+7	April	PROPN	O
+8	Jakarta	PROPN	B-LOC
+9	BISNIS	PROPN	B-ORG
+10	INDONESIA	PROPN	I-ORG
+11	in	ADP	O
+12	Indonesian	ADJ	O
+13	on	ADP	O
+14	page	NOUN	O
+15	5	NUM	O
+16	reported	VERB	O
+17	that	ADP	O
+18	the	DET	O
+19	recently	ADV	O
+20	established	VERB	O
+21	East	ADJ	B-LOC
+22	Asian	ADJ	I-LOC
+23	Growth	NOUN	I-LOC
+24	Area	NOUN	I-LOC
+25	(	.	O
+26	EAGA	PROPN	B-LOC
+27	)	.	O
+28	encompassing	VERB	O
+29	the	DET	O
+30	eastern	ADJ	O
+31	region	NOUN	O
+32	of	ADP	O
+33	Indonesia	PROPN	B-LOC
+34	,	.	O
+35	the	DET	O
+36	Malaysian	ADJ	O
+37	states	NOUN	O
+38	of	ADP	O
+39	Sabah	PROPN	B-LOC
+40	and	CONJ	O
+41	Sarawak	PROPN	B-LOC
+42	,	.	O
+43	Brunei	PROPN	B-LOC
+44	,	.	O
+45	and	CONJ	O
+46	the	DET	O
+47	Mindanao	PROPN	B-LOC
+48	islands	NOUN	I-LOC
+49	of	ADP	O
+50	the	DET	B-LOC
+51	Philippines	PROPN	I-LOC
+52	-	.	O
+53	-	.	O
+54	is	VERB	O
+55	expected	VERB	O
+56	to	PRT	O
+57	increase	VERB	O
+58	Indonesia	PROPN	B-LOC
+59	's	PRT	O
+60	exports	NOUN	O
+61	from	ADP	O
+62	its	PRON	O
+63	eastern	ADJ	O
+64	region.	NOUN	O
+
+9:10	33	OrgBased_In
+9:10	58	OrgBased_In
+
+1	JPL	PROPN	B-ORG
+2	control	NOUN	O
+3	's	PRT	O
+4	America	PROPN	B-LOC
+5	's	PRT	O
+6	unmanned	ADJ	O
+7	planetary	ADJ	O
+8	exploration	NOUN	O
+9	program	NOUN	O
+10	for	ADP	O
+11	the	DET	O
+12	National	PROPN	B-ORG
+13	Aeronautics	PROPN	I-ORG
+14	and	CONJ	I-ORG
+15	Space	PROPN	I-ORG
+16	Administration.	PROPN	I-ORG
+
+12:16	4	OrgBased_In
+
+1	`	.	O
+2	`	.	O
+3	The	DET	O
+4	old	ADJ	O
+5	bugaboo	NOUN	O
+6	is	VERB	O
+7	where	ADV	O
+8	this	DET	O
+9	baby	NOUN	O
+10	is	VERB	O
+11	going	VERB	O
+12	to	PRT	O
+13	hit	VERB	O
+14	,	.	O
+15	'	.	O
+16	'	.	O
+17	said	VERB	O
+18	John	PROPN	B-PER
+19	Jamison	PROPN	I-PER
+20	,	.	O
+21	a	DET	O
+22	National	PROPN	B-ORG
+23	Weather	PROPN	I-ORG
+24	Service	PROPN	I-ORG
+25	meteorologist	NOUN	O
+26	in	ADP	O
+27	Galveston.	PROPN	B-LOC
+
+18:19	22:24	Work_For
+22:24	27	OrgBased_In
+
+1	The	DET	O
+2	disclosure	NOUN	O
+3	was	VERB	O
+4	contained	VERB	O
+5	in	ADP	O
+6	a	DET	O
+7	half-inch-thick	ADJ	O
+8	statement	NOUN	O
+9	from	ADP	O
+10	James	PROPN	B-PER
+11	Cirona	PROPN	I-PER
+12	,	.	O
+13	president	NOUN	O
+14	of	ADP	O
+15	the	DET	O
+16	Federal	PROPN	B-ORG
+17	Home	PROPN	I-ORG
+18	Loan	PROPN	I-ORG
+19	Bank	PROPN	I-ORG
+20	of	ADP	O
+21	San	PROPN	B-LOC
+22	Francisco	PROPN	I-LOC
+23	.	.	O
+
+10:11	16:19	Work_For
+10:11	21:22	Live_In
+16:19	21:22	OrgBased_In
+
+1	In	ADP	O
+2	a	DET	O
+3	5-1	NUM	O
+4	decision	NOUN	O
+5	,	.	O
+6	the	DET	O
+7	Supreme	PROPN	B-ORG
+8	Court	PROPN	I-ORG
+9	said	VERB	O
+10	Roger	PROPN	B-PER
+11	Mauro	PROPN	I-PER
+12	and	CONJ	O
+13	his	PRON	O
+14	wife	NOUN	O
+15	,	.	O
+16	Lois	PROPN	B-PER
+17	,	.	O
+18	cannot	NOUN	O
+19	collect	ADJ	O
+20	damages	NOUN	O
+21	for	ADP	O
+22	his	PRON	O
+23	fear	NOUN	O
+24	that	ADP	O
+25	he	PRON	O
+26	may	VERB	O
+27	contract	VERB	O
+28	cancer	NOUN	O
+29	after	ADP	O
+30	being	VERB	O
+31	exposed	VERB	O
+32	to	PRT	O
+33	asbestos	NOUN	O
+34	fibers	NOUN	O
+35	while	ADP	O
+36	working	VERB	O
+37	as	ADP	O
+38	a	DET	O
+39	plumber-steamfitter	NOUN	O
+40	for	ADP	O
+41	more	ADJ	O
+42	than	ADP	O
+43	a	DET	O
+44	decade	NOUN	O
+45	at	ADP	O
+46	Ancora	PROPN	B-ORG
+47	State	PROPN	I-ORG
+48	Psychiatric	PROPN	I-ORG
+49	Hospital	PROPN	I-ORG
+50	in	ADP	O
+51	Hammonton.	PROPN	B-LOC
+
+10:11	46:49	Work_For
+46:49	51	OrgBased_In
+
+1	An	DET	O
+2	architect	NOUN	O
+3	of	ADP	O
+4	President	PROPN	O
+5	Nixon	PROPN	O
+6	's	PRT	O
+7	unsuccessful	ADJ	O
+8	executive-privilege	ADJ	O
+9	Watergate	PROPN	O
+10	defense	NOUN	O
+11	is	VERB	O
+12	a	DET	O
+13	top	ADJ	O
+14	prospect	NOUN	O
+15	for	ADP	O
+16	the	DET	O
+17	post	NOUN	O
+18	of	ADP	O
+19	U.S.	PROPN	B-LOC
+20	solicitor	NOUN	O
+21	in	ADP	O
+22	the	DET	O
+23	new	ADJ	O
+24	Bush	PROPN	B-PER
+25	administration	NOUN	O
+26	.	.	O
+
+24	19	Live_In
+
+1	Assipen	PROPN	B-ORG
+2	Director	PROPN	O
+3	Claudio	PROPN	B-PER
+4	Manoel	PROPN	I-PER
+5	Constancio	PROPN	I-PER
+6	said	VERB	O
+7	that	ADP	O
+8	the	DET	O
+9	employees	NOUN	O
+10	had	VERB	O
+11	a	DET	O
+12	hormonal	ADJ	O
+13	dysfunction	NOUN	O
+14	in	ADP	O
+15	their	PRON	O
+16	thyroid	NOUN	O
+17	glands	NOUN	O
+18	,	.	O
+19	and	CONJ	O
+20	that	ADP	O
+21	some	DET	O
+22	of	ADP	O
+23	them	PRON	O
+24	had	VERB	O
+25	nodules	NOUN	O
+26	and	CONJ	O
+27	cysts	NOUN	O
+28	in	ADP	O
+29	their	PRON	O
+30	glands	NOUN	O
+31	.	.	O
+
+3:5	1	Work_For
+
+1	In	ADP	O
+2	1988	NUM	O
+3	,	.	O
+4	he	PRON	O
+5	directed	VERB	O
+6	three	NUM	O
+7	productions	NOUN	O
+8	:	.	O
+9	`	.	O
+10	`	.	O
+11	A	DET	O
+12	Street	PROPN	O
+13	Car	PROPN	O
+14	Named	VERB	O
+15	Desire	NOUN	O
+16	'	.	O
+17	'	.	O
+18	on	ADP	O
+19	Broadway	PROPN	O
+20	,	.	O
+21	`	.	O
+22	`	.	O
+23	Sweet	ADJ	O
+24	Bird	NOUN	O
+25	of	ADP	O
+26	Youth	PROPN	O
+27	'	PRT	O
+28	'	.	O
+29	at	ADP	O
+30	the	DET	O
+31	Royal	PROPN	B-ORG
+32	Alexandra	PROPN	I-ORG
+33	Theatre	PROPN	I-ORG
+34	in	ADP	O
+35	Toronto	PROPN	B-LOC
+36	,	.	O
+37	Canada	PROPN	B-LOC
+38	,	.	O
+39	and	CONJ	O
+40	`	.	O
+41	`	.	O
+42	The	DET	O
+43	Legend	NOUN	O
+44	of	ADP	O
+45	Oedipus	PROPN	O
+46	'	PRT	O
+47	'	.	O
+48	in	ADP	O
+49	Williamstown	PROPN	B-LOC
+50	.	.	O
+
+31:33	35	OrgBased_In
+31:33	37	OrgBased_In
+
+1	Cape	PROPN	B-LOC
+2	Town	PROPN	I-LOC
+3	Supreme	PROPN	B-ORG
+4	Court	PROPN	I-ORG
+5	Judge	PROPN	O
+6	J.H.	PROPN	B-PER
+7	Berman	PROPN	I-PER
+8	refused	VERB	O
+9	to	PRT	O
+10	give	VERB	O
+11	Port	PROPN	B-LOC
+12	Nolloth	PROPN	I-LOC
+13	municipal	ADJ	O
+14	authorities	NOUN	O
+15	the	DET	O
+16	right	NOUN	O
+17	to	PRT	O
+18	forcibly	ADV	O
+19	remove	VERB	O
+20	the	DET	O
+21	squatters	NOUN	O
+22	,	.	O
+23	who	PRON	O
+24	live	VERB	O
+25	in	ADP	O
+26	shacks	NOUN	O
+27	and	CONJ	O
+28	tents	NOUN	O
+29	.	.	O
+
+3:4	1:2	OrgBased_In
+6:7	1:2	Live_In
+6:7	3:4	Work_For
+
+1	(	.	O
+2	Text	PROPN	O
+3	)	.	O
+4	Parliament	PROPN	B-ORG
+5	May	PROPN	O
+6	9	NUM	O
+7	SAPA	PROPN	B-ORG
+8	--	.	O
+9	Mr	PROPN	B-PER
+10	Nelson	PROPN	I-PER
+11	Rohihlahla	PROPN	I-PER
+12	Mandela	PROPN	I-PER
+13	was	VERB	O
+14	nominated	VERB	O
+15	unopposed	ADJ	O
+16	president	NOUN	O
+17	of	ADP	O
+18	the	DET	O
+19	Republic	PROPN	B-LOC
+20	of	ADP	I-LOC
+21	South	PROPN	I-LOC
+22	Africa	PROPN	I-LOC
+23	at	ADP	O
+24	12.14AM	NOUN	O
+25	on	ADP	O
+26	Monday	PROPN	O
+27	-LRB-	.	O
+28	9	NUM	O
+29	May	PROPN	O
+30	)	.	O
+31	.	.	O
+
+9:12	19:22	Live_In
+
+1	In	ADP	O
+2	1822	NUM	O
+3	,	.	O
+4	the	DET	O
+5	19th	ADJ	O
+6	president	NOUN	O
+7	of	ADP	O
+8	the	DET	O
+9	United	PROPN	B-LOC
+10	States	PROPN	I-LOC
+11	,	.	O
+12	Rutherford	PROPN	B-PER
+13	B.	PROPN	I-PER
+14	Hayes	PROPN	I-PER
+15	,	.	O
+16	was	VERB	O
+17	born	VERB	O
+18	in	ADP	O
+19	Delaware	PROPN	B-LOC
+20	,	.	I-LOC
+21	Ohio	PROPN	I-LOC
+22	.	.	O
+
+12:14	19:21	Live_In
+
+1	`	.	O
+2	`	.	O
+3	If	ADP	O
+4	we	PRON	O
+5	're	VERB	O
+6	going	VERB	O
+7	to	PRT	O
+8	address	VERB	O
+9	this	DET	O
+10	problem	NOUN	O
+11	it	PRON	O
+12	will	VERB	O
+13	be	VERB	O
+14	a	DET	O
+15	grass-roots	ADJ	O
+16	effort	NOUN	O
+17	by	ADP	O
+18	activists	NOUN	O
+19	throughout	ADP	O
+20	the	DET	O
+21	cities	NOUN	O
+22	of	ADP	O
+23	the	DET	O
+24	world	NOUN	O
+25	,	.	O
+26	'	.	O
+27	'	.	O
+28	said	VERB	O
+29	Jeremy	PROPN	B-PER
+30	Rifkin	PROPN	I-PER
+31	,	.	O
+32	director	NOUN	O
+33	of	ADP	O
+34	the	DET	O
+35	Foundation	NOUN	B-ORG
+36	on	ADP	I-ORG
+37	Economic	PROPN	I-ORG
+38	Trends	PROPN	I-ORG
+39	and	CONJ	O
+40	a	DET	O
+41	member	NOUN	O
+42	of	ADP	O
+43	the	DET	O
+44	Global	ADJ	B-ORG
+45	Greenhouse	NOUN	I-ORG
+46	Network	PROPN	I-ORG
+47	,	.	O
+48	a	DET	O
+49	coalition	NOUN	O
+50	of	ADP	O
+51	environmental	ADJ	O
+52	activists	NOUN	O
+53	in	ADP	O
+54	35	NUM	O
+55	countries	NOUN	O
+56	.	.	O
+
+29:30	35:38	Work_For
+29:30	44:46	Work_For
+
+1	Teen-agers	NOUN	O
+2	,	.	O
+3	most	ADJ	O
+4	of	ADP	O
+5	whom	PRON	O
+6	were	VERB	O
+7	born	VERB	O
+8	after	ADP	O
+9	the	DET	O
+10	release	NOUN	O
+11	of	ADP	O
+12	the	DET	O
+13	1973	NUM	O
+14	film	NOUN	O
+15	directed	VERB	O
+16	by	ADP	O
+17	George	PROPN	B-PER
+18	Lucas	PROPN	I-PER
+19	,	.	O
+20	a	DET	O
+21	Modesto	PROPN	B-LOC
+22	native	NOUN	O
+23	,	.	O
+24	said	VERB	O
+25	they	PRON	O
+26	cruise	VERB	O
+27	popular	ADJ	O
+28	McHenry	PROPN	B-LOC
+29	Avenue	PROPN	I-LOC
+30	in	ADP	O
+31	this	DET	O
+32	central	ADJ	O
+33	California	PROPN	B-LOC
+34	city	NOUN	O
+35	for	ADP	O
+36	the	DET	O
+37	same	ADJ	O
+38	reasons	NOUN	O
+39	as	ADP	O
+40	their	PRON	O
+41	parents	NOUN	O
+42	:	.	O
+43	to	PRT	O
+44	show	VERB	O
+45	off	ADP	O
+46	their	PRON	O
+47	cars	NOUN	O
+48	and	CONJ	O
+49	meet	VERB	O
+50	dates	NOUN	O
+51	.	.	O
+
+17:18	21	Live_In
+
+1	The	DET	O
+2	fire	NOUN	O
+3	at	ADP	O
+4	the	DET	O
+5	Pacific	PROPN	B-ORG
+6	Fleet	PROPN	I-ORG
+7	Air	PROPN	B-LOC
+8	Wing	PROPN	I-LOC
+9	's	PRT	O
+10	ammunition	NOUN	O
+11	dump	NOUN	O
+12	,	.	O
+13	which	DET	O
+14	resulted	VERB	O
+15	from	ADP	O
+16	today	NOUN	O
+17	's	PRT	O
+18	explosion	NOUN	O
+19	,	.	O
+20	is	VERB	O
+21	being	VERB	O
+22	localized	VERB	O
+23	,	.	O
+24	according	VERB	O
+25	to	PRT	O
+26	the	DET	O
+27	fleet	NOUN	O
+28	's	PRT	O
+29	senior	ADJ	O
+30	duty	NOUN	O
+31	officer	NOUN	O
+32	Vsevolod	PROPN	B-PER
+33	Fadeyev	PROPN	I-PER
+34	.	.	O
+
+32:33	5:6	Work_For
+
+1	Boston	PROPN	B-ORG
+2	University	PROPN	I-ORG
+3	's	PRT	O
+4	Michael	PROPN	B-PER
+5	D.	PROPN	I-PER
+6	Papagiannis	PROPN	I-PER
+7	said	VERB	O
+8	he	PRON	O
+9	believes	VERB	O
+10	the	DET	O
+11	crater	NOUN	O
+12	was	VERB	O
+13	created	VERB	O
+14	100	NUM	O
+15	million	NUM	O
+16	years	NOUN	O
+17	ago	ADP	O
+18	when	ADV	O
+19	a	DET	O
+20	50-mile-wide	ADJ	O
+21	meteorite	NOUN	O
+22	slammed	VERB	O
+23	into	ADP	O
+24	the	DET	O
+25	Earth	PROPN	B-LOC
+26	.	.	O
+
+4:6	1:2	Work_For
+
+1	(	.	O
+2	By	ADP	O
+3	Yang	PROPN	B-PER
+4	Jianbai	PROPN	I-PER
+5	(	.	O
+6	2799	NUM	O
+7	1017	NUM	O
+8	4101	NUM	O
+9	)	.	O
+10	of	ADP	O
+11	the	DET	O
+12	Economic	PROPN	B-ORG
+13	Research	PROPN	I-ORG
+
+3:4	12:13	Work_For
+
+1	Jeffrey	PROPN	B-PER
+2	Bander	PROPN	I-PER
+3	,	.	O
+4	vice	NOUN	O
+5	for	ADP	O
+6	development	NOUN	O
+7	of	ADP	O
+8	new	ADJ	O
+9	products	NOUN	O
+10	at	ADP	O
+11	American	PROPN	B-ORG
+12	Express	PROPN	I-ORG
+13	,	.	O
+14	said	VERB	O
+15	the	DET	O
+16	credit	NOUN	O
+17	card	NOUN	O
+18	company	NOUN	O
+19	conducted	VERB	O
+20	two	NUM	O
+21	different	ADJ	O
+22	research	NOUN	O
+23	projects	VERB	O
+24	before	ADP	O
+25	launching	VERB	O
+26	its	PRON	O
+27	weather	NOUN	O
+28	phone.	NOUN	O
+
+1:2	11:12	Work_For
+
+1	In	ADP	O
+2	1809	NUM	O
+3	,	.	O
+4	author	NOUN	O
+5	Edgar	PROPN	B-PER
+6	Allan	PROPN	I-PER
+7	Poe	PROPN	I-PER
+8	was	VERB	O
+9	born	VERB	O
+10	in	ADP	O
+11	Boston	PROPN	B-LOC
+12	.	.	O
+
+5:7	11	Live_In
+
+1	Reflection	PROPN	O
+2	"	NOUN	O
+3	:	.	O
+4	"	NOUN	O
+5	Reusable	PROPN	O
+6	Spacecraft	PROPN	O
+7	"	NOUN	O
+8	)	.	O
+9	(	.	O
+10	Text	PROPN	O
+11	)	.	O
+12	After	ADP	O
+13	the	DET	O
+14	completion	NOUN	O
+15	of	ADP	O
+16	the	DET	O
+17	Apollo	PROPN	O
+18	moon	NOUN	O
+19	program	NOUN	O
+20	at	ADP	O
+21	the	DET	O
+22	beginning	NOUN	O
+23	of	ADP	O
+24	the	DET	O
+25	1970s	NUM	O
+26	,	.	O
+27	the	DET	O
+28	U.S.	PROPN	B-LOC
+29	National	PROPN	B-ORG
+30	Aeronautics	PROPN	I-ORG
+31	and	CONJ	I-ORG
+32	Space	PROPN	I-ORG
+33	Administration	PROPN	I-ORG
+34	(	.	O
+35	NASA	PROPN	B-ORG
+36	)	.	O
+37	and	CONJ	O
+38	the	DET	O
+39	Department	PROPN	B-ORG
+40	of	ADP	I-ORG
+41	Defense	NOUN	I-ORG
+42	launched	VERB	O
+43	the	DET	O
+44	design	NOUN	O
+45	engineering	NOUN	O
+46	of	ADP	O
+47	the	DET	O
+48	Space	PROPN	O
+49	Shuttle	PROPN	O
+50	reusable	ADJ	O
+51	space	NOUN	O
+52	transport	NOUN	O
+53	system	NOUN	O
+54	(	.	O
+55	MTKS	PROPN	O
+56	)	.	O
+57	.	.	O
+
+29:33	28	OrgBased_In
+35	28	OrgBased_In
+39:41	28	OrgBased_In
+
+1	Wang	PROPN	B-PER
+2	Shaohua	PROPN	I-PER
+3	,	.	O
+4	an	DET	O
+5	official	NOUN	O
+6	with	ADP	O
+7	China	PROPN	B-LOC
+8	's	PRT	O
+9	consulate	NOUN	O
+10	in	ADP	O
+11	San	PROPN	B-LOC
+12	Francisco	PROPN	I-LOC
+13	,	.	O
+14	said	VERB	O
+15	those	DET	O
+16	who	PRON	O
+17	fled	VERB	O
+18	`	.	O
+19	`	.	O
+20	were	VERB	O
+21	instigated	VERB	O
+22	by	ADP	O
+23	people	NOUN	O
+24	with	ADP	O
+25	motives	NOUN	O
+26	to	PRT	O
+27	bring	VERB	O
+28	damage	NOUN	O
+29	to	PRT	O
+30	China.	PROPN	B-LOC
+31	'	.	O
+32	'	NOUN	O
+
+1:2	11:12	Live_In
+
+1	(	.	O
+2	Text	PROPN	O
+3	)	.	O
+4	Crimean	PROPN	O
+5	Supreme	PROPN	O
+6	Soviet	PROPN	O
+7	Chairman	PROPN	O
+8	Mykola	PROPN	B-PER
+9	Bahrov	PROPN	I-PER
+10	met	VERB	O
+11	today	NOUN	O
+12	with	ADP	O
+13	U.S.	PROPN	B-LOC
+14	Ambassador	PROPN	O
+15	to	PRT	O
+16	Ukraine	PROPN	B-LOC
+17	William	PROPN	B-PER
+18	Miller.	PROPN	I-PER
+
+17:18	16	Live_In
+
+1	The	DET	O
+2	justices	NOUN	O
+3	heard	VERB	O
+4	60	NUM	O
+5	minutes	NOUN	O
+6	of	ADP	O
+7	arguments	NOUN	O
+8	Wednesday	PROPN	O
+9	on	ADP	O
+10	whether	ADP	O
+11	they	PRON	O
+12	will	VERB	O
+13	allow	VERB	O
+14	the	DET	O
+15	execution	NOUN	O
+16	of	ADP	O
+17	Johnny	PROPN	B-PER
+18	Paul	PROPN	I-PER
+19	Penry	PROPN	I-PER
+20	,	.	O
+21	32	NUM	O
+22	,	.	O
+23	a	DET	O
+24	convicted	VERB	O
+25	rapist-murderer	NOUN	O
+26	sentenced	VERB	O
+27	to	PRT	O
+28	die	VERB	O
+29	in	ADP	O
+30	Texas	PROPN	B-LOC
+31	.	.	O
+
+17:19	30	Live_In
+
+1	Kovacevic	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	Serb	PROPN	O
+5	,	.	O
+6	has	VERB	O
+7	come	VERB	O
+8	under	ADP	O
+9	fire	NOUN	O
+10	from	ADP	O
+11	Serbian	ADJ	O
+12	politicians	NOUN	O
+13	and	CONJ	O
+14	the	DET	O
+15	republic	NOUN	O
+16	's	PRT	O
+17	press	NOUN	O
+18	since	ADP	O
+19	the	DET	O
+20	U.S.	PROPN	B-LOC
+21	Congress	PROPN	B-ORG
+22	last	ADJ	O
+23	month	NOUN	O
+24	passed	VERB	O
+25	two	NUM	O
+26	resolutions	NOUN	O
+27	claiming	VERB	O
+28	there	DET	O
+29	were	VERB	O
+30	human	ADJ	O
+31	rights	NOUN	O
+32	violations	NOUN	O
+33	in	ADP	O
+34	the	DET	O
+35	strife-torn	ADJ	O
+36	southern	ADJ	O
+37	province	NOUN	O
+38	of	ADP	O
+39	Kosovo.	PROPN	B-LOC
+
+21	20	OrgBased_In
+
+1	Healy	PROPN	B-ORG
+2	president	NOUN	O
+3	George	PROPN	B-PER
+4	Malina	PROPN	I-PER
+5	said	VERB	O
+6	he	PRON	O
+7	did	VERB	O
+8	nt	NOUN	O
+9	know	VERB	O
+10	how	ADV	O
+11	any	DET	O
+12	criminal	ADJ	O
+13	wrongdoing	NOUN	O
+14	could	VERB	O
+15	be	VERB	O
+16	found	VERB	O
+17	in	ADP	O
+18	the	DET	O
+19	accident	NOUN	O
+20	,	.	O
+21	which	DET	O
+22	developed	VERB	O
+23	out	ADP	O
+24	of	ADP	O
+25	unanticipated	ADJ	O
+26	conditions	NOUN	O
+27	,	.	O
+28	not	ADV	O
+29	out	ADP	O
+30	of	ADP	O
+31	any	DET	O
+32	willful	ADJ	O
+33	acts.	NOUN	O
+
+3:4	1	Work_For
+
+1	Tal	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	senior	ADJ	O
+5	Defense	PROPN	B-ORG
+6	Ministry	PROPN	I-ORG
+7	official	ADJ	O
+8	,	.	O
+9	has	VERB	O
+10	not	ADV	O
+11	repeated	VERB	O
+12	these	DET	O
+13	views	NOUN	O
+14	in	ADP	O
+15	public	NOUN	O
+16	.	.	O
+
+1	5:6	Work_For
+
+1	Fire	NOUN	O
+2	crews	NOUN	O
+3	have	VERB	O
+4	`	.	O
+5	`	.	O
+6	just	ADV	O
+7	been	VERB	O
+8	holding	VERB	O
+9	their	PRON	O
+10	own	ADJ	O
+11	so	ADP	O
+12	the	DET	O
+13	lower	ADJ	O
+14	temperatures	NOUN	O
+15	are	VERB	O
+16	really	ADV	O
+17	going	VERB	O
+18	to	PRT	O
+19	help	VERB	O
+20	things	NOUN	O
+21	out	PRT	O
+22	,	.	O
+23	'	.	O
+24	'	.	O
+25	Boise	PROPN	B-ORG
+26	National	PROPN	I-ORG
+27	Forest	PROPN	I-ORG
+28	spokeswoman	NOUN	O
+29	Lynette	PROPN	B-PER
+30	Davis	PROPN	I-PER
+31	said.	NOUN	O
+
+29:30	25:27	Work_For
+
+1	Bork	PROPN	B-PER
+2	agreed	VERB	O
+3	there	DET	O
+4	was	VERB	O
+5	an	DET	O
+6	irony	NOUN	O
+7	in	ADP	O
+8	his	PRON	O
+9	appearance	NOUN	O
+10	since	ADP	O
+11	the	DET	O
+12	man	NOUN	O
+13	confirmed	VERB	O
+14	for	ADP	O
+15	the	DET	O
+16	seat	NOUN	O
+17	Bork	PROPN	B-PER
+18	had	VERB	O
+19	been	VERB	O
+20	up	ADP	O
+21	for	ADP	O
+22	_	NOUN	O
+23	Anthony	PROPN	B-PER
+24	M.	PROPN	I-PER
+25	Kennedy	PROPN	I-PER
+26	_	NOUN	O
+27	voted	VERB	O
+28	with	ADP	O
+29	the	DET	O
+30	majority	NOUN	O
+31	in	ADP	O
+32	the	DET	O
+33	Supreme	PROPN	B-ORG
+34	Court	PROPN	I-ORG
+35	's	PRT	O
+36	5-4	ADJ	O
+37	ruling	NOUN	O
+38	that	ADP	O
+39	flag	NOUN	O
+40	burning	NOUN	O
+41	is	VERB	O
+42	protected	VERB	O
+43	free	VERB	O
+44	speech.	NOUN	O
+
+23:25	33:34	Work_For
+
+1	"	NOUN	O
+2	What	PRON	O
+3	's	VERB	O
+4	my	PRON	O
+5	goal	NOUN	O
+6	?	.	O
+7	"	NOUN	O
+8	asks	VERB	O
+9	Pedatzur	PROPN	B-PER
+10	,	.	O
+11	who	PRON	O
+12	now	ADV	O
+13	works	VERB	O
+14	for	ADP	O
+15	the	DET	O
+16	Massachusetts	PROPN	B-ORG
+17	Institute	PROPN	I-ORG
+18	of	ADP	I-ORG
+19	Technology	PROPN	I-ORG
+20	.	.	O
+
+9	16:19	Work_For
+
+1	Annie	PROPN	B-PER
+2	Oakley	PROPN	I-PER
+3	,	.	O
+4	also	ADV	O
+5	known	VERB	O
+6	as	ADP	O
+7	Little	PROPN	B-PER
+8	Miss	PROPN	I-PER
+9	Sure	PROPN	I-PER
+10	Shot	PROPN	I-PER
+11	,	.	O
+12	was	VERB	O
+13	born	VERB	O
+14	Phoebe	PROPN	B-PER
+15	Ann	PROPN	I-PER
+16	Moses	PROPN	I-PER
+17	in	ADP	O
+18	Willowdell	PROPN	B-LOC
+19	,	.	I-LOC
+20	Darke	PROPN	I-LOC
+21	County	PROPN	I-LOC
+22	,	.	O
+23	in	ADP	O
+24	1860	NUM	O
+25	.	.	O
+
+1:2	18:21	Live_In
+7:10	18:21	Live_In
+14:16	18:21	Live_In
+
+1	King	PROPN	B-PER
+2	rose	VERB	O
+3	to	PRT	O
+4	prominence	NOUN	O
+5	after	ADP	O
+6	Mrs.	PROPN	B-PER
+7	Parks	PROPN	I-PER
+8	'	PRT	O
+9	action	NOUN	O
+10	in	ADP	O
+11	December	PROPN	O
+12	1955	NUM	O
+13	in	ADP	O
+14	Montgomery	PROPN	B-LOC
+15	,	.	O
+16	Ala.	PROPN	B-LOC
+17	,	.	O
+18	set	VERB	O
+19	the	DET	O
+20	stage	NOUN	O
+21	for	ADP	O
+22	a	DET	O
+23	boycott	NOUN	O
+24	and	CONJ	O
+25	subsequent	ADJ	O
+26	demonstrations	NOUN	O
+27	that	ADP	O
+28	caught	VERB	O
+29	the	DET	O
+30	nation	NOUN	O
+31	by	ADP	O
+32	surprise	NOUN	O
+33	.	.	O
+
+6:7	14	Live_In
+6:7	16	Live_In
+
+1	One	NUM	O
+2	was	VERB	O
+3	Idaho	PROPN	B-LOC
+4	Gov.	PROPN	O
+5	Cecil	PROPN	B-PER
+6	Andrus	PROPN	I-PER
+7	,	.	O
+8	who	PRON	O
+9	said	VERB	O
+10	he	PRON	O
+11	needed	VERB	O
+12	to	PRT	O
+13	deal	VERB	O
+14	with	ADP	O
+15	forest	NOUN	O
+16	fires	NOUN	O
+17	that	DET	O
+18	have	VERB	O
+19	become	VERB	O
+20	`	.	O
+21	`	.	O
+22	totally	ADV	O
+23	out	ADP	O
+24	of	ADP	O
+25	control.	NOUN	O
+26	'	.	O
+27	'	NOUN	O
+
+5:6	3	Live_In
+
+1	Albert	PROPN	B-PER
+2	O.	PROPN	I-PER
+3	Harjula	PROPN	I-PER
+4	,	.	O
+5	29	NUM	O
+6	,	.	O
+7	of	ADP	O
+8	Thomaston	PROPN	B-LOC
+9	,	.	O
+10	became	VERB	O
+11	trapped	VERB	O
+12	first	ADJ	O
+13	,	.	O
+14	said	VERB	O
+15	Paul	PROPN	B-PER
+16	Fournier	PROPN	I-PER
+17	,	.	O
+18	a	DET	O
+19	spokesman	NOUN	O
+20	for	ADP	O
+21	the	DET	O
+22	state	NOUN	O
+23	Department	PROPN	B-ORG
+24	of	ADP	I-ORG
+25	Inland	PROPN	I-ORG
+26	Fisheries	PROPN	I-ORG
+27	and	CONJ	I-ORG
+28	Wildlife	PROPN	I-ORG
+29	.	.	O
+
+1:3	8	Live_In
+15:16	23:28	Work_For
+
+1	Jack	PROPN	B-PER
+2	MacAllister	PROPN	I-PER
+3	,	.	O
+4	chairman	NOUN	O
+5	of	ADP	O
+6	U	PROPN	B-ORG
+7	S	PROPN	I-ORG
+8	West	ADJ	I-ORG
+9	inc.	PROPN	I-ORG
+10	,	.	O
+11	said	VERB	O
+12	the	DET	O
+13	Hong	PROPN	B-LOC
+14	Kong	PROPN	I-LOC
+15	franchise	NOUN	O
+16	represents	VERB	O
+17	a	DET	O
+18	major	ADJ	O
+19	international	ADJ	O
+20	opportunity	NOUN	O
+21	for	ADP	O
+22	the	DET	O
+23	company.	NOUN	O
+
+1:2	6:9	Work_For
+
+1	Venezuela	PROPN	B-LOC
+2	's	PRT	O
+3	chief	ADJ	O
+4	debt	NOUN	O
+5	negotiator	NOUN	O
+6	,	.	O
+7	Miguel	PROPN	B-PER
+8	Rodriguez	PROPN	I-PER
+9	,	.	O
+10	told	VERB	O
+11	reporters	NOUN	O
+12	Monday	PROPN	O
+13	that	ADP	O
+14	his	PRON	O
+15	country	NOUN	O
+16	would	VERB	O
+17	seek	VERB	O
+18	at	ADP	O
+19	least	ADJ	O
+20	a	DET	O
+21	50	NUM	O
+22	percent	NOUN	O
+23	reduction	NOUN	O
+24	of	ADP	O
+25	its	PRON	O
+26	debt	NOUN	O
+27	,	.	O
+28	beyond	ADP	O
+29	Mexico	PROPN	B-LOC
+30	's	PRT	O
+31	gains	NOUN	O
+32	in	ADP	O
+33	negotiations	NOUN	O
+34	with	ADP	O
+35	its	PRON	O
+36	bank	NOUN	O
+37	creditors.	NOUN	O
+
+7:8	1	Live_In
+
+1	Bangkok	PROPN	B-LOC
+2	DAO	PROPN	B-ORG
+3	SIAM	PROPN	I-ORG
+
+2:3	1	OrgBased_In
+
+1	However	ADV	O
+2	,	.	O
+3	the	DET	O
+4	Rev.	PROPN	B-PER
+5	Jesse	PROPN	I-PER
+6	Jackson	PROPN	I-PER
+7	,	.	O
+8	a	DET	O
+9	native	NOUN	O
+10	of	ADP	O
+11	South	PROPN	B-LOC
+12	Carolina	PROPN	I-LOC
+13	,	.	O
+14	joined	VERB	O
+15	critics	NOUN	O
+16	of	ADP	O
+17	FEMA	PROPN	B-ORG
+18	's	PRT	O
+19	effort	NOUN	O
+20	.	.	O
+
+4:6	11:12	Live_In
+
+1	KAL	PROPN	B-ORG
+2	attorney	NOUN	O
+3	George	PROPN	B-PER
+4	Tompkins	PROPN	I-PER
+5	countered	VERB	O
+6	that	ADP	O
+7	the	DET	O
+8	main	ADJ	O
+9	evidence	NOUN	O
+10	in	ADP	O
+11	the	DET	O
+12	case	NOUN	O
+13	is	VERB	O
+14	a	DET	O
+15	line	NOUN	O
+16	drawn	VERB	O
+17	by	ADP	O
+18	Soviet	ADJ	B-LOC
+19	officials	NOUN	O
+20	on	ADP	O
+21	a	DET	O
+22	map	NOUN	O
+23	showing	VERB	O
+24	an	DET	O
+25	off-course	ADJ	O
+26	Flight	PROPN	O
+27	007	PROPN	O
+28	flying	VERB	O
+29	for	ADP	O
+30	several	ADJ	O
+31	hours	NOUN	O
+32	over	ADP	O
+33	Russian	ADJ	O
+34	airspace	NOUN	O
+35	hundreds	NOUN	O
+36	of	ADP	O
+37	miles	NOUN	O
+38	to	PRT	O
+39	the	DET	O
+40	west	ADJ	O
+41	of	ADP	O
+42	its	PRON	O
+43	planned	VERB	O
+44	route.	NOUN	O
+
+3:4	1	Work_For
+
+1	Kravchuk	PROPN	B-PER
+2	won	VERB	O
+3	over	ADP	O
+4	60	NUM	O
+5	percent	NOUN	O
+6	of	ADP	O
+7	the	DET	O
+8	votes	NOUN	O
+9	and	CONJ	O
+10	Chornovil	PROPN	B-PER
+11	,	.	O
+12	nearly	ADV	O
+13	28	NUM	O
+14	percent	NOUN	O
+15	in	ADP	O
+16	Ukraine	PROPN	B-LOC
+17	's	PRT	O
+18	first	ADJ	O
+19	presidential	ADJ	O
+20	elections	NOUN	O
+21	in	ADP	O
+22	December	PROPN	O
+23	1991	NUM	O
+24	.	.	O
+
+1	16	Live_In
+10	16	Live_In
+
+1	Text	PROPN	O
+2	of	ADP	O
+3	the	DET	O
+4	statement	NOUN	O
+5	issued	VERB	O
+6	by	ADP	O
+7	the	DET	O
+8	Organization	PROPN	B-ORG
+9	of	ADP	I-ORG
+10	the	DET	I-ORG
+11	Oppressed	PROPN	I-ORG
+12	on	ADP	I-ORG
+13	Earth	PROPN	I-ORG
+14	claiming	VERB	O
+15	U.S.	PROPN	B-LOC
+16	Marine	PROPN	O
+17	Lt.	PROPN	O
+18	William	PROPN	B-PER
+19	R.	PROPN	I-PER
+20	Higgins	PROPN	I-PER
+21	was	VERB	O
+22	hanged.	NOUN	O
+
+18:20	15	Live_In
+
+1	His	PRON	O
+2	descendants	NOUN	O
+3	founded	VERB	O
+4	the	DET	O
+5	Minox	PROPN	B-ORG
+6	company	NOUN	I-ORG
+7	in	ADP	O
+8	Heuchelheim	PROPN	B-LOC
+9	on	ADP	O
+10	Jan.	PROPN	O
+11	3	NUM	O
+12	COMMA	.	O
+13	1949	NUM	O
+14	.	.	O
+
+5:6	8	OrgBased_In
+
+1	On	ADP	O
+2	this	DET	O
+3	date	NOUN	O
+4	:	.	O
+5	In	ADP	O
+6	1833	NUM	O
+7	,	.	O
+8	Benjamin	PROPN	B-PER
+9	Harrison	PROPN	I-PER
+10	,	.	O
+11	the	DET	O
+12	23rd	ADJ	O
+13	president	NOUN	O
+14	of	ADP	O
+15	the	DET	O
+16	United	PROPN	B-LOC
+17	States	PROPN	I-LOC
+18	,	.	O
+19	was	VERB	O
+20	born	VERB	O
+21	in	ADP	O
+22	North	PROPN	B-LOC
+23	Bend	PROPN	I-LOC
+24	,	.	I-LOC
+25	Ohio	PROPN	I-LOC
+26	.	.	O
+
+8:9	22:25	Live_In
+
+1	Another	DET	O
+2	GE	PROPN	B-ORG
+3	employee	NOUN	O
+4	,	.	O
+5	attorney	NOUN	O
+6	Robert	PROPN	B-PER
+7	C.	PROPN	I-PER
+8	Anderson	PROPN	I-PER
+9	,	.	O
+10	said	VERB	O
+11	in	ADP	O
+12	a	DET	O
+13	letter	NOUN	O
+14	last	ADJ	O
+15	year	NOUN	O
+16	that	ADP	O
+17	test	NOUN	O
+18	records	NOUN	O
+19	may	VERB	O
+20	have	VERB	O
+21	been	VERB	O
+22	falsified	VERB	O
+23	for	ADP	O
+24	valves	NOUN	O
+25	used	VERB	O
+26	on	ADP	O
+27	the	DET	O
+28	FA-18	PROPN	O
+29	in	ADP	O
+30	1984-87	NUM	O
+31	.	.	O
+
+6:8	2	Work_For
+
+1	In	ADP	O
+2	southwest	ADJ	O
+3	Louisiana	PROPN	B-LOC
+4	's	PRT	O
+5	Cameron	PROPN	B-LOC
+6	Parish	PROPN	I-LOC
+7	(	.	O
+8	county	NOUN	O
+9	)	.	O
+10	,	.	O
+11	civil	ADJ	O
+12	defense	NOUN	O
+13	director	NOUN	O
+14	Hayes	PROPN	B-PER
+15	Picou	PROPN	I-PER
+16	about	ADP	O
+17	8	NUM	O
+18	,	.	O
+19	500	NUM	O
+20	of	ADP	O
+21	the	DET	O
+22	low-lying	ADJ	O
+23	parish	NOUN	O
+24	's	PRT	O
+25	10	NUM	O
+26	,	.	O
+27	000	NUM	O
+28	residents	NOUN	O
+29	had	VERB	O
+30	evacuated	VERB	O
+31	the	DET	O
+32	southern	ADJ	O
+33	coast	NOUN	O
+34	,	.	O
+35	most	ADV	O
+36	to	PRT	O
+37	stay	VERB	O
+38	with	ADP	O
+39	friends	NOUN	O
+40	or	CONJ	O
+41	relatives.	NOUN	O
+
+14:15	3	Live_In
+14:15	5:6	Live_In
+
+1	Derwinski	PROPN	B-PER
+2	's	PRT	O
+3	involvement	NOUN	O
+4	in	ADP	O
+5	the	DET	O
+6	episode	NOUN	O
+7	and	CONJ	O
+8	his	PRON	O
+9	early	ADJ	O
+10	lack	NOUN	O
+11	of	ADP	O
+12	candor	NOUN	O
+13	will	VERB	O
+14	be	VERB	O
+15	investigated	VERB	O
+16	during	ADP	O
+17	Senate	PROPN	B-ORG
+18	confirmation	NOUN	O
+19	hearings	NOUN	O
+20	on	ADP	O
+21	his	PRON	O
+22	nomination	NOUN	O
+23	to	PRT	O
+24	head	VERB	O
+25	the	DET	O
+26	new	ADJ	O
+27	Veterans	PROPN	B-ORG
+28	Department	PROPN	I-ORG
+29	,	.	O
+30	said	VERB	O
+31	Sen.	PROPN	O
+32	Alan	PROPN	B-PER
+33	Cranston	PROPN	I-PER
+34	,	.	O
+35	D-Calif.	PROPN	O
+36	,	.	O
+37	chairman	NOUN	O
+38	of	ADP	O
+39	the	DET	O
+40	Senate	PROPN	B-ORG
+41	Committee	PROPN	I-ORG
+42	on	ADP	I-ORG
+43	Veterans	PROPN	I-ORG
+44	Affairs	PROPN	I-ORG
+45	.	.	O
+
+32:33	40:44	Work_For
+
+1	`	.	O
+2	`	.	O
+3	He	PRON	O
+4	was	VERB	O
+5	going	VERB	O
+6	pretty	ADV	O
+7	fast	ADJ	O
+8	,	.	O
+9	wasn	NOUN	O
+10	't	NOUN	O
+11	he	PRON	O
+12	?	.	O
+13	'	.	O
+14	'	.	O
+15	said	VERB	O
+16	Daniel	PROPN	B-PER
+17	Urquhart	PROPN	I-PER
+18	,	.	O
+19	8	NUM	O
+20	,	.	O
+21	of	ADP	O
+22	Aumsville	PROPN	B-LOC
+23	,	.	O
+24	whose	PRON	O
+25	slug	NOUN	O
+26	crept	VERB	O
+27	to	PRT	O
+28	the	DET	O
+29	championship.	NOUN	O
+
+16:17	22	Live_In
+
+1	The	DET	O
+2	president	NOUN	O
+3	appeared	VERB	O
+4	a	DET	O
+5	bit	NOUN	O
+6	startled	VERB	O
+7	when	ADV	O
+8	he	PRON	O
+9	saw	VERB	O
+10	Ohio	PROPN	B-LOC
+11	's	PRT	O
+12	governor	NOUN	O
+13	,	.	O
+14	Democrat	PROPN	O
+15	Richard	PROPN	B-PER
+16	Celeste.	PROPN	I-PER
+
+15:16	10	Live_In
+
+1	LD0506194194	PROPN	O
+2	Paris	PROPN	B-LOC
+3	Radio	PROPN	B-ORG
+4	France	PROPN	I-ORG
+5	International	PROPN	I-ORG
+6	in	ADP	O
+7	French	ADJ	O
+8	1830	NUM	O
+9	GMT	PROPN	O
+10	5	NUM	O
+11	Jun	PROPN	O
+12	94	NUM	O
+
+3:5	2	OrgBased_In
+
+1	Assistant	PROPN	O
+2	Charles	PROPN	B-PER
+3	A.	PROPN	I-PER
+4	Palmer	PROPN	I-PER
+5	of	ADP	O
+6	Texas	PROPN	B-LOC
+7	argued	VERB	O
+8	that	ADP	O
+9	executing	VERB	O
+10	Penry	PROPN	B-PER
+11	would	VERB	O
+12	not	ADV	O
+13	violate	VERB	O
+14	the	DET	O
+15	Constitution	PROPN	O
+16	's	PRT	O
+17	ban	NOUN	O
+18	against	ADP	O
+19	cruel	ADJ	O
+20	and	CONJ	O
+21	inhuman	ADJ	O
+22	punishment	NOUN	O
+23	.	.	O
+
+2:4	6	Live_In
+
+1	Anderson	PROPN	B-PER
+2	,	.	O
+3	41	NUM	O
+4	,	.	O
+5	was	VERB	O
+6	the	DET	O
+7	chief	NOUN	O
+8	Middle	PROPN	B-LOC
+9	East	PROPN	I-LOC
+10	correspondent	NOUN	O
+11	for	ADP	O
+12	The	DET	B-ORG
+13	Associated	PROPN	I-ORG
+14	Press	PROPN	I-ORG
+15	when	ADV	O
+16	he	PRON	O
+17	was	VERB	O
+18	kidnapped	VERB	O
+19	in	ADP	O
+20	Beirut	PROPN	B-LOC
+21	on	ADP	O
+22	March	PROPN	O
+23	16	NUM	O
+24	COMMA	.	O
+25	1985.	NOUN	O
+
+1	8:9	Live_In
+1	12:14	Work_For
+12:14	8:9	OrgBased_In
+
+1	Keen	PROPN	B-ORG
+2	Corp.	PROPN	I-ORG
+3	of	ADP	O
+4	New	PROPN	B-LOC
+5	York	PROPN	I-LOC
+6	;	.	O
+7	and	CONJ	O
+8	Eagle-Picher	PROPN	B-ORG
+9	Industries	PROPN	I-ORG
+10	of	ADP	O
+11	Cincinnati	PROPN	B-LOC
+12	,	.	O
+13	claiming	VERB	O
+14	the	DET	O
+15	companies	NOUN	O
+16	failed	VERB	O
+17	to	PRT	O
+18	warn	VERB	O
+19	him	PRON	O
+20	of	ADP	O
+21	the	DET	O
+22	risk.	NOUN	O
+
+1:2	4:5	OrgBased_In
+8:9	11	OrgBased_In
+
+1	Tensions	NOUN	O
+2	have	VERB	O
+3	increased	VERB	O
+4	in	ADP	O
+5	the	DET	O
+6	predominantly	ADV	O
+7	French-speaking	ADJ	O
+8	province	NOUN	O
+9	since	ADP	O
+10	December	PROPN	O
+11	,	.	O
+12	when	ADV	O
+13	the	DET	O
+14	Supreme	PROPN	B-ORG
+15	Court	PROPN	I-ORG
+16	of	ADP	O
+17	Canada	PROPN	B-LOC
+18	ruled	VERB	O
+19	that	ADP	O
+20	a	DET	O
+21	provincial	ADJ	O
+22	law	NOUN	O
+23	requiring	VERB	O
+24	all	DET	O
+25	signs	NOUN	O
+26	to	PRT	O
+27	be	VERB	O
+28	only	ADV	O
+29	in	ADP	O
+30	French	ADJ	O
+31	was	VERB	O
+32	unconstitutional	ADJ	O
+33	.	.	O
+
+14:15	17	OrgBased_In
+
+1	This	DET	O
+2	Latin	PROPN	O
+3	American	ADJ	O
+4	group	NOUN	O
+5	's	PRT	O
+6	reaction	NOUN	O
+7	came	VERB	O
+8	two	NUM	O
+9	days	NOUN	O
+10	after	ADP	O
+11	the	DET	O
+12	military	ADJ	O
+13	leaders	NOUN	O
+14	of	ADP	O
+15	Haiti	PROPN	B-LOC
+16	made	VERB	O
+17	Emile	PROPN	B-PER
+18	Jonassaint	PROPN	I-PER
+19	provisional	ADJ	O
+20	president	NOUN	O
+21	of	ADP	O
+22	Haiti	PROPN	B-LOC
+23	,	.	O
+24	following	VERB	O
+25	the	DET	O
+26	Haitian	ADJ	B-ORG
+27	Parliament	PROPN	I-ORG
+28	's	PRT	O
+29	declaration	NOUN	O
+30	that	ADP	O
+31	the	DET	O
+32	post	NOUN	O
+33	was	VERB	O
+34	vacant	ADJ	O
+35	.	.	O
+
+17:18	15	Live_In
+17:18	22	Live_In
+26:27	15	OrgBased_In
+26:27	22	OrgBased_In
+
+1	`	.	O
+2	`	.	O
+3	If	ADP	O
+4	it	PRON	O
+5	does	VERB	O
+6	not	ADV	O
+7	snow	NOUN	O
+8	,	.	O
+9	and	CONJ	O
+10	a	DET	O
+11	lot	NOUN	O
+12	,	.	O
+13	within	ADP	O
+14	this	DET	O
+15	month	NOUN	O
+16	we	PRON	O
+17	will	VERB	O
+18	have	VERB	O
+19	no	DET	O
+20	water	NOUN	O
+21	to	PRT	O
+22	submerge	VERB	O
+23	150	NUM	O
+24	COMMA	.	O
+25	000	NUM	O
+26	hectares	NOUN	O
+27	(	.	O
+28	370	NUM	O
+29	COMMA	.	O
+30	500	NUM	O
+31	acres	NOUN	O
+32	)	.	O
+33	of	ADP	O
+34	rice	NOUN	O
+35	,	.	O
+36	'	.	O
+37	'	.	O
+38	said	VERB	O
+39	Bruno	PROPN	B-PER
+40	Pusterla	PROPN	I-PER
+41	,	.	O
+42	a	DET	O
+43	top	ADJ	O
+44	official	NOUN	O
+45	of	ADP	O
+46	the	DET	O
+47	Italian	ADJ	B-ORG
+48	Agricultural	PROPN	I-ORG
+49	Confederation	PROPN	I-ORG
+50	.	.	O
+
+39:40	47:49	Work_For
+
+1	Pemex	PROPN	B-ORG
+2	Director	PROPN	O
+3	Francisco	PROPN	B-PER
+4	Rojas	PROPN	I-PER
+5	told	VERB	O
+6	a	DET	O
+7	news	NOUN	O
+8	conference	NOUN	O
+9	Wednesday	PROPN	O
+10	that	ADP	O
+11	the	DET	O
+12	production	NOUN	O
+13	of	ADP	O
+14	crude	ADJ	O
+15	oil	NOUN	O
+16	,	.	O
+17	gasoline	NOUN	O
+18	and	CONJ	O
+19	petrochemicals	NOUN	O
+20	had	VERB	O
+21	returned	VERB	O
+22	to	PRT	O
+23	normal	ADJ	O
+24	.	.	O
+
+3:4	1	Work_For
+
+1	Sanders	PROPN	B-PER
+2	,	.	O
+3	45	NUM	O
+4	,	.	O
+5	was	VERB	O
+6	found	VERB	O
+7	guilty	ADJ	O
+8	of	ADP	O
+9	engineering	VERB	O
+10	the	DET	O
+11	scheme	NOUN	O
+12	in	ADP	O
+13	which	DET	O
+14	Daniel	PROPN	B-PER
+15	Dewey	PROPN	I-PER
+16	,	.	O
+17	another	DET	O
+18	former	ADJ	O
+19	CBOT	PROPN	B-ORG
+20	trader	NOUN	O
+21	,	.	O
+22	donned	VERB	O
+23	a	DET	O
+24	wig	NOUN	O
+25	and	CONJ	O
+26	used	VERB	O
+27	stolen	VERB	O
+28	trader	NOUN	O
+29	badges	NOUN	O
+30	and	CONJ	O
+31	jackets	NOUN	O
+32	to	PRT	O
+33	gain	VERB	O
+34	access	NOUN	O
+35	to	PRT	O
+36	a	DET	O
+37	restricted	VERB	O
+38	area	NOUN	O
+39	in	ADP	O
+40	proximity	NOUN	O
+41	to	PRT	O
+42	the	DET	O
+43	Treasury	PROPN	O
+44	bond	NOUN	O
+45	trading	NOUN	O
+46	pit	NOUN	O
+47	.	.	O
+
+1	19	Work_For
+14:15	19	Work_For
+
+1	The	DET	O
+2	controversial	ADJ	O
+3	18	NUM	O
+4	January	PROPN	O
+5	senator	NOUN	O
+6	went	VERB	O
+7	on	ADP	O
+8	to	PRT	O
+9	say	VERB	O
+10	there	DET	O
+11	must	VERB	O
+12	be	VERB	O
+13	a	DET	O
+14	meeting	NOUN	O
+15	of	ADP	O
+16	the	DET	O
+17	26	NUM	O
+18	senators	NOUN	O
+19	so	ADP	O
+20	they	PRON	O
+21	can	VERB	O
+22	reach	VERB	O
+23	a	DET	O
+24	compromise.	NOUN	O
+25	(	.	O
+26	passage	NOUN	O
+27	omitted	VERB	O
+28	)	.	O
+29	For	ADP	O
+30	his	PRON	O
+31	part	NOUN	O
+32	,	.	O
+33	Sen.	PROPN	O
+34	Bernard	PROPN	B-PER
+35	Sansaricq	PROPN	I-PER
+36	described	VERB	O
+37	what	PRON	O
+38	happened	VERB	O
+39	at	ADP	O
+40	the	DET	O
+41	Senate	PROPN	B-ORG
+42	office	NOUN	O
+43	on	ADP	O
+44	8	NUM	O
+45	March	PROPN	O
+46	--	.	O
+47	when	ADV	O
+48	Sen.	PROPN	O
+49	Firmin	PROPN	B-PER
+50	Jean-Louis	PROPN	I-PER
+51	,	.	O
+52	legitimate	ADJ	O
+53	president	NOUN	O
+54	of	ADP	O
+55	the	DET	O
+56	Senate	PROPN	B-ORG
+57	of	ADP	O
+58	the	DET	B-LOC
+59	Republic	PROPN	I-LOC
+60	,	.	O
+61	came	VERB	O
+62	back	ADJ	O
+63	to	PRT	O
+64	his	PRON	O
+65	office	NOUN	O
+66	--	.	O
+67	as	ADP	O
+68	an	DET	O
+69	impertinence	NOUN	O
+70	.	.	O
+
+34:35	41	Work_For
+49:50	56	Work_For
+
+1	Working	PROPN	O
+2	with	ADP	O
+3	U.S.	PROPN	B-LOC
+4	Mike	PROPN	B-PER
+5	Norton	PROPN	I-PER
+6	on	ADP	O
+7	the	DET	O
+8	case	NOUN	O
+9	are	VERB	O
+10	Assistant	PROPN	O
+11	Ken	PROPN	B-PER
+12	Fimberg	PROPN	I-PER
+13	of	ADP	O
+14	Denver	PROPN	B-LOC
+15	and	CONJ	O
+16	Peter	PROPN	B-PER
+17	Murtha	PROPN	I-PER
+18	,	.	O
+19	a	DET	O
+20	special	ADJ	O
+21	prosecutor	NOUN	O
+22	in	ADP	O
+23	the	DET	O
+24	environmental	ADJ	O
+25	crime	NOUN	O
+26	section	NOUN	O
+27	of	ADP	O
+28	the	DET	O
+29	Justice	PROPN	B-ORG
+30	Department	PROPN	I-ORG
+31	in	ADP	O
+32	Washington.	PROPN	B-LOC
+
+4:5	3	Live_In
+11:12	14	Live_In
+16:17	3	Live_In
+16:17	29:30	Work_For
+16:17	32	Live_In
+29:30	3	OrgBased_In
+29:30	32	OrgBased_In
+
+1	An	DET	O
+2	outraged	VERB	O
+3	President	PROPN	O
+4	Bush	PROPN	B-PER
+5	is	VERB	O
+6	weighing	VERB	O
+7	U.S.	PROPN	B-LOC
+8	options	NOUN	O
+9	for	ADP	O
+10	responding	VERB	O
+11	to	PRT	O
+12	the	DET	O
+13	`	.	O
+14	`	.	O
+15	brutal	ADJ	O
+16	and	CONJ	O
+17	tragic	ADJ	O
+18	'	.	O
+19	'	.	O
+20	murder	NOUN	O
+21	of	ADP	O
+22	Marine	PROPN	O
+23	Lt.	PROPN	O
+24	William	PROPN	B-PER
+25	Higgins	PROPN	I-PER
+26	while	ADP	O
+27	ruling	NOUN	O
+28	out	ADP	O
+29	negotiations	NOUN	O
+30	with	ADP	O
+31	Lebanese	ADJ	O
+32	terrorists	NOUN	O
+33	threatening	VERB	O
+34	to	PRT	O
+35	kill	VERB	O
+36	more	ADJ	O
+37	hostages.	NOUN	O
+
+4	7	Live_In
+
+1	However	ADV	O
+2	,	.	O
+3	I	PRON	O
+4	do	VERB	O
+5	have	VERB	O
+6	feelings.	NOUN	O
+7	(	.	O
+8	Minoli	PROPN	B-PER
+9	)	.	O
+10	Do	VERB	O
+11	you	PRON	O
+12	think	VERB	O
+13	that	ADP	O
+14	Berlusconi	PROPN	B-PER
+15	is	VERB	O
+16	the	DET	O
+17	Freedom	PROPN	B-ORG
+18	Alliance	PROPN	I-ORG
+19	's	PRT	O
+20	candidate	NOUN	O
+21	for	ADP	O
+22	the	DET	O
+23	post	NOUN	O
+24	of	ADP	O
+25	prime	ADJ	O
+26	?	.	O
+27	(	.	O
+28	Fini	PROPN	B-PER
+29	)	.	O
+30	We	PRON	O
+31	must	VERB	O
+32	let	VERB	O
+33	the	DET	O
+34	electors	NOUN	O
+35	decide	VERB	O
+36	.	.	O
+
+14	17:18	Work_For
+
+1	Police	NOUN	O
+2	arrested	VERB	O
+3	10	NUM	O
+4	Spanish	ADJ	O
+5	Basque	PROPN	O
+6	militants	NOUN	O
+7	,	.	O
+8	including	VERB	O
+9	Jose	PROPN	B-PER
+10	Antonio	PROPN	I-PER
+11	Urutigoechea	PROPN	I-PER
+12	,	.	O
+13	considered	VERB	O
+14	by	ADP	O
+15	Madrid	PROPN	B-LOC
+16	to	PRT	O
+17	be	VERB	O
+18	a	DET	O
+19	top	ADJ	O
+20	leader	NOUN	O
+21	of	ADP	O
+22	the	DET	O
+23	Spanish	ADJ	O
+24	Basque	PROPN	O
+25	separatist	ADJ	O
+26	organization	NOUN	O
+27	ETA	PROPN	B-ORG
+28	,	.	O
+29	authorities	NOUN	O
+30	said	VERB	O
+31	today	NOUN	O
+32	.	.	O
+
+9:11	27	Work_For
+
+1	Manygate	PROPN	B-ORG
+2	Management	PROPN	I-ORG
+3	said	VERB	O
+4	Ogdon	PROPN	B-PER
+5	died	VERB	O
+6	peacefully	ADV	O
+7	after	ADP	O
+8	going	VERB	O
+9	into	ADP	O
+10	a	DET	O
+11	coma	NOUN	O
+12	following	VERB	O
+13	his	PRON	O
+14	admission	NOUN	O
+15	to	PRT	O
+16	London	PROPN	O
+17	's	PRT	O
+18	Charing	PROPN	B-LOC
+19	Cross	PROPN	I-LOC
+20	Hospital	PROPN	I-LOC
+21	Monday	PROPN	O
+22	for	ADP	O
+23	bronchopneumonia.	NOUN	O
+
+4	1:2	Work_For
+
+1	`	.	O
+2	`	.	O
+3	The	DET	O
+4	decision	NOUN	O
+5	to	PRT	O
+6	sell	VERB	O
+7	these	DET	O
+8	two	NUM	O
+9	newspapers	NOUN	O
+10	was	VERB	O
+11	not	ADV	O
+12	an	DET	O
+13	easy	ADJ	O
+14	one	NUM	O
+15	,	.	O
+16	'	.	O
+17	'	.	O
+18	said	VERB	O
+19	James	PROPN	B-PER
+20	K.	PROPN	I-PER
+21	Batten	PROPN	I-PER
+22	,	.	O
+23	Knight-Ridder	PROPN	B-ORG
+24	president	NOUN	O
+25	and	CONJ	O
+26	chief	ADJ	O
+27	executive	NOUN	O
+28	officer	NOUN	O
+29	.	.	O
+
+19:21	23	Work_For
+
+1	DAYTON	PROPN	B-LOC
+2	,	.	O
+3	Ohio	PROPN	B-LOC
+4	(	.	O
+5	AP	PROPN	B-ORG
+6	)	.	O
+
+5	1	OrgBased_In
+5	3	OrgBased_In
+
+1	Kiev	PROPN	B-LOC
+2	HOLOS	PROPN	B-ORG
+3	UKRAYINY	PROPN	I-ORG
+
+2:3	1	OrgBased_In
+
+1	Both	DET	O
+2	high	ADJ	O
+3	level	NOUN	O
+4	employees	NOUN	O
+5	as	ADV	O
+6	well	ADV	O
+7	as	ADP	O
+8	lower-level	ADJ	O
+9	ones	NOUN	O
+10	were	VERB	O
+11	obliged	VERB	O
+12	to	PRT	O
+13	clear	VERB	O
+14	out	ADP	O
+15	,	.	O
+16	to	PRT	O
+17	run	VERB	O
+18	away	ADV	O
+19	because	ADP	O
+20	of	ADP	O
+21	threats	NOUN	O
+22	by	ADP	O
+23	18	NUM	O
+24	January	PROPN	O
+25	Senator	PROPN	O
+26	Osny	PROPN	B-PER
+27	Eugene	PROPN	I-PER
+28	,	.	O
+29	the	DET	O
+30	quaestor	NOUN	O
+31	of	ADP	O
+32	the	DET	O
+33	unofficial	ADJ	O
+34	Senate	PROPN	B-ORG
+35	office	NOUN	O
+36	who	PRON	O
+37	was	VERB	O
+38	very	ADV	O
+39	angry	ADJ	O
+40	and	CONJ	O
+41	took	VERB	O
+42	off	ADP	O
+43	his	PRON	O
+44	jacket	NOUN	O
+45	so	ADP	O
+46	he	PRON	O
+47	could	VERB	O
+48	drive	VERB	O
+49	employees	NOUN	O
+50	out	ADP	O
+51	.	.	O
+
+26:27	34	Work_For
+
+1	Birand	NOUN	B-PER
+2	asserts	VERB	O
+3	that	ADP	O
+4	"	NOUN	O
+5	the	DET	O
+6	lastest	ADJ	O
+7	situation	NOUN	O
+8	on	ADP	O
+9	arms	NOUN	O
+10	supplies	NOUN	O
+11	has	VERB	O
+12	been	VERB	O
+13	created	VERB	O
+14	by	ADP	O
+15	the	DET	O
+16	problems	NOUN	O
+17	in	ADP	O
+18	Germany	PROPN	B-LOC
+19	's	PRT	O
+20	domestic	ADJ	O
+21	politics	NOUN	O
+22	,	.	O
+23	"	NOUN	O
+24	and	CONJ	O
+25	goes	VERB	O
+26	on	ADP	O
+27	to	PRT	O
+28	point	VERB	O
+29	out	ADP	O
+30	that	ADP	O
+31	the	DET	O
+32	German	PROPN	B-ORG
+33	Government	NOUN	I-ORG
+34	faces	VERB	O
+35	elections	NOUN	O
+36	this	DET	O
+37	year	NOUN	O
+38	.	.	O
+
+32:33	18	OrgBased_In
+
+1	At	ADP	O
+2	a	DET	O
+3	large	ADJ	O
+4	truck	NOUN	O
+5	stop	NOUN	O
+6	east	ADV	O
+7	of	ADP	O
+8	the	DET	O
+9	airport	NOUN	O
+10	,	.	O
+11	some	DET	O
+12	2	NUM	O
+13	,	.	O
+14	000	NUM	O
+15	truck	NOUN	O
+16	drivers	NOUN	O
+17	and	CONJ	O
+18	campers	NOUN	O
+19	waited	VERB	O
+20	for	ADP	O
+21	the	DET	O
+22	winds	VERB	O
+23	to	PRT	O
+24	die	VERB	O
+25	down	PRT	O
+26	,	.	O
+27	said	VERB	O
+28	Lance	PROPN	B-PER
+29	Davis	PROPN	I-PER
+30	,	.	O
+31	general	ADJ	O
+32	manager	NOUN	O
+33	of	ADP	O
+34	Truck	PROPN	B-ORG
+35	Stops	PROPN	I-ORG
+36	of	ADP	I-ORG
+37	America	PROPN	I-ORG
+38	in	ADP	O
+39	Ontario	PROPN	B-LOC
+40	.	.	O
+
+28:29	34:37	Work_For
+28:29	39	Live_In
+34:37	39	OrgBased_In
+
+1	On	ADP	O
+2	Monday	PROPN	O
+3	,	.	O
+4	FBI	PROPN	B-ORG
+5	spokesman	NOUN	O
+6	Doug	PROPN	B-PER
+7	Beldon	PROPN	I-PER
+8	in	ADP	O
+9	Albuquerque	PROPN	B-LOC
+10	,	.	O
+11	N.M.	PROPN	B-LOC
+12	,	.	O
+13	said	VERB	O
+14	the	DET	O
+15	agency	NOUN	O
+16	would	VERB	O
+17	provide	VERB	O
+18	background	ADJ	O
+19	information	NOUN	O
+20	on	ADP	O
+21	the	DET	O
+22	Henley	PROPN	B-PER
+23	disappearance	NOUN	O
+24	and	CONJ	O
+25	make	VERB	O
+26	available	ADJ	O
+27	its	PRON	O
+28	laboratory	NOUN	O
+29	and	CONJ	O
+30	identification	NOUN	O
+31	division	NOUN	O
+32	in	ADP	O
+33	Washington.	PROPN	B-LOC
+
+4	33	OrgBased_In
+6:7	4	Work_For
+6:7	9	Live_In
+6:7	11	Live_In
+
+1	Daniel	PROPN	B-PER
+2	Sullivan	PROPN	I-PER
+3	,	.	O
+4	30	NUM	O
+5	,	.	O
+6	of	ADP	O
+7	Boothbay	PROPN	B-LOC
+8	,	.	O
+9	went	VERB	O
+10	down	PRT	O
+11	to	PRT	O
+12	help	VERB	O
+13	and	CONJ	O
+14	also	ADV	O
+15	became	VERB	O
+16	stuck	VERB	O
+17	,	.	O
+18	Fournier	PROPN	B-PER
+19	said	VERB	O
+20	.	.	O
+
+1:2	7	Live_In
+
+1	Bloch	PROPN	B-PER
+2	also	ADV	O
+3	read	VERB	O
+4	Austrian	ADJ	O
+5	newspaper	NOUN	O
+6	accounts	VERB	O
+7	of	ADP	O
+8	the	DET	O
+9	case	NOUN	O
+10	,	.	O
+11	which	DET	O
+12	Weisner	PROPN	B-PER
+13	showed	VERB	O
+14	him	PRON	O
+15	during	ADP	O
+16	Bloch	PROPN	B-PER
+17	's	PRT	O
+18	45-minute	ADJ	O
+19	visit	NOUN	O
+20	to	PRT	O
+21	the	DET	O
+22	offices	NOUN	O
+23	of	ADP	O
+24	Austrian	ADJ	B-ORG
+25	television	NOUN	I-ORG
+26	Monday	PROPN	O
+27	afternoon	NOUN	O
+28	in	ADP	O
+29	the	DET	O
+30	Georgetown	PROPN	B-LOC
+31	section	NOUN	O
+32	of	ADP	O
+33	the	DET	O
+34	capital.	NOUN	O
+
+24:25	30	OrgBased_In
+
+1	It	PRON	O
+2	is	VERB	O
+3	not	ADV	O
+4	and	CONJ	O
+5	never	ADV	O
+6	has	VERB	O
+7	been	VERB	O
+8	designed	VERB	O
+9	or	CONJ	O
+10	advertised	VERB	O
+11	as	ADP	O
+12	a	DET	O
+13	threatening	VERB	O
+14	or	CONJ	O
+15	abusive	ADJ	O
+16	type	NOUN	O
+17	of	ADP	O
+18	thing	NOUN	O
+19	,	.	O
+20	'	.	O
+21	'	.	O
+22	said	VERB	O
+23	XBT	PROPN	B-ORG
+24	spokesman	NOUN	O
+25	Allan	PROPN	B-PER
+26	Fitzmaurice.	PROPN	I-PER
+
+25:26	23	Work_For
+
+1	Springsteen	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	New	PROPN	B-LOC
+5	Jersey	PROPN	I-LOC
+6	native	NOUN	O
+7	,	.	O
+8	was	VERB	O
+9	clearly	ADV	O
+10	the	DET	O
+11	favorite	ADJ	O
+12	,	.	O
+13	as	ADV	O
+14	calls	NOUN	O
+15	for	ADP	O
+16	`	.	O
+17	`	.	O
+18	Bruce	PROPN	B-PER
+19	'	PRT	O
+20	'	.	O
+21	drowned	VERB	O
+22	out	ADP	O
+23	the	DET	O
+24	audio	NOUN	O
+25	from	ADP	O
+26	an	DET	O
+27	animated	ADJ	O
+28	video	NOUN	O
+29	illustrating	VERB	O
+30	the	DET	O
+31	tenets	NOUN	O
+32	of	ADP	O
+33	the	DET	O
+34	Universal	PROPN	O
+35	Declaration	PROPN	O
+36	of	ADP	O
+37	Human	PROPN	O
+38	Rights	PROPN	O
+39	.	.	O
+
+1	4:5	Live_In
+
+1	`	.	O
+2	`	.	O
+3	We	PRON	O
+4	forwarded	VERB	O
+5	blood	NOUN	O
+6	samples	VERB	O
+7	from	ADP	O
+8	the	DET	O
+9	coyotes	NOUN	O
+10	to	PRT	O
+11	the	DET	O
+12	Center	PROPN	B-ORG
+13	for	ADP	I-ORG
+14	Disease	PROPN	I-ORG
+15	Control	PROPN	I-ORG
+16	in	ADP	O
+17	Fort	PROPN	B-LOC
+18	Collins	PROPN	I-LOC
+19	and	CONJ	O
+20	on	ADP	O
+21	Jan.	PROPN	O
+22	3	NUM	O
+23	they	PRON	O
+24	confirmed	VERB	O
+25	the	DET	O
+26	presence	NOUN	O
+27	of	ADP	O
+28	plague.	NOUN	O
+29	'	.	O
+30	'	.	O
+
+12:15	17:18	OrgBased_In
+
+1	Jesse	PROPN	B-PER
+2	Jackson	PROPN	I-PER
+3	on	ADP	O
+4	Sunday	PROPN	O
+5	was	VERB	O
+6	touting	VERB	O
+7	his	PRON	O
+8	big	ADJ	O
+9	win	NOUN	O
+10	in	ADP	O
+11	his	PRON	O
+12	native	NOUN	O
+13	South	PROPN	B-LOC
+14	Carolina	PROPN	I-LOC
+15	,	.	O
+16	while	ADP	O
+17	officials	NOUN	O
+18	struggled	VERB	O
+19	to	PRT	O
+20	count	VERB	O
+21	the	DET	O
+22	final	ADJ	O
+23	ballots	NOUN	O
+24	after	ADP	O
+25	a	DET	O
+26	record	NOUN	O
+27	turnout	NOUN	O
+28	at	ADP	O
+29	Democratic	ADJ	O
+30	caucuses.	NOUN	O
+
+1:2	13:14	Live_In
+
+1	Sen.	PROPN	O
+2	Jake	PROPN	B-PER
+3	Garn	PROPN	I-PER
+4	,	.	O
+5	R-Utah	PROPN	O
+6	,	.	O
+7	flew	VERB	O
+8	on	ADP	O
+9	the	DET	O
+10	shuttle	NOUN	O
+11	in	ADP	O
+12	April	PROPN	O
+13	1985	NUM	O
+14	and	CONJ	O
+15	Rep.	PROPN	O
+16	Bill	PROPN	B-PER
+17	Nelson	PROPN	I-PER
+18	,	.	O
+19	D-Fla.	PROPN	O
+20	,	.	O
+21	was	VERB	O
+22	aboard	ADP	O
+23	in	ADP	O
+24	January	PROPN	O
+25	1986	NUM	O
+26	,	.	O
+27	at	ADP	O
+28	the	DET	O
+29	invitation	NOUN	O
+30	of	ADP	O
+31	NASA	PROPN	B-ORG
+32	's	PRT	O
+33	administrator	NOUN	O
+34	.	.	O
+
+2:3	31	Work_For
+16:17	31	Work_For
+
+1	"	NOUN	O
+2	We	PRON	O
+3	didn	NOUN	O
+4	't	NOUN	O
+5	get	VERB	O
+6	a	DET	O
+7	lot	NOUN	O
+8	of	ADP	O
+9	the	DET	O
+10	test	NOUN	O
+11	objectives	NOUN	O
+12	done	VERB	O
+13	,	.	O
+14	"	NOUN	O
+15	Col.	PROPN	O
+16	Harold	PROPN	B-PER
+17	Richardson	PROPN	I-PER
+18	of	ADP	O
+19	the	DET	O
+20	U.S.	PROPN	B-ORG
+21	Strategic	PROPN	I-ORG
+22	Defense	PROPN	I-ORG
+23	Initiative	PROPN	I-ORG
+24	Office	PROPN	I-ORG
+25	told	VERB	O
+26	the	DET	O
+27	U.S.	PROPN	B-LOC
+28	magazine	NOUN	O
+29	Defense	PROPN	O
+30	News	PROPN	O
+31	.	.	O
+
+16:17	20:24	Work_For
+
+1	He	PRON	O
+2	has	VERB	O
+3	been	VERB	O
+4	the	DET	O
+5	State	PROPN	B-ORG
+6	Department	PROPN	I-ORG
+7	's	PRT	O
+8	refugee	NOUN	O
+9	coordinator	NOUN	O
+10	and	CONJ	O
+11	is	VERB	O
+12	a	DET	O
+13	former	ADJ	O
+14	Harvard	PROPN	B-ORG
+15	politics	NOUN	O
+16	professor.	NOUN	O
+17	_Ronald	NOUN	O
+18	for	ADP	O
+19	the	DET	O
+20	rank	NOUN	O
+21	of	ADP	O
+22	ambassador	NOUN	O
+23	during	ADP	O
+24	his	PRON	O
+25	tenure	NOUN	O
+26	as	ADP	O
+27	U.S.	PROPN	B-LOC
+28	negotiator	NOUN	O
+29	on	ADP	O
+30	textile	NOUN	O
+31	matters.	NOUN	O
+
+5:6	27	OrgBased_In
+14	27	OrgBased_In
+
+1	SOVETSKAYA	PROPN	O
+2	ROSSIA	PROPN	O
+3	(	.	O
+4	opposition	NOUN	O
+5	newspaper	NOUN	O
+6	)	.	O
+7	gives	VERB	O
+8	a	DET	O
+9	digest	VERB	O
+10	of	ADP	O
+11	the	DET	O
+12	report	NOUN	O
+13	on	ADP	O
+14	social	ADJ	O
+15	and	CONJ	O
+16	economic	ADJ	O
+17	situation	NOUN	O
+18	in	ADP	O
+19	Russia	PROPN	B-LOC
+20	compiled	VERB	O
+21	by	ADP	O
+22	the	DET	O
+23	Russian	PROPN	B-ORG
+24	Statistics	PROPN	I-ORG
+25	Committee	PROPN	I-ORG
+26	,	.	O
+27	which	DET	O
+28	was	VERB	O
+29	circulated	VERB	O
+30	in	ADP	O
+31	the	DET	O
+32	Kremlin	PROPN	B-LOC
+33	among	ADP	O
+34	participants	NOUN	O
+35	in	ADP	O
+36	the	DET	O
+37	enlarged	VERB	O
+38	meeting	NOUN	O
+39	of	ADP	O
+40	the	DET	O
+41	government	NOUN	O
+42	.	.	O
+
+23:25	19	OrgBased_In
+
+1	The	DET	O
+2	drug	NOUN	O
+3	is	VERB	O
+4	an	DET	O
+5	active	ADJ	O
+6	ingredient	NOUN	O
+7	in	ADP	O
+8	products	NOUN	O
+9	sold	VERB	O
+10	under	ADP	O
+11	the	DET	O
+12	trade	NOUN	O
+13	name	NOUN	O
+14	Phenergan	PROPN	O
+15	,	.	O
+16	made	VERB	O
+17	by	ADP	O
+18	Wyeth-Ayerst	PROPN	B-ORG
+19	Laboratories	PROPN	I-ORG
+20	of	ADP	O
+21	Philadelphia.	PROPN	B-LOC
+
+18:19	21	OrgBased_In
+
+1	The	DET	O
+2	Becton	PROPN	B-ORG
+3	Dickinson	PROPN	I-ORG
+4	Co.	PROPN	I-ORG
+5	of	ADP	O
+6	Franklin	PROPN	B-LOC
+7	Lakes	PROPN	I-LOC
+8	,	.	O
+9	N.J.	PROPN	B-LOC
+10	,	.	O
+11	donates	VERB	O
+12	the	DET	O
+13	needle	NOUN	O
+14	containers	NOUN	O
+15	,	.	O
+16	worth	NOUN	O
+17	about	ADP	O
+18	$2	NOUN	O
+19	each.	NOUN	O
+
+2:4	6:7	OrgBased_In
+2:4	9	OrgBased_In
+
+1	Mrs.	PROPN	B-PER
+2	Tsuruyama	PROPN	I-PER
+3	is	VERB	O
+4	from	ADP	O
+5	Yatsushiro	PROPN	B-LOC
+6	in	ADP	O
+7	Kumamoto	PROPN	B-LOC
+8	Prefecture	PROPN	I-LOC
+9	in	ADP	O
+10	southern	ADJ	O
+11	Japan	PROPN	B-LOC
+12	.	.	O
+
+1:2	5	Live_In
+1:2	7:8	Live_In
+1:2	11	Live_In
+
+1	Eds	PROPN	O
+2	:	.	O
+3	The	DET	O
+4	AP	PROPN	B-ORG
+5	LaserPhoto	PROPN	O
+6	network	NOUN	O
+7	will	VERB	O
+8	carry	VERB	O
+9	a	DET	O
+10	series	NOUN	O
+11	of	ADP	O
+12	pictures	NOUN	O
+13	by	ADP	O
+14	staff	NOUN	O
+15	Photographer	PROPN	O
+16	Jeff	PROPN	B-PER
+17	Widener	PROPN	I-PER
+18	showing	VERB	O
+19	scenes	NOUN	O
+20	of	ADP	O
+21	Bangkok	PROPN	B-LOC
+22	slum.	NOUN	O
+
+16:17	4	Work_For
+
+1	Born	VERB	O
+2	John	PROPN	B-PER
+3	Deutschendorf	PROPN	I-PER
+4	in	ADP	O
+5	Roswell	PROPN	B-LOC
+6	,	.	I-LOC
+7	N.M.	PROPN	I-LOC
+8	,	.	O
+9	and	CONJ	O
+10	raised	VERB	O
+11	in	ADP	O
+12	Oklahoma	PROPN	B-LOC
+13	,	.	O
+14	Arizona	PROPN	B-LOC
+15	and	CONJ	O
+16	Texas	PROPN	B-LOC
+17	as	ADP	O
+18	an	DET	O
+19	Air	PROPN	B-ORG
+20	Force	PROPN	I-ORG
+21	brat	NOUN	O
+22	,	.	O
+23	Denver	PROPN	B-LOC
+24	moved	VERB	O
+25	to	PRT	O
+26	Los	PROPN	B-LOC
+27	Angeles	PROPN	I-LOC
+28	to	PRT	O
+29	be	VERB	O
+30	a	DET	O
+31	folk	NOUN	O
+32	musician	NOUN	O
+33	and	CONJ	O
+34	wrote	VERB	O
+35	the	DET	O
+36	mega-hit	ADJ	O
+37	`	.	O
+38	`	.	O
+39	Leavin	PROPN	O
+40	'	.	O
+41	on	ADP	O
+42	a	DET	O
+43	Jet	PROPN	O
+44	Plane	PROPN	O
+45	'	PRT	O
+46	'	.	O
+47	in	ADP	O
+48	1969	NUM	O
+49	.	.	O
+
+2:3	5:7	Live_In
+
+1	About	ADP	O
+2	2	NUM	O
+3	,	.	O
+4	900	NUM	O
+5	firefighters	NOUN	O
+6	were	VERB	O
+7	battling	VERB	O
+8	blazes	NOUN	O
+9	in	ADP	O
+10	the	DET	O
+11	Wallowa-Whitman	PROPN	O
+12	and	CONJ	O
+13	the	DET	O
+14	Malheur	PROPN	O
+15	national	ADJ	O
+16	forests	NOUN	O
+17	near	ADP	O
+18	the	DET	O
+19	towns	NOUN	O
+20	of	ADP	O
+21	Baker	PROPN	B-LOC
+22	,	.	O
+23	Unity	PROPN	B-LOC
+24	,	.	O
+25	Enterprise	PROPN	B-LOC
+26	and	CONJ	O
+27	John	PROPN	B-LOC
+28	Day	PROPN	I-LOC
+29	,	.	O
+30	said	VERB	O
+31	Forest	PROPN	B-ORG
+32	Service	PROPN	I-ORG
+33	spokesman	NOUN	O
+34	Mike	PROPN	B-PER
+35	Ferris.	PROPN	I-PER
+
+34:35	31:32	Work_For
+
+1	`	.	O
+2	`	.	O
+3	These	DET	O
+4	are	VERB	O
+5	the	DET	O
+6	tactics	NOUN	O
+7	of	ADP	O
+8	a	DET	O
+9	marginalized	ADJ	O
+10	force	NOUN	O
+11	driven	VERB	O
+12	to	PRT	O
+13	extremes	NOUN	O
+14	by	ADP	O
+15	desperation	NOUN	O
+16	,	.	O
+17	'	.	O
+18	'	.	O
+19	said	VERB	O
+20	Abrams	PROPN	B-PER
+21	,	.	O
+22	whose	PRON	O
+23	3	NUM	O
+24	-LCB-	.	O
+25	-year	ADJ	O
+26	service	NOUN	O
+27	as	ADP	O
+28	head	NOUN	O
+29	of	ADP	O
+30	the	DET	O
+31	Latin	PROPN	B-ORG
+32	America	PROPN	I-ORG
+33	bureau	NOUN	I-ORG
+34	will	VERB	O
+35	end	VERB	O
+36	next	ADJ	O
+37	week	NOUN	O
+38	with	ADP	O
+39	the	DET	O
+40	inauguration	NOUN	O
+41	of	ADP	O
+42	President-elect	PROPN	O
+43	Bush	PROPN	B-PER
+44	.	.	O
+
+20	31:33	Work_For
+
+1	Smith	PROPN	B-PER
+2	said	VERB	O
+3	there	DET	O
+4	have	VERB	O
+5	been	VERB	O
+6	a	DET	O
+7	number	NOUN	O
+8	of	ADP	O
+9	successful	ADJ	O
+10	civil	ADJ	O
+11	cases	NOUN	O
+12	against	ADP	O
+13	gun	NOUN	O
+14	retailers	NOUN	O
+15	in	ADP	O
+16	other	ADJ	O
+17	states	NOUN	O
+18	,	.	O
+19	including	VERB	O
+20	a	DET	O
+21	recent	ADJ	O
+22	judgment	NOUN	O
+23	against	ADP	O
+24	K	PROPN	B-ORG
+25	mart	PROPN	I-ORG
+26	in	ADP	O
+27	a	DET	O
+28	similar	ADJ	O
+29	case	NOUN	O
+30	in	ADP	O
+31	St.	PROPN	B-LOC
+32	Claire	PROPN	I-LOC
+33	Shores	PROPN	I-LOC
+34	,	.	O
+35	Mich	PROPN	B-LOC
+36	.	.	I-LOC
+
+24:25	31:33	OrgBased_In
+24:25	35:36	OrgBased_In
+
+1	`	.	O
+2	`	.	O
+3	They	PRON	O
+4	'll	VERB	O
+5	work	VERB	O
+6	like	ADP	O
+7	mad	ADJ	O
+8	today	NOUN	O
+9	with	ADP	O
+10	fairly	ADV	O
+11	good	ADJ	O
+12	condiions	NOUN	O
+13	to	PRT	O
+14	make	VERB	O
+15	as	ADP	O
+16	much	ADJ	O
+17	progress	NOUN	O
+18	as	ADP	O
+19	possible	ADJ	O
+20	,	.	O
+21	'	.	O
+22	'	.	O
+23	said	VERB	O
+24	Suzanne	PROPN	B-PER
+25	Zachry	PROPN	I-PER
+26	,	.	O
+27	spokeswoman	NOUN	O
+28	for	ADP	O
+29	the	DET	O
+30	Wallowa-Whitman	PROPN	B-ORG
+31	National	PROPN	I-ORG
+32	Forest	PROPN	I-ORG
+33	near	ADP	O
+34	Baker.	PROPN	B-LOC
+
+24:25	30:32	Work_For
+
+1	Khmer	PROPN	B-ORG
+2	Rouge	PROPN	I-ORG
+3	leader	NOUN	O
+4	Khieu	PROPN	B-PER
+5	Samphan	PROPN	I-PER
+6	reportedly	ADV	O
+7	made	VERB	O
+8	a	DET	O
+9	number	NOUN	O
+10	of	ADP	O
+11	objections	NOUN	O
+12	on	ADP	O
+13	conference	NOUN	O
+14	organization	NOUN	O
+15	and	CONJ	O
+16	procedure	NOUN	O
+17	but	CONJ	O
+18	then	ADV	O
+19	went	VERB	O
+20	along	ADP	O
+21	with	ADP	O
+22	the	DET	O
+23	majority	NOUN	O
+24	after	ADP	O
+25	Chinese	PROPN	O
+26	Foreign	PROPN	O
+27	Qian	PROPN	B-PER
+28	Qichen	PROPN	I-PER
+29	met	VERB	O
+30	with	ADP	O
+31	Monday	PROPN	O
+32	with	ADP	O
+33	him	PRON	O
+34	,	.	O
+35	Sihanouk	PROPN	B-PER
+36	and	CONJ	O
+37	the	DET	O
+38	third	ADJ	O
+39	member	NOUN	O
+40	of	ADP	O
+41	their	PRON	O
+42	loose	ADJ	O
+43	alliance	NOUN	O
+44	,	.	O
+45	Son	PROPN	B-PER
+46	Sann.	PROPN	I-PER
+
+4:5	1:2	Work_For
+
+1	Stacy	PROPN	B-PER
+2	Lin	PROPN	I-PER
+3	Bickel	PROPN	I-PER
+4	,	.	O
+5	25	NUM	O
+6	,	.	O
+7	of	ADP	O
+8	Tempe	PROPN	B-LOC
+9	pleaded	VERB	O
+10	guilty	ADJ	O
+11	in	ADP	O
+12	November	PROPN	O
+13	to	PRT	O
+14	negligent	ADJ	O
+15	homicide	NOUN	O
+16	in	ADP	O
+17	the	DET	O
+18	death	NOUN	O
+19	of	ADP	O
+20	Deborah	PROPN	B-PER
+21	Sue	PROPN	I-PER
+22	Tomazin	PROPN	I-PER
+23	,	.	O
+24	24	NUM	O
+25	,	.	O
+26	of	ADP	O
+27	Phoenix	PROPN	B-LOC
+28	.	.	O
+
+1:3	8	Live_In
+20:22	27	Live_In
+
+1	The	DET	B-ORG
+2	Environmental	PROPN	I-ORG
+3	Protection	PROPN	I-ORG
+4	Agency	PROPN	I-ORG
+5	is	VERB	O
+6	working	VERB	O
+7	on	ADP	O
+8	a	DET	O
+9	brochure	NOUN	O
+10	advising	VERB	O
+11	diabetics	NOUN	O
+12	of	ADP	O
+13	the	DET	O
+14	best	ADJ	O
+15	way	NOUN	O
+16	to	PRT	O
+17	dispose	VERB	O
+18	of	ADP	O
+19	needles	NOUN	O
+20	,	.	O
+21	said	VERB	O
+22	Robin	PROPN	B-PER
+23	Woods	PROPN	I-PER
+24	,	.	O
+25	a	DET	O
+26	spokeswoman	NOUN	O
+27	for	ADP	O
+28	the	DET	O
+29	agency	NOUN	O
+30	in	ADP	O
+31	Washington	PROPN	B-LOC
+32	COMMA	.	I-LOC
+33	D.C.	PROPN	I-LOC
+34	It	PRON	O
+35	will	VERB	O
+36	suggest	VERB	O
+37	that	ADP	O
+38	diabetics	NOUN	O
+39	place	VERB	O
+40	`	.	O
+41	`	.	O
+42	sharps	NOUN	O
+43	'	.	O
+44	'	.	O
+45	_	NOUN	O
+46	the	DET	O
+47	needle	NOUN	O
+48	end	VERB	O
+49	of	ADP	O
+50	a	DET	O
+51	syringe	NOUN	O
+52	_	NOUN	O
+53	in	ADP	O
+54	a	DET	O
+55	hard	ADJ	O
+56	plastic	NOUN	O
+57	or	CONJ	O
+58	metal	NOUN	O
+59	container	NOUN	O
+60	like	ADP	O
+61	a	DET	O
+62	coffee	NOUN	O
+63	can	VERB	O
+64	before	ADP	O
+65	throwing	VERB	O
+66	it	PRON	O
+67	in	ADP	O
+68	the	DET	O
+69	trash	NOUN	O
+70	,	.	O
+71	Woods	PROPN	B-PER
+72	said.	NOUN	O
+
+1:4	31:33	OrgBased_In
+22:23	1:4	Work_For
+71	1:4	Work_For
+
+1	Mrs.	PROPN	B-PER
+2	Rose	PROPN	I-PER
+3	hired	VERB	O
+4	Abebe	PROPN	B-PER
+5	Worke	PROPN	I-PER
+6	,	.	O
+7	one	NUM	O
+8	of	ADP	O
+9	Ethiopia	PROPN	B-LOC
+10	's	PRT	O
+11	most	ADV	O
+12	distinguished	ADJ	O
+13	lawyers	NOUN	O
+14	and	CONJ	O
+15	a	DET	O
+16	former	ADJ	O
+17	member	NOUN	O
+18	of	ADP	O
+19	the	DET	O
+20	country	NOUN	O
+21	's	PRT	O
+22	High	PROPN	B-ORG
+23	Court	PROPN	I-ORG
+24	,	.	O
+25	to	PRT	O
+26	investigate.	NOUN	O
+
+4:5	9	Live_In
+4:5	22:23	Work_For
+
+1	In	ADP	O
+2	1898	NUM	O
+3	,	.	O
+4	composer	NOUN	O
+5	George	PROPN	B-PER
+6	Gershwin	PROPN	I-PER
+7	was	VERB	O
+8	born	VERB	O
+9	in	ADP	O
+10	Brooklyn	PROPN	B-LOC
+11	,	.	I-LOC
+12	N.Y.	PROPN	I-LOC
+
+5:6	10:12	Live_In
+
+1	Havana	PROPN	B-LOC
+2	Radio	PROPN	B-ORG
+3	Reloj	PROPN	I-ORG
+4	Network	PROPN	I-ORG
+
+2:4	1	OrgBased_In
+
+1	Police	NOUN	O
+2	sources	NOUN	O
+3	reported	VERB	O
+4	today	NOUN	O
+5	,	.	O
+6	Saturday	PROPN	O
+7	,	.	O
+8	that	ADP	O
+9	the	DET	O
+10	children	NOUN	O
+11	were	VERB	O
+12	found	VERB	O
+13	in	ADP	O
+14	a	DET	O
+15	home	NOUN	O
+16	owned	VERB	O
+17	by	ADP	O
+18	U.S.	PROPN	B-LOC
+19	citizen	NOUN	O
+20	Sara	PROPN	B-PER
+21	Matzar	PROPN	I-PER
+22	in	ADP	O
+23	Pabnjachel	PROPN	B-LOC
+24	in	ADP	O
+25	the	DET	O
+26	northwestern	ADJ	O
+27	department	NOUN	O
+28	of	ADP	O
+29	Solola	PROPN	B-LOC
+30	.	.	O
+
+20:21	23	Live_In
+20:21	29	Live_In
+
+1	Beijing	PROPN	B-LOC
+2	JINGJI	PROPN	B-ORG
+3	YANJIU	PROPN	I-ORG
+
+2:3	1	OrgBased_In
+
+1	Wright	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	University	PROPN	B-ORG
+5	of	ADP	I-ORG
+6	Texas	PROPN	I-ORG
+7	law	NOUN	O
+8	professor	NOUN	O
+9	,	.	O
+10	served	VERB	O
+11	as	ADP	O
+12	one	NUM	O
+13	of	ADP	O
+14	Nixon	PROPN	B-PER
+15	's	PRT	O
+16	lawyers	NOUN	O
+17	in	ADP	O
+18	1973	NUM	O
+19	and	CONJ	O
+20	1974	NUM	O
+21	while	ADP	O
+22	the	DET	O
+23	Watergate	PROPN	O
+24	special	ADJ	O
+25	prosecutor	NOUN	O
+26	was	VERB	O
+27	trying	VERB	O
+28	to	PRT	O
+29	subpoena	VERB	O
+30	the	DET	O
+31	White	PROPN	B-LOC
+32	House	PROPN	I-LOC
+33	tapes	NOUN	O
+34	.	.	O
+
+1	4:6	Work_For
+
+1	David	PROPN	B-PER
+2	Leahy	PROPN	I-PER
+3	,	.	O
+4	elections	NOUN	O
+5	supervisor	NOUN	O
+6	for	ADP	O
+7	Dade	PROPN	B-LOC
+8	County	PROPN	I-LOC
+9	,	.	O
+10	said	VERB	O
+11	his	PRON	O
+12	18	NUM	O
+13	percent	NOUN	O
+14	turnout	NOUN	O
+15	projection	NOUN	O
+16	was	VERB	O
+17	a	DET	O
+18	guess	NOUN	O
+19	because	ADP	O
+20	there	DET	O
+21	hasn	NOUN	O
+22	't	NOUN	O
+23	been	VERB	O
+24	a	DET	O
+25	special	ADJ	O
+26	congressional	ADJ	O
+27	election	NOUN	O
+28	in	ADP	O
+29	recent	ADJ	O
+30	history	NOUN	O
+31	,	.	O
+32	and	CONJ	O
+33	never	ADV	O
+34	in	ADP	O
+35	August	PROPN	O
+36	,	.	O
+37	a	DET	O
+38	vacation	VERB	O
+39	month.	NOUN	O
+
+1:2	7:8	Live_In
+
+1	STOCKTON-ON-TEES	PROPN	B-LOC
+2	,	.	O
+3	England	PROPN	B-LOC
+4	(	.	O
+5	AP	PROPN	B-ORG
+6	)	.	O
+7	_	NOUN	O
+8	Michael	PROPN	B-PER
+9	Minns	PROPN	I-PER
+10	received	VERB	O
+11	$160	NOUN	O
+12	COMMA	.	O
+13	000	NUM	O
+14	from	ADP	O
+15	the	DET	O
+16	father	NOUN	O
+17	he	PRON	O
+18	never	ADV	O
+19	knew	VERB	O
+20	and	CONJ	O
+21	thought	VERB	O
+22	was	VERB	O
+23	killed	VERB	O
+24	in	ADP	O
+25	World	PROPN	O
+26	War	PROPN	O
+27	II	PROPN	O
+28	.	.	O
+
+5	1	OrgBased_In
+5	3	OrgBased_In
+8:9	1	Live_In
+8:9	3	Live_In
+8:9	5	Work_For
+
+1	Respectfully	PROPN	O
+2	yours	PRON	O
+3	,	.	O
+4	from	ADP	O
+5	the	DET	O
+6	Mexican	ADJ	B-LOC
+7	Southeast.	PROPN	I-LOC
+8	(	.	O
+9	Signed	VERB	O
+10	)	.	O
+11	CCRI-CG	PROPN	O
+12	of	ADP	O
+13	the	DET	O
+14	EZLN	PROPN	B-ORG
+15	(	.	O
+16	Dated	PROPN	O
+17	)	.	O
+18	Mexico	PROPN	B-LOC
+19	,	.	O
+20	March	PROPN	O
+21	1994	NUM	O
+
+14	6:7	OrgBased_In
+14	18	OrgBased_In
+
+1	Maxwell	PROPN	B-ORG
+2	's	PRT	I-ORG
+3	Plum	PROPN	I-ORG
+4	,	.	O
+5	once	ADP	O
+6	a	DET	O
+7	hot	ADJ	O
+8	spot	NOUN	O
+9	among	ADP	O
+10	trendy	ADJ	O
+11	New	PROPN	O
+12	Yorkers	PROPN	O
+13	in	ADP	O
+14	the	DET	O
+15	1960s	NUM	O
+16	,	.	O
+17	saw	VERB	O
+18	its	PRON	O
+19	fortunes	NOUN	O
+20	fail	VERB	O
+21	in	ADP	O
+22	the	DET	O
+23	highly	ADV	O
+24	competitive	ADJ	O
+25	Manhattan	PROPN	B-LOC
+26	restaurant	NOUN	O
+27	market	NOUN	O
+28	of	ADP	O
+29	the	DET	O
+30	1980s	NUM	O
+31	.	.	O
+
+1:3	25	OrgBased_In
+
+1	JN0704183294	PROPN	O
+2	Paris	PROPN	B-LOC
+3	Radio	PROPN	B-ORG
+4	Monte	PROPN	I-ORG
+5	Carlo	PROPN	I-ORG
+6	in	ADP	O
+7	Arabic	PROPN	O
+8	1700	NUM	O
+9	GMT	PROPN	O
+10	7	NUM	O
+11	Apr	PROPN	O
+12	94	NUM	O
+
+3:5	2	OrgBased_In
+
+1	Some	DET	O
+2	people	NOUN	O
+3	in	ADP	O
+4	the	DET	O
+5	United	PROPN	B-LOC
+6	States	PROPN	I-LOC
+7	are	VERB	O
+8	saying	VERB	O
+9	that	ADP	O
+10	Clinton	PROPN	B-PER
+11	"	NOUN	O
+12	gave	VERB	O
+13	away	ADV	O
+14	"	NOUN	O
+15	$12	NOUN	O
+16	billion	NUM	O
+17	to	PRT	O
+18	Russia	PROPN	B-LOC
+19	--	.	O
+20	this	DET	O
+21	is	VERB	O
+22	the	DET	O
+23	amount	NOUN	O
+24	it	PRON	O
+25	is	VERB	O
+26	proposed	VERB	O
+27	to	PRT	O
+28	pay	VERB	O
+29	for	ADP	O
+30	uranium	NOUN	O
+31	destined	VERB	O
+32	for	ADP	O
+33	U.S.	PROPN	B-LOC
+34	nuclear	ADJ	O
+35	electric	ADJ	O
+36	power	NOUN	O
+37	stations	NOUN	O
+38	,	.	O
+39	which	DET	O
+40	will	VERB	O
+41	be	VERB	O
+42	obtained	VERB	O
+43	from	ADP	O
+44	our	PRON	O
+45	nuclear	ADJ	O
+46	warheads	NOUN	O
+47	.	.	O
+
+10	5:6	Live_In
+10	33	Live_In
+
+1	SAN	PROPN	B-LOC
+2	FRANCISCO	PROPN	I-LOC
+3	(	.	O
+4	AP	PROPN	B-ORG
+5	)	.	O
+
+4	1:2	OrgBased_In
+
+1	The	DET	O
+2	elder	ADJ	O
+3	Quayle	PROPN	B-PER
+4	,	.	O
+5	publisher	NOUN	O
+6	of	ADP	O
+7	the	DET	O
+8	Huntington	PROPN	B-ORG
+9	Herald-Press	PROPN	I-ORG
+10	,	.	O
+11	said	VERB	O
+12	the	DET	O
+13	family	NOUN	O
+14	is	VERB	O
+15	still	ADV	O
+16	upset	VERB	O
+17	by	ADP	O
+18	media	NOUN	O
+19	coverage	NOUN	O
+20	of	ADP	O
+21	his	PRON	O
+22	son	NOUN	O
+23	's	PRT	O
+24	selection	NOUN	O
+25	as	ADP	O
+26	President-elect	PROPN	O
+27	George	PROPN	B-PER
+28	Bush	PROPN	I-PER
+29	's	PRT	O
+30	running	VERB	O
+31	mate	NOUN	O
+32	,	.	O
+33	and	CONJ	O
+34	of	ADP	O
+35	the	DET	O
+36	campaign	NOUN	O
+37	that	ADP	O
+38	led	VERB	O
+39	to	PRT	O
+40	their	PRON	O
+41	election	NOUN	O
+42	in	ADP	O
+43	November	PROPN	O
+44	.	.	O
+
+3	8:9	Work_For
+
+1	"	NOUN	O
+2	This	DET	O
+3	is	VERB	O
+4	the	DET	O
+5	great	ADJ	O
+6	lurking	VERB	O
+7	problem	NOUN	O
+8	in	ADP	O
+9	all	DET	O
+10	technology	NOUN	O
+11	transfers	VERB	O
+12	,	.	O
+13	"	NOUN	O
+14	says	VERB	O
+15	Steven	PROPN	B-PER
+16	Bryen	PROPN	I-PER
+17	,	.	O
+18	a	DET	O
+19	former	ADJ	O
+20	Pentagon	PROPN	B-ORG
+21	official	NOUN	O
+22	responsible	ADJ	O
+23	for	ADP	O
+24	U.S.	PROPN	B-LOC
+25	technology	NOUN	O
+26	transfers	VERB	O
+27	.	.	O
+
+15:16	20	Work_For
+
+1	In	ADP	O
+2	1936	NUM	O
+3	,	.	O
+4	rock	NOUN	O
+5	legend	NOUN	O
+6	Buddy	PROPN	B-PER
+7	Holly	PROPN	I-PER
+8	was	VERB	O
+9	born	VERB	O
+10	Charles	PROPN	B-PER
+11	Hardin	PROPN	I-PER
+12	Holley	PROPN	I-PER
+13	in	ADP	O
+14	Lubbock	PROPN	B-LOC
+15	,	.	I-LOC
+16	Texas	PROPN	I-LOC
+17	.	.	O
+
+6:7	14:16	Live_In
+10:12	14:16	Live_In
+
+1	(	.	O
+2	Text	PROPN	O
+3	)	.	O
+4	Moscow	PROPN	B-LOC
+5	April	PROPN	O
+6	25	NUM	O
+7	TASS	PROPN	B-ORG
+8	--	.	O
+9	Preliminary	ADJ	O
+10	marine	ADJ	O
+11	pollution	NOUN	O
+12	measurements	NOUN	O
+13	taken	VERB	O
+14	from	ADP	O
+15	the	DET	O
+16	sites	NOUN	O
+17	of	ADP	O
+18	radioactive	ADJ	O
+19	waste	NOUN	O
+20	dumping	VERB	O
+21	by	ADP	O
+22	the	DET	O
+23	former	ADJ	O
+24	Soviet	PROPN	B-LOC
+25	Union	PROPN	I-LOC
+26	and	CONJ	O
+27	Japan	PROPN	B-LOC
+28	in	ADP	O
+29	the	DET	O
+30	Sea	PROPN	B-LOC
+31	of	ADP	I-LOC
+32	Japan	PROPN	I-LOC
+33	did	VERB	O
+34	not	ADV	O
+35	reveal	VERB	O
+36	any	DET	O
+37	Caesium-137	PROPN	O
+38	radioactive	ADJ	O
+39	level	NOUN	O
+40	fluctuations	NOUN	O
+41	.	.	O
+
+7	4	OrgBased_In
+
+1	Leslie	PROPN	B-PER
+2	Kota	PROPN	I-PER
+3	,	.	O
+4	a	DET	O
+5	spokeswoman	NOUN	O
+6	for	ADP	O
+7	K	PROPN	B-ORG
+8	mart	NOUN	I-ORG
+9	based	VERB	O
+10	in	ADP	O
+11	Troy	PROPN	B-LOC
+12	,	.	O
+13	Mich.	PROPN	B-LOC
+14	,	.	O
+15	said	VERB	O
+16	the	DET	O
+17	company	NOUN	O
+18	would	VERB	O
+19	appeal	VERB	O
+20	the	DET	O
+21	ruling	NOUN	O
+22	.	.	O
+
+1:2	7:8	Work_For
+7:8	11	OrgBased_In
+7:8	13	OrgBased_In
+
+1	`	.	O
+2	`	.	O
+3	Temperatures	PROPN	O
+4	didn	NOUN	O
+5	't	NOUN	O
+6	get	VERB	O
+7	too	ADV	O
+8	low	ADJ	O
+9	,	.	O
+10	but	CONJ	O
+11	the	DET	O
+12	wind	NOUN	O
+13	chill	NOUN	O
+14	was	VERB	O
+15	bad	ADJ	O
+16	,	.	O
+17	'	.	O
+18	'	.	O
+19	said	VERB	O
+20	Bingham	PROPN	B-LOC
+21	County	PROPN	I-LOC
+22	Sheriff	PROPN	O
+23	's	PRT	O
+24	Lt.	PROPN	O
+25	Bill	PROPN	B-PER
+26	Gordon	PROPN	I-PER
+27	.	.	O
+
+25:26	20:21	Live_In
+
+1	94AS0286D	NOUN	O
+2	Madras	PROPN	B-LOC
+3	THE	DET	B-ORG
+4	HINDU	PROPN	I-ORG
+5	in	ADP	O
+6	English	PROPN	O
+7	7	NUM	O
+8	May	PROPN	O
+9	94	NUM	O
+10	p	NOUN	O
+11	13	NUM	O
+
+3:4	2	OrgBased_In
+
+1	JN3003215794	PROPN	O
+2	Baghdad	PROPN	B-LOC
+3	BABIL	PROPN	B-ORG
+4	in	ADP	O
+5	Arabic	PROPN	O
+6	26	NUM	O
+7	Mar	PROPN	O
+8	94	NUM	O
+9	p	NOUN	O
+10	2	NUM	O
+
+3	2	OrgBased_In
+
+1	Warner	PROPN	B-PER
+2	,	.	O
+3	70	NUM	O
+4	,	.	O
+5	who	PRON	O
+6	owned	VERB	O
+7	the	DET	O
+8	failed	VERB	O
+9	Home	PROPN	B-ORG
+10	State	PROPN	I-ORG
+11	Savings	PROPN	I-ORG
+12	Bank	PROPN	I-ORG
+13	of	ADP	I-ORG
+14	Cincinnati	PROPN	I-ORG
+15	,	.	O
+16	had	VERB	O
+17	filed	VERB	O
+18	in	ADP	O
+19	October	PROPN	O
+20	1987	NUM	O
+21	a	DET	O
+22	petition	NOUN	O
+23	for	ADP	O
+24	protection	NOUN	O
+25	from	ADP	O
+26	his	PRON	O
+27	creditors	NOUN	O
+28	under	ADP	O
+29	Chapter	PROPN	O
+30	11	NUM	O
+31	of	ADP	O
+32	the	DET	O
+33	Federal	PROPN	O
+34	Bankruptcy	PROPN	O
+35	Act.	PROPN	O
+
+1	9:14	Work_For
+
+1	Thurgood	PROPN	B-PER
+2	Marshall	PROPN	I-PER
+3	was	VERB	O
+4	born	VERB	O
+5	in	ADP	O
+6	Baltimore	PROPN	B-LOC
+7	in	ADP	O
+8	1908	NUM	O
+9	.	.	O
+
+1:2	6	Live_In
+
+1	BSP	PROPN	O
+2	,	.	O
+3	SDS	PROPN	O
+4	Support	PROPN	O
+5	Noninvolvement	PROPN	O
+6	in	ADP	O
+7	Bosnia	PROPN	B-LOC
+8	AU1502173794	PROPN	O
+9	Sofia	PROPN	B-LOC
+10	BTA	PROPN	B-ORG
+11	in	ADP	O
+12	English	PROPN	O
+13	1646	NUM	O
+14	GMT	PROPN	O
+15	15	NUM	O
+16	Feb	PROPN	O
+17	94	NUM	O
+
+10	9	OrgBased_In
+
+1	Hernandez	PROPN	B-PER
+2	Galicia	PROPN	I-PER
+3	's	PRT	O
+4	allegedly	ADV	O
+5	corrupt	ADJ	O
+6	Mexican	PROPN	B-ORG
+7	Oil	PROPN	I-ORG
+8	Workers	PROPN	I-ORG
+9	Union	PROPN	I-ORG
+10	controls	VERB	O
+11	more	ADJ	O
+12	than	ADP	O
+13	half	DET	O
+14	the	DET	O
+15	lucrative	ADJ	O
+16	drilling	NOUN	O
+17	contracts	NOUN	O
+18	issued	VERB	O
+19	by	ADP	O
+20	the	DET	O
+21	state	NOUN	O
+22	oil	NOUN	O
+23	monopoly	NOUN	O
+24	,	.	O
+25	Pemex	PROPN	B-ORG
+26	.	.	O
+
+1:2	6:9	Work_For
+
+1	Tokyo	PROPN	B-LOC
+2	YOMIURI	PROPN	B-ORG
+3	SHIMBUN	PROPN	I-ORG
+
+2:3	1	OrgBased_In
+
+1	One	NUM	O
+2	of	ADP	O
+3	Warner	PROPN	O
+4	's	PRT	O
+5	lawyers	NOUN	O
+6	,	.	O
+7	Andrew	PROPN	B-PER
+8	Hall	PROPN	I-PER
+9	of	ADP	O
+10	Miami	PROPN	B-LOC
+11	,	.	O
+12	Fla.	PROPN	B-LOC
+13	,	.	O
+14	confirmed	VERB	O
+15	Tuesday	PROPN	O
+16	that	ADP	O
+17	Warner	PROPN	B-PER
+18	is	VERB	O
+19	trying	VERB	O
+20	to	PRT	O
+21	settle	VERB	O
+22	the	DET	O
+23	case.	NOUN	O
+
+7:8	10	Live_In
+7:8	12	Live_In
+
+1	(	.	O
+2	Article	PROPN	O
+3	by	ADP	O
+4	Nick	PROPN	B-PER
+5	Rufford	PROPN	I-PER
+6	,	.	O
+7	Far	PROPN	B-LOC
+8	East	PROPN	I-LOC
+9	correspondent	NOUN	O
+10	)	.	O
+
+4:5	7:8	Live_In
+
+1	`	.	O
+2	`	.	O
+3	They	PRON	O
+4	plan	VERB	O
+5	to	PRT	O
+6	resubmit	VERB	O
+7	their	PRON	O
+8	proposal	NOUN	O
+9	,	.	O
+10	and	CONJ	O
+11	for	ADP	O
+12	the	DET	O
+13	moment	NOUN	O
+14	have	VERB	O
+15	pledged	VERB	O
+16	that	ADP	O
+17	the	DET	O
+18	St.	PROPN	B-LOC
+19	Louis	PROPN	I-LOC
+20	Street	PROPN	I-LOC
+21	side	VERB	O
+22	be	VERB	O
+23	dedicated	VERB	O
+24	to	PRT	O
+25	native	ADJ	O
+26	New	PROPN	B-LOC
+27	Orleans	PROPN	I-LOC
+28	musicians	NOUN	O
+29	such	ADJ	O
+30	as	ADP	O
+31	Fats	PROPN	B-PER
+32	Domino	PROPN	I-PER
+33	,	.	O
+34	'	.	O
+35	'	.	O
+36	said	VERB	O
+37	spokeswoman	NOUN	O
+38	Barbara	PROPN	B-PER
+39	Hutson	PROPN	I-PER
+40	in	ADP	O
+41	a	DET	O
+42	news	NOUN	O
+43	release	NOUN	O
+44	Friday	PROPN	O
+45	.	.	O
+
+31:32	26:27	Live_In
+
+1	The	DET	O
+2	eight-pound	ADJ	O
+3	bomb	NOUN	O
+4	had	VERB	O
+5	a	DET	O
+6	detonator	NOUN	O
+7	charge	NOUN	O
+8	,	.	O
+9	similar	ADJ	O
+10	to	PRT	O
+11	a	DET	O
+12	shotgun	NOUN	O
+13	shell	NOUN	O
+14	,	.	O
+15	that	ADP	O
+16	emits	VERB	O
+17	smoke	VERB	O
+18	when	ADV	O
+19	it	PRON	O
+20	hits	VERB	O
+21	the	DET	O
+22	ground	NOUN	O
+23	,	.	O
+24	said	VERB	O
+25	Bert	PROPN	B-PER
+26	Byers	PROPN	I-PER
+27	,	.	O
+28	spokesman	NOUN	O
+29	for	ADP	O
+30	Cecil	PROPN	B-ORG
+31	Field	PROPN	I-ORG
+32	Naval	PROPN	I-ORG
+33	Air	PROPN	I-ORG
+34	Station	PROPN	I-ORG
+35	.	.	O
+
+25:26	30:34	Work_For
+
+1	In	ADP	O
+2	the	DET	O
+3	field	NOUN	O
+4	of	ADP	O
+5	mechanics	NOUN	O
+6	,	.	O
+7	Wang	PROPN	B-PER
+8	Ziqiang	PROPN	I-PER
+9	at	ADP	O
+10	the	DET	O
+11	Institute	PROPN	B-ORG
+12	of	ADP	I-ORG
+13	Mechanics	PROPN	I-ORG
+14	has	VERB	O
+15	made	VERB	O
+16	considerable	ADJ	O
+17	headway	NOUN	O
+18	in	ADP	O
+19	the	DET	O
+20	area	NOUN	O
+21	of	ADP	O
+22	elastoplastic	ADJ	O
+23	crack	NOUN	O
+24	mechanics	NOUN	O
+25	.	.	O
+
+7:8	11:13	Work_For
+
+1	Reynie	PROPN	B-PER
+2	Ortiz	PROPN	I-PER
+3	,	.	O
+4	resident	NOUN	O
+5	of	ADP	O
+6	U	PROPN	B-ORG
+7	S	PRT	I-ORG
+8	West	PROPN	I-ORG
+9	International	PROPN	I-ORG
+10	,	.	O
+11	said	VERB	O
+12	the	DET	O
+13	franchise	NOUN	O
+14	is	VERB	O
+15	important	ADJ	O
+16	because	ADP	O
+17	Hong	PROPN	B-LOC
+18	Kong	PROPN	I-LOC
+19	is	VERB	O
+20	growing	VERB	O
+21	as	ADP	O
+22	an	DET	O
+23	international	ADJ	O
+24	trade	NOUN	O
+25	center	NOUN	O
+26	and	CONJ	O
+27	a	DET	O
+28	gateway	NOUN	O
+29	to	PRT	O
+30	Asian	ADJ	O
+31	business.	NOUN	O
+
+1:2	6:9	Work_For
+
+1	Harrington	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	professor	NOUN	O
+5	of	ADP	O
+6	political	ADJ	O
+7	science	NOUN	O
+8	at	ADP	O
+9	Queens	PROPN	B-ORG
+10	College	PROPN	I-ORG
+11	of	ADP	O
+12	the	DET	O
+13	City	PROPN	B-ORG
+14	University	PROPN	I-ORG
+15	of	ADP	I-ORG
+16	New	PROPN	I-ORG
+17	York	PROPN	I-ORG
+18	and	CONJ	O
+19	honorary	ADJ	O
+20	president	NOUN	O
+21	of	ADP	O
+22	the	DET	O
+23	Socialist	PROPN	B-ORG
+24	International	PROPN	I-ORG
+25	,	.	O
+26	died	VERB	O
+27	Monday	PROPN	O
+28	night	NOUN	O
+29	at	ADP	O
+30	his	PRON	O
+31	home	NOUN	O
+32	in	ADP	O
+33	suburban	ADJ	O
+34	Larchmont	PROPN	B-LOC
+35	,	.	O
+36	the	DET	O
+37	university	NOUN	O
+38	said	VERB	O
+39	in	ADP	O
+40	a	DET	O
+41	statement	NOUN	O
+42	Tuesday.	PROPN	O
+
+1	9:10	Work_For
+1	13:17	Work_For
+1	23:24	Work_For
+1	34	Live_In
+
+1	Walesa	PROPN	B-PER
+2	,	.	O
+3	a	DET	O
+4	shipyard	NOUN	O
+5	electrician	NOUN	O
+6	who	PRON	O
+7	founded	VERB	O
+8	the	DET	O
+9	independent	ADJ	O
+10	Solidarity	PROPN	B-ORG
+11	union	NOUN	O
+12	movement	NOUN	O
+13	in	ADP	O
+14	1980	NUM	O
+15	,	.	O
+16	said	VERB	O
+17	Poles	NOUN	O
+18	are	VERB	O
+19	restive	ADJ	O
+20	and	CONJ	O
+21	fed	VERB	O
+22	up	ADP	O
+23	with	ADP	O
+24	high	ADJ	O
+25	prices	NOUN	O
+26	and	CONJ	O
+27	shortages	NOUN	O
+28	.	.	O
+
+1	10	Work_For
+
+1	Soviet	PROPN	B-LOC
+2	Foreign	ADJ	O
+3	Eduard	PROPN	B-PER
+4	A.	PROPN	I-PER
+5	Shevardnadze	PROPN	I-PER
+6	is	VERB	O
+7	to	PRT	O
+8	visit	VERB	O
+9	China	PROPN	B-LOC
+10	next	ADJ	O
+11	month	NOUN	O
+12	to	PRT	O
+13	pave	VERB	O
+14	the	DET	O
+15	way	NOUN	O
+16	for	ADP	O
+17	the	DET	O
+18	first	ADJ	O
+19	Chinese-Soviet	PROPN	O
+20	summit	NOUN	O
+21	in	ADP	O
+22	30	NUM	O
+23	years	NOUN	O
+24	,	.	O
+25	Chinese	ADJ	O
+26	television	NOUN	O
+27	reported	VERB	O
+28	Monday	PROPN	O
+29	.	.	O
+
+3:5	1	Live_In
+
+1	President	PROPN	O
+2	Bush	PROPN	B-PER
+3	announced	VERB	O
+4	Tuesday	PROPN	O
+5	the	DET	O
+6	United	PROPN	B-LOC
+7	States	PROPN	I-LOC
+8	will	VERB	O
+9	provide	VERB	O
+10	up	ADP	O
+11	to	PRT	O
+12	$50	NOUN	O
+13	million	NUM	O
+14	in	ADP	O
+15	food	NOUN	O
+16	aid	NOUN	O
+17	for	ADP	O
+18	Poland	PROPN	B-LOC
+19	to	PRT	O
+20	help	VERB	O
+21	avert	VERB	O
+22	shortages	NOUN	O
+23	in	ADP	O
+24	the	DET	O
+25	country	NOUN	O
+26	as	ADP	O
+27	it	PRON	O
+28	struggles	VERB	O
+29	to	PRT	O
+30	reform	VERB	O
+31	its	PRON	O
+32	government	NOUN	O
+33	and	CONJ	O
+34	economy.	NOUN	O
+
+2	6:7	Live_In
+
+1	If	ADP	O
+2	there	DET	O
+3	has	VERB	O
+4	been	VERB	O
+5	an	DET	O
+6	undisputed	ADJ	O
+7	rookie	NOUN	O
+8	of	ADP	O
+9	the	DET	O
+10	season	NOUN	O
+11	it	PRON	O
+12	has	VERB	O
+13	been	VERB	O
+14	Camden	PROPN	B-LOC
+15	Yards	PROPN	I-LOC
+16	,	.	O
+17	home	NOUN	O
+18	of	ADP	O
+19	the	DET	O
+20	Baltimore	PROPN	B-ORG
+21	Orioles	PROPN	I-ORG
+22	,	.	O
+23	a	DET	O
+24	distinguished	VERB	O
+25	new-old	ADJ	O
+26	stadium	NOUN	O
+27	built	VERB	O
+28	on	ADP	O
+29	the	DET	O
+30	spot	NOUN	O
+31	where	ADV	O
+32	Babe	PROPN	B-PER
+33	Ruth	PROPN	I-PER
+34	is	VERB	O
+35	believed	VERB	O
+36	to	PRT	O
+37	have	VERB	O
+38	been	VERB	O
+39	born	VERB	O
+40	and	CONJ	O
+41	nestling	VERB	O
+42	majestically	ADV	O
+43	among	ADP	O
+44	the	DET	O
+45	warehouses	NOUN	O
+46	of	ADP	O
+47	the	DET	O
+48	inner	ADJ	O
+49	city	NOUN	O
+50	.	.	O
+
+32:33	14:15	Live_In
+
+1	Winter	PROPN	B-PER
+2	,	.	O
+3	53	NUM	O
+4	,	.	O
+5	a	DET	O
+6	former	ADJ	O
+7	Yale	PROPN	B-ORG
+8	University	PROPN	I-ORG
+9	law	NOUN	O
+10	professor	NOUN	O
+11	who	PRON	O
+12	became	VERB	O
+13	a	DET	O
+14	judge	NOUN	O
+15	in	ADP	O
+16	1982	NUM	O
+17	,	.	O
+18	and	CONJ	O
+19	Starr	PROPN	B-PER
+20	,	.	O
+21	42	NUM	O
+22	,	.	O
+23	who	PRON	O
+24	served	VERB	O
+25	as	ADP	O
+26	couselor	NOUN	O
+27	to	PRT	O
+28	Attorney	PROPN	O
+29	William	PROPN	B-PER
+30	French	PROPN	I-PER
+31	Smith	PROPN	I-PER
+32	from	ADP	O
+33	1981	NUM	O
+34	until	ADP	O
+35	his	PRON	O
+36	appointment	NOUN	O
+37	to	PRT	O
+38	the	DET	O
+39	D.C.	PROPN	B-ORG
+40	Circuit	PROPN	I-ORG
+41	in	ADP	O
+42	1983	NUM	O
+43	,	.	O
+44	had	VERB	O
+45	been	VERB	O
+46	mentioned	VERB	O
+47	as	ADP	O
+48	possible	ADJ	O
+49	Supreme	PROPN	B-ORG
+50	Court	PROPN	I-ORG
+51	nominees	NOUN	O
+52	following	VERB	O
+53	the	DET	O
+54	1987	NUM	O
+55	retirement	NOUN	O
+56	of	ADP	O
+57	Justice	PROPN	O
+58	Lewis	PROPN	B-PER
+59	Powell	PROPN	I-PER
+60	.	.	O
+
+1	7:8	Work_For
+19	39:40	Work_For
+58:59	49:50	Work_For
+
+1	Chris	PROPN	B-PER
+2	Herr	X	I-PER
+3	,	.	O
+4	shearer	NOUN	O
+5	for	ADP	O
+6	the	DET	O
+7	winning	VERB	O
+8	Wool	PROPN	B-ORG
+9	Wizards	PROPN	I-ORG
+10	,	.	O
+11	finished	VERB	O
+12	his	PRON	O
+13	sheep	NOUN	O
+14	first	ADV	O
+15	in	ADP	O
+16	about	ADP	O
+17	2	NUM	O
+18	-LCB-	.	O
+19	minutes	NOUN	O
+20	.	.	O
+
+1:2	8:9	Work_For
+
+1	However	ADV	O
+2	,	.	O
+3	Franca	PROPN	B-PER
+4	Chlistovsky	PROPN	I-PER
+5	,	.	O
+6	who	PRON	O
+7	heads	VERB	O
+8	the	DET	O
+9	Brera	PROPN	B-ORG
+10	metereologic	ADJ	I-ORG
+11	institute	NOUN	I-ORG
+12	in	ADP	O
+13	Milan	PROPN	B-LOC
+14	,	.	O
+15	said	VERB	O
+16	this	DET	O
+17	winter	NOUN	O
+18	's	PRT	O
+19	dry	ADV	O
+20	spell	NOUN	O
+21	was	VERB	O
+22	not	ADV	O
+23	exceptional	ADJ	O
+24	and	CONJ	O
+25	several	ADJ	O
+26	worse	ADJ	O
+27	years	NOUN	O
+28	have	VERB	O
+29	been	VERB	O
+30	registered	VERB	O
+31	since	ADP	O
+32	1950	NUM	O
+33	.	.	O
+
+3:4	9:11	Work_For
+9:11	13	OrgBased_In
+
+1	In	ADP	O
+2	Beijing	PROPN	B-LOC
+3	Thursday	PROPN	O
+4	,	.	O
+5	spokesman	NOUN	O
+6	Li	PROPN	B-PER
+7	repeated	VERB	O
+8	China	PROPN	B-LOC
+9	's	PRT	O
+10	position	NOUN	O
+11	that	ADP	O
+12	the	DET	O
+13	key	NOUN	O
+14	to	PRT	O
+15	the	DET	O
+16	solution	NOUN	O
+17	of	ADP	O
+18	the	DET	O
+19	Cambodian	ADJ	O
+20	conflict	NOUN	O
+21	`	.	O
+22	`	.	O
+23	lies	VERB	O
+24	in	ADP	O
+25	the	DET	O
+26	genuine	ADJ	O
+27	and	CONJ	O
+28	complete	ADJ	O
+29	Vietnamese	ADJ	O
+30	troop	NOUN	O
+31	withdrawal	NOUN	O
+32	at	ADP	O
+33	the	DET	O
+34	earliest	ADJ	O
+35	possible	ADJ	O
+36	date	NOUN	O
+37	and	CONJ	O
+38	effective	ADJ	O
+39	international	ADJ	O
+40	supervision.	NOUN	O
+41	'	.	O
+42	'	.	O
+
+6	2	Live_In
+6	8	Live_In
+
+1	Rep.	PROPN	O
+2	Tim	PROPN	B-PER
+3	Valentine	PROPN	I-PER
+4	,	.	O
+5	D-N.C.	PROPN	O
+6	,	.	O
+7	however	ADV	O
+8	,	.	O
+9	said	VERB	O
+10	he	PRON	O
+11	cannot	NOUN	O
+12	understand	VERB	O
+13	why	ADV	O
+14	illegal	ADJ	O
+15	aliens	NOUN	O
+16	should	VERB	O
+17	be	VERB	O
+18	allowed	VERB	O
+19	to	PRT	O
+20	dilute	VERB	O
+21	the	DET	O
+22	representation	NOUN	O
+23	of	ADP	O
+24	U.S.	PROPN	B-LOC
+25	citizens.	NOUN	O
+
+2:3	24	Live_In
+
+1	LD2804174994	PROPN	O
+2	Moscow	PROPN	B-LOC
+3	INTERFAX	PROPN	B-ORG
+4	in	ADP	O
+5	English	PROPN	O
+6	1601	NUM	O
+7	GMT	PROPN	O
+8	28	NUM	O
+9	Apr	PROPN	O
+10	94	NUM	O
+
+3	2	OrgBased_In
+
