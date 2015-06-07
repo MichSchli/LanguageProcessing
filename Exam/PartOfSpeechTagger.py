@@ -321,10 +321,13 @@ if __name__ == "__main__":
 
             #Read in the sentences:
             sentences,gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+            gold = list(itertools.chain(*gold))
             classes = list(set(gold))
+            gold = [classes.index(g)+1 for g in gold]
             c = len(classes)
 
             #Tag the sentences:
+            print >> sys.stderr, "Tag train..."
             sentence_pred = sp.predict_sentences(sentences)
             train_pred = list(itertools.chain(*sentence_pred))
             train_pred = [classes.index(e)+1 for e in train_pred]
@@ -335,6 +338,7 @@ if __name__ == "__main__":
             sentences,_,_gold = Preprocessing.parse_full_re_file('re/dev.gold')
 
             #Tag the sentences:
+            print >> sys.stderr, "Tag dev..."
             sentence_pred = sp.predict_sentences(sentences)
             dev_pred = list(itertools.chain(*sentence_pred))
             dev_pred = [classes.index(e)+1 for e in dev_pred]
@@ -346,6 +350,7 @@ if __name__ == "__main__":
             sentences,_,_gold = Preprocessing.parse_full_re_file('re/test.gold')
 
             #Tag the sentences:
+            print >> sys.stderr, "Tag test..."
             sentence_pred = sp.predict_sentences(sentences)
             test_pred = list(itertools.chain(*sentence_pred))
             test_pred = [classes.index(e)+1 for e in test_pred]
