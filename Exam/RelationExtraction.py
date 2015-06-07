@@ -60,25 +60,37 @@ def featurize(sentence, e1, e2, pos, dependency_parse=None):
         feature.append('between_pos='+pos[j])
 
     if dependency_parse is not None:
-        e1_words = sentence[e1['start']:e1['end']+1]
-        e2_words = sentence[e1['start']:e1['end']+1]
+        e1_indices = range(e1['start']+1, e1['end']+2)
+        e2_indices = range(e2['start']+1, e2['end']+2)
 
-        print dependency_parse.nodes()
-        print sentence
-        print e1
-        print e2
+        e1_heads = [dependency_parse.successors(w)[0] for w in e1_indices]
+        e1_outside_heads = set([w for w in e1_heads if not w in e1_indices])
+        e1_inside_heads = set([w for w in e1_indices if dependency_parse.successors(w)[0] not in e1_indices])
 
-        e1_heads = [dependency_parse.successors(w)[0] for w in e1_words]
-        e1_outside_heads = set([w for w in e1_heads if not w in e1_words])
+        e2_heads = [dependency_parse.successors(w)[0] for w in e2_indices]
+        e2_outside_heads = set([w for w in e2_heads if not w in e2_indices])
+        e2_inside_heads = set([w for w in e2_indices if dependency_parse.successors(w)[0] not in e2_indices])
 
-        e2_heads = [dependency_parse.successors(w)[0] for w in e2_words]
-        e2_outside_heads = set([w for w in e2_heads if not w in e2_words])
+        #Find the shortest path between two of the heads:
+        h1 = list(e1_inside_heads)[0]
+        h2 = list(e2_inside_heads)[0]
 
+        d = nx.shortest_path_length(dependency_parse.to_undirected(), h1, h2)
 
-        print e1_outside_heads
-        print e2_outside_heads
+        feature.append('head_dist='+str(d))
 
-    print feature
+        for head in e1_outside_heads:
+            feature.append('e1_outside_head='+sentence[head-1])
+
+        for head in e2_outside_heads:
+            feature.append('e2_outside_head='+sentence[head-1])
+
+        for head in e1_inside_heads:
+            feature.append('e1_inside_head='+sentence[head-1])
+
+        for head in e2_inside_heads:
+            feature.append('e2_inside_head='+sentence[head-1])
+
     return feature
 
 
@@ -361,7 +373,8 @@ if __name__ == '__main__':
         test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
         test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
 
-
+        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations, use_dependency_features=False)
+        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations, use_dependency_features=False)
         Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
         Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
 

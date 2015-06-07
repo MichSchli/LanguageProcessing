@@ -162,12 +162,10 @@ def read_dependency_file(filename):
 
 def process_dependency_parse(sentence):
     G = nx.DiGraph()
-    G.add_node('HEAD', index=0, type='HEAD')
+    G.add_node(0, word='HEAD', type='HEAD')
     for elem in sentence:
-        G.add_node(elem[1], index=int(elem[0]), type=elem[7])
-        p = int(elem[6])
-        parent = 'HEAD' if p == 0 else sentence[p-1][1]
-        G.add_edge(elem[1], parent)
+        G.add_node(int(elem[0]), word=elem[1], type=elem[7])
+        G.add_edge(int(elem[0]), int(elem[6]))
 
     return G
 

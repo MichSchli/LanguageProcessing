@@ -83,7 +83,7 @@ def find_best_svm_params_detector(data, labels, use_dependency_features=False):
     def create(mode, dep, p):
         return RelationExtraction.RelationDetector(mode, dep, p)
 
-    scale = [10**v for v in xrange(0,1)]
+    scale = [10**v for v in xrange(-5,6)]
 
     def cval_func(data, labels, param1, param2):
         return cross_validate(data, labels, 5, create, ['SVM', use_dependency_features, [param1, param2]])
@@ -94,7 +94,7 @@ def find_best_svm_params_classifier(data, labels, use_dependency_features=False)
     def create(mode, dep, p):
         return RelationExtraction.RelationClassifier(mode, dep, p)
 
-    scale = [10**v for v in xrange(0,1)]
+    scale = [10**v for v in xrange(-5,6)]
 
     def cval_func(data, labels, param1, param2):
         return cross_validate(data, labels, 5, create, ['SVM', use_dependency_features, [param1, param2]])

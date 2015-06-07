@@ -90,6 +90,6 @@ if __name__=="__main__":
     pos = Preprocessing.parse_processed_sentence_file(args.pos)
     if args.ner:
         gold = Preprocessing.parse_processed_sentence_file(args.ner)
-        extract_data(sentences, pos, gold)
+        extract_data(sentences, pos, labels=gold)
     else:
         extract_data(sentences, pos)
