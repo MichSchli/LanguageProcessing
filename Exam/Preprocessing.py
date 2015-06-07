@@ -175,9 +175,14 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="Contains implementation for two relation extraction strategies.")
     parser.add_argument("--input", required=True, help="Specify the input file")
+    parser.add_argument("--kill_sentences", required=False, action='store_true')
     args = parser.parse_args()
 
     f = args.input
 
-    sentences = parse_sentence_file(f)
-    Postprocessing.print_sentence_list(sentences)
+    if args.kill_sentences:
+        sentences, other = parse_sentence_pos_file(f)
+        Postprocessing.print_sentence_list(other)
+    else:
+        sentences = parse_sentence_file(f)
+        Postprocessing.print_sentence_list(sentences)
