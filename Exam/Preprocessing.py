@@ -173,14 +173,19 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="Contains implementation for two relation extraction strategies.")
     parser.add_argument("--input", required=True, help="Specify the input file")
-    parser.add_argument("--kill_sentences", required=False, action='store_true')
+    parser.add_argument("--extract", required=False)
     args = parser.parse_args()
 
     f = args.input
 
-    if args.kill_sentences:
-        sentences, other = parse_sentence_pos_file(f)
-        Postprocessing.print_sentence_list(other)
+    if args.extract:
+        sentences, _, ne, pos = parse_full_re_file(f, zip_ne_to_dictionary=False)
+        if args.extract == 'pos':
+            Postprocessing.print_sentence_list(pos)
+        elif args.extract == 'sentences':
+            Postprocessing.print_sentence_list(sentences)
+        elif args.extract == 'ne':
+            Postprocessing.print_sentence_list(ne)
     else:
         sentences = parse_sentence_file(f)
         Postprocessing.print_sentence_list(sentences)
