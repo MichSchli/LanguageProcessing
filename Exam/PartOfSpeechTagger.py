@@ -304,7 +304,7 @@ if __name__ == "__main__":
 
         if not args.validate:
             #Read in the sentences:
-            sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+            sentences,_,_,pos_gold = Preprocessing.parse_full_re_file('re/train.gold')
 
             #Load in the trained model:
             print "Training structured perceptron..."
