@@ -306,7 +306,7 @@ if __name__ == "__main__":
             #Load in the trained model:
             print "Training structured perceptron..."
             sp = StructuredPerceptron()
-            sp.fit_sentences(sentences, pos_gold, iterations=5, learning_rate=0.2)
+            sp.fit_sentences(sentences, pos_gold, iterations=10, learning_rate=0.2)
 
             print "Saving model..."
             sp.save('models/postagger.model')

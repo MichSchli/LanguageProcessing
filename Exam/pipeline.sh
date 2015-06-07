@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 # PATHS to directories
-PROJECTHOME=~/Documents/LanguageProcessing/Exam
-CRFSUITE=/usr/local/bin/crfsuite
+PROJECTHOME=/home/zrb708/Exam
+CRFSUITE=/home/bplank/tools/crfsuite-0.12/bin/crfsuite
 TEST=$PROJECTHOME/re/dev.input
 NERMODEL=$PROJECTHOME/models/ner.model  #VIRKER IKKE
 POSMODEL=$PROJECTHOME/models/postagger.model
@@ -24,4 +24,4 @@ python $PROJECTHOME/createData.py --sentences tmp_files/pre_output.tmp --pos tmp
 
 $CRFSUITE tag -m $NERMODEL tmp_files/crf_features.tmp > tmp_files/ner_output.tmp
 
-python RelationExtraction.py --sentences tmp_files/pre_output.tmp --pos tmp_files/pos_output.tmp --ne tmp_files/ner_output.tmp > result.txt
+python RelationExtraction.py --sentences tmp_files/pre_output.tmp --detector_model models/r_detect.model --classifier_model models/r_class.model --pos tmp_files/pos_output.tmp --ne tmp_files/ner_output.tmp > result.txt
