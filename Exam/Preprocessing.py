@@ -2,6 +2,7 @@ __author__ = 'Michael'
 import codecs
 import argparse
 import Postprocessing
+import networkx as nx
 
 def read_relation(line):
     return line.strip().split('\t')
@@ -140,6 +141,35 @@ def process_named_entities(nes):
 
     return named_entities
 
+
+def read_dependency_file(filename):
+    sentences = [[]]
+    for line in codecs.open(filename):
+        #If there is a newline:
+        if line.strip():
+            sentences[-1].append(line.strip().split('\t'))
+        else:
+            sentences.append([])
+
+    if not sentences[-1]:
+        sentences = sentences[:-1]
+
+    graphs = [None]*len(sentences)
+    for i, sentence in enumerate(sentences):
+        graphs[i] = process_dependency_parse(sentence)
+
+    return graphs
+
+def process_dependency_parse(sentence):
+    G = nx.DiGraph()
+    G.add_node('HEAD', index=0, type='HEAD')
+    for elem in sentence:
+        G.add_node(elem[1], index=int(elem[0]), type=elem[7])
+        p = int(elem[6])
+        parent = 'HEAD' if p == 0 else sentence[p-1][1]
+        G.add_edge(elem[1], parent)
+
+    return G
 
 if __name__ == '__main__':
 

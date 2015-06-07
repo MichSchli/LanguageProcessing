@@ -79,25 +79,25 @@ def do_grid_search(data, labels, range1, range2, cval_func):
 
 
 
-def find_best_svm_params_detector(data, labels):
-    def create(mode, p):
-        return RelationExtraction.RelationDetector(mode, p)
+def find_best_svm_params_detector(data, labels, use_dependency_features=False):
+    def create(mode, dep, p):
+        return RelationExtraction.RelationDetector(mode, dep, p)
 
-    scale = [10**v for v in xrange(-6,6)]
+    scale = [10**v for v in xrange(0,1)]
 
     def cval_func(data, labels, param1, param2):
-        return cross_validate(data, labels, 5, create, ['SVM', [param1, param2]])
+        return cross_validate(data, labels, 5, create, ['SVM', use_dependency_features, [param1, param2]])
 
     do_grid_search(data, labels, scale, scale, cval_func)
 
-def find_best_svm_params_classifier(data, labels):
-    def create(mode, p):
-        return RelationExtraction.RelationClassifier(mode, p)
+def find_best_svm_params_classifier(data, labels, use_dependency_features=False):
+    def create(mode, dep, p):
+        return RelationExtraction.RelationClassifier(mode, dep, p)
 
-    scale = [10**v for v in xrange(-6,6)]
+    scale = [10**v for v in xrange(0,1)]
 
     def cval_func(data, labels, param1, param2):
-        return cross_validate(data, labels, 5, create, ['SVM', [param1, param2]])
+        return cross_validate(data, labels, 5, create, ['SVM', use_dependency_features, [param1, param2]])
 
     do_grid_search(data, labels, scale, scale, cval_func)
 

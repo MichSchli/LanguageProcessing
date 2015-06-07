@@ -299,24 +299,31 @@ if __name__ == "__main__":
 
     if args.noshell:
         #Read in the sentences:
-        sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+        sentences2,pos_gold2 = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+
+        templ = range(len(sentences2))
+
+        import random
+        templ = random.sample(templ, 3000)
+        sentences = [sentences2[i] for i in templ]
+        pos_gold = [pos_gold2[i] for i in templ]
+
 
         if not args.validate:
 
             #Load in the trained model:
             print "Training structured perceptron..."
-            sp = StructuredPerceptron()
-            sp.fit_sentences(sentences, pos_gold, iterations=5, learning_rate=0.2)
+            #sp = StructuredPerceptron()
+            #sp.fit_sentences(sentences, pos_gold, iterations=20, learning_rate=0.2)
 
             print "Saving model..."
-            sp.save('models/postagger.model')
+            #sp.save('models/postagger.model')
             sp = StructuredPerceptron()
             sp.load('models/postagger.model')
 
             print "Evaluating..."
             ev = sp.evaluate_sentences(sentences, pos_gold)[-1]
             print "Accuracy:", ev
-
         else:
             print Crossvalidation.evaluate_pos_tagger(sentences, pos_gold)
 

@@ -12,6 +12,7 @@ import numpy as np
 import Crossvalidation
 import sys
 from sklearn.externals import joblib
+import networkx as nx
 
 '''
 Utility methods:
@@ -24,12 +25,14 @@ LABEL_NAMES = ['', 'OrgBased_In', 'Live_In', 'Work_For']
 
 
 #Featurize a 4-tuple consisting of sentence and indices for entities:
-def featurize(sentence, e1, e2, pos, dependency=None):
+def featurize(sentence, e1, e2, pos, dependency_parse=None):
     #Sanity check. We can speed stuff up slightly by getting rid of this:
     assert 0 <= e1['start'] <= e1['end']
     assert e1['end'] < len(sentence)
     assert 0 <= e2['start'] <= e2['end']
     assert e2['end'] < len(sentence)
+
+    sentence = [s if not s.isdigit() else '<num>' for s in sentence]
 
     #NE type of the first element of the entities:
     feature = ['e1_type='+e1['type'][2:],'e2_type='+e2['type'][2:]]
@@ -41,23 +44,41 @@ def featurize(sentence, e1, e2, pos, dependency=None):
     feature.append(str(e2['start'] - e1['end'] if e2['start'] - e1['end'] > 0 else e1['start'] - e2['end']))
 
     #Words, index and POS of entities:
-    for i in xrange(e1['start'], e1['end']):
+    for i in xrange(e1['start'], e1['end']+1):
         feature.append('e1_index_'+str(i-e1['start'])+'='+str(i))
         feature.append('e1_word_'+str(i-e1['start'])+'='+sentence[i])
         feature.append('e1_pos_'+str(i-e1['start'])+'='+pos[i])
 
-    for i in xrange(e2['start'], e2['end']):
+    for i in xrange(e2['start'], e2['end']+1):
         feature.append('e2_index_'+str(i-e2['start'])+'='+str(i))
         feature.append('e2_word_'+str(i-e2['start'])+'='+sentence[i])
         feature.append('e2_pos_'+str(i-e2['start'])+'='+pos[i])
 
     r = xrange(e1['end']+1, e2['start']) if e2['start'] - e1['end'] > 0 else xrange(e2['end']+1, e1['start'])
-    first_entity_end = e1['end']+1 if e2['start'] - e1['end'] > 0 else e2['end']+1
     for j in r:
         feature.append('between_word='+sentence[j])
         feature.append('between_pos='+pos[j])
 
+    if dependency_parse is not None:
+        e1_words = sentence[e1['start']:e1['end']+1]
+        e2_words = sentence[e1['start']:e1['end']+1]
 
+        print dependency_parse.nodes()
+        print sentence
+        print e1
+        print e2
+
+        e1_heads = [dependency_parse.successors(w)[0] for w in e1_words]
+        e1_outside_heads = set([w for w in e1_heads if not w in e1_words])
+
+        e2_heads = [dependency_parse.successors(w)[0] for w in e2_words]
+        e2_outside_heads = set([w for w in e2_heads if not w in e2_words])
+
+
+        print e1_outside_heads
+        print e2_outside_heads
+
+    print feature
     return feature
 
 
@@ -81,14 +102,17 @@ class RelationDetector():
     classifier = None
     mode = None
     feature_hasher = None
+    use_dependency_features = False
+
     def save(self, filename):
         joblib.dump(self.classifier, filename)
 
     def load(self, filename):
         self.classifier = joblib.load(filename)
 
-    def __init__(self, mode, params=[1,1]):
+    def __init__(self, mode, use_dependency_features=False, params=[1,1]):
         self.mode = mode
+        self.use_dependency_features = use_dependency_features
         self.feature_hasher = FeatureHasher(input_type='string')
 
         if mode == 'SVM':
@@ -101,12 +125,20 @@ class RelationDetector():
         global_features = []
         global_labels = []
         for i, data in enumerate(train_data):
-            sentence, ne, pos = data
+            if self.use_dependency_features:
+                sentence, ne, pos, dependencies = data
+            else:
+                sentence, ne, pos = data
+
             #Get all combinations of named entities:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
 
             #Featurize the combinations:
-            local_features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+            if self.use_dependency_features:
+                local_features = [featurize(sentence, n[0], n[1], pos, dependency_parse=dependencies) for n in ne_combinations]
+            else:
+                local_features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+
             local_labels = [has_match(n[0], n[1], relations[i]) for n in ne_combinations]
 
             global_features.extend(local_features)
@@ -121,13 +153,19 @@ class RelationDetector():
     def predict_sentences(self, test_data):
         extracted_relations = []
         for i, data in enumerate(test_data):
-            sentence, ne, pos = data
+            if self.use_dependency_features:
+                sentence, ne, pos, dependencies = data
+            else:
+                sentence, ne, pos = data
 
             #Get all combinations of named entities:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
 
             #Featurize the combinations:
-            features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+            if self.use_dependency_features:
+                features = [featurize(sentence, n[0], n[1], pos, dependency_parse=dependencies) for n in ne_combinations]
+            else:
+                features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
             features = self.feature_hasher.transform(features)
 
             #Make a set of sentence predictions:
@@ -152,7 +190,10 @@ class RelationDetector():
 
         gold = []
         for i,data in enumerate(test_data):
-            sentence, ne, pos = data
+            if self.use_dependency_features:
+                _, ne, _, _ = data
+            else:
+                _, ne, _ = data
 
             #Get all combinations of named entities:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
@@ -172,6 +213,7 @@ class RelationClassifier():
     mode = None
     classifier = None
     feature_hasher = None
+    use_dependency_features = False
     
     def save(self, filename):
         joblib.dump(self.classifier, filename)
@@ -179,14 +221,16 @@ class RelationClassifier():
     def load(self, filename):
         self.classifier = joblib.load(filename)
 
-    def __init__(self, mode, params):
+    def __init__(self, mode, use_dependency_features=False, params=[1,1]):
         self.mode = mode
+        self.use_dependency_features = use_dependency_features
         self.feature_hasher = FeatureHasher(input_type='string')
 
         if mode == 'SVM':
             self.classifier = svm.SVC(kernel='rbf', C=params[0], gamma=params[1])
         elif mode == 'Logistic':
             self.classifier = LogisticRegression()
+
 
     #Fit the classifier to a dataset:
     def fit(self, data, labels):
@@ -201,14 +245,20 @@ class RelationClassifier():
         global_features = []
         global_labels = []
         for i, data in enumerate(train_data):
-            sentence, ne, pos = data
+            if self.use_dependency_features:
+                sentence, ne, pos, dependencies = data
+            else:
+                sentence, ne, pos = data
 
             #Get all combinations of named entities that actually have a match:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
             ne_combinations = [n for n in ne_combinations if has_match(n[0], n[1], train_relations[i])]
 
             #Featurize the combinations:
-            local_features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+            if self.use_dependency_features:
+                local_features = [featurize(sentence, n[0], n[1], pos, dependency_parse=dependencies) for n in ne_combinations]
+            else:
+                local_features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
             local_labels = [get_match(n[0], n[1], train_relations[i]) for n in ne_combinations]
 
             global_features.extend(local_features)
@@ -224,13 +274,19 @@ class RelationClassifier():
     def predict_sentences(self, test_data, discovered_relations, output_dictionary=False):
         extracted_relations = []
         for i, data in enumerate(test_data):
-            sentence, ne, pos = data
+            if self.use_dependency_features:
+                sentence, ne, pos, dependencies = data
+            else:
+                sentence, ne, pos = data
 
             #Get all combinations of named entities:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
 
             #Featurize the combinations:
-            features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
+            if self.use_dependency_features:
+                features = [featurize(sentence, n[0], n[1], pos, dependency_parse=dependencies) for n in ne_combinations]
+            else:
+                features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
 
             #Do the featurization:
             features = self.feature_hasher.transform(features)
@@ -262,7 +318,10 @@ class RelationClassifier():
         gold = []
         detects = []
         for i,data in enumerate(test_data):
-            sentence, ne, pos = data
+            if self.use_dependency_features:
+                _, ne, _, _ = data
+            else:
+                _, ne, _ = data
 
             #Get all combinations of named entities:
             ne_combinations = map(list, itertools.product(ne, repeat=2))
@@ -296,14 +355,19 @@ if __name__ == '__main__':
         print >> sys.stderr, "preprocessing"
         # Get the data:
         sentences, relations, ne, pos = Preprocessing.parse_full_re_file('re/train.gold')
+
+        dependencies = Preprocessing.read_dependency_file('ner/dependency_output.txt')
+
         test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
         test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
-        #Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
-        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations)
+
+
+        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
+        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
 
         print >> sys.stderr, "setting up"
         # Create a test model:
-        rc = RelationDetector('SVM', [10, 0.01])
+        rc = RelationDetector('SVM', params=[10, 0.01])
 
         print >> sys.stderr, "fitting"
         # Train the model:
@@ -313,7 +377,7 @@ if __name__ == '__main__':
         pred = rc.predict_sentences(zip(test_sentences, test_ne, test_pos))
 
         print >> sys.stderr, "set up classifier"
-        rcl = RelationClassifier('SVM', [10, 0.001])
+        rcl = RelationClassifier('SVM', params=[10, 0.001])
 
         print >> sys.stderr, "training classifier..."
         rcl.fit_sentences(zip(sentences, ne, pos), relations)
