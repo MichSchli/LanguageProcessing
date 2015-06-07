@@ -322,10 +322,10 @@ if __name__ == "__main__":
             print >> sys.stderr, "Evaluating..."
 
             #Read in the sentences:
-            sentences,_,_,gold = Preprocessing.parse_full_re_file('re/train.gold')
-            gold = list(itertools.chain(*gold))
-            classes = list(set(gold))
-            gold = [classes.index(g)+1 for g in gold]
+            sentences,_,_,train_gold = Preprocessing.parse_full_re_file('re/train.gold')
+            train_gold = list(itertools.chain(*train_gold))
+            classes = list(set(train_gold))
+            train_gold = [classes.index(g)+1 for g in train_gold]
             c = len(classes)
 
             #Tag the sentences:
@@ -337,9 +337,9 @@ if __name__ == "__main__":
 
 
             #Read in the sentences:
-            sentences,_,_,gold = Preprocessing.parse_full_re_file('re/dev.gold')
-            gold = list(itertools.chain(*gold))
-            gold = [classes.index(g)+1 for g in gold]
+            sentences,_,_,dev_gold = Preprocessing.parse_full_re_file('re/dev.gold')
+            dev_gold = list(itertools.chain(*dev_gold))
+            dev_gold = [classes.index(g)+1 for g in dev_gold]
 
             #Tag the sentences:
             print >> sys.stderr, "Tag dev..."
@@ -351,9 +351,9 @@ if __name__ == "__main__":
 
 
             #Read in the sentences:
-            sentences, _, _, gold = Preprocessing.parse_full_re_file('re/test.gold')
-            gold = list(itertools.chain(*gold))
-            gold = [classes.index(g)+1 for g in gold]
+            sentences, _, _, test_gold = Preprocessing.parse_full_re_file('re/test.gold')
+            test_gold = list(itertools.chain(*test_gold))
+            test_gold = [classes.index(g)+1 for g in test_gold]
 
             #Tag the sentences:
             print >> sys.stderr, "Tag test..."
@@ -365,23 +365,23 @@ if __name__ == "__main__":
 
             print "Train:"
             print "---------------------------"
-            print "Precision:",Metrics.precision(train_pred, gold, c)
-            print "Recall:", Metrics.recall(train_pred, gold, c)
-            print "F1:",Metrics.f1(train_pred, gold, c)
+            print "Precision:",Metrics.precision(train_pred, train_gold, c)
+            print "Recall:", Metrics.recall(train_pred, train_gold, c)
+            print "F1:",Metrics.f1(train_pred, train_gold, c)
             print "==========================="
 
             print "Development:"
             print "---------------------------"
-            print "Precision:",Metrics.precision(dev_pred, gold, c)
-            print "Recall:", Metrics.recall(dev_pred, gold, c)
-            print "F1:",Metrics.f1(dev_pred, gold, c)
+            print "Precision:",Metrics.precision(dev_pred, dev_gold, c)
+            print "Recall:", Metrics.recall(dev_pred, dev_gold, c)
+            print "F1:",Metrics.f1(dev_pred, dev_gold, c)
             print "==========================="
 
             print "Test:"
             print "---------------------------"
-            print "Precision:",Metrics.precision(test_pred, gold, c)
-            print "Recall:", Metrics.recall(test_pred, gold, c)
-            print "F1:",Metrics.f1(test_pred, gold, c)
+            print "Precision:",Metrics.precision(test_pred, test_gold, c)
+            print "Recall:", Metrics.recall(test_pred, test_gold, c)
+            print "F1:",Metrics.f1(test_pred, test_gold, c)
             print "==========================="
 
 
