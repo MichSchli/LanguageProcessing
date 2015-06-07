@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 # PATHS to directories
-PROJECTHOME=/home/zrb708/Exam
-CRFSUITE=/home/bplank/tools/crfsuite-0.12/bin/crfsuite
+PROJECTHOME=~/Documents/LanguageProcessing/Exam
+CRFSUITE=/usr/local/bin/crfsuite
 TEST=$PROJECTHOME/re/dev.input
 NERMODEL=$PROJECTHOME/models/ner.model  #VIRKER IKKE
 POSMODEL=$PROJECTHOME/models/postagger.model
@@ -17,7 +17,7 @@ python $PROJECTHOME/Preprocessing.py --input $TEST > tmp_files/pre_output.tmp
 python $PROJECTHOME/ParsetoConll.py --sentences tmp_files/pre_output.tmp --pos tmp_files/pos_output.tmp > tmp_files/conll_output.tmp
 
 #Runs MST parser and gives dependency parse
-java -cp mstparser.jar:lib/trove.jar mstparser.DependencyParser test test-file:tmp_files/conll_output.tmp model-name:mst.model output-file:dependency.tmp
+#java -cp mstparser.jar:lib/trove.jar mstparser.DependencyParser test test-file:tmp_files/conll_output.tmp model-name:mst.model output-file:dependency.tmp
 
 #Generating features using CRFSUITE
 python $PROJECTHOME/createData.py --sentences tmp_files/pre_output.tmp --pos tmp_files/pos_output.tmp | python nerfeats.py > tmp_files/crf_features.tmp

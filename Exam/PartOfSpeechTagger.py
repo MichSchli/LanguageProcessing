@@ -6,8 +6,9 @@ import numpy as np
 import sys
 import networkx as nx
 import Preprocessing
-import Crossvalidation
+import Metrics
 import Postprocessing
+import itertools
 
 np.set_printoptions(precision=4)
 
@@ -144,7 +145,9 @@ class StructuredPerceptron(object):
 
 
     def predict_sentences(self, sentences):
-        for sentence in sentences:
+        for j,sentence in enumerate(sentences):
+            if j % 100 == 0:
+                print >> sys.stderr, "Tagged", j, "sentences..."
             yield self.predict(sentence)
 
     def predict(self, words):
@@ -298,10 +301,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.noshell:
-        #Read in the sentences:
-        sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
 
         if not args.validate:
+            #Read in the sentences:
+            sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
 
             #Load in the trained model:
             print "Training structured perceptron..."
@@ -310,15 +313,77 @@ if __name__ == "__main__":
 
             print "Saving model..."
             sp.save('models/postagger.model')
+
+
+        else:
             sp = StructuredPerceptron()
             sp.load('models/postagger.model')
 
-            print "Evaluating..."
-            ev = sp.evaluate_sentences(sentences, pos_gold)[-1]
-            print "Accuracy:", ev
+            print >> sys.stderr, "Evaluating..."
 
-        else:
-            print Crossvalidation.evaluate_pos_tagger(sentences, pos_gold)
+            #Read in the sentences:
+            sentences,train_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+            train_gold = list(itertools.chain(*train_gold))
+            classes = list(set(train_gold))
+            train_gold = [classes.index(g)+1 for g in train_gold]
+            c = len(classes)
+
+            #Tag the sentences:
+            print >> sys.stderr, "Tag train..."
+            sentence_pred = sp.predict_sentences(sentences)
+            train_pred = list(itertools.chain(*sentence_pred))
+            train_pred = [classes.index(e)+1 for e in train_pred]
+            #Output nicely:
+
+
+            #Read in the sentences:
+            sentences,_,_,dev_gold = Preprocessing.parse_full_re_file('re/dev.gold')
+            dev_gold = list(itertools.chain(*dev_gold))
+            dev_gold = [classes.index(g)+1 for g in dev_gold]
+
+            #Tag the sentences:
+            print >> sys.stderr, "Tag dev..."
+            sentence_pred = sp.predict_sentences(sentences)
+            dev_pred = list(itertools.chain(*sentence_pred))
+            dev_pred = [classes.index(e)+1 for e in dev_pred]
+
+            #Output nicely:
+
+
+            #Read in the sentences:
+            sentences, _, _, test_gold = Preprocessing.parse_full_re_file('re/test.gold')
+            test_gold = list(itertools.chain(*test_gold))
+            test_gold = [classes.index(g)+1 for g in test_gold]
+
+            #Tag the sentences:
+            print >> sys.stderr, "Tag test..."
+            sentence_pred = sp.predict_sentences(sentences)
+            test_pred = list(itertools.chain(*sentence_pred))
+            test_pred = [classes.index(e)+1 for e in test_pred]
+
+            #Output nicely:
+
+            print "Train:"
+            print "---------------------------"
+            print "Precision:",Metrics.precision(train_pred, train_gold, c)
+            print "Recall:", Metrics.recall(train_pred, train_gold, c)
+            print "F1:",Metrics.f1(train_pred, train_gold, c)
+            print "==========================="
+
+            print "Development:"
+            print "---------------------------"
+            print "Precision:",Metrics.precision(dev_pred, dev_gold, c)
+            print "Recall:", Metrics.recall(dev_pred, dev_gold, c)
+            print "F1:",Metrics.f1(dev_pred, dev_gold, c)
+            print "==========================="
+
+            print "Test:"
+            print "---------------------------"
+            print "Precision:",Metrics.precision(test_pred, test_gold, c)
+            print "Recall:", Metrics.recall(test_pred, test_gold, c)
+            print "F1:",Metrics.f1(test_pred, test_gold, c)
+            print "==========================="
+
 
     else:
 
