@@ -145,7 +145,9 @@ class StructuredPerceptron(object):
 
 
     def predict_sentences(self, sentences):
-        for sentence in sentences:
+        for j,sentence in enumerate(sentences):
+            if j % 100 == 0:
+                print "Tagged", j, "sentences..."
             yield self.predict(sentence)
 
     def predict(self, words):
