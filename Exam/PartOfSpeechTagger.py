@@ -6,8 +6,9 @@ import numpy as np
 import sys
 import networkx as nx
 import Preprocessing
-import Crossvalidation
+import Metrics
 import Postprocessing
+import itertools
 
 np.set_printoptions(precision=4)
 
@@ -298,10 +299,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.noshell:
-        #Read in the sentences:
-        sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
 
         if not args.validate:
+            #Read in the sentences:
+            sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
 
             #Load in the trained model:
             print "Training structured perceptron..."
@@ -310,15 +311,59 @@ if __name__ == "__main__":
 
             print "Saving model..."
             sp.save('models/postagger.model')
+
+
+        else:
             sp = StructuredPerceptron()
             sp.load('models/postagger.model')
 
-            print "Evaluating..."
-            ev = sp.evaluate_sentences(sentences, pos_gold)[-1]
-            print "Accuracy:", ev
+            print >> sys.stderr, "Evaluating..."
 
-        else:
-            print Crossvalidation.evaluate_pos_tagger(sentences, pos_gold)
+            #Read in the sentences:
+            sentences,gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+
+            #Tag the sentences:
+            sentence_pred = sp.predict_sentences(sentences)
+            pred = list(itertools.chain(*sentence_pred))
+
+            #Output nicely:
+            print "Train:"
+            print "---------------------------"
+            print "Precision:",Metrics.precision(pred, gold, 2)
+            print "Recall:", Metrics.recall(pred, gold, 2)
+            print "F1:",Metrics.f1(pred, gold, 2)
+            print "==========================="
+
+            #Read in the sentences:
+            sentences,_,_gold = Preprocessing.parse_full_re_file('re/dev.gold')
+
+            #Tag the sentences:
+            sentence_pred = sp.predict_sentences(sentences)
+            pred = list(itertools.chain(*sentence_pred))
+
+            #Output nicely:
+            print "Development:"
+            print "---------------------------"
+            print "Precision:",Metrics.precision(pred, gold, 2)
+            print "Recall:", Metrics.recall(pred, gold, 2)
+            print "F1:",Metrics.f1(pred, gold, 2)
+            print "==========================="
+
+            #Read in the sentences:
+            sentences,_,_gold = Preprocessing.parse_full_re_file('re/test.gold')
+
+            #Tag the sentences:
+            sentence_pred = sp.predict_sentences(sentences)
+            pred = list(itertools.chain(*sentence_pred))
+
+            #Output nicely:
+            print "Test:"
+            print "---------------------------"
+            print "Precision:",Metrics.precision(pred, gold, 2)
+            print "Recall:", Metrics.recall(pred, gold, 2)
+            print "F1:",Metrics.f1(pred, gold, 2)
+            print "==========================="
+
 
     else:
 
