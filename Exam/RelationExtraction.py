@@ -299,7 +299,7 @@ if __name__ == '__main__':
         test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
         test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
         #Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations)
-        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations)
+        #Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations)
 
         print >> sys.stderr, "setting up"
         # Create a test model:
@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
         print >> sys.stderr, "training classifier..."
         rcl.fit_sentences(zip(sentences, ne, pos), relations)
-        rcl.save('models/r_class_model')
+        rcl.save('models/r_class.model')
 
         print >> sys.stderr, "classifying"
         predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
