@@ -304,7 +304,7 @@ if __name__ == "__main__":
 
         if not args.validate:
             #Read in the sentences:
-            sentences,_,_,pos_gold = Preprocessing.parse_full_re_file('re/train.gold')
+            sentences,pos_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
 
             #Load in the trained model:
             print "Training structured perceptron..."
@@ -322,7 +322,7 @@ if __name__ == "__main__":
             print >> sys.stderr, "Evaluating..."
 
             #Read in the sentences:
-            sentences,_,_,train_gold = Preprocessing.parse_full_re_file('re/train.gold')
+            sentences,train_gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
             train_gold = list(itertools.chain(*train_gold))
             classes = list(set(train_gold))
             train_gold = [classes.index(g)+1 for g in train_gold]
