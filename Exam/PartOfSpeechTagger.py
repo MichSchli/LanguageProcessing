@@ -147,7 +147,7 @@ class StructuredPerceptron(object):
     def predict_sentences(self, sentences):
         for j,sentence in enumerate(sentences):
             if j % 100 == 0:
-                print "Tagged", j, "sentences..."
+                print >> sys.stderr, "Tagged", j, "sentences..."
             yield self.predict(sentence)
 
     def predict(self, words):
@@ -322,7 +322,7 @@ if __name__ == "__main__":
             print >> sys.stderr, "Evaluating..."
 
             #Read in the sentences:
-            sentences,gold = Preprocessing.parse_sentence_pos_file('pos/train.pos')
+            sentences,_,_,gold = Preprocessing.parse_full_re_file('re/train.gold')
             gold = list(itertools.chain(*gold))
             classes = list(set(gold))
             gold = [classes.index(g)+1 for g in gold]
@@ -337,7 +337,7 @@ if __name__ == "__main__":
 
 
             #Read in the sentences:
-            sentences,_,_gold = Preprocessing.parse_full_re_file('re/dev.gold')
+            sentences,_,_,gold = Preprocessing.parse_full_re_file('re/dev.gold')
 
             #Tag the sentences:
             print >> sys.stderr, "Tag dev..."
@@ -349,7 +349,7 @@ if __name__ == "__main__":
 
 
             #Read in the sentences:
-            sentences,_,_gold = Preprocessing.parse_full_re_file('re/test.gold')
+            sentences, _, _, gold = Preprocessing.parse_full_re_file('re/test.gold')
 
             #Tag the sentences:
             print >> sys.stderr, "Tag test..."
