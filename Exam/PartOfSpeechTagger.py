@@ -338,6 +338,8 @@ if __name__ == "__main__":
 
             #Read in the sentences:
             sentences,_,_,gold = Preprocessing.parse_full_re_file('re/dev.gold')
+            gold = list(itertools.chain(*gold))
+            gold = [classes.index(g)+1 for g in gold]
 
             #Tag the sentences:
             print >> sys.stderr, "Tag dev..."
@@ -350,6 +352,8 @@ if __name__ == "__main__":
 
             #Read in the sentences:
             sentences, _, _, gold = Preprocessing.parse_full_re_file('re/test.gold')
+            gold = list(itertools.chain(*gold))
+            gold = [classes.index(g)+1 for g in gold]
 
             #Tag the sentences:
             print >> sys.stderr, "Tag test..."
