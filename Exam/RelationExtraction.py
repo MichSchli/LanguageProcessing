@@ -373,10 +373,12 @@ if __name__ == '__main__':
         test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
         test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
 
+        '''
         Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations, use_dependency_features=False)
         Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations, use_dependency_features=False)
         Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
         Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
+        '''
 
         print >> sys.stderr, "setting up"
         # Create a test model:
@@ -385,21 +387,36 @@ if __name__ == '__main__':
         print >> sys.stderr, "fitting"
         # Train the model:
         rc.fit_sentences(zip(sentences, ne, pos), relations)
-        rc.save('models/r_detect.model')
-        print >> sys.stderr, "predict relations..."
-        pred = rc.predict_sentences(zip(test_sentences, test_ne, test_pos))
+        rc.save('models/relation/r_detect.model')
 
         print >> sys.stderr, "set up classifier"
         rcl = RelationClassifier('SVM', params=[10, 0.001])
 
         print >> sys.stderr, "training classifier..."
         rcl.fit_sentences(zip(sentences, ne, pos), relations)
-        rcl.save('models/r_class_model')
+        rcl.save('models/relation/r_class.model')
 
-        print >> sys.stderr, "classifying"
-        predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
+        print >> sys.stderr, "setting up"
+        # Create a test model:
+        rc = RelationDetector('SVM', use_dependency_features=True, params=[10, 0.01])
 
-        Postprocessing.print_sentence_pos_ne_relation_list(test_sentences, ne_plain, test_pos, predictions)
+        print >> sys.stderr, "fitting"
+        # Train the model:
+        rc.fit_sentences(zip(sentences, ne, pos, dependencies), relations)
+        rc.save('models/relation/r_detect_dep1.model')
+
+        print >> sys.stderr, "set up classifier"
+        rcl = RelationClassifier('SVM', use_dependency_features=True, params=[10, 0.001])
+
+        print >> sys.stderr, "training classifier..."
+        rcl.fit_sentences(zip(sentences, ne, pos, dependencies), relations)
+        rcl.save('models/relation/r_class_dep1.model')
+
+
+        #print >> sys.stderr, "classifying"
+        #predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
+
+        #Postprocessing.print_sentence_pos_ne_relation_list(test_sentences, ne_plain, test_pos, predictions)
     else:
         if args.sentences and args.pos and args.ne and args.detector_model and args.classifier_model:
             # Load in the two models:
