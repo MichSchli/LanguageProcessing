@@ -19,8 +19,8 @@ predict_ner = list(itertools.chain(*predict_ner))
 c = len(set(gold_ner))
 indexing = list(set(gold_ner))
 
-gold_ner = [indexing.index(g) for g in gold_ner]
-predict_ner = [indexing.index(g) for g in predict_ner]
+gold_ner = [indexing.index(g)+1 for g in gold_ner]
+predict_ner = [indexing.index(g)+1 for g in predict_ner]
 
 print "Precision:", Metrics.precision(gold_ner, predict_ner, c)
 print "Recall:", Metrics.recall(gold_ner, predict_ner, c)

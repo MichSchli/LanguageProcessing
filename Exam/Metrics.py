@@ -10,10 +10,10 @@ def true_pos_and_neg(predictions, gold, n_classes):
     false_negative = [0] * n_classes
 
     for i in xrange(len(true_positive)):
-        true_positive[i] = sum([int(predictions[j] == i and gold[j] == i) for j in xrange(len(predictions))])
-        true_negative[i] = sum([int(predictions[j] != i and gold[j] != i) for j in xrange(len(predictions))])
-        false_positive[i] = sum([int(predictions[j] == i and gold[j] != i) for j in xrange(len(predictions))])
-        false_negative[i] = sum([int(predictions[j] != i and gold[j] == i) for j in xrange(len(predictions))])
+        true_positive[i] = sum([int(predictions[j] == i+1 and gold[j] == i+1) for j in xrange(len(predictions))])
+        true_negative[i] = sum([int(predictions[j] != i+1 and gold[j] != i+1) for j in xrange(len(predictions))])
+        false_positive[i] = sum([int(predictions[j] == i+1 and gold[j] != i+1) for j in xrange(len(predictions))])
+        false_negative[i] = sum([int(predictions[j] != i+1 and gold[j] == i+1) for j in xrange(len(predictions))])
 
     return true_positive, true_negative, false_positive, false_negative
 
@@ -21,7 +21,6 @@ def true_pos_and_neg(predictions, gold, n_classes):
 def precision(predictions, gold, n_classes, average='macro'):
     true_pos, true_neg, false_pos, false_neg = true_pos_and_neg(predictions, gold, n_classes)
     p = None
-
     if average == 'micro':
         if (sum(true_pos) + sum(false_pos)) == 0 and sum(false_neg) != 0:
             return 0.0
