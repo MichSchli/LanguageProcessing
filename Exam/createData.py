@@ -83,8 +83,13 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser(description="""Run a structured perceptron""")
     parser.add_argument("--sentences", help="Preprocessed sentence file (CoNLL format)", required=True)
     parser.add_argument("--pos", help="POS file (CoNLL format)", required=True)
+    parser.add_argument("--ner", help="Gold file", required=False)
     args = parser.parse_args()
 
     sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
     pos = Preprocessing.parse_processed_sentence_file(args.pos)
-    extract_data(sentences, pos)
+    if args.ner:
+        gold = Preprocessing.parse_processed_sentence_file(args.ner)
+        extract_data(sentences, pos, gold)
+    else:
+        extract_data(sentences, pos)
