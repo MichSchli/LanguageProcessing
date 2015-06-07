@@ -9,7 +9,7 @@ based on the chunking.py script by 2010,2011 Naoaki Okazaki
 separator = ' '
 
 # Field names of the input data (created by createfeats.py).
-fields = 'w pos cap l hyphen y'
+fields = 'w pos cap l hyphen prefix suffix vowels y'
 
 # Attribute templates.
 templates = (
@@ -34,6 +34,8 @@ templates = (
     (('pos',  0), ('pos',  1), ('pos',  2)),
     (('cap', 0), ),
     (('cap', -1), ),
+    (('cap', -1), ('pos', 0)),
+    (('cap', -1), ('w', 0)),
     (('cap', 1), ),
     (('cap', 0), ('cap', -1)),
     (('cap', 0), ('cap', 1)),
@@ -45,6 +47,19 @@ templates = (
     (('hyphen', 1), ),
     (('hyphen', -1), ),
     (('l', 0), ),
+    (('prefix', 0),),
+    (('suffix', 0),),
+    (('prefix', 1),),
+    (('suffix', 1),),
+    (('prefix', -1),),
+    (('suffix', -1),),
+    (('prefix', 0), ('pos', 0)),
+    (('suffix', 0), ('pos', 0)),
+    (('prefix', 0), ('cap', -1)),
+    (('suffix', 0), ('cap', -1)),
+    (('prefix', 0), ('cap', -1), ('pos', 0)),
+    (('suffix', 0), ('cap', -1), ('pos', 0)),
+    (('vowels', 0),),
     #add more features (remember to define them in fields) or feature combinations
     )
 

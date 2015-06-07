@@ -27,20 +27,18 @@ def extract_data(sentences, poss, separator=' ', labels=None):
         else:
             line_labels = labels[i]
         for word,pos, label in zip(sentences[i],poss[i],line_labels):
-            # first letter is capitalized
-            # HERE'S SOME FEATURES #
             cap="+" if word[0].isupper() else "-"
             hyphen = '+' if '-' in word else '-'
             l = str(len(word))
-            #vowels = "".join(sorted([w for w in word.lower() if w in ['a','e','i','o','u','y']]))
-            #################################
-            ###### YOUR FEATURES HERE #######  
-            #################################
-            # 0=separator
-            
+            suffix = word.lower()[-3:]
+            prefix = word.lower()[:3]
+            vowels = "".join(sorted([w for w in word.lower() if w in ['a','e','i','o','u','y']]))
+
+
+
             ## todo: output the cap feature and more 
             ## make sure the format you output here is what the nerfeats.py script expects as fields!
-            print separator.join([word.lower(),pos,cap, l, hyphen, label])
+            print separator.join([word.lower(), pos, cap, l, hyphen, prefix, suffix, vowels, label])
         # sentence separator
         print ""
 
