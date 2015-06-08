@@ -44,14 +44,13 @@ def featurize(sentence, e1, e2, pos, dependency_parse=None):
     feature.append(str(e2['start'] - e1['end'] if e2['start'] - e1['end'] > 0 else e1['start'] - e2['end']))
 
     #Words, index and POS of entities:
-
     for i in xrange(e1['start'], e1['end']+1):
-        #feature.append('e1_index_'+str(i-e1['start'])+'='+str(i))
+        feature.append('e1_index_'+str(i-e1['start'])+'='+str(i))
         feature.append('e1_word_'+str(i-e1['start'])+'='+sentence[i])
         feature.append('e1_pos_'+str(i-e1['start'])+'='+pos[i])
 
     for i in xrange(e2['start'], e2['end']+1):
-        #feature.append('e2_index_'+str(i-e2['start'])+'='+str(i))
+        feature.append('e2_index_'+str(i-e2['start'])+'='+str(i))
         feature.append('e2_word_'+str(i-e2['start'])+'='+sentence[i])
         feature.append('e2_pos_'+str(i-e2['start'])+'='+pos[i])
 
@@ -434,9 +433,9 @@ if __name__ == '__main__':
 
                 # Load in the two models:
                 print >>sys.stderr, "Loading models..."
-                rc = RelationDetector('SVM', [10, 0.01], use_dependency_features=True)
+                rc = RelationDetector('SVM', params=[10, 0.01], use_dependency_features=True)
                 rc.load(args.detector_model)
-                rcl = RelationClassifier('SVM', [10, 0.001], use_dependency_features=True)
+                rcl = RelationClassifier('SVM', params=[10, 0.001], use_dependency_features=True)
                 rcl.load(args.classifier_model)
 
                 print >>sys.stderr, "Loading data..."
