@@ -453,9 +453,9 @@ if __name__ == '__main__':
             else:
                 # Load in the two models:
                 print >>sys.stderr, "Loading models..."
-                rc = RelationDetector('SVM', [10, 0.01])
+                rc = RelationDetector('SVM', params=[10, 0.01])
                 rc.load(args.detector_model)
-                rcl = RelationClassifier('SVM', [10, 0.001])
+                rcl = RelationClassifier('SVM', params=[10, 0.001])
                 rcl.load(args.classifier_model)
 
                 print >>sys.stderr, "Loading data..."
