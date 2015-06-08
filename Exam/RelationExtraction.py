@@ -44,13 +44,14 @@ def featurize(sentence, e1, e2, pos, dependency_parse=None):
     feature.append(str(e2['start'] - e1['end'] if e2['start'] - e1['end'] > 0 else e1['start'] - e2['end']))
 
     #Words, index and POS of entities:
+
     for i in xrange(e1['start'], e1['end']+1):
-        feature.append('e1_index_'+str(i-e1['start'])+'='+str(i))
+        #feature.append('e1_index_'+str(i-e1['start'])+'='+str(i))
         feature.append('e1_word_'+str(i-e1['start'])+'='+sentence[i])
         feature.append('e1_pos_'+str(i-e1['start'])+'='+pos[i])
 
     for i in xrange(e2['start'], e2['end']+1):
-        feature.append('e2_index_'+str(i-e2['start'])+'='+str(i))
+        #feature.append('e2_index_'+str(i-e2['start'])+'='+str(i))
         feature.append('e2_word_'+str(i-e2['start'])+'='+sentence[i])
         feature.append('e2_pos_'+str(i-e2['start'])+'='+pos[i])
 
@@ -59,7 +60,7 @@ def featurize(sentence, e1, e2, pos, dependency_parse=None):
         feature.append('between_word='+sentence[j])
         feature.append('between_pos='+pos[j])
 
-    if dependency_parse is not None:
+    if dependency_parse is not None and False:
         e1_indices = range(e1['start']+1, e1['end']+2)
         e2_indices = range(e2['start']+1, e2['end']+2)
 
@@ -87,9 +88,18 @@ def featurize(sentence, e1, e2, pos, dependency_parse=None):
 
         for head in e1_inside_heads:
             feature.append('e1_inside_head='+sentence[head-1])
+            feature.append('e1_head_type='+dependency_parse.node[head]['type'])
 
         for head in e2_inside_heads:
             feature.append('e2_inside_head='+sentence[head-1])
+            feature.append('e2_head_type='+dependency_parse.node[head]['type'])
+
+        dep_path = nx.shortest_path(dependency_parse.to_undirected(), h1, h2)[1:-1]
+
+        for i in xrange(len(dep_path)):
+            feature.append('dep_path_'+str(i)+"="+sentence[dep_path[i]-1])
+            feature.append('dep_path_type'+str(i)+"="+dependency_parse.node[dep_path[i]]['type'])
+
 
     return feature
 
@@ -212,7 +222,7 @@ class RelationDetector():
 
             gold.extend([has_match(n[0], n[1], test_relations[i]) for n in ne_combinations])
 
-        return Metrics.precision(pred, gold, 2),Metrics.recall(pred, gold, 2),Metrics.f1(pred, gold, 2)
+        return Metrics.precision(pred, gold, 1),Metrics.recall(pred, gold, 1),Metrics.f1(pred, gold, 1)
 
 
 '''
@@ -346,6 +356,7 @@ class RelationClassifier():
         sentence_pred = self.predict_sentences(test_data,detects)
         pred = list(itertools.chain(*sentence_pred))
 
+
         return Metrics.precision(pred, gold, 2),Metrics.recall(pred, gold, 2),Metrics.f1(pred, gold, 2)
 
 
@@ -360,81 +371,106 @@ if __name__ == '__main__':
     parser.add_argument("--ne", help="Read an NER file.", required=False)
     parser.add_argument("--detector_model", help="A model for relation detection", required=False)
     parser.add_argument("--classifier_model", help="A model for relation detection", required=False)
+    parser.add_argument("--validate", help="Determines whether the script should be run in validation mode", required=False, action='store_true')
+    parser.add_argument("--dependencies", help="Path to a dependency parse of the data", required=False)
+    parser.add_argument("--train_file", help="Path to a file upon which the relation extractor should be run")
     args = parser.parse_args()
 
     if args.noshell:
 
-        print >> sys.stderr, "preprocessing"
-        # Get the data:
-        sentences, relations, ne, pos = Preprocessing.parse_full_re_file('re/train.gold')
+        sentences, relations, ne, pos = Preprocessing.parse_full_re_file(args.train_file)
 
-        dependencies = Preprocessing.read_dependency_file('ner/dependency_output.txt')
+        if not args.validate:
 
-        test_sentences, test_relations, ne_plain, test_pos = Preprocessing.parse_full_re_file('re/dev.gold', zip_ne_to_dictionary=False)
-        test_ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
+            print >> sys.stderr, "preprocessing"
 
-        '''
-        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations, use_dependency_features=False)
-        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations, use_dependency_features=False)
-        Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
-        Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
-        '''
+            if args.dependencies:
+                dependencies = Preprocessing.read_dependency_file(args.dependencies)
 
-        print >> sys.stderr, "setting up"
-        # Create a test model:
-        rc = RelationDetector('SVM', params=[10, 0.01])
+                print >> sys.stderr, "setting up"
+                # Create a test model:
+                rc = RelationDetector('SVM', use_dependency_features=True, params=[10, 0.01])
 
-        print >> sys.stderr, "fitting"
-        # Train the model:
-        rc.fit_sentences(zip(sentences, ne, pos), relations)
-        rc.save('models/relation/r_detect.model')
+                print >> sys.stderr, "fitting"
+                # Train the model:
+                rc.fit_sentences(zip(sentences, ne, pos, dependencies), relations)
+                rc.save(args.detector_model)
 
-        print >> sys.stderr, "set up classifier"
-        rcl = RelationClassifier('SVM', params=[10, 0.001])
+                print >> sys.stderr, "set up classifier"
+                rcl = RelationClassifier('SVM', use_dependency_features=True, params=[10, 0.001])
 
-        print >> sys.stderr, "training classifier..."
-        rcl.fit_sentences(zip(sentences, ne, pos), relations)
-        rcl.save('models/relation/r_class.model')
+                print >> sys.stderr, "training classifier..."
+                rcl.fit_sentences(zip(sentences, ne, pos, dependencies), relations)
+                rcl.save(args.classifier_model)
+            else:
+                print >> sys.stderr, "setting up"
+                # Create a test model:
+                rc = RelationDetector('SVM', params=[10, 0.01])
 
-        print >> sys.stderr, "setting up"
-        # Create a test model:
-        rc = RelationDetector('SVM', use_dependency_features=True, params=[10, 0.01])
+                print >> sys.stderr, "fitting"
+                # Train the model:
+                rc.fit_sentences(zip(sentences, ne, pos), relations)
+                rc.save(args.detector_model)
 
-        print >> sys.stderr, "fitting"
-        # Train the model:
-        rc.fit_sentences(zip(sentences, ne, pos, dependencies), relations)
-        rc.save('models/relation/r_detect_dep1.model')
+                print >> sys.stderr, "set up classifier"
+                rcl = RelationClassifier('SVM', params=[10, 0.001])
 
-        print >> sys.stderr, "set up classifier"
-        rcl = RelationClassifier('SVM', use_dependency_features=True, params=[10, 0.001])
+                print >> sys.stderr, "training classifier..."
+                rcl.fit_sentences(zip(sentences, ne, pos), relations)
+                rcl.save(args.classifier_model)
 
-        print >> sys.stderr, "training classifier..."
-        rcl.fit_sentences(zip(sentences, ne, pos, dependencies), relations)
-        rcl.save('models/relation/r_class_dep1.model')
+        else:
+            dependencies = Preprocessing.read_dependency_file(args.dependencies)
+            Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos), relations, use_dependency_features=False)
+            Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos), relations, use_dependency_features=False)
+            Crossvalidation.find_best_svm_params_detector(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
+            Crossvalidation.find_best_svm_params_classifier(zip(sentences, ne, pos, dependencies), relations, use_dependency_features=True)
 
-
-        #print >> sys.stderr, "classifying"
-        #predictions = rcl.predict_sentences(zip(test_sentences, test_ne, test_pos), pred, output_dictionary=True)
-
-        #Postprocessing.print_sentence_pos_ne_relation_list(test_sentences, ne_plain, test_pos, predictions)
     else:
         if args.sentences and args.pos and args.ne and args.detector_model and args.classifier_model:
-            # Load in the two models:
-            rc = RelationDetector('SVM', [10, 0.01])
-            rc.load(args.detector_model)
-            rcl = RelationClassifier('SVM', [10, 0.001])
-            rcl.load(args.classifier_model)
 
-            sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
-            pos = Preprocessing.parse_processed_sentence_file(args.pos)
-            ne_plain = Preprocessing.parse_processed_sentence_file(args.ne)
-            ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
+            if args.dependencies:
+                dependencies = Preprocessing.read_dependency_file(args.dependencies)
 
-            print >> sys.stderr, "predict relations..."
-            pred = rc.predict_sentences(zip(sentences, ne, pos))
+                # Load in the two models:
+                print >>sys.stderr, "Loading models..."
+                rc = RelationDetector('SVM', [10, 0.01], use_dependency_features=True)
+                rc.load(args.detector_model)
+                rcl = RelationClassifier('SVM', [10, 0.001], use_dependency_features=True)
+                rcl.load(args.classifier_model)
 
-            print >> sys.stderr, "classifying"
-            predictions = rcl.predict_sentences(zip(sentences, ne, pos), pred, output_dictionary=True)
+                print >>sys.stderr, "Loading data..."
+                sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
+                pos = Preprocessing.parse_processed_sentence_file(args.pos)
+                ne_plain = Preprocessing.parse_processed_sentence_file(args.ne)
+                ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
+
+                print >> sys.stderr, "Running detector..."
+                pred = rc.predict_sentences(zip(sentences, ne, pos, dependencies))
+
+                print >> sys.stderr, "Running classifier..."
+                predictions = rcl.predict_sentences(zip(sentences, ne, pos, dependencies), pred, output_dictionary=True)
+
+            else:
+                # Load in the two models:
+                print >>sys.stderr, "Loading models..."
+                rc = RelationDetector('SVM', [10, 0.01])
+                rc.load(args.detector_model)
+                rcl = RelationClassifier('SVM', [10, 0.001])
+                rcl.load(args.classifier_model)
+
+                print >>sys.stderr, "Loading data..."
+                sentences = Preprocessing.parse_processed_sentence_file(args.sentences)
+                pos = Preprocessing.parse_processed_sentence_file(args.pos)
+                ne_plain = Preprocessing.parse_processed_sentence_file(args.ne)
+                ne = [Preprocessing.process_named_entities(n) for n in ne_plain]
+
+                print >> sys.stderr, "Running detector..."
+                pred = rc.predict_sentences(zip(sentences, ne, pos))
+
+                print >> sys.stderr, "Running classifier..."
+                predictions = rcl.predict_sentences(zip(sentences, ne, pos), pred, output_dictionary=True)
+
             Postprocessing.print_sentence_pos_ne_relation_list(sentences, pos, ne_plain, predictions)
 
         else:
