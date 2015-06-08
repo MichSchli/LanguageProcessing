@@ -187,11 +187,15 @@ class RelationDetector():
                 features = [featurize(sentence, n[0], n[1], pos, dependency_parse=dependencies) for n in ne_combinations]
             else:
                 features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
-            features = self.feature_hasher.transform(features)
 
-            #Make a set of sentence predictions:
-            predictions = self.predict(features)
+            if features:
+                features = self.feature_hasher.transform(features)
+                predictions = self.predict(features)
+            else:
+                predictions = []
+
             extracted_relations.append(predictions)
+
 
         return extracted_relations
 
@@ -309,11 +313,11 @@ class RelationClassifier():
             else:
                 features = [featurize(sentence, n[0], n[1], pos) for n in ne_combinations]
 
-            #Do the featurization:
-            features = self.feature_hasher.transform(features)
-
-            #Make a set of sentence predictions:
-            predictions = self.predict(features)
+            if features:
+                features = self.feature_hasher.transform(features)
+                predictions = self.predict(features)
+            else:
+                predictions = []
 
             #Keep only the ones with discovered relations (this is a somewhat slow way to do it, but the code is short):
             predictions = [predictions[j]*discovered_relations[i][j] for j in xrange(len(ne_combinations))]
