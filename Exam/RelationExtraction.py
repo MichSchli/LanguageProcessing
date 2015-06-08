@@ -59,7 +59,7 @@ def featurize(sentence, e1, e2, pos, dependency_parse=None):
         feature.append('between_word='+sentence[j])
         feature.append('between_pos='+pos[j])
 
-    if dependency_parse is not None and False:
+    if dependency_parse is not None:
         e1_indices = range(e1['start']+1, e1['end']+2)
         e2_indices = range(e2['start']+1, e2['end']+2)
 
